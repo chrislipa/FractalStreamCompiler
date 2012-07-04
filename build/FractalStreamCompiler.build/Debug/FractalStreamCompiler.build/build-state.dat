@@ -1,60 +1,0 @@
-TFractalStreamCompiler
-v5
-r1
-cCheck dependencies
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-c000000004FF4BFEC0000000000000222
-t1341439980
-s546
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.LinkFileList
-c000000004FF4C0B100000000000000AB
-t1341440177
-s171
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o
-t2
-s0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3b732731f8a4b541^39b32d31f8a4b541^---0#1#0#--18"Check dependencies36"ECB1FE2E-E4B6-4EDB-B660-F79327FECAD7-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363132977.174763
-e363132977.420614
-r1
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp1de92c31f8a4b541^4fac6b31f8a4b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp0000000000000000^3020"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler-generated-files.hmap -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler-own-target-headers.hmap -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler-all-target-headers.hmap -iquote /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler-project-headers.hmap -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o36"6A55D6B0-2BFF-47FD-BF31-78C476103830-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib normal x86_64
-s363132977.427397
-e363132977.437143
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Libtool build/Debug/FractalStreamCompiler.dylib normal x86_642d786d31f8a4b541^21e96f31f8a4b541^---0#0#0#--766"Libtool build/Debug/FractalStreamCompiler.dylib normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib36"0735B52D-B209-498E-B1FD-04C1528FFB53-
-
