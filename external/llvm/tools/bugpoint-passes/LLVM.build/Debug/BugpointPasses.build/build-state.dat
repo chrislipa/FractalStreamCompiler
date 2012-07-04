@@ -1,0 +1,115 @@
+TBugpointPasses
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h
+c000000004F2735300000000000003218
+t1327969584
+s12824
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constant.h
+c000000004F2EFF370000000000001B0E
+t1328480055
+s6926
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Instructions.h
+c000000004F830E6F0000000000022323
+t1333988975
+s140067
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Pass.h
+c000000004F3B24CB0000000000003893
+t1329276107
+s14483
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/InstVisitor.h
+c000000004F76EB0C00000000000029F5
+t1333193484
+s10741
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Type.h
+c000000004F209914000000000000459E
+t1327536404
+s17822
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp
+c000000004C6DD2B00000000000000935
+t1282265776
+s2357
+i"llvm/BasicBlock.h"
+i"llvm/Constant.h"
+i"llvm/Instructions.h"
+i"llvm/Pass.h"
+i"llvm/Type.h"
+i"llvm/Support/InstVisitor.h"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/BugpointPasses.LinkFileList
+c000000004FF4C5FB00000000000000A6
+t1341441531
+s166
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh
+c000000004FF4C5FB0000000000000111
+t1341441531
+s273
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7cd4bf7bfda4b541^1ea9c27bfda4b541^---0#1#0#--18"Check dependencies36"0F4885B5-1B50-4E66-A4EA-18305B58647C-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134338.558981
+e363134339.904586
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp86568f82fda4b541^76c2e783fda4b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp0000000000000000^3069"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o tools/bugpoint-passes/TestPasses.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DBugpointPasses_EXPORTS -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/bugpoint-passes/TestPasses.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/TestPasses.o36"9FB87242-CC24-4B8E-8BD2-CC7895CFAC61-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib normal x86_64
+s363134339.912637
+e363134339.963054
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylibf8c5e983fda4b541^a4a5f683fda4b541^---0#0#0#--1206"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Objects-normal/x86_64/BugpointPasses.LinkFileList -install_name /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib -mmacosx-version-min=10.7 -Wl,-flat_namespace -Wl,-undefined -Wl,suppress -dynamiclib -Wl,-headerpad_max_install_names -lpthread -single_module -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/BugpointPasses.dylib36"083A706D-B0D9-475B-A351-93880806BBFC-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh
+s363134339.973332
+e363134340.175548
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.BugpointPasses.Debug
+omake[1]: Nothing to be done for `PostBuild.BugpointPasses.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'a33dfa83fda4b541^2ffc2c84fda4b541^-418"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.BugpointPasses.Debugmake[1]: Nothing to be done for `PostBuild.BugpointPasses.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134340#0#30#-0#-----2@23"Depend check for xcode-363134340#30#23#-0#-----2@299"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.BugpointPasses.Debug-363134340#53#299#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.BugpointPasses.Debug'.-363134340#352#66#-0#-----0#0#0#--483"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/bugpoint-passes/LLVM.build/Debug/BugpointPasses.build/Script-A2E0320110624C54B7AA3D6E.sh36"01EFF247-A912-49A0-AF11-BC92A4BA99B4-
+

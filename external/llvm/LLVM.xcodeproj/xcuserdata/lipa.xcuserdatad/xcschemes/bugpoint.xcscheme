@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "379554FFB71042ACB22386B4"
+               BlueprintIdentifier = "2008B6C429C64D68AEF9696E"
                BuildableName = "bugpoint"
                BlueprintName = "bugpoint"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "379554FFB71042ACB22386B4"
+            BlueprintIdentifier = "2008B6C429C64D68AEF9696E"
             BuildableName = "bugpoint"
             BlueprintName = "bugpoint"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "379554FFB71042ACB22386B4"
+            BlueprintIdentifier = "2008B6C429C64D68AEF9696E"
             BuildableName = "bugpoint"
             BlueprintName = "bugpoint"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "379554FFB71042ACB22386B4"
+            BlueprintIdentifier = "2008B6C429C64D68AEF9696E"
             BuildableName = "bugpoint"
             BlueprintName = "bugpoint"
             ReferencedContainer = "container:../LLVM.xcodeproj">

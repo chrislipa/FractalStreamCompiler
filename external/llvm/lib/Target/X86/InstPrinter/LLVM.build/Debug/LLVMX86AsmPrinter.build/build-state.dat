@@ -1,0 +1,221 @@
+TLLVMX86AsmPrinter
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/LLVMX86AsmPrinter.LinkFileList
+c000000004FF4C5BF000000000000021F
+t1341441471
+s543
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh
+c000000004FF4C5BF000000000000011E
+t1341441471
+s286
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
+c000000004F7013910000000000003814
+t1332745105
+s14356
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInst.h
+c000000004F21DFAB00000000000015C8
+t1327620011
+s5576
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInstrInfo.h
+c000000004F622F8500000000000007D3
+t1331834757
+s2003
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCRegisterInfo.h
+c000000004F7C052800000000000035FA
+t1333527848
+s13818
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
+c000000004D7E99AE00000000000011FD
+t1300142510
+s4605
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Format.h
+c000000004E9361DE00000000000020B9
+t1318281694
+s8377
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FormattedStream.h
+c000000004C7E61390000000000001408
+t1283350841
+s5128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp
+c000000004F796426000000000000160F
+t1333355558
+s5647
+i"X86ATTInstPrinter.h"
+i"X86InstComments.h"
+i"MCTargetDesc/X86MCTargetDesc.h"
+i"llvm/MC/MCInst.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCExpr.h"
+i"llvm/MC/MCInstrInfo.h"
+i"llvm/MC/MCRegisterInfo.h"
+i"llvm/Support/ErrorHandling.h"
+i"llvm/Support/Format.h"
+i"llvm/Support/FormattedStream.h"
+i<map>
+i"X86GenAsmWriter.inc"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.h
+c000000004F7964260000000000000B5F
+t1333355558
+s2911
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp
+c000000004F69DC1B0000000000004CC0
+t1332337691
+s19648
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.h
+c000000004F3F93830000000000000320
+t1329566595
+s800
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp
+c000000004F796426000000000000151B
+t1333355558
+s5403
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/MCTargetDesc/X86MCTargetDesc.h
+c000000004EF5356A0000000000000ECB
+t1324692842
+s3787
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese97d573ffda4b541^1a33593ffda4b541^---0#1#0#--18"Check dependencies36"013FC034-D292-4B03-81B9-45F2EAED0F58-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134277.809725
+e363134278.912857
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp7977d045fda4b541^f6b6e946fda4b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp0000000000000000^3588"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86ATTInstPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86ATTInstPrinter.o36"BABB161C-CB95-4A6C-AAD5-934D56FAD83E-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134278.009605
+e363134278.714851
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp76c30246fda4b541^8a00b746fda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp0000000000000000^3576"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o lib/Target/X86/InstPrinter/X86InstComments.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86InstComments.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86InstComments.o36"F383CA86-CE3E-4603-98F4-5B581588258E-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134277.857788
+e363134278.757238
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp1ccfdb45fda4b541^59dec146fda4b541^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp0000000000000000^3600"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/X86/InstPrinter/X86IntelInstPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/X86IntelInstPrinter.o36"439FB4CE-9F05-47B3-B727-4C0510F475BA-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a normal x86_64
+s363134279.197013
+e363134279.221997
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a normal x86_64a88d3247fda4b541^5ce63847fda4b541^---0#0#0#--886"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Objects-normal/x86_64/LLVMX86AsmPrinter.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMX86AsmPrinter.a36"372866FC-5863-45D5-93D2-AAB0C44130EF-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh
+s363134280.055100
+e363134280.311065
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMX86AsmPrinter.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'27130f48fda4b541^1ba14f48fda4b541^-2871"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMX86AsmPrinter.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests26(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134280#0#30#-0#-----2@23"Depend check for xcode-363134280#30#23#-0#-----2@302"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMX86AsmPrinter.Debug-363134280#53#302#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134280#355#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134280#455#96#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli-363134280#551#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134280#647#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134280#750#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134280#855#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134280#959#105#-0#-----2@99"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF-363134280#1064#99#-0#-----2@102"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci-363134280#1163#102#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT-363134280#1265#104#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4-363134280#1369#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5-363134280#1478#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6-363134280#1587#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7-363134280#1696#109#-0#-----2@106"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo-363134280#1805#106#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT-363134280#1911#104#-0#-----2@111"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests-363134280#2015#111#-0#-----2@121"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests-363134280#2126#121#-0#-----2@119"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests-363134280#2247#119#-0#-----2@135"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests-363134280#2366#135#-0#-----2@127"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests-363134280#2501#127#-0#-----2@126"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests-363134280#2628#126#-0#-----2@117"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests-363134280#2754#117#-0#-----0#0#0#--499"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/InstPrinter/LLVM.build/Debug/LLVMX86AsmPrinter.build/Script-96D28D7033C44B90BE184EA8.sh36"F6BDAE7B-DF46-4880-9EA0-DCF872A10BE1-
+

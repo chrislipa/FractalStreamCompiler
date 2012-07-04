@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/XCore/XCoreSubtarget.cpp \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/XCore/XCoreSubtarget.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetSubtargetInfo.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSubtargetInfo.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/SubtargetFeature.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Triple.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringRef.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/type_traits.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include/llvm/Support/DataTypes.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Compiler.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInstrItineraries.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CodeGen.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetMachine.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/XCoreGenSubtargetInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/XCore/XCore.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/XCore/MCTargetDesc/XCoreMCTargetDesc.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/XCoreGenRegisterInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/XCoreGenInstrInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h

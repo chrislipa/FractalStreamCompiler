@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "78710F8710114F23B265A03C"
+               BlueprintIdentifier = "8F6C3A0DD3E34127A2125BF0"
                BuildableName = "libllvm_headers_do_not_build.a"
                BlueprintName = "llvm_headers_do_not_build"
                ReferencedContainer = "container:../LLVM.xcodeproj">

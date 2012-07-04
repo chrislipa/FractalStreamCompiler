@@ -1,0 +1,171 @@
+Tllvm-dwarfdump
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/OwningPtr.h
+c000000004F1D78710000000000000DA6
+t1327331441
+s3494
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/STLExtras.h
+c000000004E27C56B0000000000002659
+t1311229291
+s9817
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Triple.h
+c000000004F79F0850000000000003469
+t1333391493
+s13417
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DebugInfo/DIContext.h
+c000000004E793A2C0000000000000834
+t1316567596
+s2100
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Object/ObjectFile.h
+c000000004F87378500000000000051F8
+t1334261637
+s20984
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
+c000000004F7392010000000000000F78
+t1332974081
+s3960
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Format.h
+c000000004E9361DE00000000000020B9
+t1318281694
+s8377
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ManagedStatic.h
+c000000004EC17F080000000000000D83
+t1321303816
+s3459
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MemoryBuffer.h
+c000000004E72867C0000000000001794
+t1316128380
+s6036
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MemoryObject.h
+c000000004F4D7AB20000000000000B43
+t1330477746
+s2883
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PrettyStackTrace.h
+c000000004DA7D5370000000000000AE1
+t1302844727
+s2785
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Signals.h
+c000000004DA7D53700000000000009D6
+t1302844727
+s2518
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/system_error.h
+c000000004F4FC61D0000000000006825
+t1330628125
+s26661
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp
+c000000004E8F58890000000000000FA8
+t1318017161
+s4008
+i"llvm/ADT/OwningPtr.h"
+i"llvm/ADT/Triple.h"
+i"llvm/ADT/STLExtras.h"
+i"llvm/Object/ObjectFile.h"
+i"llvm/DebugInfo/DIContext.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/Debug.h"
+i"llvm/Support/Format.h"
+i"llvm/Support/ManagedStatic.h"
+i"llvm/Support/MemoryBuffer.h"
+i"llvm/Support/MemoryObject.h"
+i"llvm/Support/PrettyStackTrace.h"
+i"llvm/Support/Signals.h"
+i"llvm/Support/raw_ostream.h"
+i"llvm/Support/system_error.h"
+i<algorithm>
+i<cstring>
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.LinkFileList
+c000000004FF4C5EF00000000000000A9
+t1341441519
+s169
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh
+c000000004FF4C5EF000000000000010F
+t1341441519
+s271
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc075496ffda4b541^7b844a6ffda4b541^---0#1#0#--18"Check dependencies36"241BA5BF-6ECF-4021-8217-C5D21DC5A921-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134324.412299
+e363134325.532373
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp815c6a74fda4b541^34498875fda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp0000000000000000^3052"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o tools/llvm-dwarfdump/llvm-dwarfdump.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-dwarfdump/llvm-dwarfdump.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.o36"ACB22016-5FF9-4B24-A8ED-1D6AEDACBFB7-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump normal x86_64
+s363134325.893074
+e363134326.323600
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdumpdfc0e475fda4b541^2bdc5276fda4b541^---0#0#0#--1309"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Objects-normal/x86_64/llvm-dwarfdump.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMDebugInfo.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMObject.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-dwarfdump36"30E38479-0FFE-45D1-9411-62EB8EB7C970-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh
+s363134328.294365
+e363134328.447350
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-dwarfdump.Debug
+omake[1]: Nothing to be done for `PostBuild.llvm-dwarfdump.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'3e944c78fda4b541^4b8f7278fda4b541^-418"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-dwarfdump.Debugmake[1]: Nothing to be done for `PostBuild.llvm-dwarfdump.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134328#0#30#-0#-----2@23"Depend check for xcode-363134328#30#23#-0#-----2@299"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-dwarfdump.Debug-363134328#53#299#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.llvm-dwarfdump.Debug'.-363134328#352#66#-0#-----0#0#0#--481"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-dwarfdump/LLVM.build/Debug/llvm-dwarfdump.build/Script-0A658A40D3A341709A0981ED.sh36"8B06F87B-CF67-445F-B4D2-D682AD20A609-
+

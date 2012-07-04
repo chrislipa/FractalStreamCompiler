@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90355D3E616445C481A774B4"
+               BlueprintIdentifier = "7E3FE37BCEA4438F912D7873"
                BuildableName = "VMCoreTests"
                BlueprintName = "VMCoreTests"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90355D3E616445C481A774B4"
+            BlueprintIdentifier = "7E3FE37BCEA4438F912D7873"
             BuildableName = "VMCoreTests"
             BlueprintName = "VMCoreTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90355D3E616445C481A774B4"
+            BlueprintIdentifier = "7E3FE37BCEA4438F912D7873"
             BuildableName = "VMCoreTests"
             BlueprintName = "VMCoreTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90355D3E616445C481A774B4"
+            BlueprintIdentifier = "7E3FE37BCEA4438F912D7873"
             BuildableName = "VMCoreTests"
             BlueprintName = "VMCoreTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">

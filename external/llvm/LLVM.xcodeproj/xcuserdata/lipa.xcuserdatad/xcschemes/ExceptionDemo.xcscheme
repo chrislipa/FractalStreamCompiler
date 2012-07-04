@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED255C3959374BF48D259C75"
+               BlueprintIdentifier = "441BA9F46BB04C17AC9F2FA1"
                BuildableName = "ExceptionDemo"
                BlueprintName = "ExceptionDemo"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED255C3959374BF48D259C75"
+            BlueprintIdentifier = "441BA9F46BB04C17AC9F2FA1"
             BuildableName = "ExceptionDemo"
             BlueprintName = "ExceptionDemo"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED255C3959374BF48D259C75"
+            BlueprintIdentifier = "441BA9F46BB04C17AC9F2FA1"
             BuildableName = "ExceptionDemo"
             BlueprintName = "ExceptionDemo"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED255C3959374BF48D259C75"
+            BlueprintIdentifier = "441BA9F46BB04C17AC9F2FA1"
             BuildableName = "ExceptionDemo"
             BlueprintName = "ExceptionDemo"
             ReferencedContainer = "container:../LLVM.xcodeproj">

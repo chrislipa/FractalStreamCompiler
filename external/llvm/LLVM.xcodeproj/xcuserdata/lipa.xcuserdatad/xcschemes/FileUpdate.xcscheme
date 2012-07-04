@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3A71FE1946E4E0E9B54CA4F"
+               BlueprintIdentifier = "AB88276681FE4E50B1600B34"
                BuildableName = "FileUpdate"
                BlueprintName = "FileUpdate"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3A71FE1946E4E0E9B54CA4F"
+            BlueprintIdentifier = "AB88276681FE4E50B1600B34"
             BuildableName = "FileUpdate"
             BlueprintName = "FileUpdate"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3A71FE1946E4E0E9B54CA4F"
+            BlueprintIdentifier = "AB88276681FE4E50B1600B34"
             BuildableName = "FileUpdate"
             BlueprintName = "FileUpdate"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3A71FE1946E4E0E9B54CA4F"
+            BlueprintIdentifier = "AB88276681FE4E50B1600B34"
             BuildableName = "FileUpdate"
             BlueprintName = "FileUpdate"
             ReferencedContainer = "container:../LLVM.xcodeproj">

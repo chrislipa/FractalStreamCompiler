@@ -1,0 +1,127 @@
+TLLVMMSP430AsmPrinter
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/LLVMMSP430AsmPrinter.LinkFileList
+c000000004FF4C56800000000000000BB
+t1341441384
+s187
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh
+c000000004FF4C5680000000000000127
+t1341441384
+s295
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
+c000000004F7013910000000000003814
+t1332745105
+s14356
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInst.h
+c000000004F21DFAB00000000000015C8
+t1327620011
+s5576
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
+c000000004D7E99AE00000000000011FD
+t1300142510
+s4605
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FormattedStream.h
+c000000004C7E61390000000000001408
+t1283350841
+s5128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp
+c000000004F19E1CF0000000000000CF6
+t1327096271
+s3318
+i"MSP430.h"
+i"MSP430InstPrinter.h"
+i"llvm/MC/MCInst.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCExpr.h"
+i"llvm/Support/ErrorHandling.h"
+i"llvm/Support/FormattedStream.h"
+i"MSP430GenAsmWriter.inc"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.h
+c000000004F7942A000000000000005C9
+t1333346976
+s1481
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/MSP430.h
+c000000004E1F58BE00000000000004E8
+t1310677182
+s1256
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9c51afe8fca4b541^c328b0e8fca4b541^---0#1#0#--18"Check dependencies36"E9093C3D-1E0D-4778-9E18-5729C3EB4800-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134185.044351
+e363134185.670795
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp32900be9fca4b541^e5b8abe9fca4b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp0000000000000000^3648"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MSP430/InstPrinter/MSP430InstPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/MSP430InstPrinter.o36"D747072B-EC1A-4D3D-AF91-E1C1E43DF0BC-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a normal x86_64
+s363134185.847877
+e363134185.859543
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a normal x86_64e92ad9e9fca4b541^bb0bdce9fca4b541^---0#0#0#--901"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Objects-normal/x86_64/LLVMMSP430AsmPrinter.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMSP430AsmPrinter.a36"26857011-D598-4916-988F-8CE25BAFCA8E-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh
+s363134186.124229
+e363134186.336086
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMSP430AsmPrinter.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'aab520eafca4b541^2a1f56eafca4b541^-971"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMSP430AsmPrinter.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134186#0#30#-0#-----2@23"Depend check for xcode-363134186#30#23#-0#-----2@305"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMSP430AsmPrinter.Debug-363134186#53#305#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134186#358#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134186#458#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134186#554#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134186#657#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134186#762#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134186#866#105#-0#-----0#0#0#--511"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MSP430/InstPrinter/LLVM.build/Debug/LLVMMSP430AsmPrinter.build/Script-64CC2A1267494B80BDC8F8CB.sh36"02E66966-B4EB-49F8-8DB8-71C188D549C8-
+

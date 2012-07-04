@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F05EC54C6744FB185B69EF4"
+               BlueprintIdentifier = "E6670B9C29FD4A6D83375B2E"
                BuildableName = "libLLVMSparcInfo.a"
                BlueprintName = "LLVMSparcInfo"
                ReferencedContainer = "container:../LLVM.xcodeproj">

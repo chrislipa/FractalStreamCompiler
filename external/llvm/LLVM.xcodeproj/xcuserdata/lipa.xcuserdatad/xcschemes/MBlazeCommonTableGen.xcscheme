@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4C32403B4E04C649FCDA2FA"
+               BlueprintIdentifier = "DFAA60A1AFA942B7A0DA72CC"
                BuildableName = "MBlazeCommonTableGen"
                BlueprintName = "MBlazeCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

@@ -1,0 +1,531 @@
+TLLVMAsmPrinter
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/LLVMAsmPrinter.LinkFileList
+c000000004FF4C5BE00000000000007FB
+t1341441470
+s2043
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh
+c000000004FF4C5BE0000000000000113
+t1341441470
+s275
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
+c000000004F1F423F0000000000002246
+t1327448639
+s8774
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringExtras.h
+c000000004F6C5DE500000000000010BA
+t1332501989
+s4282
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h
+c000000004F2EFF37000000000000440F
+t1328480055
+s17423
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/AsmPrinter.h
+c000000004F455A130000000000004C01
+t1329945107
+s19457
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFrameInfo.h
+c000000004EE2CF040000000000005896
+t1323486980
+s22678
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFunction.h
+c000000004F7749680000000000004A97
+t1333217640
+s19095
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineModuleInfo.h
+c000000004F453CA50000000000003C9F
+t1329937573
+s15519
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCContext.h
+c000000004F7013910000000000003E0A
+t1332745105
+s15882
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
+c000000004F7013910000000000003814
+t1332745105
+s14356
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSection.h
+c000000004F70139100000000000008E7
+t1332745105
+s2279
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCStreamer.h
+c000000004F7013910000000000006BF8
+t1332745105
+s27640
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSymbol.h
+c000000004DBAFCA300000000000013EB
+t1304100003
+s5099
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
+c000000004F7EC8E00000000000006195
+t1333709024
+s24981
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Dwarf.h
+c000000004F74D589000000000000509E
+t1333056905
+s20638
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FormattedStream.h
+c000000004C7E61390000000000001408
+t1283350841
+s5128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/Mangler.h
+c000000004F6F5F680000000000000989
+t1332698984
+s2441
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetData.h
+c000000004EA0757C00000000000037A6
+t1319138684
+s14246
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetFrameLowering.h
+c000000004F6F5F68000000000000203D
+t1332698984
+s8253
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetMachine.h
+c000000004F81C8F700000000000032EE
+t1333905655
+s13038
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h
+c000000004F853D3B00000000000022BC
+t1334132027
+s8892
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetRegisterInfo.h
+c000000004F8CC5F20000000000007892
+t1334625778
+s30866
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp
+c000000004F1EAC9D0000000000000C67
+t1327410333
+s3175
+i"DwarfException.h"
+i"llvm/Module.h"
+i"llvm/CodeGen/AsmPrinter.h"
+i"llvm/CodeGen/MachineModuleInfo.h"
+i"llvm/CodeGen/MachineFrameInfo.h"
+i"llvm/CodeGen/MachineFunction.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCContext.h"
+i"llvm/MC/MCExpr.h"
+i"llvm/MC/MCSection.h"
+i"llvm/MC/MCStreamer.h"
+i"llvm/MC/MCSymbol.h"
+i"llvm/Target/Mangler.h"
+i"llvm/Target/TargetData.h"
+i"llvm/Target/TargetFrameLowering.h"
+i"llvm/Target/TargetMachine.h"
+i"llvm/Target/TargetOptions.h"
+i"llvm/Target/TargetRegisterInfo.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/Dwarf.h"
+i"llvm/Support/FormattedStream.h"
+i"llvm/ADT/SmallString.h"
+i"llvm/ADT/StringExtras.h"
+i"llvm/ADT/Twine.h"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp
+c000000004F6D02070000000000013E66
+t1332544007
+s81510
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp
+c000000004F2E3E730000000000001F14
+t1328430707
+s7956
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp
+c000000004F6A817F0000000000003F27
+t1332380031
+s16167
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp
+c000000004F2E3E730000000000002948
+t1328430707
+s10568
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp
+c000000004F888739000000000000257E
+t1334347577
+s9598
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp
+c000000004F14F6C800000000000014D6
+t1326773960
+s5334
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp
+c000000004F8CB12F000000000000DB39
+t1334620463
+s56121
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp
+c000000004F7E02E90000000000013EA3
+t1333658345
+s81571
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp
+c000000004F2E3E73000000000000734E
+t1328430707
+s29518
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.h
+c000000004DE038140000000000002308
+t1306540052
+s8968
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp
+c000000004D0E6E7A00000000000015F4
+t1292791418
+s5620
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp
+c000000004E24B3B90000000000000FC3
+t1311028153
+s4035
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7a1be73efda4b541^ef73f03efda4b541^---0#1#0#--18"Check dependencies36"D640B96D-D053-4007-B44A-7940876DE888-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134271.200881
+e363134273.041427
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cppf7b0333ffda4b541^919a0a41fda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp0000000000000000^3076"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o lib/CodeGen/AsmPrinter/ARMException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/ARMException.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/ARMException.o36"40A783F0-65DC-40E6-83ED-6DD69F083B6E-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134271.323343
+e363134276.005048
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cppdff8523ffda4b541^83510144fda4b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp0000000000000000^3064"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o lib/CodeGen/AsmPrinter/AsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinter.o36"7A17C017-EFAB-46C3-BE81-E1FC05FCEA56-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134271.329575
+e363134272.823817
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cppda8f543ffda4b541^1ff2d240fda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp0000000000000000^3094"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterDwarf.o36"807769B1-B3EE-4E36-8723-5DEC803A6D2F-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134271.369352
+e363134273.345392
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cppe7df5e3ffda4b541^336c5841fda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp0000000000000000^3118"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/AsmPrinterInlineAsm.o36"5544E6FD-316C-4D7F-83A0-FBAC7BAD0845-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134272.826004
+e363134273.822418
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cppc9abd340fda4b541^8789d241fda4b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp0000000000000000^3022"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o lib/CodeGen/AsmPrinter/DIE.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DIE.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DIE.o36"1407B079-86DF-4F6A-B260-6F47D2C72A76-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134273.042787
+e363134274.833479
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp13270b41fda4b541^145fd542fda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp0000000000000000^3094"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfAccelTable.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfAccelTable.o36"542FD24A-D240-47B7-962C-F022113732EA-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134273.133452
+e363134274.929762
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cppfc892241fda4b541^4705ee42fda4b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp0000000000000000^3106"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o lib/CodeGen/AsmPrinter/DwarfCFIException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCFIException.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCFIException.o36"26D62BB3-2013-4D34-92D5-31920B75588C-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134273.346719
+e363134276.503127
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cppe6045941fda4b541^68cc8044fda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp0000000000000000^3100"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfCompileUnit.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfCompileUnit.o36"30025058-89B3-43D0-AB3F-2C48066FA68D-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134273.823934
+e363134278.531084
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp392ad341fda4b541^edf48746fda4b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp0000000000000000^3064"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o lib/CodeGen/AsmPrinter/DwarfDebug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfDebug.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfDebug.o36"1883DB63-2459-4B33-8033-1E67FCF5DA25-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134273.903216
+e363134276.102475
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cppaf77e741fda4b541^583b1a44fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp0000000000000000^3088"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o lib/CodeGen/AsmPrinter/DwarfException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/DwarfException.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/DwarfException.o36"116413F8-946C-4B49-A9E3-C1023EFB79BF-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134274.036138
+e363134275.746704
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp2b840942fda4b541^d32dbf43fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp0000000000000000^3088"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/OcamlGCPrinter.o36"187E46FD-60BD-4322-B210-B6846968007F-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134274.834875
+e363134276.729270
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp170cd642fda4b541^4eb5ba44fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp0000000000000000^3088"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o lib/CodeGen/AsmPrinter/Win64Exception.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/AsmPrinter/Win64Exception.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/Win64Exception.o36"A21CBB0D-6A53-4776-AEE7-E9A9D547F310-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a normal x86_64
+s363134278.716806
+e363134278.819775
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a normal x86_64499eb746fda4b541^abead146fda4b541^---0#0#0#--870"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Objects-normal/x86_64/LLVMAsmPrinter.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmPrinter.a36"7D3E3426-C47B-4314-9317-AEC413BB5141-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh
+s363134279.503614
+e363134279.881402
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMAsmPrinter.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'16bf8147fda4b541^94a2e147fda4b541^-2868"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMAsmPrinter.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests26(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134279#0#30#-0#-----2@23"Depend check for xcode-363134279#30#23#-0#-----2@299"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMAsmPrinter.Debug-363134279#53#299#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134279#352#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134279#452#96#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli-363134279#548#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134279#644#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134279#747#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134279#852#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134279#956#105#-0#-----2@99"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF-363134279#1061#99#-0#-----2@102"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci-363134279#1160#102#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT-363134279#1262#104#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4-363134279#1366#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5-363134279#1475#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6-363134279#1584#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7-363134279#1693#109#-0#-----2@106"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo-363134279#1802#106#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT-363134279#1908#104#-0#-----2@111"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests-363134279#2012#111#-0#-----2@121"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests-363134279#2123#121#-0#-----2@119"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests-363134279#2244#119#-0#-----2@135"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests-363134279#2363#135#-0#-----2@127"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests-363134279#2498#127#-0#-----2@126"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests-363134279#2625#126#-0#-----2@117"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests-363134279#2751#117#-0#-----0#0#0#--485"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/AsmPrinter/LLVM.build/Debug/LLVMAsmPrinter.build/Script-B6D1C899A8F34E93A1831AAB.sh36"26FF93C2-1DC7-4FF3-BD9D-3D56D4E3A7CC-
+

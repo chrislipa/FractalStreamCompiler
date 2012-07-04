@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF4B386214834183B36D344A"
+               BlueprintIdentifier = "0246C9727D5C4200B0DA5A2F"
                BuildableName = "UnitTests"
                BlueprintName = "UnitTests"
                ReferencedContainer = "container:../LLVM.xcodeproj">

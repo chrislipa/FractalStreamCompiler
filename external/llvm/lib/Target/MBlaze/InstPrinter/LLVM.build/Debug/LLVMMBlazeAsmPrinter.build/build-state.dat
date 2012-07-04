@@ -1,0 +1,127 @@
+TLLVMMBlazeAsmPrinter
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/LLVMMBlazeAsmPrinter.LinkFileList
+c000000004FF4C56500000000000000BB
+t1341441381
+s187
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh
+c000000004FF4C5650000000000000127
+t1341441381
+s295
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
+c000000004F7013910000000000003814
+t1332745105
+s14356
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInst.h
+c000000004F21DFAB00000000000015C8
+t1327620011
+s5576
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
+c000000004D7E99AE00000000000011FD
+t1300142510
+s4605
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FormattedStream.h
+c000000004C7E61390000000000001408
+t1283350841
+s5128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp
+c000000004E7A25D500000000000008F7
+t1316627925
+s2295
+i"MBlaze.h"
+i"MBlazeInstPrinter.h"
+i"llvm/MC/MCInst.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCExpr.h"
+i"llvm/Support/ErrorHandling.h"
+i"llvm/Support/FormattedStream.h"
+i"MBlazeGenAsmWriter.inc"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.h
+c000000004F794EB000000000000005AB
+t1333350064
+s1451
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/MBlaze.h
+c000000004E2DCF8A00000000000003CB
+t1311625098
+s971
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies59db70e5fca4b541^734b7be5fca4b541^---0#1#0#--18"Check dependencies36"F4F16C82-7DA3-4E62-A6B3-E60E65477EB7-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134182.123439
+e363134182.723004
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cppb8ce1fe6fca4b541^522ab9e6fca4b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp0000000000000000^3648"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/InstPrinter/MBlazeInstPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/MBlazeInstPrinter.o36"20E99357-FF0B-4FBA-AFBB-4E2D8274BBEF-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a normal x86_64
+s363134182.884913
+e363134182.917321
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a normal x86_64dfa7e2e6fca4b541^aad6eae6fca4b541^---0#0#0#--901"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Objects-normal/x86_64/LLVMMBlazeAsmPrinter.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmPrinter.a36"0D3F407A-4531-4C3B-A9D8-6644368B7C22-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh
+s363134183.305983
+e363134183.459043
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmPrinter.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'ad324fe7fca4b541^268d75e7fca4b541^-971"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmPrinter.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134183#0#30#-0#-----2@23"Depend check for xcode-363134183#30#23#-0#-----2@305"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmPrinter.Debug-363134183#53#305#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134183#358#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134183#458#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134183#554#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134183#657#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134183#762#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134183#866#105#-0#-----0#0#0#--511"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/InstPrinter/LLVM.build/Debug/LLVMMBlazeAsmPrinter.build/Script-38E35929A57542F1A6CF1E85.sh36"2966BC39-FDD2-4F23-B511-33998F345C7D-
+

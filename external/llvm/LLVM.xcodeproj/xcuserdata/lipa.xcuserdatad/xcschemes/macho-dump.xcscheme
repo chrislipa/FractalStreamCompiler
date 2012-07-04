@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6C9590D6184417984242372"
+               BlueprintIdentifier = "09A3244FABBF49999FEAF7C6"
                BuildableName = "macho-dump"
                BlueprintName = "macho-dump"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6C9590D6184417984242372"
+            BlueprintIdentifier = "09A3244FABBF49999FEAF7C6"
             BuildableName = "macho-dump"
             BlueprintName = "macho-dump"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6C9590D6184417984242372"
+            BlueprintIdentifier = "09A3244FABBF49999FEAF7C6"
             BuildableName = "macho-dump"
             BlueprintName = "macho-dump"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6C9590D6184417984242372"
+            BlueprintIdentifier = "09A3244FABBF49999FEAF7C6"
             BuildableName = "macho-dump"
             BlueprintName = "macho-dump"
             ReferencedContainer = "container:../LLVM.xcodeproj">

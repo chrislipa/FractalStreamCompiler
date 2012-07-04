@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DC883C0E7824D869FCE0972"
+               BlueprintIdentifier = "E3C4EA481925465092CC2174"
                BuildableName = "libLLVMBitWriter.a"
                BlueprintName = "LLVMBitWriter"
                ReferencedContainer = "container:../LLVM.xcodeproj">

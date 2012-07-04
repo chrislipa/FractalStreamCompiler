@@ -1,0 +1,139 @@
+Tllvm-readobj
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Triple.h
+c000000004F79F0850000000000003469
+t1333391493
+s13417
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/Verifier.h
+c000000004BBE15300000000000000A5D
+t1270748464
+s2653
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Object/ELF.h
+c000000004F8C996A0000000000014D84
+t1334614378
+s85380
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Object/ObjectFile.h
+c000000004F87378500000000000051F8
+t1334261637
+s20984
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
+c000000004F7392010000000000000F78
+t1332974081
+s3960
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Format.h
+c000000004E9361DE00000000000020B9
+t1318281694
+s8377
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FormattedStream.h
+c000000004C7E61390000000000001408
+t1283350841
+s5128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PrettyStackTrace.h
+c000000004DA7D5370000000000000AE1
+t1302844727
+s2785
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Signals.h
+c000000004DA7D53700000000000009D6
+t1302844727
+s2518
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp
+c000000004F5AB6B600000000000018D7
+t1331345078
+s6359
+i"llvm/Object/ObjectFile.h"
+i"llvm/Object/ELF.h"
+i"llvm/Analysis/Verifier.h"
+i"llvm/ADT/Triple.h"
+i"llvm/Support/Format.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/PrettyStackTrace.h"
+i"llvm/Support/Debug.h"
+i"llvm/Support/Signals.h"
+i"llvm/Support/FormattedStream.h"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.LinkFileList
+c000000004FF4C5EF00000000000000A3
+t1341441519
+s163
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh
+c000000004FF4C5EF0000000000000109
+t1341441519
+s265
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies37371a6ffda4b541^28491b6ffda4b541^---0#1#0#--18"Check dependencies36"A809E79B-EF91-430C-A185-DBB850A2E11E-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134322.604736
+e363134324.215163
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cppc7119b72fda4b541^87143774fda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp0000000000000000^3008"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o tools/llvm-readobj/llvm-readobj.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-readobj/llvm-readobj.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.o36"89A8340B-0F58-4690-849F-AA1BAE8EBA41-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj normal x86_64
+s363134324.362484
+e363134324.617961
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj39ee5c74fda4b541^b9349e74fda4b541^---0#0#0#--1492"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Objects-normal/x86_64/llvm-readobj.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMArchive.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMObject.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMBitReader.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCore.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-readobj36"8FF1C103-8AC5-4F20-8204-3392D4F9A87D-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh
+s363134328.168085
+e363134328.316894
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-readobj.Debug
+omake[1]: Nothing to be done for `PostBuild.llvm-readobj.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'f5d72b78fda4b541^c51f5178fda4b541^-414"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-readobj.Debugmake[1]: Nothing to be done for `PostBuild.llvm-readobj.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134328#0#30#-0#-----2@23"Depend check for xcode-363134328#30#23#-0#-----2@297"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-readobj.Debug-363134328#53#297#-0#-----2@64"make[1]: Nothing to be done for `PostBuild.llvm-readobj.Debug'.-363134328#350#64#-0#-----0#0#0#--473"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-readobj/LLVM.build/Debug/llvm-readobj.build/Script-EACB460D77424B66B9F4AE86.sh36"0A23129A-D722-4903-A5FC-877D96E50171-
+

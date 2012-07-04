@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F71636D8DDEB46579C936F16"
+               BlueprintIdentifier = "5147DB8FCB0442EC839CE71F"
                BuildableName = "JITTests"
                BlueprintName = "JITTests"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71636D8DDEB46579C936F16"
+            BlueprintIdentifier = "5147DB8FCB0442EC839CE71F"
             BuildableName = "JITTests"
             BlueprintName = "JITTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71636D8DDEB46579C936F16"
+            BlueprintIdentifier = "5147DB8FCB0442EC839CE71F"
             BuildableName = "JITTests"
             BlueprintName = "JITTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71636D8DDEB46579C936F16"
+            BlueprintIdentifier = "5147DB8FCB0442EC839CE71F"
             BuildableName = "JITTests"
             BlueprintName = "JITTests"
             ReferencedContainer = "container:../LLVM.xcodeproj">

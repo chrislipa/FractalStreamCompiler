@@ -1,0 +1,776 @@
+TLLVMSelectionDAG
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LLVMSelectionDAG.LinkFileList
+c000000004FF4C5B40000000000000FEE
+t1341441460
+s4078
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh
+c000000004FF4C5B40000000000000119
+t1341441460
+s281
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallPtrSet.h
+c000000004F8E996C00000000000029B6
+t1334745452
+s10678
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Statistic.h
+c000000004EDD4E990000000000000F1C
+t1323126425
+s3868
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/AliasAnalysis.h
+c000000004F48BE5C0000000000005EF1
+t1330167388
+s24305
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFrameInfo.h
+c000000004EE2CF040000000000005896
+t1323486980
+s22678
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFunction.h
+c000000004F7749680000000000004A97
+t1333217640
+s19095
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/SelectionDAG.h
+c000000004F7C43D6000000000000BD6E
+t1333543894
+s48494
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h
+c000000004F56C8E500000000000046FD
+t1331087589
+s18173
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/LLVMContext.h
+c000000004F896F360000000000000FFA
+t1334406966
+s4090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
+c000000004F7392010000000000000F78
+t1332974081
+s3960
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
+c000000004D7E99AE00000000000011FD
+t1300142510
+s4605
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MathExtras.h
+c000000004EE66EC00000000000003C14
+t1323724480
+s15380
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetData.h
+c000000004EA0757C00000000000037A6
+t1319138684
+s14246
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetLowering.h
+c000000004F8392040000000000016001
+t1334022660
+s90113
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetMachine.h
+c000000004F81C8F700000000000032EE
+t1333905655
+s13038
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h
+c000000004F853D3B00000000000022BC
+t1334132027
+s8892
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp
+c000000004F8B93020000000000055850
+t1334547202
+s350288
+i"llvm/CodeGen/SelectionDAG.h"
+i"llvm/DerivedTypes.h"
+i"llvm/LLVMContext.h"
+i"llvm/CodeGen/MachineFunction.h"
+i"llvm/CodeGen/MachineFrameInfo.h"
+i"llvm/Analysis/AliasAnalysis.h"
+i"llvm/Target/TargetData.h"
+i"llvm/Target/TargetLowering.h"
+i"llvm/Target/TargetMachine.h"
+i"llvm/Target/TargetOptions.h"
+i"llvm/ADT/SmallPtrSet.h"
+i"llvm/ADT/Statistic.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/Debug.h"
+i"llvm/Support/ErrorHandling.h"
+i"llvm/Support/MathExtras.h"
+i"llvm/Support/raw_ostream.h"
+i<algorithm>
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp
+c000000004F847962000000000000C966
+t1334081890
+s51558
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp
+c000000004F46EEE500000000000046A7
+t1330048741
+s18087
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp
+c000000004F47CEB700000000000095D8
+t1330106039
+s38360
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp
+c000000004F83A5C60000000000026130
+t1334027718
+s155952
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp
+c000000004F2E3E73000000000000FBB3
+t1328430707
+s64435
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp
+c000000004F7C43D6000000000001E4D8
+t1333543894
+s124120
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp
+c000000004F4D2247000000000000B3C8
+t1330455111
+s46024
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp
+c000000004F0C6B950000000000004B8B
+t1326214037
+s19339
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp
+c000000004F8AE4590000000000004719
+t1334502489
+s18201
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp
+c000000004F7B9B70000000000001963A
+t1333500784
+s103994
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp
+c000000004F57E8A100000000000051C5
+t1331161249
+s20933
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp
+c000000004F586C550000000000005703
+t1331194965
+s22275
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp
+c000000004F6B7E05000000000001A345
+t1332444677
+s107333
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp
+c000000004FA8D2120000000000008099
+t1336463890
+s32921
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp
+c000000004F57E8A1000000000000248B
+t1331161249
+s9355
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp
+c000000004F84B85D00000000000386BB
+t1334098013
+s231099
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp
+c000000004FA06905000000000004344C
+t1335912709
+s275532
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp
+c000000004F5EDF6F00000000000064A1
+t1331617647
+s25761
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp
+c000000004F7C43D6000000000001C9EB
+t1333543894
+s117227
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp
+c000000004EF3B7670000000000002642
+t1324595047
+s9794
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp
+c000000004F8DED4E0000000000021E0C
+t1334701390
+s138764
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp
+c000000004BE9948D00000000000002EE
+t1273599117
+s750
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies40dc1d34fda4b541^d2aa1e34fda4b541^---0#1#0#--18"Check dependencies36"935B94ED-52DB-43EA-9080-6AD747A6AC99-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134260.522429
+e363134266.380516
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cppf1f18534fda4b541^2b69613afda4b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o lib/CodeGen/SelectionDAG/DAGCombiner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/DAGCombiner.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/DAGCombiner.o36"07968578-2F35-4529-963C-B740EF6E9CC7-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134260.773562
+e363134264.893408
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp8540c634fda4b541^e7c6e438fda4b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp0000000000000000^3084"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o lib/CodeGen/SelectionDAG/FastISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FastISel.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FastISel.o36"4CAD4EEA-531B-4D14-8A49-041FAB2F83C4-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134261.104993
+e363134265.380478
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp76181b35fda4b541^02676139fda4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp0000000000000000^3156"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/FunctionLoweringInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/FunctionLoweringInfo.o36"308B54E8-C3A5-4C32-85DB-9DC4C4D230BD-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134261.426221
+e363134264.522169
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp0b5d6d35fda4b541^acac8538fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o lib/CodeGen/SelectionDAG/InstrEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/InstrEmitter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/InstrEmitter.o36"6763707D-AD1B-42E6-B81F-2432DBC44417-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134261.812581
+e363134266.043996
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cppc93ed035fda4b541^6d540b3afda4b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o lib/CodeGen/SelectionDAG/LegalizeDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeDAG.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeDAG.o36"5CD7B509-EA4B-4843-910C-F426BAEE9339-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134261.951764
+e363134264.693715
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp1edef335fda4b541^ea96b138fda4b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp0000000000000000^3144"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeFloatTypes.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeFloatTypes.o36"368A6C18-54DC-405E-AD34-D4B564C460C0-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134261.981405
+e363134265.580114
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cppf373fb35fda4b541^17829439fda4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp0000000000000000^3156"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeIntegerTypes.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeIntegerTypes.o36"15797479-488F-4D94-8D93-CB3BF85D587A-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134264.695055
+e363134267.240004
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cppfa29b238fda4b541^1e703d3bfda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp0000000000000000^3114"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o lib/CodeGen/SelectionDAG/LegalizeTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypes.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypes.o36"69F41BB4-2751-4070-A816-480E25F618E2-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134264.894740
+e363134267.133082
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp2045e538fda4b541^f110223bfda4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp0000000000000000^3156"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeTypesGeneric.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeTypesGeneric.o36"71E62F0E-1BDE-483C-94F7-D012DDDFA1BA-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134265.201566
+e363134267.309069
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp1cee3339fda4b541^e21e4f3bfda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp0000000000000000^3138"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorOps.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorOps.o36"BC6F2E58-B296-467F-9AFD-DDA16249B118-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134265.383123
+e363134268.456135
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp5e4d6239fda4b541^fca5753cfda4b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp0000000000000000^3150"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/LegalizeVectorTypes.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LegalizeVectorTypes.o36"B97D3400-B14F-432D-ACA8-7E99D2FA9F43-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134265.523672
+e363134268.228519
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp925c8639fda4b541^b27f3a3cfda4b541^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp0000000000000000^3162"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ResourcePriorityQueue.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ResourcePriorityQueue.o36"A913F84F-8584-419B-91DE-8B1829022243-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134265.587123
+e363134268.620833
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cppbc909639fda4b541^c8ee9e3cfda4b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGFast.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGFast.o36"747BFAA7-61F0-46B0-A63A-2C131F4A7251-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134266.045420
+e363134269.772114
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp1adf0b3afda4b541^45bcc53dfda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp0000000000000000^3138"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGRRList.o36"E312143D-E362-4A43-9057-C71FCA449482-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134266.381815
+e363134269.788711
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cppe7ff613afda4b541^4a41cb3dfda4b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp0000000000000000^3144"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGSDNodes.o36"1B6C4792-DC25-455A-A64D-69C20663863A-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134268.622186
+e363134270.998597
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp64909f3cfda4b541^e2adff3efda4b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/ScheduleDAGVLIW.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/ScheduleDAGVLIW.o36"599C486A-B73B-42C2-89E1-80126F88D576-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134267.134475
+e363134273.132107
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp53b0223bfda4b541^ecdb2141fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o lib/CodeGen/SelectionDAG/SelectionDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAG.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAG.o36"1DF8518C-8F11-4231-914C-2D11BF012D08-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134267.241396
+e363134275.146640
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp9cfd3d3bfda4b541^83c12543fda4b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp0000000000000000^3150"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGBuilder.o36"112FBB7B-78BC-46F9-8147-2A6E6BE4B96C-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134267.310537
+e363134270.406000
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp12be4f3bfda4b541^82fd673efda4b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp0000000000000000^3144"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGDumper.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGDumper.o36"B2221FB9-2A4A-415A-9D6E-2D73FABA3787-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134268.230135
+e363134273.901709
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cppcf323b3cfda4b541^24d6e641fda4b541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp0000000000000000^3132"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGISel.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGISel.o36"8DB677DC-9AC1-46DB-9A37-EF53CD88934C-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134268.478134
+e363134271.366687
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp25e87b3cfda4b541^4d2e5e3ffda4b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp0000000000000000^3150"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/SelectionDAGPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/SelectionDAGPrinter.o36"3EDC9610-58B4-4E0A-98B3-12FC60C2DB68-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134269.773690
+e363134274.034676
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp274ac63dfda4b541^d2010942fda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp0000000000000000^3120"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o lib/CodeGen/SelectionDAG/TargetLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetLowering.o36"BF3D6DAA-FF54-4EA8-9759-D8BDD895B822-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134269.810130
+e363134270.970142
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp384bd93dfda4b541^8b6ff83efda4b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp0000000000000000^3168"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/CodeGen/SelectionDAG/TargetSelectionDAGInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/TargetSelectionDAGInfo.o36"D0C12046-2AB6-40B3-A3FB-B1A52A78EA6D-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a normal x86_64
+s363134275.748317
+e363134276.041317
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a normal x86_64e3c4bf43fda4b541^46940a44fda4b541^---0#0#0#--880"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Objects-normal/x86_64/LLVMSelectionDAG.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSelectionDAG.a36"31A43A3A-C112-42CB-B45A-E261AD162FF5-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh
+s363134278.915518
+e363134279.195248
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMSelectionDAG.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'726eeb46fda4b541^473b3247fda4b541^-2870"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMSelectionDAG.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests26(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134278#0#30#-0#-----2@23"Depend check for xcode-363134278#30#23#-0#-----2@301"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMSelectionDAG.Debug-363134278#53#301#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134279#354#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134279#454#96#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/lli-363134279#550#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134279#646#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134279#749#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134279#854#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134279#958#105#-0#-----2@99"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/BrainF-363134279#1063#99#-0#-----2@102"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Fibonacci-363134279#1162#102#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/HowToUseJIT-363134279#1264#104#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch4-363134279#1368#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch5-363134279#1477#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch6-363134279#1586#109#-0#-----2@109"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/Kaleidoscope-Ch7-363134279#1695#109#-0#-----2@106"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ExceptionDemo-363134279#1804#106#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/ParallelJIT-363134279#1910#104#-0#-----2@111"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests-363134279#2014#111#-0#-----2@121"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests-363134279#2125#121#-0#-----2@119"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests-363134279#2246#119#-0#-----2@135"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests-363134279#2365#135#-0#-----2@127"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests-363134279#2500#127#-0#-----2@126"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests-363134279#2627#126#-0#-----2@117"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests-363134279#2753#117#-0#-----0#0#0#--493"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/CodeGen/SelectionDAG/LLVM.build/Debug/LLVMSelectionDAG.build/Script-6826C6A4541046D1B4B68C2A.sh36"DD2E5048-5F8F-458E-ADBA-427E48C01B86-
+

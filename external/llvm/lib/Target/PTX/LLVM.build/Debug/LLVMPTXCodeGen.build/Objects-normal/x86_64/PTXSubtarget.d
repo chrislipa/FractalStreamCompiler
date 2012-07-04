@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetSubtargetInfo.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSubtargetInfo.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/SubtargetFeature.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Triple.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringRef.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/type_traits.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include/llvm/Support/DataTypes.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Compiler.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInstrItineraries.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CodeGen.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/PTXGenSubtargetInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTX.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXBaseInfo.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/PTXGenRegisterInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/PTXGenInstrInfo.inc \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetMachine.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h \
+  /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h

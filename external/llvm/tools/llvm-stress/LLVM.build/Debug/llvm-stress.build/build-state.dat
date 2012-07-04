@@ -1,0 +1,168 @@
+Tllvm-stress
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/Verifier.h
+c000000004BBE15300000000000000A5D
+t1270748464
+s2653
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Assembly/PrintModulePass.h
+c000000004BB67AFA0000000000000627
+t1270250234
+s1575
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CallGraphSCCPass.h
+c000000004C5CB60C0000000000000F3B
+t1281144332
+s3899
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constants.h
+c000000004F2EEC72000000000000BA07
+t1328475250
+s47623
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Instruction.h
+c000000004EE935F70000000000003755
+t1323906551
+s14165
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/LLVMContext.h
+c000000004F896F360000000000000FFA
+t1334406966
+s4090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
+c000000004F7EC8E00000000000006195
+t1333709024
+s24981
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/PassManager.h
+c000000004F28E6C40000000000000D56
+t1328080580
+s3414
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
+c000000004F7392010000000000000F78
+t1332974081
+s3960
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ManagedStatic.h
+c000000004EC17F080000000000000D83
+t1321303816
+s3459
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PassNameParser.h
+c000000004C5D476600000000000013BA
+t1281181542
+s5050
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PluginLoader.h
+c000000004776A72E000000000000050E
+t1198958382
+s1294
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PrettyStackTrace.h
+c000000004DA7D5370000000000000AE1
+t1302844727
+s2785
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ToolOutputFile.h
+c000000004CAE2E680000000000000886
+t1286483560
+s2182
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp
+c000000004F8B2CCA0000000000005BBD
+t1334521034
+s23485
+i"llvm/LLVMContext.h"
+i"llvm/Module.h"
+i"llvm/PassManager.h"
+i"llvm/Constants.h"
+i"llvm/Instruction.h"
+i"llvm/CallGraphSCCPass.h"
+i"llvm/Assembly/PrintModulePass.h"
+i"llvm/Analysis/Verifier.h"
+i"llvm/Support/PassNameParser.h"
+i"llvm/Support/Debug.h"
+i"llvm/Support/ManagedStatic.h"
+i"llvm/Support/PluginLoader.h"
+i"llvm/Support/PrettyStackTrace.h"
+i"llvm/Support/ToolOutputFile.h"
+i<memory>
+i<sstream>
+i<set>
+i<vector>
+i<algorithm>
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.LinkFileList
+c000000004FF4C5F500000000000000A0
+t1341441525
+s160
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh
+c000000004FF4C5F50000000000000106
+t1341441525
+s262
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd28e5b75fda4b541^971d5e75fda4b541^---0#1#0#--18"Check dependencies36"A36EB974-66B4-4730-A104-A1DC1F843051-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134328.173409
+e363134330.486474
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp42972c78fda4b541^d09d7c7afda4b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp0000000000000000^2986"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o tools/llvm-stress/llvm-stress.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stress/llvm-stress.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.o36"29BF3ABB-C0C2-4465-AF92-A213E23F7882-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress normal x86_64
+s363134330.533389
+e363134331.387283
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress74b6887afda4b541^5f29637bfda4b541^---0#0#0#--2580"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Objects-normal/x86_64/llvm-stress.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMBitReader.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAsmParser.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMBitWriter.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMInstrumentation.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMipo.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMScalarOpts.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMVectorize.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMInstCombine.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTransformUtils.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMipa.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMAnalysis.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTarget.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCore.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMC.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMObject.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stress36"FA1257BC-0D9F-4FF5-9C57-381A205C825F-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh
+s363134338.282967
+e363134338.452298
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stress.Debug
+omake[1]: Nothing to be done for `PostBuild.llvm-stress.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'193b4982fda4b541^b0c87382fda4b541^-412"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stress.Debugmake[1]: Nothing to be done for `PostBuild.llvm-stress.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134338#0#30#-0#-----2@23"Depend check for xcode-363134338#30#23#-0#-----2@296"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stress.Debug-363134338#53#296#-0#-----2@63"make[1]: Nothing to be done for `PostBuild.llvm-stress.Debug'.-363134338#349#63#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stress/LLVM.build/Debug/llvm-stress.build/Script-28387D4438584DC29874B01F.sh36"B3F7C5B3-55FA-44EC-9568-68F0F08BC1BC-
+

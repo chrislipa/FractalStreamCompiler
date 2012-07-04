@@ -19,11 +19,11 @@ struct AvailableComponent {
   /// The list of libraries required when linking this component.
   const char *RequiredLibraries[15];
 } AvailableComponents[101] = {
-  { "all", 0, 1, { "mcjit", "interpreter", "mcdisassembler", "gtest_main", "all-targets", "tablegen", "bitwriter", "ipo", "engine", "debuginfo", "linker", "instrumentation", "nativecodegen", "asmparser" } },
+  { "all", 0, 1, { "mcjit", "gtest_main", "interpreter", "mcdisassembler", "all-targets", "tablegen", "bitwriter", "ipo", "engine", "debuginfo", "linker", "instrumentation", "nativecodegen", "asmparser" } },
   { "all-targets", 0, 1, { "arm", "cellspu", "cppbackend", "hexagon", "mips", "mblaze", "msp430", "powerpc", "ptx", "sparc", "x86", "xcore" } },
   { "analysis", "libLLVMAnalysis.a", 1, { "core", "support", "target" } },
   { "archive", "libLLVMArchive.a", 1, { "bitreader", "core", "support" } },
-  { "arm", 0, 1, { "armasmprinter", "arminfo", "armdesc", "armcodegen", "armasmparser", "armdisassembler" } },
+  { "arm", 0, 1, { "armasmprinter", "arminfo", "armdesc", "armasmparser", "armdisassembler", "armcodegen" } },
   { "armasmparser", "libLLVMARMAsmParser.a", 1, { "armdesc", "arminfo", "mc", "mcparser", "support" } },
   { "armasmprinter", "libLLVMARMAsmPrinter.a", 1, { "mc", "support" } },
   { "armcodegen", "libLLVMARMCodeGen.a", 1, { "armasmprinter", "armdesc", "arminfo", "analysis", "asmprinter", "codegen", "core", "mc", "selectiondag", "support", "target" } },
@@ -71,7 +71,7 @@ struct AvailableComponent {
   { "mcdisassembler", "libLLVMMCDisassembler.a", 1, { "mc", "mcparser", "support" } },
   { "mcjit", "libLLVMMCJIT.a", 1, { "core", "executionengine", "runtimedyld", "support", "target" } },
   { "mcparser", "libLLVMMCParser.a", 1, { "mc", "support" } },
-  { "mips", 0, 1, { "mipsasmprinter", "mipsinfo", "mipsdesc", "mipscodegen", "mipsasmparser", "mipsdisassembler" } },
+  { "mips", 0, 1, { "mipsinfo", "mipsdisassembler", "mipsasmprinter", "mipsdesc", "mipsasmparser", "mipscodegen" } },
   { "mipsasmparser", "libLLVMMipsAsmParser.a", 1, { "mc", "mcparser", "support", "mipsdesc", "mipsinfo" } },
   { "mipsasmprinter", "libLLVMMipsAsmPrinter.a", 1, { "mc", "support" } },
   { "mipscodegen", "libLLVMMipsCodeGen.a", 1, { "asmprinter", "codegen", "core", "mc", "mipsasmprinter", "mipsdesc", "mipsinfo", "selectiondag", "support", "target" } },
@@ -108,7 +108,7 @@ struct AvailableComponent {
   { "target", "libLLVMTarget.a", 1, { "core", "mc", "support" } },
   { "transformutils", "libLLVMTransformUtils.a", 1, { "analysis", "core", "ipa", "support", "target" } },
   { "vectorize", "libLLVMVectorize.a", 1, { "analysis", "core", "instcombine", "support", "target", "transformutils" } },
-  { "x86", 0, 1, { "x86utils", "x86asmprinter", "x86info", "x86desc", "x86codegen", "x86disassembler", "x86asmparser" } },
+  { "x86", 0, 1, { "x86utils", "x86asmprinter", "x86info", "x86desc", "x86codegen", "x86asmparser", "x86disassembler" } },
   { "x86asmparser", "libLLVMX86AsmParser.a", 1, { "mc", "mcparser", "support", "x86desc", "x86info" } },
   { "x86asmprinter", "libLLVMX86AsmPrinter.a", 1, { "mc", "support", "x86utils" } },
   { "x86codegen", "libLLVMX86CodeGen.a", 1, { "analysis", "asmprinter", "codegen", "core", "mc", "selectiondag", "support", "target", "x86asmprinter", "x86desc", "x86info", "x86utils" } },

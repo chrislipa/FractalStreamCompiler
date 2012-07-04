@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DEEDB742B2D4302A06E76D2"
+               BlueprintIdentifier = "513F34B89F544C94B3F41732"
                BuildableName = "libLLVMPowerPCDesc.a"
                BlueprintName = "LLVMPowerPCDesc"
                ReferencedContainer = "container:../LLVM.xcodeproj">

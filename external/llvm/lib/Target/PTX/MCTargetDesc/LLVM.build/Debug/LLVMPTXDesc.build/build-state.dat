@@ -1,0 +1,161 @@
+TLLVMPTXDesc
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/LLVMPTXDesc.LinkFileList
+c000000004FF4C57D0000000000000159
+t1341441405
+s345
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh
+c000000004FF4C57D000000000000011A
+t1341441405
+s282
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCCodeGenInfo.h
+c000000004F3E82D30000000000000582
+t1329496787
+s1410
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInstrInfo.h
+c000000004F622F8500000000000007D3
+t1331834757
+s2003
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCRegisterInfo.h
+c000000004F7C052800000000000035FA
+t1333527848
+s13818
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSubtargetInfo.h
+c000000004E1A74A40000000000000B37
+t1310356644
+s2871
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
+c000000004F7942A0000000000000AFEA
+t1333346976
+s45034
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/InstPrinter/PTXInstPrinter.h
+c000000004F79642600000000000005B5
+t1333355558
+s1461
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp
+c000000004EEFF7D800000000000003C4
+t1324349400
+s964
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.h
+c000000004F3F9383000000000000033B
+t1329566595
+s827
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp
+c000000004F7942A00000000000000E40
+t1333346976
+s3648
+i"PTXMCTargetDesc.h"
+i"PTXMCAsmInfo.h"
+i"InstPrinter/PTXInstPrinter.h"
+i"llvm/MC/MCCodeGenInfo.h"
+i"llvm/MC/MCInstrInfo.h"
+i"llvm/MC/MCRegisterInfo.h"
+i"llvm/MC/MCSubtargetInfo.h"
+i"llvm/Support/TargetRegistry.h"
+i"PTXGenInstrInfo.inc"
+i"PTXGenSubtargetInfo.inc"
+i"PTXGenRegisterInfo.inc"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.h
+c000000004F6ACC1E00000000000003B1
+t1332399134
+s945
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf8e2fbfdfca4b541^121609fefca4b541^---0#1#0#--18"Check dependencies36"1C3CCBA0-3678-4E05-B37A-2439E81D3811-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134206.185741
+e363134206.616902
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp6abd2ffefca4b541^05fd9dfefca4b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp0000000000000000^3313"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCAsmInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCAsmInfo.o36"69ED3024-A69F-4FB1-A28E-7849D22C8B0F-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134206.135518
+e363134207.293234
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp58e122fefca4b541^2f4f4bfffca4b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp0000000000000000^3331"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/MCTargetDesc/PTXMCTargetDesc.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/PTXMCTargetDesc.o36"C49643CA-F173-443A-864F-FD317E3D200D-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a normal x86_64
+s363134207.319921
+e363134207.365873
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a normal x86_64290852fffca4b541^9eb75dfffca4b541^---0#0#0#--863"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Objects-normal/x86_64/LLVMPTXDesc.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXDesc.a36"84B2186E-B48F-4E80-B392-A08735EA73CB-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh
+s363134218.523624
+e363134218.705396
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXDesc.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'4e0e870afda4b541^4a95b40afda4b541^-962"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXDesc.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134218#0#30#-0#-----2@23"Depend check for xcode-363134218#30#23#-0#-----2@296"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXDesc.Debug-363134218#53#296#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134218#349#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134218#449#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134218#545#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134218#648#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134218#753#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134218#857#105#-0#-----0#0#0#--489"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/MCTargetDesc/LLVM.build/Debug/LLVMPTXDesc.build/Script-8DAD1F333BE142DFBDDAC7AB.sh36"2D5B0EF6-034B-418F-BBDF-8E716EDBC195-
+

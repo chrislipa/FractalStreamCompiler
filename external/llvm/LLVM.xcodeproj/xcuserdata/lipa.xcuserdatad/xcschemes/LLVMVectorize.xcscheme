@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82791E8116304474AD173A83"
+               BlueprintIdentifier = "6047DE8CEC3642579F7AB67B"
                BuildableName = "libLLVMVectorize.a"
                BlueprintName = "LLVMVectorize"
                ReferencedContainer = "container:../LLVM.xcodeproj">

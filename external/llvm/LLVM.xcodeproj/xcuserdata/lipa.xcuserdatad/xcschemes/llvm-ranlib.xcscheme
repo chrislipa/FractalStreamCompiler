@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E33A976C2AD646C9B2C027C0"
+               BlueprintIdentifier = "0244E00BB6B342ABA1A84009"
                BuildableName = "llvm-ranlib"
                BlueprintName = "llvm-ranlib"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E33A976C2AD646C9B2C027C0"
+            BlueprintIdentifier = "0244E00BB6B342ABA1A84009"
             BuildableName = "llvm-ranlib"
             BlueprintName = "llvm-ranlib"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E33A976C2AD646C9B2C027C0"
+            BlueprintIdentifier = "0244E00BB6B342ABA1A84009"
             BuildableName = "llvm-ranlib"
             BlueprintName = "llvm-ranlib"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E33A976C2AD646C9B2C027C0"
+            BlueprintIdentifier = "0244E00BB6B342ABA1A84009"
             BuildableName = "llvm-ranlib"
             BlueprintName = "llvm-ranlib"
             ReferencedContainer = "container:../LLVM.xcodeproj">

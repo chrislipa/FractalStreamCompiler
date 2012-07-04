@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA50069A3351409DB1EF2F99"
+               BlueprintIdentifier = "4BB62BBD6A1D458C8B7EA7D8"
                BuildableName = "libLLVMHexagonCodeGen.a"
                BlueprintName = "LLVMHexagonCodeGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

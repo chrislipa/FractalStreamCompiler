@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "204E6F6426EA45179B632008"
+               BlueprintIdentifier = "6221399C9BBD45759AEDADBB"
                BuildableName = "yaml-bench"
                BlueprintName = "yaml-bench"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "204E6F6426EA45179B632008"
+            BlueprintIdentifier = "6221399C9BBD45759AEDADBB"
             BuildableName = "yaml-bench"
             BlueprintName = "yaml-bench"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "204E6F6426EA45179B632008"
+            BlueprintIdentifier = "6221399C9BBD45759AEDADBB"
             BuildableName = "yaml-bench"
             BlueprintName = "yaml-bench"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "204E6F6426EA45179B632008"
+            BlueprintIdentifier = "6221399C9BBD45759AEDADBB"
             BuildableName = "yaml-bench"
             BlueprintName = "yaml-bench"
             ReferencedContainer = "container:../LLVM.xcodeproj">

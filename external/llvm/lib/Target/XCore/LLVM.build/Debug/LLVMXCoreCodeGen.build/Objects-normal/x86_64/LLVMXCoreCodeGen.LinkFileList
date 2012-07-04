@@ -1,0 +1,11 @@
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreAsmPrinter.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreFrameLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreInstrInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreISelDAGToDAG.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreISelLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreMachineFunctionInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreRegisterInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreSubtarget.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreTargetMachine.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreTargetObjectFile.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/XCore/LLVM.build/Debug/LLVMXCoreCodeGen.build/Objects-normal/x86_64/XCoreSelectionDAGInfo.o

@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D7C2D15A9D244C3B8F2600B"
+               BlueprintIdentifier = "73D2D3D032FC424C97089657"
                BuildableName = "llvm-bcanalyzer"
                BlueprintName = "llvm-bcanalyzer"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D7C2D15A9D244C3B8F2600B"
+            BlueprintIdentifier = "73D2D3D032FC424C97089657"
             BuildableName = "llvm-bcanalyzer"
             BlueprintName = "llvm-bcanalyzer"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D7C2D15A9D244C3B8F2600B"
+            BlueprintIdentifier = "73D2D3D032FC424C97089657"
             BuildableName = "llvm-bcanalyzer"
             BlueprintName = "llvm-bcanalyzer"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D7C2D15A9D244C3B8F2600B"
+            BlueprintIdentifier = "73D2D3D032FC424C97089657"
             BuildableName = "llvm-bcanalyzer"
             BlueprintName = "llvm-bcanalyzer"
             ReferencedContainer = "container:../LLVM.xcodeproj">

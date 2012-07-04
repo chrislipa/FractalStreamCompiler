@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65C6EFB8974E4D74821CAF1E"
+               BlueprintIdentifier = "049A9B70D1DC4DAFB1E78F16"
                BuildableName = "PowerPCCommonTableGen"
                BlueprintName = "PowerPCCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

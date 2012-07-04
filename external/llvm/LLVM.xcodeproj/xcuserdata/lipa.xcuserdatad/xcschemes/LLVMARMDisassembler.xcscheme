@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AFDFFE1060F4B34B815CCE5"
+               BlueprintIdentifier = "009660C558E045B4B9CD6FDE"
                BuildableName = "libLLVMARMDisassembler.a"
                BlueprintName = "LLVMARMDisassembler"
                ReferencedContainer = "container:../LLVM.xcodeproj">

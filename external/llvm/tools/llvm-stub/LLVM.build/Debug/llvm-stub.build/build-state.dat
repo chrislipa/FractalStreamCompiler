@@ -1,0 +1,111 @@
+Tllvm-stub
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
+c000000004F46A0540000000000004763
+t1330028628
+s18275
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
+c000000004F46A05400000000000030A7
+t1330028628
+s12455
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c000000004F46A0540000000000001A3A
+t1330028628
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/unistd.h
+c000000004F46A0540000000000006662
+t1330028628
+s26210
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include/llvm/Config/config.h
+c000000004FF4C4A80000000000004D6C
+t1341441192
+s19820
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c
+c000000004D8AED850000000000000A4F
+t1300950405
+s2639
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"llvm/Config/config.h"
+i<unistd.h>
+i<process.h>
+i<io.h>
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.LinkFileList
+c000000004FF4C5AB000000000000009A
+t1341441451
+s154
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh
+c000000004FF4C5AB0000000000000100
+t1341441451
+s256
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4354ad2bfda4b541^d750ae2bfda4b541^---0#1#0#--18"Check dependencies36"D0FD0655-95E3-47ED-AD25-090D159F61E6-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s363134253.429921
+e363134253.502524
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c083e6e2dfda4b541^22a6802dfda4b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c0000000000000000^2828"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o tools/llvm-stub/llvm-stub.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-stub/llvm-stub.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.o36"532F643A-773B-4EF4-8C94-878FB89DF199-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub normal x86_64
+s363134253.657120
+e363134253.706649
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub185ba82dfda4b541^6afab42dfda4b541^---0#0#0#--987"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Objects-normal/x86_64/llvm-stub.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-stub36"5F57D5A6-C435-49A0-81BA-FF4DE2E1D426-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh
+s363134259.702964
+e363134259.891307
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stub.Debug
+omake[1]: Nothing to be done for `PostBuild.llvm-stub.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'0de1b433fda4b541^b613e533fda4b541^-408"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stub.Debugmake[1]: Nothing to be done for `PostBuild.llvm-stub.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134259#0#30#-0#-----2@23"Depend check for xcode-363134259#30#23#-0#-----2@294"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-stub.Debug-363134259#53#294#-0#-----2@61"make[1]: Nothing to be done for `PostBuild.llvm-stub.Debug'.-363134259#347#61#-0#-----0#0#0#--461"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-stub/LLVM.build/Debug/llvm-stub.build/Script-A2D32873DAB1438CA2CD65E7.sh36"71F90B57-EAD3-4757-8DD9-8A227EA76033-
+

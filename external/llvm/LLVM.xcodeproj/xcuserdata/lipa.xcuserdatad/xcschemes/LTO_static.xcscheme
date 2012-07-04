@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4B1242120164ABA90303B79"
+               BlueprintIdentifier = "C3303C750C0148D7B3E429A8"
                BuildableName = "libLTO.a"
                BlueprintName = "LTO_static"
                ReferencedContainer = "container:../LLVM.xcodeproj">

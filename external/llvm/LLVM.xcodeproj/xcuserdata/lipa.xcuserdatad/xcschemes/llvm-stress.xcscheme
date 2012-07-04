@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B29FDBFC630454AB57E3D18"
+               BlueprintIdentifier = "5E51ECDC8BE54ADAA99190AF"
                BuildableName = "llvm-stress"
                BlueprintName = "llvm-stress"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B29FDBFC630454AB57E3D18"
+            BlueprintIdentifier = "5E51ECDC8BE54ADAA99190AF"
             BuildableName = "llvm-stress"
             BlueprintName = "llvm-stress"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B29FDBFC630454AB57E3D18"
+            BlueprintIdentifier = "5E51ECDC8BE54ADAA99190AF"
             BuildableName = "llvm-stress"
             BlueprintName = "llvm-stress"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B29FDBFC630454AB57E3D18"
+            BlueprintIdentifier = "5E51ECDC8BE54ADAA99190AF"
             BuildableName = "llvm-stress"
             BlueprintName = "llvm-stress"
             ReferencedContainer = "container:../LLVM.xcodeproj">

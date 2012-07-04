@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "127B61E263C04ED7B89EE6D8"
+               BlueprintIdentifier = "195B106B6AD84AAC8DDBAC73"
                BuildableName = "PTXCommonTableGen"
                BlueprintName = "PTXCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

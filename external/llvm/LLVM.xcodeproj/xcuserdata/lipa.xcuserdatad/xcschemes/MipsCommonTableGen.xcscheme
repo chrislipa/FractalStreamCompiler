@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9496B20C9C914BF9A26FBD10"
+               BlueprintIdentifier = "A57FD02FA6ED45519383B431"
                BuildableName = "MipsCommonTableGen"
                BlueprintName = "MipsCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

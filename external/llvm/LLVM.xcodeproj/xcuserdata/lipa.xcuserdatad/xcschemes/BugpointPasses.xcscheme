@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88732B84046C420A8A4DDE93"
+               BlueprintIdentifier = "89E3FDFD293E42E0A6E3D456"
                BuildableName = "BugpointPasses.dylib"
                BlueprintName = "BugpointPasses"
                ReferencedContainer = "container:../LLVM.xcodeproj">

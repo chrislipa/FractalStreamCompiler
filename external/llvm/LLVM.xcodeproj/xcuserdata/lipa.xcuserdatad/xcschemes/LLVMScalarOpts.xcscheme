@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E18508E43E4341FB83A653FF"
+               BlueprintIdentifier = "986F220C574D4BF48954EA8B"
                BuildableName = "libLLVMScalarOpts.a"
                BlueprintName = "LLVMScalarOpts"
                ReferencedContainer = "container:../LLVM.xcodeproj">

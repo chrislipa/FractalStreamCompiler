@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh
+c000000004FF4C60D00000000000000E6
+t1341441549
+s230
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies904a518dfda4b541^6b81518dfda4b541^---0#1#0#--18"Check dependencies36"E45CEA9B-1D2B-4827-98D6-219D03645E4E-
+
+CPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh
+s363134349.319803
+e363134349.335280
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'fd30528dfda4b541^b7d4558dfda4b541^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-363134349#0#8#-0#-----2@26"echo Build\ all\ projects-363134349#9#26#-0#-----2@19"Build all projects-363134349#35#19#-0#-----0#0#0#--419"PhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/LLVM.build/Debug/ALL_BUILD.build/Script-47E64434869A426187805660.sh36"6151F32E-E99B-4D1E-8D0E-ECB37D0645C7-
+

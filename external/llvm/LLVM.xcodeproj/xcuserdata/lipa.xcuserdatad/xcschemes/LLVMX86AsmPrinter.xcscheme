@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0EBFEC79A2C844A1B2C2698C"
+               BlueprintIdentifier = "0ABC8344EC994287B1519FEF"
                BuildableName = "libLLVMX86AsmPrinter.a"
                BlueprintName = "LLVMX86AsmPrinter"
                ReferencedContainer = "container:../LLVM.xcodeproj">

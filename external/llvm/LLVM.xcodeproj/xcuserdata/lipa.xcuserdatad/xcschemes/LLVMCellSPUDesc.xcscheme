@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B268B52229124FBAB827290D"
+               BlueprintIdentifier = "F74D4876028148F1A2F61E0A"
                BuildableName = "libLLVMCellSPUDesc.a"
                BlueprintName = "LLVMCellSPUDesc"
                ReferencedContainer = "container:../LLVM.xcodeproj">

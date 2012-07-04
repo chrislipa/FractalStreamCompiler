@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EE6BD5CCC4E403D9CA77D0C"
+               BlueprintIdentifier = "5DF9B55C4B584F739EA31DE1"
                BuildableName = "libLLVMipo.a"
                BlueprintName = "LLVMipo"
                ReferencedContainer = "container:../LLVM.xcodeproj">

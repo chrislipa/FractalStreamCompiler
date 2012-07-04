@@ -1,0 +1,507 @@
+TLLVMCellSPUCodeGen
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/LLVMCellSPUCodeGen.LinkFileList
+c000000004FF4C5CA0000000000000813
+t1341441482
+s2067
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh
+c000000004FF4C5CA000000000000010F
+t1341441482
+s271
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh
+c000000004FF4C5CA0000000000000115
+t1341441482
+s277
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
+c000000004F1F423F0000000000002246
+t1327448639
+s8774
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringExtras.h
+c000000004F6C5DE500000000000010BA
+t1332501989
+s4282
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/AsmPrinter.h
+c000000004F455A130000000000004C01
+t1329945107
+s19457
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineModuleInfo.h
+c000000004F453CA50000000000003C9F
+t1329937573
+s15519
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constants.h
+c000000004F2EEC72000000000000BA07
+t1328475250
+s47623
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h
+c000000004F56C8E500000000000046FD
+t1331087589
+s18173
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCStreamer.h
+c000000004F7013910000000000006BF8
+t1332745105
+s27640
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSymbol.h
+c000000004DBAFCA300000000000013EB
+t1304100003
+s5099
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
+c000000004F7EC8E00000000000006195
+t1333709024
+s24981
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
+c000000004D7E99AE00000000000011FD
+t1300142510
+s4605
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
+c000000004F7942A0000000000000AFEA
+t1333346976
+s45034
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/Mangler.h
+c000000004F6F5F680000000000000989
+t1332698984
+s2441
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetInstrInfo.h
+c000000004F2EFF37000000000000A411
+t1328480055
+s42001
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetLoweringObjectFile.h
+c000000004F6F5F68000000000000167B
+t1332698984
+s5755
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h
+c000000004F853D3B00000000000022BC
+t1334132027
+s8892
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetRegisterInfo.h
+c000000004F8CC5F20000000000007892
+t1334625778
+s30866
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPU.h
+c000000004F3F938300000000000003A9
+t1329566595
+s937
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp
+c000000004F3F93830000000000002C3B
+t1329566595
+s11323
+i"SPU.h"
+i"SPUTargetMachine.h"
+i"llvm/Constants.h"
+i"llvm/DerivedTypes.h"
+i"llvm/Module.h"
+i"llvm/CodeGen/AsmPrinter.h"
+i"llvm/CodeGen/MachineModuleInfo.h"
+i"llvm/MC/MCStreamer.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCSymbol.h"
+i"llvm/Target/Mangler.h"
+i"llvm/Target/TargetLoweringObjectFile.h"
+i"llvm/Target/TargetInstrInfo.h"
+i"llvm/Target/TargetOptions.h"
+i"llvm/Target/TargetRegisterInfo.h"
+i"llvm/ADT/SmallString.h"
+i"llvm/ADT/StringExtras.h"
+i"llvm/Support/ErrorHandling.h"
+i"llvm/Support/TargetRegistry.h"
+i"llvm/Support/raw_ostream.h"
+i"SPUGenAsmWriter.inc"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp
+c000000004F64DBF100000000000026FE
+t1332009969
+s9982
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp
+c000000004D14299E0000000000000E29
+t1293167006
+s3625
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp
+c000000004F19E1CF000000000000ACE0
+t1327096271
+s44256
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp
+c000000004F7C43D6000000000001DE30
+t1333543894
+s122416
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp
+c000000004F3F93830000000000003900
+t1329566595
+s14592
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp
+c000000004F3F938300000000000001B1
+t1329566595
+s433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp
+c000000004F3F938300000000000012E4
+t1329566595
+s4836
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp
+c000000004F64DBF10000000000002D1C
+t1332009969
+s11548
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp
+c000000004BE9948D00000000000002E1
+t1273599117
+s737
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp
+c000000004F717223000000000000091F
+t1332834851
+s2335
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp
+c000000004F9F9EC50000000000000BD4
+t1335860933
+s3028
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.h
+c000000004F64DBF10000000000000973
+t1332009969
+s2419
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0dc75f4afda4b541^863a644afda4b541^---0#1#0#--18"Check dependencies36"EF4CB558-D8E2-4454-9A15-A049F948BDF4-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.021931
+e363134295.553216
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cppddcf0555fda4b541^2c9f8d57fda4b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp0000000000000000^3066"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o lib/Target/CellSPU/SPUAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUAsmPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o36"80A67520-8C85-4C1C-9617-C927099076BC-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.607308
+e363134295.354241
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp75ab9b55fda4b541^79af5a57fda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp0000000000000000^3084"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o lib/Target/CellSPU/SPUFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUFrameLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o36"547BAE66-9D92-41E6-BA1E-376BFD0C0A6D-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.031452
+e363134294.716698
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp78450855fda4b541^6878b756fda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o lib/Target/CellSPU/SPUHazardRecognizers.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUHazardRecognizers.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o36"87A4D2BE-21DA-401D-8ADA-416403CA29B9-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.209143
+e363134296.927045
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cppc2be3555fda4b541^2e55ed58fda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp0000000000000000^3078"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o lib/Target/CellSPU/SPUISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelDAGToDAG.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o36"CB9E2C3B-7D8F-4E14-8880-4842DF67AE9A-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.574866
+e363134297.264496
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp46619355fda4b541^8db54359fda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp0000000000000000^3078"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o lib/Target/CellSPU/SPUISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUISelLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o36"8E14222B-BBCA-46CC-A65F-7C4C45058EE9-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.185834
+e363134295.432748
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cppdac62f55fda4b541^dac76e57fda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp0000000000000000^3060"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o lib/Target/CellSPU/SPUInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUInstrInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o36"F6382FC9-0F56-4F28-BBE0-6B4F48A1B144-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.749843
+e363134294.366913
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cppba2ec055fda4b541^d0ed5d56fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp0000000000000000^3096"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o lib/Target/CellSPU/SPUMachineFunction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUMachineFunction.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o36"2F692C00-3BD1-4983-85E5-A297BDB801F3-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134295.357271
+e363134297.380580
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cppf6955b57fda4b541^a06d6159fda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp0000000000000000^3060"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o lib/Target/CellSPU/SPUNopFiller.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUNopFiller.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o36"46C18DF9-D8FE-40E7-B5F4-1782EE584A74-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134293.872957
+e363134295.483613
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp2eacdf55fda4b541^eecd7b57fda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp0000000000000000^3078"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o lib/Target/CellSPU/SPURegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPURegisterInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o36"21CEDE35-58F9-4A93-8096-BD97ED73DE2C-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134295.355588
+e363134297.268471
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cppe63c5b57fda4b541^cbb94459fda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o lib/Target/CellSPU/SPUSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSelectionDAGInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o36"7F8F2004-5E6D-46E0-BB79-B9214C8C26A2-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134294.584896
+e363134295.356041
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cppbbee9556fda4b541^a1315b57fda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp0000000000000000^3060"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o lib/Target/CellSPU/SPUSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUSubtarget.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o36"B5A36B67-A32E-444C-8857-430BD66DBA0D-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134294.719296
+e363134296.741252
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp2a57b856fda4b541^b1c2bd58fda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp0000000000000000^3084"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o lib/Target/CellSPU/SPUTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CellSPU/SPUTargetMachine.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o36"81564DB6-1960-4702-8D3B-2031924B0084-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a normal x86_64
+s363134297.412015
+e363134297.486313
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a normal x86_64d9966959fda4b541^aa7f7c59fda4b541^---0#0#0#--882"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/LLVMCellSPUCodeGen.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCellSPUCodeGen.a36"6F0D9326-846F-4C8B-8190-2F59431ED749-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh
+s363134318.655510
+e363134318.840474
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCellSPUCodeGen.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'2ffca86efda4b541^9528d76efda4b541^-969"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCellSPUCodeGen.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134318#0#30#-0#-----2@23"Depend check for xcode-363134318#30#23#-0#-----2@303"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCellSPUCodeGen.Debug-363134318#53#303#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134318#356#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134318#456#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134318#552#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134318#655#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134318#760#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134318#864#105#-0#-----0#0#0#--485"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-5FCB3DAE5139470584E7ED73.sh36"ACE66588-8CC2-4208-9420-F1D12B36AAC5-
+
+CPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh
+s363134291.949335
+e363134291.979639
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh
+omake: Nothing to be done for `all'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'fdf8f353fda4b541^08c9fa53fda4b541^-36"make: Nothing to be done for `all'.1(21%IDEActivityLogMessage2@36"make: Nothing to be done for `all'.-363134291#0#36#-0#-----0#0#0#--475"PhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Script-953060E47F894DC5BEE614F1.sh36"75D74535-3C26-4332-AE45-A6BBD742C188-
+

@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BEC4829C91C419184A5F943"
+               BlueprintIdentifier = "7D88CB5EB7724F3C8F60E98A"
                BuildableName = "MSP430CommonTableGen"
                BlueprintName = "MSP430CommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

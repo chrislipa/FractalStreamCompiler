@@ -1,0 +1,133 @@
+Tyaml-bench
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
+c000000004F1F423F0000000000002246
+t1327448639
+s8774
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Casting.h
+c000000004DD80EC60000000000001FD1
+t1306005190
+s8145
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MemoryBuffer.h
+c000000004E72867C0000000000001794
+t1316128380
+s6036
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/SourceMgr.h
+c000000004F8F102F0000000000001BEC
+t1334775855
+s7148
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Timer.h
+c000000004CF3EDEA00000000000019A2
+t1291054570
+s6562
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/YAMLParser.h
+c000000004F8D9C9100000000000037CE
+t1334680721
+s14286
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/system_error.h
+c000000004F4FC61D0000000000006825
+t1330628125
+s26661
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp
+c000000004F7B832200000000000017AD
+t1333494562
+s6061
+i"llvm/ADT/SmallString.h"
+i"llvm/Support/Casting.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/MemoryBuffer.h"
+i"llvm/Support/raw_ostream.h"
+i"llvm/Support/SourceMgr.h"
+i"llvm/Support/system_error.h"
+i"llvm/Support/Timer.h"
+i"llvm/Support/YAMLParser.h"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/yaml-bench.LinkFileList
+c000000004FF4C58B000000000000009C
+t1341441419
+s156
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh
+c000000004FF4C58B0000000000000103
+t1341441419
+s259
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies37ffe30bfda4b541^95bae40bfda4b541^---0#1#0#--18"Check dependencies36"3B99CF41-EA95-4EA2-89C0-C0EF7631D710-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134220.012744
+e363134221.056700
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp5dc0030cfda4b541^42990e0dfda4b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp0000000000000000^2958"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o utils/yaml-bench/YAMLBench.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/yaml-bench/YAMLBench.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/YAMLBench.o36"0940A86E-5DC4-4B48-A5E7-F2812F6DA429-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench normal x86_64
+s363134221.466127
+e363134221.680345
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench9c6c770dfda4b541^425fae0dfda4b541^---0#0#0#--1102"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Objects-normal/x86_64/yaml-bench.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lpthread /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/yaml-bench36"63F5F84A-2368-4124-9392-AF05A8863235-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh
+s363134251.257893
+e363134251.412328
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.yaml-bench.Debug
+omake[1]: Nothing to be done for `PostBuild.yaml-bench.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'58e5422bfda4b541^8c9f6a2bfda4b541^-410"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.yaml-bench.Debugmake[1]: Nothing to be done for `PostBuild.yaml-bench.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134251#0#30#-0#-----2@23"Depend check for xcode-363134251#30#23#-0#-----2@295"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.yaml-bench.Debug-363134251#53#295#-0#-----2@62"make[1]: Nothing to be done for `PostBuild.yaml-bench.Debug'.-363134251#348#62#-0#-----0#0#0#--465"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/yaml-bench/LLVM.build/Debug/yaml-bench.build/Script-22F75422498A4A299AF3B50A.sh36"F56E91A4-672D-427D-B19A-D6CE50D07D00-
+

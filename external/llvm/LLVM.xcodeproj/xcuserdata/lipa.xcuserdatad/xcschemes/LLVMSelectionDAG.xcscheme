@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "528F7266EDD24DEFB145E8FC"
+               BlueprintIdentifier = "D10595E69D1845F8BEDDCE43"
                BuildableName = "libLLVMSelectionDAG.a"
                BlueprintName = "LLVMSelectionDAG"
                ReferencedContainer = "container:../LLVM.xcodeproj">

@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C54EAF43A95421CA283D29B"
+               BlueprintIdentifier = "37E2B1FBAA3F4590AEB7D2FD"
                BuildableName = "BrainF"
                BlueprintName = "BrainF"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C54EAF43A95421CA283D29B"
+            BlueprintIdentifier = "37E2B1FBAA3F4590AEB7D2FD"
             BuildableName = "BrainF"
             BlueprintName = "BrainF"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C54EAF43A95421CA283D29B"
+            BlueprintIdentifier = "37E2B1FBAA3F4590AEB7D2FD"
             BuildableName = "BrainF"
             BlueprintName = "BrainF"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C54EAF43A95421CA283D29B"
+            BlueprintIdentifier = "37E2B1FBAA3F4590AEB7D2FD"
             BuildableName = "BrainF"
             BlueprintName = "BrainF"
             ReferencedContainer = "container:../LLVM.xcodeproj">

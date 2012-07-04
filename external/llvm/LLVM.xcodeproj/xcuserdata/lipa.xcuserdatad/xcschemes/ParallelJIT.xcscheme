@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53D7D662B06E40D080DFD2C7"
+               BlueprintIdentifier = "195B1AD4011D43D3B1297906"
                BuildableName = "ParallelJIT"
                BlueprintName = "ParallelJIT"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53D7D662B06E40D080DFD2C7"
+            BlueprintIdentifier = "195B1AD4011D43D3B1297906"
             BuildableName = "ParallelJIT"
             BlueprintName = "ParallelJIT"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53D7D662B06E40D080DFD2C7"
+            BlueprintIdentifier = "195B1AD4011D43D3B1297906"
             BuildableName = "ParallelJIT"
             BlueprintName = "ParallelJIT"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53D7D662B06E40D080DFD2C7"
+            BlueprintIdentifier = "195B1AD4011D43D3B1297906"
             BuildableName = "ParallelJIT"
             BlueprintName = "ParallelJIT"
             ReferencedContainer = "container:../LLVM.xcodeproj">

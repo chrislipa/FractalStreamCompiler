@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CDE2D77A48B45B999647C92"
+               BlueprintIdentifier = "64EB62EB91F4430F89D41B00"
                BuildableName = "HexagonCommonTableGen"
                BlueprintName = "HexagonCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

@@ -1,0 +1,12 @@
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/DelaySlotFiller.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/FPMover.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcAsmPrinter.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcInstrInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcISelDAGToDAG.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcISelLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcFrameLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcMachineFunctionInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcRegisterInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcSubtarget.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcTargetMachine.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Sparc/LLVM.build/Debug/LLVMSparcCodeGen.build/Objects-normal/x86_64/SparcSelectionDAGInfo.o

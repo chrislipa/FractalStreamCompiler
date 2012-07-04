@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2469736582FD4B1C87885C2A"
+               BlueprintIdentifier = "014254F9B25D4CA8BFDDF050"
                BuildableName = "SparcCommonTableGen"
                BlueprintName = "SparcCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

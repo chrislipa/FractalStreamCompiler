@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42726E774B014114ACA61B3B"
+               BlueprintIdentifier = "DB0F2EF32AEB447DA5317BC0"
                BuildableName = "libgtest_main.a"
                BlueprintName = "gtest_main"
                ReferencedContainer = "container:../LLVM.xcodeproj">

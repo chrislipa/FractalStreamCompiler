@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E989868BF6A4FC7A5A199FF"
+               BlueprintIdentifier = "F28807A1BEA9415F90D0F5E8"
                BuildableName = "libLLVMMipsCodeGen.a"
                BlueprintName = "LLVMMipsCodeGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

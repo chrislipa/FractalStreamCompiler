@@ -1,0 +1,146 @@
+TFileCheck
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/OwningPtr.h
+c000000004F1D78710000000000000DA6
+t1327331441
+s3494
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
+c000000004F1F423F0000000000002246
+t1327448639
+s8774
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringMap.h
+c000000004F893DB90000000000003A63
+t1334394297
+s14947
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MemoryBuffer.h
+c000000004E72867C0000000000001794
+t1316128380
+s6036
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PrettyStackTrace.h
+c000000004DA7D5370000000000000AE1
+t1302844727
+s2785
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Regex.h
+c000000004DA7D5370000000000000BCF
+t1302844727
+s3023
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Signals.h
+c000000004DA7D53700000000000009D6
+t1302844727
+s2518
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/SourceMgr.h
+c000000004F8F102F0000000000001BEC
+t1334775855
+s7148
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/system_error.h
+c000000004F4FC61D0000000000006825
+t1330628125
+s26661
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp
+c000000004E9A6F1D0000000000006A71
+t1318743837
+s27249
+i"llvm/ADT/OwningPtr.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/MemoryBuffer.h"
+i"llvm/Support/PrettyStackTrace.h"
+i"llvm/Support/Regex.h"
+i"llvm/Support/SourceMgr.h"
+i"llvm/Support/raw_ostream.h"
+i"llvm/Support/Signals.h"
+i"llvm/Support/system_error.h"
+i"llvm/ADT/SmallString.h"
+i"llvm/ADT/StringMap.h"
+i<algorithm>
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.LinkFileList
+c000000004FF4C575000000000000009A
+t1341441397
+s154
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh
+c000000004FF4C5750000000000000100
+t1341441397
+s256
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2cd333f5fca4b541^88f334f5fca4b541^---0#1#0#--18"Check dependencies36"DFE64DB8-F62A-415A-96A1-EAEB08BEC8AD-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134197.657945
+e363134198.965187
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp01a6a8f5fca4b541^0916f7f6fca4b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp0000000000000000^2942"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o utils/FileCheck/FileCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/FileCheck/FileCheck.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.o36"A5B51006-2BB0-4566-B8C2-824D16394882-
+
+CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck normal x86_64
+s363134200.257410
+e363134200.430352
+r1
+xLd
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck250542f8fca4b541^452c6ef8fca4b541^---0#0#0#--1097"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Objects-normal/x86_64/FileCheck.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lpthread /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/FileCheck36"11CC8F03-5813-4321-B61B-81EB37DB77E6-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh
+s363134205.957960
+e363134206.130233
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.FileCheck.Debug
+omake[1]: Nothing to be done for `PostBuild.FileCheck.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'575afafdfca4b541^a35921fefca4b541^-408"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.FileCheck.Debugmake[1]: Nothing to be done for `PostBuild.FileCheck.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134206#0#30#-0#-----2@23"Depend check for xcode-363134206#30#23#-0#-----2@294"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.FileCheck.Debug-363134206#53#294#-0#-----2@61"make[1]: Nothing to be done for `PostBuild.FileCheck.Debug'.-363134206#347#61#-0#-----0#0#0#--461"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/FileCheck/LLVM.build/Debug/FileCheck.build/Script-3BF8CF8BCC0F41BFB486DB30.sh36"89EC0A41-D9DA-42E1-89EF-83F88FA35066-
+

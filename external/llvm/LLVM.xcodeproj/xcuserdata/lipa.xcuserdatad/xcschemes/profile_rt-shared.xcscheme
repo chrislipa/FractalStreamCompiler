@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28D3FEEAB6A34B248A3E66FF"
+               BlueprintIdentifier = "6132DBA9CD634AF38CF1015C"
                BuildableName = "profile_rt.dylib"
                BlueprintName = "profile_rt-shared"
                ReferencedContainer = "container:../LLVM.xcodeproj">

@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AD8346298584CBBB08C0F6C"
+               BlueprintIdentifier = "20F95774454343BD8E9CAB6A"
                BuildableName = "Kaleidoscope-Ch3"
                BlueprintName = "Kaleidoscope-Ch3"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD8346298584CBBB08C0F6C"
+            BlueprintIdentifier = "20F95774454343BD8E9CAB6A"
             BuildableName = "Kaleidoscope-Ch3"
             BlueprintName = "Kaleidoscope-Ch3"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD8346298584CBBB08C0F6C"
+            BlueprintIdentifier = "20F95774454343BD8E9CAB6A"
             BuildableName = "Kaleidoscope-Ch3"
             BlueprintName = "Kaleidoscope-Ch3"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD8346298584CBBB08C0F6C"
+            BlueprintIdentifier = "20F95774454343BD8E9CAB6A"
             BuildableName = "Kaleidoscope-Ch3"
             BlueprintName = "Kaleidoscope-Ch3"
             ReferencedContainer = "container:../LLVM.xcodeproj">

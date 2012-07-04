@@ -1,0 +1,12 @@
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUAsmPrinter.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUHazardRecognizers.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUInstrInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelDAGToDAG.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUISelLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUFrameLowering.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUMachineFunction.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPURegisterInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSubtarget.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUTargetMachine.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUSelectionDAGInfo.o
+/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CellSPU/LLVM.build/Debug/LLVMCellSPUCodeGen.build/Objects-normal/x86_64/SPUNopFiller.o

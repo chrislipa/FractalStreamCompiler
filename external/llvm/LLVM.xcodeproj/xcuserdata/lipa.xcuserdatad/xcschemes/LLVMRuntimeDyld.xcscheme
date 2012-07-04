@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8868C0DBEAA34D65BA8CC656"
+               BlueprintIdentifier = "64556F54822D415EB41E9544"
                BuildableName = "libLLVMRuntimeDyld.a"
                BlueprintName = "LLVMRuntimeDyld"
                ReferencedContainer = "container:../LLVM.xcodeproj">

@@ -11,6 +11,8 @@
 #include "FractalStreamCompiler.h"
 #include "FractalStreamCompilerPriv.h"
 
+#include "llvm/Module.h"
+
 void FractalStreamCompiler::HelloWorld(const char * s)
 {
 	 FractalStreamCompilerPriv *theObj = new FractalStreamCompilerPriv;

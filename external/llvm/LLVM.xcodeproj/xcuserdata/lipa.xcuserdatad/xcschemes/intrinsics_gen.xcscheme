@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BAE2F14AAAB4E8AB45F0A72"
+               BlueprintIdentifier = "A25E33404DC44033832DEDCF"
                BuildableName = "intrinsics_gen"
                BlueprintName = "intrinsics_gen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

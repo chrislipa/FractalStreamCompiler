@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EE8733D8D884F00A48B8474"
+               BlueprintIdentifier = "FBF48D59F0A347DCB87B2EAE"
                BuildableName = "CellSPUCommonTableGen"
                BlueprintName = "CellSPUCommonTableGen"
                ReferencedContainer = "container:../LLVM.xcodeproj">

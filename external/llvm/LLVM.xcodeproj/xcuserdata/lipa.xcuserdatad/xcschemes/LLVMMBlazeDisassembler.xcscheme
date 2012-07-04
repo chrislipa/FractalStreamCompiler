@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB709EAACAE041B69ED5181D"
+               BlueprintIdentifier = "071821737753489190B405F8"
                BuildableName = "libLLVMMBlazeDisassembler.a"
                BlueprintName = "LLVMMBlazeDisassembler"
                ReferencedContainer = "container:../LLVM.xcodeproj">

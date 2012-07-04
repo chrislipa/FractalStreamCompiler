@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85439E2377FB4EAFB7241C2E"
+               BlueprintIdentifier = "C7C69F1832C1487885A9D0C1"
                BuildableName = "libLLVMPTXDesc.a"
                BlueprintName = "LLVMPTXDesc"
                ReferencedContainer = "container:../LLVM.xcodeproj">

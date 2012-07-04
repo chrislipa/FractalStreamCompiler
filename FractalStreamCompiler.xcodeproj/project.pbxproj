@@ -7,1227 +7,1236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		366A96D515A4F76C00DA523A /* FractalStreamCompiler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D415A4F76C00DA523A /* FractalStreamCompiler.cp */; };
+		36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */; };
+		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		366A97BA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D5A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BE72E965FFED4F1DA9E1532C;
+			remoteGlobalIDString = 6F5A9A4FB21349878E982E08;
 			remoteInfo = LLVMSupport;
 		};
-		366A97BC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D5C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D90841D323A3490A95AD7112;
+			remoteGlobalIDString = 8F7B477A98DC4B7A915812EE;
 			remoteInfo = LLVMTableGen;
 		};
-		366A97BE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D5E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 11DD81B900234020ADB3FF15;
+			remoteGlobalIDString = 33ED5B81985043BD87F9DE25;
 			remoteInfo = "llvm-tblgen";
 		};
-		366A97C015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D29425D90DD64277B49C924B;
+			remoteGlobalIDString = 5233D58330034026B7FA7DBA;
 			remoteInfo = llvm_headers_do_not_build;
 		};
-		366A97C215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E4C0A1C3461342BBB1B96325;
+			remoteGlobalIDString = 377C8BD9A2A248F5921A1811;
 			remoteInfo = LLVMCore;
 		};
-		366A97C415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 216E6A6EF89D4496AB0E44C4;
+			remoteGlobalIDString = A0534B00C8B342F5B01633CB;
 			remoteInfo = LLVMCodeGen;
 		};
-		366A97C615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 788CE7CCA5D644048F8856E9;
+			remoteGlobalIDString = 83A8D797BC4C4FF4B108B6FC;
 			remoteInfo = LLVMSelectionDAG;
 		};
-		366A97C815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 92697F7EB091450092FCE232;
+			remoteGlobalIDString = EF5D311F28284560BF71F443;
 			remoteInfo = LLVMAsmPrinter;
 		};
-		366A97CA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7279174D018041429F78E597;
+			remoteGlobalIDString = 62599A7D82604AA893273C46;
 			remoteInfo = LLVMBitReader;
 		};
-		366A97CC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 51F40E240EA54119BF5FC1CA;
+			remoteGlobalIDString = 4C01C2D3F4544239827A59D9;
 			remoteInfo = LLVMBitWriter;
 		};
-		366A97CE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D6E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 6EF8CC7310434883B3524204;
+			remoteGlobalIDString = D7A5A04206A649F783700638;
 			remoteInfo = LLVMTransformUtils;
 		};
-		366A97D015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 35D6DF2C3EBA4A98B16A8325;
+			remoteGlobalIDString = 93E20579DAF24A0D9C02EA8E;
 			remoteInfo = LLVMInstrumentation;
 		};
-		366A97D215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1850DD6082F74622A7FB4B9B;
+			remoteGlobalIDString = FF90E6E5B7AE403E8078CA3A;
 			remoteInfo = LLVMInstCombine;
 		};
-		366A97D415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 52394BC6822A4012B96DEA06;
+			remoteGlobalIDString = 246B88752FA340F6847A71CD;
 			remoteInfo = LLVMScalarOpts;
 		};
-		366A97D615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 775C20347786416586E0F57D;
+			remoteGlobalIDString = 44E71E10E0A544E3A32DDDB1;
 			remoteInfo = LLVMipo;
 		};
-		366A97D815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 697AB5AD8B8B4499BEA5A6F5;
+			remoteGlobalIDString = 71DBC77D75DF4F368FE21F48;
 			remoteInfo = LLVMVectorize;
 		};
-		366A97DA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C9FFC40698894B2EAFDD58C2;
+			remoteGlobalIDString = 2A5A4F92795B469C90F90AE3;
 			remoteInfo = LLVMHello;
 		};
-		366A97DC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 49DCA47B0AD54E59A06FE6E0;
+			remoteGlobalIDString = D8FCA2C9D2AC4DD9B6DF25B7;
 			remoteInfo = LLVMLinker;
 		};
-		366A97DE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D7E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E6352C399A894FACA7327805;
+			remoteGlobalIDString = 769F88074DFC40F6B4C7C2E5;
 			remoteInfo = LLVMAnalysis;
 		};
-		366A97E015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 37A67D6BCBEF4C3083A28C51;
+			remoteGlobalIDString = 156B26FE275645A9A395CDFD;
 			remoteInfo = LLVMipa;
 		};
-		366A97E215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D457C2C4F46D47D89426505B;
+			remoteGlobalIDString = 9A93B6D62CE8453CB1D4CDE3;
 			remoteInfo = LLVMMC;
 		};
-		366A97E415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8419E4D2BA8E4E65BEA86477;
+			remoteGlobalIDString = 5D71F9C9EFA34790A67E6024;
 			remoteInfo = LLVMMCParser;
 		};
-		366A97E615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A9C84D4A06B240FDB044AD29;
+			remoteGlobalIDString = 810E42FE4DBE46ACAEBC1147;
 			remoteInfo = LLVMMCDisassembler;
 		};
-		366A97E815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 6FAD446202A34842BE554A7C;
+			remoteGlobalIDString = FB1A73BD0A334834BA79E6AB;
 			remoteInfo = LLVMObject;
 		};
-		366A97EA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9E68B13B2C1B4BB3A9E8C04B;
+			remoteGlobalIDString = 9A96A34FA50648A6ABFDA849;
 			remoteInfo = LLVMDebugInfo;
 		};
-		366A97EC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = AA8AC5BE410A4FD88E8DFF50;
+			remoteGlobalIDString = 89F4C17137184924AB6700D2;
 			remoteInfo = LLVMExecutionEngine;
 		};
-		366A97EE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D8E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 92FCE1D70B3B4EC2898D62D3;
+			remoteGlobalIDString = A3FE199C7B8A4808A0149A0C;
 			remoteInfo = LLVMInterpreter;
 		};
-		366A97F015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 16D066E1FB274D82A9742E96;
+			remoteGlobalIDString = A621ED1CBD6B4DE184E6DD40;
 			remoteInfo = LLVMJIT;
 		};
-		366A97F215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8FF1617E76B24B8F9FD07FF5;
+			remoteGlobalIDString = FE4AF2F84C1346E4BFB3DCC5;
 			remoteInfo = LLVMMCJIT;
 		};
-		366A97F415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FE7279BA12784624AD2850D2;
+			remoteGlobalIDString = E294217A990C43BE9B599E9E;
 			remoteInfo = LLVMRuntimeDyld;
 		};
-		366A97F615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9BFD346CDB7642728B378D2E;
+			remoteGlobalIDString = AF8BAA07AE64489FB282C060;
 			remoteInfo = LLVMTarget;
 		};
-		366A97F815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4518BF8E01F64696AFEFA4F4;
+			remoteGlobalIDString = 78B1E3AC0F9E4D519BE18AD9;
 			remoteInfo = LLVMARMCodeGen;
 		};
-		366A97FA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E5CEA5410BDE4681AC7DEEF2;
+			remoteGlobalIDString = DEDB02339C5F4F94AF09F610;
 			remoteInfo = LLVMARMInfo;
 		};
-		366A97FC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FB59B25BEB5F4E39BEE92480;
+			remoteGlobalIDString = E28B8C6EC87A47EE9C5D71F9;
 			remoteInfo = LLVMARMAsmParser;
 		};
-		366A97FE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7D9E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 52BDE22513DA42C3A2531314;
+			remoteGlobalIDString = B2A3B631526C4697BD623651;
 			remoteInfo = LLVMARMDisassembler;
 		};
-		366A980015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DA015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4BD747DA65C14D29AD4A2EE0;
+			remoteGlobalIDString = A3E3585DF4B845DB82BBF6BD;
 			remoteInfo = LLVMARMAsmPrinter;
 		};
-		366A980215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DA215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 88B24A1427C34455A35BD006;
+			remoteGlobalIDString = D1D7182926E04AA8891C87C1;
 			remoteInfo = LLVMARMDesc;
 		};
-		366A980415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DA415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEB09C6D1DEB480FB87CB2E0;
+			remoteGlobalIDString = 89CE0EAD8E8244A3A4C2AA00;
 			remoteInfo = LLVMCellSPUCodeGen;
 		};
-		366A980615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DA615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9B24F9E8BB9C471D8A44E1AE;
+			remoteGlobalIDString = E5F5BC246DAE4053AA0B49E7;
 			remoteInfo = LLVMCellSPUInfo;
 		};
-		366A980815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DA815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 172C2719A4C74E7AB66CE700;
+			remoteGlobalIDString = 6E8227F8764B47D28E982F7D;
 			remoteInfo = LLVMCellSPUDesc;
 		};
-		366A980A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DAA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 84924E14273F4ED597E0CE1D;
+			remoteGlobalIDString = DEAA0F6419F842BB84C3536D;
 			remoteInfo = LLVMCppBackendCodeGen;
 		};
-		366A980C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DAC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 41AE022219004CCB85469B59;
+			remoteGlobalIDString = 537F38EA23614850A6C2B7C0;
 			remoteInfo = LLVMCppBackendInfo;
 		};
-		366A980E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DAE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8F92C946755043D5BF49FF40;
+			remoteGlobalIDString = 61DE7B8765D443298214EF4F;
 			remoteInfo = LLVMHexagonCodeGen;
 		};
-		366A981015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DB015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = F4FC8903D2CF43D2A34D4F27;
+			remoteGlobalIDString = F646C298042D42099AC31D0B;
 			remoteInfo = LLVMHexagonInfo;
 		};
-		366A981215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DB215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5D982EF13A5245F3906401EE;
+			remoteGlobalIDString = 09235B2B572E4B26A1F15A1F;
 			remoteInfo = LLVMHexagonAsmPrinter;
 		};
-		366A981415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DB415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 64773C293ABF4E49BF23CFD4;
+			remoteGlobalIDString = 0881A247F23E42DDA41F32FA;
 			remoteInfo = LLVMHexagonDesc;
 		};
-		366A981615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DB615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5B27E3CBC37F4EF4A408D615;
+			remoteGlobalIDString = 43E1461A64664823A3EF8AE5;
 			remoteInfo = LLVMMipsCodeGen;
 		};
-		366A981815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DB815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4B397F8A5CCD4EC794ACEEA4;
+			remoteGlobalIDString = BCB9930AEC0B4689AC00B0DD;
 			remoteInfo = LLVMMipsAsmPrinter;
 		};
-		366A981A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DBA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D6D50BB5F43841DEB5668E49;
+			remoteGlobalIDString = 8AA34994C671422B829FDE22;
 			remoteInfo = LLVMMipsDisassembler;
 		};
-		366A981C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DBC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E1667B15182B4417A32AD241;
+			remoteGlobalIDString = D11EF03674154DC8957915F0;
 			remoteInfo = LLVMMipsInfo;
 		};
-		366A981E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DBE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = AF8CC7369E8D45EFBE77C906;
+			remoteGlobalIDString = 3EEC91571FE2400C8733ABF4;
 			remoteInfo = LLVMMipsDesc;
 		};
-		366A982015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DC015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 17B5D64AB3BC4B8590B8052B;
+			remoteGlobalIDString = B887DFF5E5894AD29E7FC2BA;
 			remoteInfo = LLVMMipsAsmParser;
 		};
-		366A982215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DC215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D84FA39A6E5F447B918412D6;
+			remoteGlobalIDString = 66C541E01F6F4E26BE96EB2D;
 			remoteInfo = LLVMMBlazeCodeGen;
 		};
-		366A982415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DC415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 671057E4275F4A5F82FE58D1;
+			remoteGlobalIDString = C44CBEEB723842DF928E9D9E;
 			remoteInfo = LLVMMBlazeAsmParser;
 		};
-		366A982615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DC615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8B157E9622974D8BA3C86CBF;
+			remoteGlobalIDString = 6DABDB9447874D3A9C8946A1;
 			remoteInfo = LLVMMBlazeDisassembler;
 		};
-		366A982815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DC815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C29A6997D8E64F67ADC0F33A;
+			remoteGlobalIDString = 71293A41B75A43039CFAD1DD;
 			remoteInfo = LLVMMBlazeAsmPrinter;
 		};
-		366A982A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DCA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5F207CAF8277479AB06091B7;
+			remoteGlobalIDString = EDCBB1E6059249FCBF17277C;
 			remoteInfo = LLVMMBlazeInfo;
 		};
-		366A982C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DCC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5E168E722AC24EFB8F8FA30F;
+			remoteGlobalIDString = C256CCBEF1504E59AA7407DC;
 			remoteInfo = LLVMMBlazeDesc;
 		};
-		366A982E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DCE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4C286B8FA4EF4820A3BA87A1;
+			remoteGlobalIDString = 0B208F3597294B90BBE6C313;
 			remoteInfo = LLVMMSP430CodeGen;
 		};
-		366A983015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DD015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FACFE1149D7949BE9EF42014;
+			remoteGlobalIDString = DD9855CE0EAD4D7F82672AE6;
 			remoteInfo = LLVMMSP430AsmPrinter;
 		};
-		366A983215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DD215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = AFD978397B854971B743E8CB;
+			remoteGlobalIDString = 3B7D62938CBC403EB7B58A74;
 			remoteInfo = LLVMMSP430Info;
 		};
-		366A983415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DD415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D6E0568523654B6982C81A6C;
+			remoteGlobalIDString = 6E48C463CF774B78BF3A8363;
 			remoteInfo = LLVMMSP430Desc;
 		};
-		366A983615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DD615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 48D50AFF2D1B48C8B3A7E635;
+			remoteGlobalIDString = DAAFBF85A9B34F1FBF49C0A8;
 			remoteInfo = LLVMPowerPCCodeGen;
 		};
-		366A983815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DD815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 597EAB9F26284786805CFA3E;
+			remoteGlobalIDString = BBB9D188712C47DC980C3742;
 			remoteInfo = LLVMPowerPCAsmPrinter;
 		};
-		366A983A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DDA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1551893476D9460B9410BC07;
+			remoteGlobalIDString = 757260A1AD28417491F8D827;
 			remoteInfo = LLVMPowerPCInfo;
 		};
-		366A983C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DDC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 00AAAD346FC346638D436643;
+			remoteGlobalIDString = B9DF97FC918043839171EF66;
 			remoteInfo = LLVMPowerPCDesc;
 		};
-		366A983E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DDE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 29ED133D77D64C62A1B9A993;
+			remoteGlobalIDString = 0FE04FB5F991473083648CCF;
 			remoteInfo = LLVMPTXCodeGen;
 		};
-		366A984015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DE015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 31EA8FC764494DF2BC660787;
+			remoteGlobalIDString = 624CA20C35E8416185CB65D1;
 			remoteInfo = LLVMPTXInfo;
 		};
-		366A984215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DE215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5CA3A5DBC0AD45539472042A;
+			remoteGlobalIDString = EF43212015F045178C87573E;
 			remoteInfo = LLVMPTXAsmPrinter;
 		};
-		366A984415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DE415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7C2DBA75B65C4320BBA22A67;
+			remoteGlobalIDString = 34A88A2A36B04ABB95FD2EEA;
 			remoteInfo = LLVMPTXDesc;
 		};
-		366A984615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DE615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EE57422550A6414892CB6A23;
+			remoteGlobalIDString = D9AA698B7E2F4CEC9CA06C61;
 			remoteInfo = LLVMSparcCodeGen;
 		};
-		366A984815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DE815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 518FE91F6AF34A0287A23F2E;
+			remoteGlobalIDString = 8D34453F109C45FDA66989C7;
 			remoteInfo = LLVMSparcInfo;
 		};
-		366A984A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DEA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 609A191F67BD43A78A00BB1F;
+			remoteGlobalIDString = 1519DA7C01C84F73AAE96CE0;
 			remoteInfo = LLVMSparcDesc;
 		};
-		366A984C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DEC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 50EBF0C7BC5347878C402C2F;
+			remoteGlobalIDString = 87E8FB3ABFA44310A801F796;
 			remoteInfo = LLVMX86CodeGen;
 		};
-		366A984E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DEE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = F7561B8ACA014B70A9137C4F;
+			remoteGlobalIDString = 4F0B22C59E124C50A2D9D737;
 			remoteInfo = LLVMX86AsmParser;
 		};
-		366A985015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DF015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C7AEFB46B99842C9A102E259;
+			remoteGlobalIDString = E536F85AF6884389844F1A83;
 			remoteInfo = LLVMX86Disassembler;
 		};
-		366A985215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DF215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = CF95D684371148DAAFC6511D;
+			remoteGlobalIDString = 5B6C911B41804DEAB9FA95C8;
 			remoteInfo = LLVMX86AsmPrinter;
 		};
-		366A985415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DF415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5236A6F9F370401EB1ECA9D6;
+			remoteGlobalIDString = 6783EE4169B140A2BD240C4C;
 			remoteInfo = LLVMX86Desc;
 		};
-		366A985615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DF615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D59D91F442D04CB6A5CD1E76;
+			remoteGlobalIDString = 59E611A82EA3461CB5E5C1A2;
 			remoteInfo = LLVMX86Info;
 		};
-		366A985815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DF815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BCF725136B31462797D6BA2D;
+			remoteGlobalIDString = FFB2FACB135F49B48C6AFE0F;
 			remoteInfo = LLVMX86Utils;
 		};
-		366A985A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DFA15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D4A6F374722F4CA3BE0B5EA4;
+			remoteGlobalIDString = 42AF7C125C304AF489812448;
 			remoteInfo = LLVMXCoreCodeGen;
 		};
-		366A985C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DFC15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 3DC61AAFFABD4120A92D2884;
+			remoteGlobalIDString = D4651C74FC2B46A396D4E60D;
 			remoteInfo = LLVMXCoreInfo;
 		};
-		366A985E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7DFE15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = F6C5AC1452954223A5BB911C;
+			remoteGlobalIDString = AACB59F007A549BB853113C3;
 			remoteInfo = LLVMXCoreDesc;
 		};
-		366A986015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B714E34B83BE4B06B1BAC2C1;
+			remoteGlobalIDString = 95004C7D172D47AD8DE3FE00;
 			remoteInfo = LLVMAsmParser;
 		};
-		366A986215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 12F89AB79ECF4B8999EB23AF;
+			remoteGlobalIDString = B951A2C5922B4B2CBD7794CF;
 			remoteInfo = LLVMArchive;
 		};
-		366A986415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FD250CE24DDC4EA3ACCE1AE9;
+			remoteGlobalIDString = FFD63D6B467345C2BDF4A179;
 			remoteInfo = FileCheck;
 		};
-		366A986615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B7493F2A3F0B49FE843F1172;
+			remoteGlobalIDString = FC75C12CC6024FE2910E4E8A;
 			remoteInfo = FileUpdate;
 		};
-		366A986815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 53B8A347DFA640A9ABF88D3B;
+			remoteGlobalIDString = 07965DDC43E3473AA98E3B6E;
 			remoteInfo = count;
 		};
-		366A986A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A520C35E22C24EAAA3154F45;
+			remoteGlobalIDString = AD5E63178C044CFFAA6D42D3;
 			remoteInfo = not;
 		};
-		366A986C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4F57E4D1B68F42E8850F3ACF;
+			remoteGlobalIDString = B07ABC4832CE49CCA7C1C96B;
 			remoteInfo = "yaml-bench";
 		};
-		366A986E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E0E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 90F0F9461E264189AA96F3D1;
+			remoteGlobalIDString = 49E9EEE465024295A36DEE9E;
 			remoteInfo = "llvm-config";
 		};
-		366A987015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B8F3C6AFEF3A4676AE13F2C6;
+			remoteGlobalIDString = 291D83AD24E745B78987AB8F;
 			remoteInfo = opt;
 		};
-		366A987215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 209470EDA8C349C982D64AA5;
+			remoteGlobalIDString = 4C5F7F46486E43B08B732BAA;
 			remoteInfo = "llvm-as";
 		};
-		366A987415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 74A84334A4D9423D8EAB7999;
+			remoteGlobalIDString = ECD25EE36DC54E8DA6F8FF61;
 			remoteInfo = "llvm-dis";
 		};
-		366A987615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A701D7BFF5044FEE9BAD5C17;
+			remoteGlobalIDString = C874422444FF4038B5D17531;
 			remoteInfo = "llvm-mc";
 		};
-		366A987815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9741B65C82A541C5933C21F1;
+			remoteGlobalIDString = 952B2E60899A43EFBBBA9323;
 			remoteInfo = llc;
 		};
-		366A987A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = F67782D175AD4B0AA76D51A7;
+			remoteGlobalIDString = 09F8BBFE6CA34273A5477207;
 			remoteInfo = "llvm-ranlib";
 		};
-		366A987C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 177ABF0D51C54B4FB88F2EF6;
+			remoteGlobalIDString = F62DA72EB2374E02916F19C1;
 			remoteInfo = "llvm-ar";
 		};
-		366A987E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E1E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1E60B22FC6A941BA84F69598;
+			remoteGlobalIDString = 94AC49C389E1492196561339;
 			remoteInfo = "llvm-nm";
 		};
-		366A988015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 170131DAE3B64F0D8A64761C;
+			remoteGlobalIDString = 68A175C17B47475886E9BC4A;
 			remoteInfo = "llvm-size";
 		};
-		366A988215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E49D5DFC48D0446DBAF4E61E;
+			remoteGlobalIDString = 1C62F23BF6384BA18E954B07;
 			remoteInfo = "llvm-ld";
 		};
-		366A988415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 3C224D5E0351432F8A4B8EDB;
+			remoteGlobalIDString = 399A801092C04FC39B94A0BF;
 			remoteInfo = "llvm-cov";
 		};
-		366A988615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 841E02291E704FB0BA9E70E5;
+			remoteGlobalIDString = EC126A8065DB4DA9A31CAEC4;
 			remoteInfo = "llvm-prof";
 		};
-		366A988815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B1CC4C6EAACD40BD8FC53D24;
+			remoteGlobalIDString = 079F6B473A1944A0BCF54B3F;
 			remoteInfo = "llvm-link";
 		};
-		366A988A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E73962C4103C4EE7838F3CF7;
+			remoteGlobalIDString = CE9B22037897476AA5CCA336;
 			remoteInfo = lli;
 		};
-		366A988C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 21A7F15AAF4C46DA8D3D3F9B;
+			remoteGlobalIDString = BE4F3D766E2441D8B0BCD0AE;
 			remoteInfo = "llvm-extract";
 		};
-		366A988E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E2E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8D096E5618CE42CB847677CC;
+			remoteGlobalIDString = 9FBF8CDBC49849ECAA7F1469;
 			remoteInfo = "llvm-diff";
 		};
-		366A989015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 3CB547579AC74EAAB791FE69;
+			remoteGlobalIDString = 732F7FFA60954807BDF2B78D;
 			remoteInfo = "macho-dump";
 		};
-		366A989215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 0F78DA36FB3D476D9BB1F887;
+			remoteGlobalIDString = 4AC54579935342868DB26DFF;
 			remoteInfo = "llvm-objdump";
 		};
-		366A989415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A613B5CD571E40FE81CC270C;
+			remoteGlobalIDString = B113CA4DD2B74CADADB0FE57;
 			remoteInfo = "llvm-readobj";
 		};
-		366A989615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 0A17360167A64B5DB57591F9;
+			remoteGlobalIDString = 52394087BAAF49BD94E38C28;
 			remoteInfo = "llvm-rtdyld";
 		};
-		366A989815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 37FA234881DE4E6498FD07DC;
+			remoteGlobalIDString = 8864FD0704644ED3B784B0DF;
 			remoteInfo = "llvm-dwarfdump";
 		};
-		366A989A15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EDCAB9E9212941B6B06B6378;
+			remoteGlobalIDString = 86841A0F90E9482C913D6239;
 			remoteInfo = bugpoint;
 		};
-		366A989C15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 943C8332474A437486E324F7;
+			remoteGlobalIDString = 26E14E639CBF4218B2C32783;
 			remoteInfo = BugpointPasses;
 		};
-		366A989E15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E3E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 86D979D48CF043CDA7A08031;
+			remoteGlobalIDString = 4DA48D8D79C04335AFC8A2FB;
 			remoteInfo = "llvm-bcanalyzer";
 		};
-		366A98A015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E5158379857F49AC85C8670E;
+			remoteGlobalIDString = 228E9F7F74644058AEEC63D6;
 			remoteInfo = "llvm-stub";
 		};
-		366A98A215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C7050A87199448BA8057F8EA;
+			remoteGlobalIDString = 180A5885C3CF4E9CBF17AF89;
 			remoteInfo = "llvm-stress";
 		};
-		366A98A415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 11A09EB2ACAF44028B696A12;
+			remoteGlobalIDString = 7A2C6E52EC984881AD36EF02;
 			remoteInfo = LTO;
 		};
-		366A98A615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 48B16D4127B5409589A6E2C8;
+			remoteGlobalIDString = 9AAF0691173D4C1BAB6F064C;
 			remoteInfo = LTO_static;
 		};
-		366A98A815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D9EE2F021E324162A44C34AE;
+			remoteGlobalIDString = 230582738B034008A47CD723;
 			remoteInfo = "profile_rt-shared";
 		};
-		366A98AA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 2AB2CA6CF31449EC9295885F;
+			remoteGlobalIDString = E789ABAD7ADD4EF6B6DD4118;
 			remoteInfo = "profile_rt-static";
 		};
-		366A98AC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 61061849CA5242608FA530AF;
+			remoteGlobalIDString = 52E1FBA9F2E840999E51E040;
 			remoteInfo = BrainF;
 		};
-		366A98AE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E4E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E70750E2EA414362954052D8;
+			remoteGlobalIDString = 2F42A52DB1F944968970ECB5;
 			remoteInfo = Fibonacci;
 		};
-		366A98B015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D5AB998A38ED483391D99A81;
+			remoteGlobalIDString = 47336CE9A0FF4997AF9C0657;
 			remoteInfo = HowToUseJIT;
 		};
-		366A98B215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B3E940C2776C4438A923739D;
+			remoteGlobalIDString = FACF86F466B74FF7B6B151F7;
 			remoteInfo = "Kaleidoscope-Ch2";
 		};
-		366A98B415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 71B0FEF438D9495D98632321;
+			remoteGlobalIDString = BD91A9CD17304B868A937BE8;
 			remoteInfo = "Kaleidoscope-Ch3";
 		};
-		366A98B615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 0930010E3F374880ACE948F1;
+			remoteGlobalIDString = 638DB5718699484B8498355B;
 			remoteInfo = "Kaleidoscope-Ch4";
 		};
-		366A98B815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1E30A2D2D2D54448870C739D;
+			remoteGlobalIDString = AE560267231D4648AB9E8121;
 			remoteInfo = "Kaleidoscope-Ch5";
 		};
-		366A98BA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 56C63050490F420BAD32CCD6;
+			remoteGlobalIDString = 2EB22961764B4D1FAD21EF7C;
 			remoteInfo = "Kaleidoscope-Ch6";
 		};
-		366A98BC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4422A0AE80254237AE1381F0;
+			remoteGlobalIDString = 36898B547F5743748A2507D2;
 			remoteInfo = "Kaleidoscope-Ch7";
 		};
-		366A98BE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E5E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = DCB486435A7443D0AB6D6CEA;
+			remoteGlobalIDString = 93A744F2B9A74B1FB1345BB3;
 			remoteInfo = ModuleMaker;
 		};
-		366A98C015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B7A41021F9CC49ECBB1F9604;
+			remoteGlobalIDString = 2619FD1A667740A5972A09DD;
 			remoteInfo = ExceptionDemo;
 		};
-		366A98C215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FE2777C63722440781ADDAC2;
+			remoteGlobalIDString = 0AA80FEB35E94FAC96B097A8;
 			remoteInfo = ParallelJIT;
 		};
-		366A98C415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = F56BF5BCC53F4A2F8FB40516;
+			remoteGlobalIDString = F02EF39B62D34DA6AC654AFA;
 			remoteInfo = gtest;
 		};
-		366A98C615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D8DDC6B66CF44A979B1CADCF;
+			remoteGlobalIDString = 17D10911EFC64199B5757380;
 			remoteInfo = gtest_main;
 		};
-		366A98C815A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6815A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D0C478AA91C64DC7BB80194D;
+			remoteGlobalIDString = A4C9877E80A0485693C57D54;
 			remoteInfo = ADTTests;
 		};
-		366A98CA15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6A15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EA215D5E23CF4FC08FA358D4;
+			remoteGlobalIDString = 2FFAB55AE9694CCABDAB4FA4;
 			remoteInfo = AnalysisTests;
 		};
-		366A98CC15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6C15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EAE64DD3CA7C4B50968AC13F;
+			remoteGlobalIDString = E073B75C7E4F4FC19B0187A2;
 			remoteInfo = BitcodeTests;
 		};
-		366A98CE15A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E6E15A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 046C3123E2BB4219875FB721;
+			remoteGlobalIDString = 63F71A035B9648E585318FCD;
 			remoteInfo = ExecutionEngineTests;
 		};
-		366A98D015A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E7015A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B03E4FF394B843F098676984;
+			remoteGlobalIDString = BE2E919D3D2646518303F985;
 			remoteInfo = JITTests;
 		};
-		366A98D215A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E7215A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1EEBA3410A7C4E879EA03CC4;
+			remoteGlobalIDString = 20A54F3C318B4563854A4691;
 			remoteInfo = SupportTests;
 		};
-		366A98D415A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E7415A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D9EEBA29897B4E7E949AD613;
+			remoteGlobalIDString = C97C4BC8EC4246FC9FBC78FF;
 			remoteInfo = UtilsTests;
 		};
-		366A98D615A4F86000DA523A /* PBXContainerItemProxy */ = {
+		36DE7E7615A5048500DCA597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A1FC9D6C3B474148B2FF0706;
+			remoteGlobalIDString = 928D5414C3EF4B1DA27BFF69;
 			remoteInfo = VMCoreTests;
+		};
+		36DE7E7815A504B600DCA597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8C7B2969B646E5AA317AD2;
+			remoteInfo = LLVMCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		366A96CB15A4F76C00DA523A /* FractalStreamCompiler.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = FractalStreamCompiler.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		366A96CF15A4F76C00DA523A /* FractalStreamCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalStreamCompiler-Prefix.pch"; sourceTree = "<group>"; };
-		366A96D015A4F76C00DA523A /* FractalStreamCompilerProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerProj.xcconfig; sourceTree = "<group>"; };
-		366A96D115A4F76C00DA523A /* FractalStreamCompilerTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerTarget.xcconfig; sourceTree = "<group>"; };
-		366A96D215A4F76C00DA523A /* FractalStreamCompiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalStreamCompiler.h; sourceTree = "<group>"; };
-		366A96D315A4F76C00DA523A /* FractalStreamCompilerPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalStreamCompilerPriv.h; sourceTree = "<group>"; };
-		366A96D415A4F76C00DA523A /* FractalStreamCompiler.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamCompiler.cp; sourceTree = "<group>"; };
-		366A96E015A4F85600DA523A /* LLVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLVM.xcodeproj; path = external/llvm/LLVM.xcodeproj; sourceTree = "<group>"; };
+		36DE7C3215A5027300DCA597 /* FractalStreamCompiler.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = FractalStreamCompiler.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DE7C3615A5027300DCA597 /* FractalStreamCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalStreamCompiler-Prefix.pch"; sourceTree = "<group>"; };
+		36DE7C3715A5027300DCA597 /* FractalStreamCompilerProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerProj.xcconfig; sourceTree = "<group>"; };
+		36DE7C3815A5027300DCA597 /* FractalStreamCompilerTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerTarget.xcconfig; sourceTree = "<group>"; };
+		36DE7C3915A5027300DCA597 /* FractalStreamCompiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalStreamCompiler.h; sourceTree = "<group>"; };
+		36DE7C3A15A5027300DCA597 /* FractalStreamCompilerPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalStreamCompilerPriv.h; sourceTree = "<group>"; };
+		36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamCompiler.cp; sourceTree = "<group>"; };
+		36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLVM.xcodeproj; path = external/llvm/LLVM.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		366A96C815A4F76C00DA523A /* Frameworks */ = {
+		36DE7C2F15A5027300DCA597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		366A96C015A4F76C00DA523A = {
+		36DE7C2715A5027300DCA597 = {
 			isa = PBXGroup;
 			children = (
-				366A96DF15A4F84300DA523A /* external */,
-				366A96CD15A4F76C00DA523A /* FractalStreamCompiler */,
-				366A96CC15A4F76C00DA523A /* Products */,
+				36DE7C7D15A5047000DCA597 /* external */,
+				36DE7C3415A5027300DCA597 /* FractalStreamCompiler */,
+				36DE7C3315A5027300DCA597 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		366A96CC15A4F76C00DA523A /* Products */ = {
+		36DE7C3315A5027300DCA597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				366A96CB15A4F76C00DA523A /* FractalStreamCompiler.dylib */,
+				36DE7C3215A5027300DCA597 /* FractalStreamCompiler.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		366A96CD15A4F76C00DA523A /* FractalStreamCompiler */ = {
+		36DE7C3415A5027300DCA597 /* FractalStreamCompiler */ = {
 			isa = PBXGroup;
 			children = (
-				366A96D015A4F76C00DA523A /* FractalStreamCompilerProj.xcconfig */,
-				366A96D115A4F76C00DA523A /* FractalStreamCompilerTarget.xcconfig */,
-				366A96D215A4F76C00DA523A /* FractalStreamCompiler.h */,
-				366A96D315A4F76C00DA523A /* FractalStreamCompilerPriv.h */,
-				366A96D415A4F76C00DA523A /* FractalStreamCompiler.cp */,
-				366A96CE15A4F76C00DA523A /* Supporting Files */,
+				36DE7C3715A5027300DCA597 /* FractalStreamCompilerProj.xcconfig */,
+				36DE7C3815A5027300DCA597 /* FractalStreamCompilerTarget.xcconfig */,
+				36DE7C3915A5027300DCA597 /* FractalStreamCompiler.h */,
+				36DE7C3A15A5027300DCA597 /* FractalStreamCompilerPriv.h */,
+				36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */,
+				36DE7C3515A5027300DCA597 /* Supporting Files */,
 			);
 			path = FractalStreamCompiler;
 			sourceTree = "<group>";
 		};
-		366A96CE15A4F76C00DA523A /* Supporting Files */ = {
+		36DE7C3515A5027300DCA597 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				366A96CF15A4F76C00DA523A /* FractalStreamCompiler-Prefix.pch */,
+				36DE7C3615A5027300DCA597 /* FractalStreamCompiler-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		366A96DF15A4F84300DA523A /* external */ = {
+		36DE7C7D15A5047000DCA597 /* external */ = {
 			isa = PBXGroup;
 			children = (
-				366A96E015A4F85600DA523A /* LLVM.xcodeproj */,
+				36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */,
 			);
 			name = external;
 			sourceTree = "<group>";
 		};
-		366A96E115A4F85600DA523A /* Products */ = {
+		36DE7C7F15A5047B00DCA597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				366A97BB15A4F86000DA523A /* libLLVMSupport.a */,
-				366A97BD15A4F86000DA523A /* libLLVMTableGen.a */,
-				366A97BF15A4F86000DA523A /* llvm-tblgen */,
-				366A97C115A4F86000DA523A /* libllvm_headers_do_not_build.a */,
-				366A97C315A4F86000DA523A /* libLLVMCore.a */,
-				366A97C515A4F86000DA523A /* libLLVMCodeGen.a */,
-				366A97C715A4F86000DA523A /* libLLVMSelectionDAG.a */,
-				366A97C915A4F86000DA523A /* libLLVMAsmPrinter.a */,
-				366A97CB15A4F86000DA523A /* libLLVMBitReader.a */,
-				366A97CD15A4F86000DA523A /* libLLVMBitWriter.a */,
-				366A97CF15A4F86000DA523A /* libLLVMTransformUtils.a */,
-				366A97D115A4F86000DA523A /* libLLVMInstrumentation.a */,
-				366A97D315A4F86000DA523A /* libLLVMInstCombine.a */,
-				366A97D515A4F86000DA523A /* libLLVMScalarOpts.a */,
-				366A97D715A4F86000DA523A /* libLLVMipo.a */,
-				366A97D915A4F86000DA523A /* libLLVMVectorize.a */,
-				366A97DB15A4F86000DA523A /* LLVMHello.dylib */,
-				366A97DD15A4F86000DA523A /* libLLVMLinker.a */,
-				366A97DF15A4F86000DA523A /* libLLVMAnalysis.a */,
-				366A97E115A4F86000DA523A /* libLLVMipa.a */,
-				366A97E315A4F86000DA523A /* libLLVMMC.a */,
-				366A97E515A4F86000DA523A /* libLLVMMCParser.a */,
-				366A97E715A4F86000DA523A /* libLLVMMCDisassembler.a */,
-				366A97E915A4F86000DA523A /* libLLVMObject.a */,
-				366A97EB15A4F86000DA523A /* libLLVMDebugInfo.a */,
-				366A97ED15A4F86000DA523A /* libLLVMExecutionEngine.a */,
-				366A97EF15A4F86000DA523A /* libLLVMInterpreter.a */,
-				366A97F115A4F86000DA523A /* libLLVMJIT.a */,
-				366A97F315A4F86000DA523A /* libLLVMMCJIT.a */,
-				366A97F515A4F86000DA523A /* libLLVMRuntimeDyld.a */,
-				366A97F715A4F86000DA523A /* libLLVMTarget.a */,
-				366A97F915A4F86000DA523A /* libLLVMARMCodeGen.a */,
-				366A97FB15A4F86000DA523A /* libLLVMARMInfo.a */,
-				366A97FD15A4F86000DA523A /* libLLVMARMAsmParser.a */,
-				366A97FF15A4F86000DA523A /* libLLVMARMDisassembler.a */,
-				366A980115A4F86000DA523A /* libLLVMARMAsmPrinter.a */,
-				366A980315A4F86000DA523A /* libLLVMARMDesc.a */,
-				366A980515A4F86000DA523A /* libLLVMCellSPUCodeGen.a */,
-				366A980715A4F86000DA523A /* libLLVMCellSPUInfo.a */,
-				366A980915A4F86000DA523A /* libLLVMCellSPUDesc.a */,
-				366A980B15A4F86000DA523A /* libLLVMCppBackendCodeGen.a */,
-				366A980D15A4F86000DA523A /* libLLVMCppBackendInfo.a */,
-				366A980F15A4F86000DA523A /* libLLVMHexagonCodeGen.a */,
-				366A981115A4F86000DA523A /* libLLVMHexagonInfo.a */,
-				366A981315A4F86000DA523A /* libLLVMHexagonAsmPrinter.a */,
-				366A981515A4F86000DA523A /* libLLVMHexagonDesc.a */,
-				366A981715A4F86000DA523A /* libLLVMMipsCodeGen.a */,
-				366A981915A4F86000DA523A /* libLLVMMipsAsmPrinter.a */,
-				366A981B15A4F86000DA523A /* libLLVMMipsDisassembler.a */,
-				366A981D15A4F86000DA523A /* libLLVMMipsInfo.a */,
-				366A981F15A4F86000DA523A /* libLLVMMipsDesc.a */,
-				366A982115A4F86000DA523A /* libLLVMMipsAsmParser.a */,
-				366A982315A4F86000DA523A /* libLLVMMBlazeCodeGen.a */,
-				366A982515A4F86000DA523A /* libLLVMMBlazeAsmParser.a */,
-				366A982715A4F86000DA523A /* libLLVMMBlazeDisassembler.a */,
-				366A982915A4F86000DA523A /* libLLVMMBlazeAsmPrinter.a */,
-				366A982B15A4F86000DA523A /* libLLVMMBlazeInfo.a */,
-				366A982D15A4F86000DA523A /* libLLVMMBlazeDesc.a */,
-				366A982F15A4F86000DA523A /* libLLVMMSP430CodeGen.a */,
-				366A983115A4F86000DA523A /* libLLVMMSP430AsmPrinter.a */,
-				366A983315A4F86000DA523A /* libLLVMMSP430Info.a */,
-				366A983515A4F86000DA523A /* libLLVMMSP430Desc.a */,
-				366A983715A4F86000DA523A /* libLLVMPowerPCCodeGen.a */,
-				366A983915A4F86000DA523A /* libLLVMPowerPCAsmPrinter.a */,
-				366A983B15A4F86000DA523A /* libLLVMPowerPCInfo.a */,
-				366A983D15A4F86000DA523A /* libLLVMPowerPCDesc.a */,
-				366A983F15A4F86000DA523A /* libLLVMPTXCodeGen.a */,
-				366A984115A4F86000DA523A /* libLLVMPTXInfo.a */,
-				366A984315A4F86000DA523A /* libLLVMPTXAsmPrinter.a */,
-				366A984515A4F86000DA523A /* libLLVMPTXDesc.a */,
-				366A984715A4F86000DA523A /* libLLVMSparcCodeGen.a */,
-				366A984915A4F86000DA523A /* libLLVMSparcInfo.a */,
-				366A984B15A4F86000DA523A /* libLLVMSparcDesc.a */,
-				366A984D15A4F86000DA523A /* libLLVMX86CodeGen.a */,
-				366A984F15A4F86000DA523A /* libLLVMX86AsmParser.a */,
-				366A985115A4F86000DA523A /* libLLVMX86Disassembler.a */,
-				366A985315A4F86000DA523A /* libLLVMX86AsmPrinter.a */,
-				366A985515A4F86000DA523A /* libLLVMX86Desc.a */,
-				366A985715A4F86000DA523A /* libLLVMX86Info.a */,
-				366A985915A4F86000DA523A /* libLLVMX86Utils.a */,
-				366A985B15A4F86000DA523A /* libLLVMXCoreCodeGen.a */,
-				366A985D15A4F86000DA523A /* libLLVMXCoreInfo.a */,
-				366A985F15A4F86000DA523A /* libLLVMXCoreDesc.a */,
-				366A986115A4F86000DA523A /* libLLVMAsmParser.a */,
-				366A986315A4F86000DA523A /* libLLVMArchive.a */,
-				366A986515A4F86000DA523A /* FileCheck */,
-				366A986715A4F86000DA523A /* FileUpdate */,
-				366A986915A4F86000DA523A /* count */,
-				366A986B15A4F86000DA523A /* not */,
-				366A986D15A4F86000DA523A /* yaml-bench */,
-				366A986F15A4F86000DA523A /* llvm-config */,
-				366A987115A4F86000DA523A /* opt */,
-				366A987315A4F86000DA523A /* llvm-as */,
-				366A987515A4F86000DA523A /* llvm-dis */,
-				366A987715A4F86000DA523A /* llvm-mc */,
-				366A987915A4F86000DA523A /* llc */,
-				366A987B15A4F86000DA523A /* llvm-ranlib */,
-				366A987D15A4F86000DA523A /* llvm-ar */,
-				366A987F15A4F86000DA523A /* llvm-nm */,
-				366A988115A4F86000DA523A /* llvm-size */,
-				366A988315A4F86000DA523A /* llvm-ld */,
-				366A988515A4F86000DA523A /* llvm-cov */,
-				366A988715A4F86000DA523A /* llvm-prof */,
-				366A988915A4F86000DA523A /* llvm-link */,
-				366A988B15A4F86000DA523A /* lli */,
-				366A988D15A4F86000DA523A /* llvm-extract */,
-				366A988F15A4F86000DA523A /* llvm-diff */,
-				366A989115A4F86000DA523A /* macho-dump */,
-				366A989315A4F86000DA523A /* llvm-objdump */,
-				366A989515A4F86000DA523A /* llvm-readobj */,
-				366A989715A4F86000DA523A /* llvm-rtdyld */,
-				366A989915A4F86000DA523A /* llvm-dwarfdump */,
-				366A989B15A4F86000DA523A /* bugpoint */,
-				366A989D15A4F86000DA523A /* BugpointPasses.dylib */,
-				366A989F15A4F86000DA523A /* llvm-bcanalyzer */,
-				366A98A115A4F86000DA523A /* llvm-stub */,
-				366A98A315A4F86000DA523A /* llvm-stress */,
-				366A98A515A4F86000DA523A /* libLTO.dylib */,
-				366A98A715A4F86000DA523A /* libLTO.a */,
-				366A98A915A4F86000DA523A /* profile_rt.dylib */,
-				366A98AB15A4F86000DA523A /* libprofile_rt.a */,
-				366A98AD15A4F86000DA523A /* BrainF */,
-				366A98AF15A4F86000DA523A /* Fibonacci */,
-				366A98B115A4F86000DA523A /* HowToUseJIT */,
-				366A98B315A4F86000DA523A /* Kaleidoscope-Ch2 */,
-				366A98B515A4F86000DA523A /* Kaleidoscope-Ch3 */,
-				366A98B715A4F86000DA523A /* Kaleidoscope-Ch4 */,
-				366A98B915A4F86000DA523A /* Kaleidoscope-Ch5 */,
-				366A98BB15A4F86000DA523A /* Kaleidoscope-Ch6 */,
-				366A98BD15A4F86000DA523A /* Kaleidoscope-Ch7 */,
-				366A98BF15A4F86000DA523A /* ModuleMaker */,
-				366A98C115A4F86000DA523A /* ExceptionDemo */,
-				366A98C315A4F86000DA523A /* ParallelJIT */,
-				366A98C515A4F86000DA523A /* libgtest.a */,
-				366A98C715A4F86000DA523A /* libgtest_main.a */,
-				366A98C915A4F86000DA523A /* ADTTests */,
-				366A98CB15A4F86000DA523A /* AnalysisTests */,
-				366A98CD15A4F86000DA523A /* BitcodeTests */,
-				366A98CF15A4F86000DA523A /* ExecutionEngineTests */,
-				366A98D115A4F86000DA523A /* JITTests */,
-				366A98D315A4F86000DA523A /* SupportTests */,
-				366A98D515A4F86000DA523A /* UtilsTests */,
-				366A98D715A4F86000DA523A /* VMCoreTests */,
+				36DE7D5B15A5048500DCA597 /* libLLVMSupport.a */,
+				36DE7D5D15A5048500DCA597 /* libLLVMTableGen.a */,
+				36DE7D5F15A5048500DCA597 /* llvm-tblgen */,
+				36DE7D6115A5048500DCA597 /* libllvm_headers_do_not_build.a */,
+				36DE7D6315A5048500DCA597 /* libLLVMCore.a */,
+				36DE7D6515A5048500DCA597 /* libLLVMCodeGen.a */,
+				36DE7D6715A5048500DCA597 /* libLLVMSelectionDAG.a */,
+				36DE7D6915A5048500DCA597 /* libLLVMAsmPrinter.a */,
+				36DE7D6B15A5048500DCA597 /* libLLVMBitReader.a */,
+				36DE7D6D15A5048500DCA597 /* libLLVMBitWriter.a */,
+				36DE7D6F15A5048500DCA597 /* libLLVMTransformUtils.a */,
+				36DE7D7115A5048500DCA597 /* libLLVMInstrumentation.a */,
+				36DE7D7315A5048500DCA597 /* libLLVMInstCombine.a */,
+				36DE7D7515A5048500DCA597 /* libLLVMScalarOpts.a */,
+				36DE7D7715A5048500DCA597 /* libLLVMipo.a */,
+				36DE7D7915A5048500DCA597 /* libLLVMVectorize.a */,
+				36DE7D7B15A5048500DCA597 /* LLVMHello.dylib */,
+				36DE7D7D15A5048500DCA597 /* libLLVMLinker.a */,
+				36DE7D7F15A5048500DCA597 /* libLLVMAnalysis.a */,
+				36DE7D8115A5048500DCA597 /* libLLVMipa.a */,
+				36DE7D8315A5048500DCA597 /* libLLVMMC.a */,
+				36DE7D8515A5048500DCA597 /* libLLVMMCParser.a */,
+				36DE7D8715A5048500DCA597 /* libLLVMMCDisassembler.a */,
+				36DE7D8915A5048500DCA597 /* libLLVMObject.a */,
+				36DE7D8B15A5048500DCA597 /* libLLVMDebugInfo.a */,
+				36DE7D8D15A5048500DCA597 /* libLLVMExecutionEngine.a */,
+				36DE7D8F15A5048500DCA597 /* libLLVMInterpreter.a */,
+				36DE7D9115A5048500DCA597 /* libLLVMJIT.a */,
+				36DE7D9315A5048500DCA597 /* libLLVMMCJIT.a */,
+				36DE7D9515A5048500DCA597 /* libLLVMRuntimeDyld.a */,
+				36DE7D9715A5048500DCA597 /* libLLVMTarget.a */,
+				36DE7D9915A5048500DCA597 /* libLLVMARMCodeGen.a */,
+				36DE7D9B15A5048500DCA597 /* libLLVMARMInfo.a */,
+				36DE7D9D15A5048500DCA597 /* libLLVMARMAsmParser.a */,
+				36DE7D9F15A5048500DCA597 /* libLLVMARMDisassembler.a */,
+				36DE7DA115A5048500DCA597 /* libLLVMARMAsmPrinter.a */,
+				36DE7DA315A5048500DCA597 /* libLLVMARMDesc.a */,
+				36DE7DA515A5048500DCA597 /* libLLVMCellSPUCodeGen.a */,
+				36DE7DA715A5048500DCA597 /* libLLVMCellSPUInfo.a */,
+				36DE7DA915A5048500DCA597 /* libLLVMCellSPUDesc.a */,
+				36DE7DAB15A5048500DCA597 /* libLLVMCppBackendCodeGen.a */,
+				36DE7DAD15A5048500DCA597 /* libLLVMCppBackendInfo.a */,
+				36DE7DAF15A5048500DCA597 /* libLLVMHexagonCodeGen.a */,
+				36DE7DB115A5048500DCA597 /* libLLVMHexagonInfo.a */,
+				36DE7DB315A5048500DCA597 /* libLLVMHexagonAsmPrinter.a */,
+				36DE7DB515A5048500DCA597 /* libLLVMHexagonDesc.a */,
+				36DE7DB715A5048500DCA597 /* libLLVMMipsCodeGen.a */,
+				36DE7DB915A5048500DCA597 /* libLLVMMipsAsmPrinter.a */,
+				36DE7DBB15A5048500DCA597 /* libLLVMMipsDisassembler.a */,
+				36DE7DBD15A5048500DCA597 /* libLLVMMipsInfo.a */,
+				36DE7DBF15A5048500DCA597 /* libLLVMMipsDesc.a */,
+				36DE7DC115A5048500DCA597 /* libLLVMMipsAsmParser.a */,
+				36DE7DC315A5048500DCA597 /* libLLVMMBlazeCodeGen.a */,
+				36DE7DC515A5048500DCA597 /* libLLVMMBlazeAsmParser.a */,
+				36DE7DC715A5048500DCA597 /* libLLVMMBlazeDisassembler.a */,
+				36DE7DC915A5048500DCA597 /* libLLVMMBlazeAsmPrinter.a */,
+				36DE7DCB15A5048500DCA597 /* libLLVMMBlazeInfo.a */,
+				36DE7DCD15A5048500DCA597 /* libLLVMMBlazeDesc.a */,
+				36DE7DCF15A5048500DCA597 /* libLLVMMSP430CodeGen.a */,
+				36DE7DD115A5048500DCA597 /* libLLVMMSP430AsmPrinter.a */,
+				36DE7DD315A5048500DCA597 /* libLLVMMSP430Info.a */,
+				36DE7DD515A5048500DCA597 /* libLLVMMSP430Desc.a */,
+				36DE7DD715A5048500DCA597 /* libLLVMPowerPCCodeGen.a */,
+				36DE7DD915A5048500DCA597 /* libLLVMPowerPCAsmPrinter.a */,
+				36DE7DDB15A5048500DCA597 /* libLLVMPowerPCInfo.a */,
+				36DE7DDD15A5048500DCA597 /* libLLVMPowerPCDesc.a */,
+				36DE7DDF15A5048500DCA597 /* libLLVMPTXCodeGen.a */,
+				36DE7DE115A5048500DCA597 /* libLLVMPTXInfo.a */,
+				36DE7DE315A5048500DCA597 /* libLLVMPTXAsmPrinter.a */,
+				36DE7DE515A5048500DCA597 /* libLLVMPTXDesc.a */,
+				36DE7DE715A5048500DCA597 /* libLLVMSparcCodeGen.a */,
+				36DE7DE915A5048500DCA597 /* libLLVMSparcInfo.a */,
+				36DE7DEB15A5048500DCA597 /* libLLVMSparcDesc.a */,
+				36DE7DED15A5048500DCA597 /* libLLVMX86CodeGen.a */,
+				36DE7DEF15A5048500DCA597 /* libLLVMX86AsmParser.a */,
+				36DE7DF115A5048500DCA597 /* libLLVMX86Disassembler.a */,
+				36DE7DF315A5048500DCA597 /* libLLVMX86AsmPrinter.a */,
+				36DE7DF515A5048500DCA597 /* libLLVMX86Desc.a */,
+				36DE7DF715A5048500DCA597 /* libLLVMX86Info.a */,
+				36DE7DF915A5048500DCA597 /* libLLVMX86Utils.a */,
+				36DE7DFB15A5048500DCA597 /* libLLVMXCoreCodeGen.a */,
+				36DE7DFD15A5048500DCA597 /* libLLVMXCoreInfo.a */,
+				36DE7DFF15A5048500DCA597 /* libLLVMXCoreDesc.a */,
+				36DE7E0115A5048500DCA597 /* libLLVMAsmParser.a */,
+				36DE7E0315A5048500DCA597 /* libLLVMArchive.a */,
+				36DE7E0515A5048500DCA597 /* FileCheck */,
+				36DE7E0715A5048500DCA597 /* FileUpdate */,
+				36DE7E0915A5048500DCA597 /* count */,
+				36DE7E0B15A5048500DCA597 /* not */,
+				36DE7E0D15A5048500DCA597 /* yaml-bench */,
+				36DE7E0F15A5048500DCA597 /* llvm-config */,
+				36DE7E1115A5048500DCA597 /* opt */,
+				36DE7E1315A5048500DCA597 /* llvm-as */,
+				36DE7E1515A5048500DCA597 /* llvm-dis */,
+				36DE7E1715A5048500DCA597 /* llvm-mc */,
+				36DE7E1915A5048500DCA597 /* llc */,
+				36DE7E1B15A5048500DCA597 /* llvm-ranlib */,
+				36DE7E1D15A5048500DCA597 /* llvm-ar */,
+				36DE7E1F15A5048500DCA597 /* llvm-nm */,
+				36DE7E2115A5048500DCA597 /* llvm-size */,
+				36DE7E2315A5048500DCA597 /* llvm-ld */,
+				36DE7E2515A5048500DCA597 /* llvm-cov */,
+				36DE7E2715A5048500DCA597 /* llvm-prof */,
+				36DE7E2915A5048500DCA597 /* llvm-link */,
+				36DE7E2B15A5048500DCA597 /* lli */,
+				36DE7E2D15A5048500DCA597 /* llvm-extract */,
+				36DE7E2F15A5048500DCA597 /* llvm-diff */,
+				36DE7E3115A5048500DCA597 /* macho-dump */,
+				36DE7E3315A5048500DCA597 /* llvm-objdump */,
+				36DE7E3515A5048500DCA597 /* llvm-readobj */,
+				36DE7E3715A5048500DCA597 /* llvm-rtdyld */,
+				36DE7E3915A5048500DCA597 /* llvm-dwarfdump */,
+				36DE7E3B15A5048500DCA597 /* bugpoint */,
+				36DE7E3D15A5048500DCA597 /* BugpointPasses.dylib */,
+				36DE7E3F15A5048500DCA597 /* llvm-bcanalyzer */,
+				36DE7E4115A5048500DCA597 /* llvm-stub */,
+				36DE7E4315A5048500DCA597 /* llvm-stress */,
+				36DE7E4515A5048500DCA597 /* libLTO.dylib */,
+				36DE7E4715A5048500DCA597 /* libLTO.a */,
+				36DE7E4915A5048500DCA597 /* profile_rt.dylib */,
+				36DE7E4B15A5048500DCA597 /* libprofile_rt.a */,
+				36DE7E4D15A5048500DCA597 /* BrainF */,
+				36DE7E4F15A5048500DCA597 /* Fibonacci */,
+				36DE7E5115A5048500DCA597 /* HowToUseJIT */,
+				36DE7E5315A5048500DCA597 /* Kaleidoscope-Ch2 */,
+				36DE7E5515A5048500DCA597 /* Kaleidoscope-Ch3 */,
+				36DE7E5715A5048500DCA597 /* Kaleidoscope-Ch4 */,
+				36DE7E5915A5048500DCA597 /* Kaleidoscope-Ch5 */,
+				36DE7E5B15A5048500DCA597 /* Kaleidoscope-Ch6 */,
+				36DE7E5D15A5048500DCA597 /* Kaleidoscope-Ch7 */,
+				36DE7E5F15A5048500DCA597 /* ModuleMaker */,
+				36DE7E6115A5048500DCA597 /* ExceptionDemo */,
+				36DE7E6315A5048500DCA597 /* ParallelJIT */,
+				36DE7E6515A5048500DCA597 /* libgtest.a */,
+				36DE7E6715A5048500DCA597 /* libgtest_main.a */,
+				36DE7E6915A5048500DCA597 /* ADTTests */,
+				36DE7E6B15A5048500DCA597 /* AnalysisTests */,
+				36DE7E6D15A5048500DCA597 /* BitcodeTests */,
+				36DE7E6F15A5048500DCA597 /* ExecutionEngineTests */,
+				36DE7E7115A5048500DCA597 /* JITTests */,
+				36DE7E7315A5048500DCA597 /* SupportTests */,
+				36DE7E7515A5048500DCA597 /* UtilsTests */,
+				36DE7E7715A5048500DCA597 /* VMCoreTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1235,7 +1244,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		366A96C915A4F76C00DA523A /* Headers */ = {
+		36DE7C3015A5027300DCA597 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1245,1071 +1254,1080 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		366A96CA15A4F76C00DA523A /* FractalStreamCompiler */ = {
+		36DE7C3115A5027300DCA597 /* FractalStreamCompiler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 366A96D815A4F76C00DA523A /* Build configuration list for PBXNativeTarget "FractalStreamCompiler" */;
+			buildConfigurationList = 36DE7C3F15A5027300DCA597 /* Build configuration list for PBXNativeTarget "FractalStreamCompiler" */;
 			buildPhases = (
-				366A96C715A4F76C00DA523A /* Sources */,
-				366A96C815A4F76C00DA523A /* Frameworks */,
-				366A96C915A4F76C00DA523A /* Headers */,
+				36DE7C2E15A5027300DCA597 /* Sources */,
+				36DE7C2F15A5027300DCA597 /* Frameworks */,
+				36DE7C3015A5027300DCA597 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36DE7E7915A504B600DCA597 /* PBXTargetDependency */,
 			);
 			name = FractalStreamCompiler;
 			productName = FractalStreamCompiler;
-			productReference = 366A96CB15A4F76C00DA523A /* FractalStreamCompiler.dylib */;
+			productReference = 36DE7C3215A5027300DCA597 /* FractalStreamCompiler.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		366A96C215A4F76C00DA523A /* Project object */ = {
+		36DE7C2915A5027300DCA597 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 366A96C515A4F76C00DA523A /* Build configuration list for PBXProject "FractalStreamCompiler" */;
+			buildConfigurationList = 36DE7C2C15A5027300DCA597 /* Build configuration list for PBXProject "FractalStreamCompiler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 366A96C015A4F76C00DA523A;
-			productRefGroup = 366A96CC15A4F76C00DA523A /* Products */;
+			mainGroup = 36DE7C2715A5027300DCA597;
+			productRefGroup = 36DE7C3315A5027300DCA597 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 366A96E115A4F85600DA523A /* Products */;
-					ProjectRef = 366A96E015A4F85600DA523A /* LLVM.xcodeproj */;
+					ProductGroup = 36DE7C7F15A5047B00DCA597 /* Products */;
+					ProjectRef = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				366A96CA15A4F76C00DA523A /* FractalStreamCompiler */,
+				36DE7C3115A5027300DCA597 /* FractalStreamCompiler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		366A97BB15A4F86000DA523A /* libLLVMSupport.a */ = {
+		36DE7D5B15A5048500DCA597 /* libLLVMSupport.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMSupport.a;
-			remoteRef = 366A97BA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D5A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97BD15A4F86000DA523A /* libLLVMTableGen.a */ = {
+		36DE7D5D15A5048500DCA597 /* libLLVMTableGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMTableGen.a;
-			remoteRef = 366A97BC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D5C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97BF15A4F86000DA523A /* llvm-tblgen */ = {
+		36DE7D5F15A5048500DCA597 /* llvm-tblgen */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-tblgen";
-			remoteRef = 366A97BE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D5E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97C115A4F86000DA523A /* libllvm_headers_do_not_build.a */ = {
+		36DE7D6115A5048500DCA597 /* libllvm_headers_do_not_build.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libllvm_headers_do_not_build.a;
-			remoteRef = 366A97C015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97C315A4F86000DA523A /* libLLVMCore.a */ = {
+		36DE7D6315A5048500DCA597 /* libLLVMCore.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCore.a;
-			remoteRef = 366A97C215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97C515A4F86000DA523A /* libLLVMCodeGen.a */ = {
+		36DE7D6515A5048500DCA597 /* libLLVMCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCodeGen.a;
-			remoteRef = 366A97C415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97C715A4F86000DA523A /* libLLVMSelectionDAG.a */ = {
+		36DE7D6715A5048500DCA597 /* libLLVMSelectionDAG.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMSelectionDAG.a;
-			remoteRef = 366A97C615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97C915A4F86000DA523A /* libLLVMAsmPrinter.a */ = {
+		36DE7D6915A5048500DCA597 /* libLLVMAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMAsmPrinter.a;
-			remoteRef = 366A97C815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97CB15A4F86000DA523A /* libLLVMBitReader.a */ = {
+		36DE7D6B15A5048500DCA597 /* libLLVMBitReader.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMBitReader.a;
-			remoteRef = 366A97CA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97CD15A4F86000DA523A /* libLLVMBitWriter.a */ = {
+		36DE7D6D15A5048500DCA597 /* libLLVMBitWriter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMBitWriter.a;
-			remoteRef = 366A97CC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97CF15A4F86000DA523A /* libLLVMTransformUtils.a */ = {
+		36DE7D6F15A5048500DCA597 /* libLLVMTransformUtils.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMTransformUtils.a;
-			remoteRef = 366A97CE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D6E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97D115A4F86000DA523A /* libLLVMInstrumentation.a */ = {
+		36DE7D7115A5048500DCA597 /* libLLVMInstrumentation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMInstrumentation.a;
-			remoteRef = 366A97D015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97D315A4F86000DA523A /* libLLVMInstCombine.a */ = {
+		36DE7D7315A5048500DCA597 /* libLLVMInstCombine.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMInstCombine.a;
-			remoteRef = 366A97D215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97D515A4F86000DA523A /* libLLVMScalarOpts.a */ = {
+		36DE7D7515A5048500DCA597 /* libLLVMScalarOpts.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMScalarOpts.a;
-			remoteRef = 366A97D415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97D715A4F86000DA523A /* libLLVMipo.a */ = {
+		36DE7D7715A5048500DCA597 /* libLLVMipo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMipo.a;
-			remoteRef = 366A97D615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97D915A4F86000DA523A /* libLLVMVectorize.a */ = {
+		36DE7D7915A5048500DCA597 /* libLLVMVectorize.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMVectorize.a;
-			remoteRef = 366A97D815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97DB15A4F86000DA523A /* LLVMHello.dylib */ = {
+		36DE7D7B15A5048500DCA597 /* LLVMHello.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = LLVMHello.dylib;
-			remoteRef = 366A97DA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97DD15A4F86000DA523A /* libLLVMLinker.a */ = {
+		36DE7D7D15A5048500DCA597 /* libLLVMLinker.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMLinker.a;
-			remoteRef = 366A97DC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97DF15A4F86000DA523A /* libLLVMAnalysis.a */ = {
+		36DE7D7F15A5048500DCA597 /* libLLVMAnalysis.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMAnalysis.a;
-			remoteRef = 366A97DE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D7E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97E115A4F86000DA523A /* libLLVMipa.a */ = {
+		36DE7D8115A5048500DCA597 /* libLLVMipa.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMipa.a;
-			remoteRef = 366A97E015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97E315A4F86000DA523A /* libLLVMMC.a */ = {
+		36DE7D8315A5048500DCA597 /* libLLVMMC.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMC.a;
-			remoteRef = 366A97E215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97E515A4F86000DA523A /* libLLVMMCParser.a */ = {
+		36DE7D8515A5048500DCA597 /* libLLVMMCParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMCParser.a;
-			remoteRef = 366A97E415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97E715A4F86000DA523A /* libLLVMMCDisassembler.a */ = {
+		36DE7D8715A5048500DCA597 /* libLLVMMCDisassembler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMCDisassembler.a;
-			remoteRef = 366A97E615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97E915A4F86000DA523A /* libLLVMObject.a */ = {
+		36DE7D8915A5048500DCA597 /* libLLVMObject.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMObject.a;
-			remoteRef = 366A97E815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97EB15A4F86000DA523A /* libLLVMDebugInfo.a */ = {
+		36DE7D8B15A5048500DCA597 /* libLLVMDebugInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMDebugInfo.a;
-			remoteRef = 366A97EA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97ED15A4F86000DA523A /* libLLVMExecutionEngine.a */ = {
+		36DE7D8D15A5048500DCA597 /* libLLVMExecutionEngine.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMExecutionEngine.a;
-			remoteRef = 366A97EC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97EF15A4F86000DA523A /* libLLVMInterpreter.a */ = {
+		36DE7D8F15A5048500DCA597 /* libLLVMInterpreter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMInterpreter.a;
-			remoteRef = 366A97EE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D8E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97F115A4F86000DA523A /* libLLVMJIT.a */ = {
+		36DE7D9115A5048500DCA597 /* libLLVMJIT.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMJIT.a;
-			remoteRef = 366A97F015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97F315A4F86000DA523A /* libLLVMMCJIT.a */ = {
+		36DE7D9315A5048500DCA597 /* libLLVMMCJIT.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMCJIT.a;
-			remoteRef = 366A97F215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97F515A4F86000DA523A /* libLLVMRuntimeDyld.a */ = {
+		36DE7D9515A5048500DCA597 /* libLLVMRuntimeDyld.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMRuntimeDyld.a;
-			remoteRef = 366A97F415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97F715A4F86000DA523A /* libLLVMTarget.a */ = {
+		36DE7D9715A5048500DCA597 /* libLLVMTarget.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMTarget.a;
-			remoteRef = 366A97F615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97F915A4F86000DA523A /* libLLVMARMCodeGen.a */ = {
+		36DE7D9915A5048500DCA597 /* libLLVMARMCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMCodeGen.a;
-			remoteRef = 366A97F815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97FB15A4F86000DA523A /* libLLVMARMInfo.a */ = {
+		36DE7D9B15A5048500DCA597 /* libLLVMARMInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMInfo.a;
-			remoteRef = 366A97FA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97FD15A4F86000DA523A /* libLLVMARMAsmParser.a */ = {
+		36DE7D9D15A5048500DCA597 /* libLLVMARMAsmParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMAsmParser.a;
-			remoteRef = 366A97FC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A97FF15A4F86000DA523A /* libLLVMARMDisassembler.a */ = {
+		36DE7D9F15A5048500DCA597 /* libLLVMARMDisassembler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMDisassembler.a;
-			remoteRef = 366A97FE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7D9E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980115A4F86000DA523A /* libLLVMARMAsmPrinter.a */ = {
+		36DE7DA115A5048500DCA597 /* libLLVMARMAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMAsmPrinter.a;
-			remoteRef = 366A980015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DA015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980315A4F86000DA523A /* libLLVMARMDesc.a */ = {
+		36DE7DA315A5048500DCA597 /* libLLVMARMDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMARMDesc.a;
-			remoteRef = 366A980215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DA215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980515A4F86000DA523A /* libLLVMCellSPUCodeGen.a */ = {
+		36DE7DA515A5048500DCA597 /* libLLVMCellSPUCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCellSPUCodeGen.a;
-			remoteRef = 366A980415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DA415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980715A4F86000DA523A /* libLLVMCellSPUInfo.a */ = {
+		36DE7DA715A5048500DCA597 /* libLLVMCellSPUInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCellSPUInfo.a;
-			remoteRef = 366A980615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DA615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980915A4F86000DA523A /* libLLVMCellSPUDesc.a */ = {
+		36DE7DA915A5048500DCA597 /* libLLVMCellSPUDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCellSPUDesc.a;
-			remoteRef = 366A980815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DA815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980B15A4F86000DA523A /* libLLVMCppBackendCodeGen.a */ = {
+		36DE7DAB15A5048500DCA597 /* libLLVMCppBackendCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCppBackendCodeGen.a;
-			remoteRef = 366A980A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DAA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980D15A4F86000DA523A /* libLLVMCppBackendInfo.a */ = {
+		36DE7DAD15A5048500DCA597 /* libLLVMCppBackendInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMCppBackendInfo.a;
-			remoteRef = 366A980C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DAC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A980F15A4F86000DA523A /* libLLVMHexagonCodeGen.a */ = {
+		36DE7DAF15A5048500DCA597 /* libLLVMHexagonCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMHexagonCodeGen.a;
-			remoteRef = 366A980E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DAE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981115A4F86000DA523A /* libLLVMHexagonInfo.a */ = {
+		36DE7DB115A5048500DCA597 /* libLLVMHexagonInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMHexagonInfo.a;
-			remoteRef = 366A981015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DB015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981315A4F86000DA523A /* libLLVMHexagonAsmPrinter.a */ = {
+		36DE7DB315A5048500DCA597 /* libLLVMHexagonAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMHexagonAsmPrinter.a;
-			remoteRef = 366A981215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DB215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981515A4F86000DA523A /* libLLVMHexagonDesc.a */ = {
+		36DE7DB515A5048500DCA597 /* libLLVMHexagonDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMHexagonDesc.a;
-			remoteRef = 366A981415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DB415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981715A4F86000DA523A /* libLLVMMipsCodeGen.a */ = {
+		36DE7DB715A5048500DCA597 /* libLLVMMipsCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsCodeGen.a;
-			remoteRef = 366A981615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DB615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981915A4F86000DA523A /* libLLVMMipsAsmPrinter.a */ = {
+		36DE7DB915A5048500DCA597 /* libLLVMMipsAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsAsmPrinter.a;
-			remoteRef = 366A981815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DB815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981B15A4F86000DA523A /* libLLVMMipsDisassembler.a */ = {
+		36DE7DBB15A5048500DCA597 /* libLLVMMipsDisassembler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsDisassembler.a;
-			remoteRef = 366A981A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DBA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981D15A4F86000DA523A /* libLLVMMipsInfo.a */ = {
+		36DE7DBD15A5048500DCA597 /* libLLVMMipsInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsInfo.a;
-			remoteRef = 366A981C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DBC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A981F15A4F86000DA523A /* libLLVMMipsDesc.a */ = {
+		36DE7DBF15A5048500DCA597 /* libLLVMMipsDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsDesc.a;
-			remoteRef = 366A981E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DBE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982115A4F86000DA523A /* libLLVMMipsAsmParser.a */ = {
+		36DE7DC115A5048500DCA597 /* libLLVMMipsAsmParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMipsAsmParser.a;
-			remoteRef = 366A982015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DC015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982315A4F86000DA523A /* libLLVMMBlazeCodeGen.a */ = {
+		36DE7DC315A5048500DCA597 /* libLLVMMBlazeCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeCodeGen.a;
-			remoteRef = 366A982215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DC215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982515A4F86000DA523A /* libLLVMMBlazeAsmParser.a */ = {
+		36DE7DC515A5048500DCA597 /* libLLVMMBlazeAsmParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeAsmParser.a;
-			remoteRef = 366A982415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DC415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982715A4F86000DA523A /* libLLVMMBlazeDisassembler.a */ = {
+		36DE7DC715A5048500DCA597 /* libLLVMMBlazeDisassembler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeDisassembler.a;
-			remoteRef = 366A982615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DC615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982915A4F86000DA523A /* libLLVMMBlazeAsmPrinter.a */ = {
+		36DE7DC915A5048500DCA597 /* libLLVMMBlazeAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeAsmPrinter.a;
-			remoteRef = 366A982815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DC815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982B15A4F86000DA523A /* libLLVMMBlazeInfo.a */ = {
+		36DE7DCB15A5048500DCA597 /* libLLVMMBlazeInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeInfo.a;
-			remoteRef = 366A982A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DCA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982D15A4F86000DA523A /* libLLVMMBlazeDesc.a */ = {
+		36DE7DCD15A5048500DCA597 /* libLLVMMBlazeDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMBlazeDesc.a;
-			remoteRef = 366A982C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DCC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A982F15A4F86000DA523A /* libLLVMMSP430CodeGen.a */ = {
+		36DE7DCF15A5048500DCA597 /* libLLVMMSP430CodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMSP430CodeGen.a;
-			remoteRef = 366A982E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DCE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983115A4F86000DA523A /* libLLVMMSP430AsmPrinter.a */ = {
+		36DE7DD115A5048500DCA597 /* libLLVMMSP430AsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMSP430AsmPrinter.a;
-			remoteRef = 366A983015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DD015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983315A4F86000DA523A /* libLLVMMSP430Info.a */ = {
+		36DE7DD315A5048500DCA597 /* libLLVMMSP430Info.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMSP430Info.a;
-			remoteRef = 366A983215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DD215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983515A4F86000DA523A /* libLLVMMSP430Desc.a */ = {
+		36DE7DD515A5048500DCA597 /* libLLVMMSP430Desc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMMSP430Desc.a;
-			remoteRef = 366A983415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DD415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983715A4F86000DA523A /* libLLVMPowerPCCodeGen.a */ = {
+		36DE7DD715A5048500DCA597 /* libLLVMPowerPCCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPowerPCCodeGen.a;
-			remoteRef = 366A983615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DD615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983915A4F86000DA523A /* libLLVMPowerPCAsmPrinter.a */ = {
+		36DE7DD915A5048500DCA597 /* libLLVMPowerPCAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPowerPCAsmPrinter.a;
-			remoteRef = 366A983815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DD815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983B15A4F86000DA523A /* libLLVMPowerPCInfo.a */ = {
+		36DE7DDB15A5048500DCA597 /* libLLVMPowerPCInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPowerPCInfo.a;
-			remoteRef = 366A983A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DDA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983D15A4F86000DA523A /* libLLVMPowerPCDesc.a */ = {
+		36DE7DDD15A5048500DCA597 /* libLLVMPowerPCDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPowerPCDesc.a;
-			remoteRef = 366A983C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DDC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A983F15A4F86000DA523A /* libLLVMPTXCodeGen.a */ = {
+		36DE7DDF15A5048500DCA597 /* libLLVMPTXCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPTXCodeGen.a;
-			remoteRef = 366A983E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DDE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984115A4F86000DA523A /* libLLVMPTXInfo.a */ = {
+		36DE7DE115A5048500DCA597 /* libLLVMPTXInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPTXInfo.a;
-			remoteRef = 366A984015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DE015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984315A4F86000DA523A /* libLLVMPTXAsmPrinter.a */ = {
+		36DE7DE315A5048500DCA597 /* libLLVMPTXAsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPTXAsmPrinter.a;
-			remoteRef = 366A984215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DE215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984515A4F86000DA523A /* libLLVMPTXDesc.a */ = {
+		36DE7DE515A5048500DCA597 /* libLLVMPTXDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMPTXDesc.a;
-			remoteRef = 366A984415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DE415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984715A4F86000DA523A /* libLLVMSparcCodeGen.a */ = {
+		36DE7DE715A5048500DCA597 /* libLLVMSparcCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMSparcCodeGen.a;
-			remoteRef = 366A984615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DE615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984915A4F86000DA523A /* libLLVMSparcInfo.a */ = {
+		36DE7DE915A5048500DCA597 /* libLLVMSparcInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMSparcInfo.a;
-			remoteRef = 366A984815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DE815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984B15A4F86000DA523A /* libLLVMSparcDesc.a */ = {
+		36DE7DEB15A5048500DCA597 /* libLLVMSparcDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMSparcDesc.a;
-			remoteRef = 366A984A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DEA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984D15A4F86000DA523A /* libLLVMX86CodeGen.a */ = {
+		36DE7DED15A5048500DCA597 /* libLLVMX86CodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86CodeGen.a;
-			remoteRef = 366A984C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DEC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A984F15A4F86000DA523A /* libLLVMX86AsmParser.a */ = {
+		36DE7DEF15A5048500DCA597 /* libLLVMX86AsmParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86AsmParser.a;
-			remoteRef = 366A984E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DEE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985115A4F86000DA523A /* libLLVMX86Disassembler.a */ = {
+		36DE7DF115A5048500DCA597 /* libLLVMX86Disassembler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86Disassembler.a;
-			remoteRef = 366A985015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DF015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985315A4F86000DA523A /* libLLVMX86AsmPrinter.a */ = {
+		36DE7DF315A5048500DCA597 /* libLLVMX86AsmPrinter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86AsmPrinter.a;
-			remoteRef = 366A985215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DF215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985515A4F86000DA523A /* libLLVMX86Desc.a */ = {
+		36DE7DF515A5048500DCA597 /* libLLVMX86Desc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86Desc.a;
-			remoteRef = 366A985415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DF415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985715A4F86000DA523A /* libLLVMX86Info.a */ = {
+		36DE7DF715A5048500DCA597 /* libLLVMX86Info.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86Info.a;
-			remoteRef = 366A985615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DF615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985915A4F86000DA523A /* libLLVMX86Utils.a */ = {
+		36DE7DF915A5048500DCA597 /* libLLVMX86Utils.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMX86Utils.a;
-			remoteRef = 366A985815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DF815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985B15A4F86000DA523A /* libLLVMXCoreCodeGen.a */ = {
+		36DE7DFB15A5048500DCA597 /* libLLVMXCoreCodeGen.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMXCoreCodeGen.a;
-			remoteRef = 366A985A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DFA15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985D15A4F86000DA523A /* libLLVMXCoreInfo.a */ = {
+		36DE7DFD15A5048500DCA597 /* libLLVMXCoreInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMXCoreInfo.a;
-			remoteRef = 366A985C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DFC15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A985F15A4F86000DA523A /* libLLVMXCoreDesc.a */ = {
+		36DE7DFF15A5048500DCA597 /* libLLVMXCoreDesc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMXCoreDesc.a;
-			remoteRef = 366A985E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7DFE15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986115A4F86000DA523A /* libLLVMAsmParser.a */ = {
+		36DE7E0115A5048500DCA597 /* libLLVMAsmParser.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMAsmParser.a;
-			remoteRef = 366A986015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986315A4F86000DA523A /* libLLVMArchive.a */ = {
+		36DE7E0315A5048500DCA597 /* libLLVMArchive.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLLVMArchive.a;
-			remoteRef = 366A986215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986515A4F86000DA523A /* FileCheck */ = {
+		36DE7E0515A5048500DCA597 /* FileCheck */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = FileCheck;
-			remoteRef = 366A986415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986715A4F86000DA523A /* FileUpdate */ = {
+		36DE7E0715A5048500DCA597 /* FileUpdate */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = FileUpdate;
-			remoteRef = 366A986615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986915A4F86000DA523A /* count */ = {
+		36DE7E0915A5048500DCA597 /* count */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = count;
-			remoteRef = 366A986815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986B15A4F86000DA523A /* not */ = {
+		36DE7E0B15A5048500DCA597 /* not */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = not;
-			remoteRef = 366A986A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986D15A4F86000DA523A /* yaml-bench */ = {
+		36DE7E0D15A5048500DCA597 /* yaml-bench */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "yaml-bench";
-			remoteRef = 366A986C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A986F15A4F86000DA523A /* llvm-config */ = {
+		36DE7E0F15A5048500DCA597 /* llvm-config */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-config";
-			remoteRef = 366A986E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E0E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987115A4F86000DA523A /* opt */ = {
+		36DE7E1115A5048500DCA597 /* opt */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = opt;
-			remoteRef = 366A987015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987315A4F86000DA523A /* llvm-as */ = {
+		36DE7E1315A5048500DCA597 /* llvm-as */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-as";
-			remoteRef = 366A987215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987515A4F86000DA523A /* llvm-dis */ = {
+		36DE7E1515A5048500DCA597 /* llvm-dis */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-dis";
-			remoteRef = 366A987415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987715A4F86000DA523A /* llvm-mc */ = {
+		36DE7E1715A5048500DCA597 /* llvm-mc */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-mc";
-			remoteRef = 366A987615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987915A4F86000DA523A /* llc */ = {
+		36DE7E1915A5048500DCA597 /* llc */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = llc;
-			remoteRef = 366A987815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987B15A4F86000DA523A /* llvm-ranlib */ = {
+		36DE7E1B15A5048500DCA597 /* llvm-ranlib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-ranlib";
-			remoteRef = 366A987A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987D15A4F86000DA523A /* llvm-ar */ = {
+		36DE7E1D15A5048500DCA597 /* llvm-ar */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-ar";
-			remoteRef = 366A987C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A987F15A4F86000DA523A /* llvm-nm */ = {
+		36DE7E1F15A5048500DCA597 /* llvm-nm */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-nm";
-			remoteRef = 366A987E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E1E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988115A4F86000DA523A /* llvm-size */ = {
+		36DE7E2115A5048500DCA597 /* llvm-size */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-size";
-			remoteRef = 366A988015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988315A4F86000DA523A /* llvm-ld */ = {
+		36DE7E2315A5048500DCA597 /* llvm-ld */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-ld";
-			remoteRef = 366A988215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988515A4F86000DA523A /* llvm-cov */ = {
+		36DE7E2515A5048500DCA597 /* llvm-cov */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-cov";
-			remoteRef = 366A988415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988715A4F86000DA523A /* llvm-prof */ = {
+		36DE7E2715A5048500DCA597 /* llvm-prof */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-prof";
-			remoteRef = 366A988615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988915A4F86000DA523A /* llvm-link */ = {
+		36DE7E2915A5048500DCA597 /* llvm-link */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-link";
-			remoteRef = 366A988815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988B15A4F86000DA523A /* lli */ = {
+		36DE7E2B15A5048500DCA597 /* lli */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = lli;
-			remoteRef = 366A988A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988D15A4F86000DA523A /* llvm-extract */ = {
+		36DE7E2D15A5048500DCA597 /* llvm-extract */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-extract";
-			remoteRef = 366A988C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A988F15A4F86000DA523A /* llvm-diff */ = {
+		36DE7E2F15A5048500DCA597 /* llvm-diff */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-diff";
-			remoteRef = 366A988E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E2E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989115A4F86000DA523A /* macho-dump */ = {
+		36DE7E3115A5048500DCA597 /* macho-dump */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "macho-dump";
-			remoteRef = 366A989015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989315A4F86000DA523A /* llvm-objdump */ = {
+		36DE7E3315A5048500DCA597 /* llvm-objdump */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-objdump";
-			remoteRef = 366A989215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989515A4F86000DA523A /* llvm-readobj */ = {
+		36DE7E3515A5048500DCA597 /* llvm-readobj */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-readobj";
-			remoteRef = 366A989415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989715A4F86000DA523A /* llvm-rtdyld */ = {
+		36DE7E3715A5048500DCA597 /* llvm-rtdyld */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-rtdyld";
-			remoteRef = 366A989615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989915A4F86000DA523A /* llvm-dwarfdump */ = {
+		36DE7E3915A5048500DCA597 /* llvm-dwarfdump */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-dwarfdump";
-			remoteRef = 366A989815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989B15A4F86000DA523A /* bugpoint */ = {
+		36DE7E3B15A5048500DCA597 /* bugpoint */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = bugpoint;
-			remoteRef = 366A989A15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989D15A4F86000DA523A /* BugpointPasses.dylib */ = {
+		36DE7E3D15A5048500DCA597 /* BugpointPasses.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = BugpointPasses.dylib;
-			remoteRef = 366A989C15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A989F15A4F86000DA523A /* llvm-bcanalyzer */ = {
+		36DE7E3F15A5048500DCA597 /* llvm-bcanalyzer */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-bcanalyzer";
-			remoteRef = 366A989E15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E3E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98A115A4F86000DA523A /* llvm-stub */ = {
+		36DE7E4115A5048500DCA597 /* llvm-stub */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-stub";
-			remoteRef = 366A98A015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98A315A4F86000DA523A /* llvm-stress */ = {
+		36DE7E4315A5048500DCA597 /* llvm-stress */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "llvm-stress";
-			remoteRef = 366A98A215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98A515A4F86000DA523A /* libLTO.dylib */ = {
+		36DE7E4515A5048500DCA597 /* libLTO.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = libLTO.dylib;
-			remoteRef = 366A98A415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98A715A4F86000DA523A /* libLTO.a */ = {
+		36DE7E4715A5048500DCA597 /* libLTO.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLTO.a;
-			remoteRef = 366A98A615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98A915A4F86000DA523A /* profile_rt.dylib */ = {
+		36DE7E4915A5048500DCA597 /* profile_rt.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = profile_rt.dylib;
-			remoteRef = 366A98A815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98AB15A4F86000DA523A /* libprofile_rt.a */ = {
+		36DE7E4B15A5048500DCA597 /* libprofile_rt.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libprofile_rt.a;
-			remoteRef = 366A98AA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98AD15A4F86000DA523A /* BrainF */ = {
+		36DE7E4D15A5048500DCA597 /* BrainF */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = BrainF;
-			remoteRef = 366A98AC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98AF15A4F86000DA523A /* Fibonacci */ = {
+		36DE7E4F15A5048500DCA597 /* Fibonacci */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = Fibonacci;
-			remoteRef = 366A98AE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E4E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98B115A4F86000DA523A /* HowToUseJIT */ = {
+		36DE7E5115A5048500DCA597 /* HowToUseJIT */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = HowToUseJIT;
-			remoteRef = 366A98B015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98B315A4F86000DA523A /* Kaleidoscope-Ch2 */ = {
+		36DE7E5315A5048500DCA597 /* Kaleidoscope-Ch2 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch2";
-			remoteRef = 366A98B215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98B515A4F86000DA523A /* Kaleidoscope-Ch3 */ = {
+		36DE7E5515A5048500DCA597 /* Kaleidoscope-Ch3 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch3";
-			remoteRef = 366A98B415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98B715A4F86000DA523A /* Kaleidoscope-Ch4 */ = {
+		36DE7E5715A5048500DCA597 /* Kaleidoscope-Ch4 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch4";
-			remoteRef = 366A98B615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98B915A4F86000DA523A /* Kaleidoscope-Ch5 */ = {
+		36DE7E5915A5048500DCA597 /* Kaleidoscope-Ch5 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch5";
-			remoteRef = 366A98B815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98BB15A4F86000DA523A /* Kaleidoscope-Ch6 */ = {
+		36DE7E5B15A5048500DCA597 /* Kaleidoscope-Ch6 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch6";
-			remoteRef = 366A98BA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98BD15A4F86000DA523A /* Kaleidoscope-Ch7 */ = {
+		36DE7E5D15A5048500DCA597 /* Kaleidoscope-Ch7 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Kaleidoscope-Ch7";
-			remoteRef = 366A98BC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98BF15A4F86000DA523A /* ModuleMaker */ = {
+		36DE7E5F15A5048500DCA597 /* ModuleMaker */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = ModuleMaker;
-			remoteRef = 366A98BE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E5E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98C115A4F86000DA523A /* ExceptionDemo */ = {
+		36DE7E6115A5048500DCA597 /* ExceptionDemo */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = ExceptionDemo;
-			remoteRef = 366A98C015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98C315A4F86000DA523A /* ParallelJIT */ = {
+		36DE7E6315A5048500DCA597 /* ParallelJIT */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = ParallelJIT;
-			remoteRef = 366A98C215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98C515A4F86000DA523A /* libgtest.a */ = {
+		36DE7E6515A5048500DCA597 /* libgtest.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libgtest.a;
-			remoteRef = 366A98C415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98C715A4F86000DA523A /* libgtest_main.a */ = {
+		36DE7E6715A5048500DCA597 /* libgtest_main.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libgtest_main.a;
-			remoteRef = 366A98C615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98C915A4F86000DA523A /* ADTTests */ = {
+		36DE7E6915A5048500DCA597 /* ADTTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = ADTTests;
-			remoteRef = 366A98C815A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6815A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98CB15A4F86000DA523A /* AnalysisTests */ = {
+		36DE7E6B15A5048500DCA597 /* AnalysisTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = AnalysisTests;
-			remoteRef = 366A98CA15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6A15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98CD15A4F86000DA523A /* BitcodeTests */ = {
+		36DE7E6D15A5048500DCA597 /* BitcodeTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = BitcodeTests;
-			remoteRef = 366A98CC15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6C15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98CF15A4F86000DA523A /* ExecutionEngineTests */ = {
+		36DE7E6F15A5048500DCA597 /* ExecutionEngineTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = ExecutionEngineTests;
-			remoteRef = 366A98CE15A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E6E15A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98D115A4F86000DA523A /* JITTests */ = {
+		36DE7E7115A5048500DCA597 /* JITTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = JITTests;
-			remoteRef = 366A98D015A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E7015A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98D315A4F86000DA523A /* SupportTests */ = {
+		36DE7E7315A5048500DCA597 /* SupportTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = SupportTests;
-			remoteRef = 366A98D215A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E7215A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98D515A4F86000DA523A /* UtilsTests */ = {
+		36DE7E7515A5048500DCA597 /* UtilsTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = UtilsTests;
-			remoteRef = 366A98D415A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E7415A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		366A98D715A4F86000DA523A /* VMCoreTests */ = {
+		36DE7E7715A5048500DCA597 /* VMCoreTests */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = VMCoreTests;
-			remoteRef = 366A98D615A4F86000DA523A /* PBXContainerItemProxy */;
+			remoteRef = 36DE7E7615A5048500DCA597 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
-		366A96C715A4F76C00DA523A /* Sources */ = {
+		36DE7C2E15A5027300DCA597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				366A96D515A4F76C00DA523A /* FractalStreamCompiler.cp in Sources */,
+				36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		36DE7E7915A504B600DCA597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMCore;
+			targetProxy = 36DE7E7815A504B600DCA597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		366A96D615A4F76C00DA523A /* Debug */ = {
+		36DE7C3D15A5027300DCA597 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2320,8 +2338,9 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
+					__STDC_LIMIT_MACROS,
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -2335,7 +2354,7 @@
 			};
 			name = Debug;
 		};
-		366A96D715A4F76C00DA523A /* Release */ = {
+		36DE7C3E15A5027300DCA597 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2344,6 +2363,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__STDC_LIMIT_MACROS,
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
+				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -2354,44 +2378,48 @@
 			};
 			name = Release;
 		};
-		366A96D915A4F76C00DA523A /* Debug */ = {
+		36DE7C4015A5027300DCA597 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACH_O_TYPE = staticlib;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include";
 			};
 			name = Debug;
 		};
-		366A96DA15A4F76C00DA523A /* Release */ = {
+		36DE7C4115A5027300DCA597 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACH_O_TYPE = staticlib;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		366A96C515A4F76C00DA523A /* Build configuration list for PBXProject "FractalStreamCompiler" */ = {
+		36DE7C2C15A5027300DCA597 /* Build configuration list for PBXProject "FractalStreamCompiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				366A96D615A4F76C00DA523A /* Debug */,
-				366A96D715A4F76C00DA523A /* Release */,
+				36DE7C3D15A5027300DCA597 /* Debug */,
+				36DE7C3E15A5027300DCA597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		366A96D815A4F76C00DA523A /* Build configuration list for PBXNativeTarget "FractalStreamCompiler" */ = {
+		36DE7C3F15A5027300DCA597 /* Build configuration list for PBXNativeTarget "FractalStreamCompiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				366A96D915A4F76C00DA523A /* Debug */,
-				366A96DA15A4F76C00DA523A /* Release */,
+				36DE7C4015A5027300DCA597 /* Debug */,
+				36DE7C4115A5027300DCA597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 366A96C215A4F76C00DA523A /* Project object */;
+	rootObject = 36DE7C2915A5027300DCA597 /* Project object */;
 }

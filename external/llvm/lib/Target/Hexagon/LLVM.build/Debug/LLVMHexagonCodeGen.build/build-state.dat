@@ -1,0 +1,776 @@
+TLLVMHexagonCodeGen
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004FDC1AA700000000000000CC
+t1339824807
+s204
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o
+t2
+s0
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/LLVMHexagonCodeGen.LinkFileList
+c000000004FF4C5D40000000000000C70
+t1341441492
+s3184
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh
+c000000004FF4C5D4000000000000010F
+t1341441492
+s271
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh
+c000000004FF4C5D40000000000000115
+t1341441492
+s277
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
+c000000004F1F423F0000000000002246
+t1327448639
+s8774
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallVector.h
+c000000004F5FA9080000000000005C3F
+t1331669256
+s23615
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringExtras.h
+c000000004F6C5DE500000000000010BA
+t1332501989
+s4282
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/ConstantFolding.h
+c000000004F1E4516000000000000130F
+t1327383830
+s4879
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Assembly/Writer.h
+c000000004F7013910000000000000548
+t1332745105
+s1352
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/AsmPrinter.h
+c000000004F455A130000000000004C01
+t1329945107
+s19457
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFunctionPass.h
+c000000004C5C558C0000000000000872
+t1281119628
+s2162
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineInstr.h
+c000000004F64C3F10000000000009E37
+t1332003825
+s40503
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineInstrBuilder.h
+c000000004F53B71E0000000000002B78
+t1330886430
+s11128
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineModuleInfo.h
+c000000004F453CA50000000000003C9F
+t1329937573
+s15519
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constants.h
+c000000004F2EEC72000000000000BA07
+t1328475250
+s47623
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h
+c000000004F56C8E500000000000046FD
+t1331087589
+s18173
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
+c000000004F7F8C610000000000005EE4
+t1333759073
+s24292
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCContext.h
+c000000004F7013910000000000003E0A
+t1332745105
+s15882
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
+c000000004F7013910000000000003814
+t1332745105
+s14356
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInst.h
+c000000004F21DFAB00000000000015C8
+t1327620011
+s5576
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSection.h
+c000000004F70139100000000000008E7
+t1332745105
+s2279
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCStreamer.h
+c000000004F7013910000000000006BF8
+t1332745105
+s27640
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSymbol.h
+c000000004DBAFCA300000000000013EB
+t1304100003
+s5099
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
+c000000004F7EC8E00000000000006195
+t1333709024
+s24981
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
+c000000004F317D21000000000000DF02
+t1328643361
+s57090
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Compiler.h
+c000000004F5A3029000000000000140C
+t1331310633
+s5132
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
+c000000004F7392010000000000000F78
+t1332974081
+s3960
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Format.h
+c000000004E9361DE00000000000020B9
+t1318281694
+s8377
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MathExtras.h
+c000000004EE66EC00000000000003C14
+t1323724480
+s15380
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
+c000000004F7942A0000000000000AFEA
+t1333346976
+s45034
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
+c000000004F8BDED20000000000004419
+t1334566610
+s17433
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/Mangler.h
+c000000004F6F5F680000000000000989
+t1332698984
+s2441
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetData.h
+c000000004EA0757C00000000000037A6
+t1319138684
+s14246
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetInstrInfo.h
+c000000004F2EFF37000000000000A411
+t1328480055
+s42001
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetLoweringObjectFile.h
+c000000004F6F5F68000000000000167B
+t1332698984
+s5755
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h
+c000000004F853D3B00000000000022BC
+t1334132027
+s8892
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetRegisterInfo.h
+c000000004F8CC5F20000000000007892
+t1334625778
+s30866
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/Hexagon.h
+c000000004F8F32A700000000000009C3
+t1334784679
+s2499
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp
+c000000004F8F32A700000000000024FF
+t1334784679
+s9471
+i"Hexagon.h"
+i"HexagonAsmPrinter.h"
+i"HexagonMachineFunctionInfo.h"
+i"HexagonTargetMachine.h"
+i"HexagonSubtarget.h"
+i"InstPrinter/HexagonInstPrinter.h"
+i"llvm/Constants.h"
+i"llvm/DerivedTypes.h"
+i"llvm/Module.h"
+i"llvm/Analysis/ConstantFolding.h"
+i"llvm/Assembly/Writer.h"
+i"llvm/CodeGen/AsmPrinter.h"
+i"llvm/CodeGen/MachineModuleInfo.h"
+i"llvm/CodeGen/MachineFunctionPass.h"
+i"llvm/CodeGen/MachineInstr.h"
+i"llvm/CodeGen/MachineInstrBuilder.h"
+i"llvm/MC/MCAsmInfo.h"
+i"llvm/MC/MCContext.h"
+i"llvm/MC/MCExpr.h"
+i"llvm/MC/MCInst.h"
+i"llvm/MC/MCSection.h"
+i"llvm/MC/MCStreamer.h"
+i"llvm/MC/MCSymbol.h"
+i"llvm/Support/MathExtras.h"
+i"llvm/Support/CommandLine.h"
+i"llvm/Support/Debug.h"
+i"llvm/Support/Compiler.h"
+i"llvm/Support/Format.h"
+i"llvm/Support/raw_ostream.h"
+i"llvm/Support/TargetRegistry.h"
+i"llvm/Target/Mangler.h"
+i"llvm/Target/TargetData.h"
+i"llvm/Target/TargetLoweringObjectFile.h"
+i"llvm/Target/TargetRegisterInfo.h"
+i"llvm/Target/TargetInstrInfo.h"
+i"llvm/Target/TargetOptions.h"
+i"llvm/ADT/SmallString.h"
+i"llvm/ADT/SmallVector.h"
+i"llvm/ADT/StringExtras.h"
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.h
+c000000004F87172900000000000015AD
+t1334253353
+s5549
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp
+c000000004F3F93830000000000001F01
+t1329566595
+s7937
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp
+c000000004F64DBF10000000000001CF2
+t1332009969
+s7410
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp
+c000000004F8F32A70000000000001D8D
+t1334784679
+s7565
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp
+c000000004F64DBF10000000000002E45
+t1332009969
+s11845
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp
+c000000004F64DBF10000000000005B17
+t1332009969
+s23319
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp
+c000000004F8F32A7000000000000D3A5
+t1334784679
+s54181
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp
+c000000004F95A0CA000000000000E093
+t1335206090
+s57491
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp
+c000000004F8F32A7000000000000E5C5
+t1334784679
+s58821
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp
+c000000004F8F32A70000000000000C85
+t1334784679
+s3205
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMachineFunctionInfo.h
+c000000004EE66EC00000000000000964
+t1323724480
+s2404
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp
+c000000004F64DBF10000000000002621
+t1332009969
+s9761
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp
+c000000004F8F32A70000000000002D7C
+t1334784679
+s11644
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp
+c000000004F2FA9310000000000000A01
+t1328523569
+s2561
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp
+c000000004EE66EC000000000000005FF
+t1323724480
+s1535
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp
+c000000004F8F32A70000000000001175
+t1334784679
+s4469
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp
+c000000004F8F32A700000000000006F6
+t1334784679
+s1782
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.h
+c000000004F8F32A700000000000008DD
+t1334784679
+s2269
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp
+c000000004F9F9EC5000000000000119D
+t1335860933
+s4509
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.h
+c000000004F64DBF10000000000000999
+t1332009969
+s2457
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp
+c000000004F64DBF10000000000000E10
+t1332009969
+s3600
+
+N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/InstPrinter/HexagonInstPrinter.h
+c000000004F8F32A70000000000000BA1
+t1334784679
+s2977
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp
+r0
+
+CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4dbc5354fda4b541^6ff15454fda4b541^---0#1#0#--18"Check dependencies36"B4387863-F6BC-4866-91CE-70D374DB7EFE-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134295.587934
+e363134298.043591
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cppc4b59657fda4b541^41280b5afda4b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp0000000000000000^3090"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o lib/Target/Hexagon/HexagonAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonAsmPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonAsmPrinter.o36"3FD9E864-E802-4CFF-9BE5-D9DE4A248B7B-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134295.736447
+e363134298.080659
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp17bcbc57fda4b541^cea5145afda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o lib/Target/Hexagon/HexagonCFGOptimizer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCFGOptimizer.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCFGOptimizer.o36"BE54450D-3A24-45E9-94AF-B5100D65B4D6-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134295.596703
+e363134297.410638
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp6ff59857fda4b541^821f6959fda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o lib/Target/Hexagon/HexagonCallingConvLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonCallingConvLower.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonCallingConvLower.o36"B22DA3C2-C165-4747-AB81-EB94C486DEFA-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134296.744207
+e363134299.193223
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp57b3be58fda4b541^3676315bfda4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp0000000000000000^3144"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonExpandPredSpillCode.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonExpandPredSpillCode.o36"672ED296-2B67-4F58-8F3F-23CEA46A69E7-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134296.928399
+e363134299.498789
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp76e3ed58fda4b541^4fb07f5bfda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o lib/Target/Hexagon/HexagonFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonFrameLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonFrameLowering.o36"CBF280F8-AB08-43B2-81CC-CDDCC45230A7-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134297.265844
+e363134299.840842
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp713b4459fda4b541^2941d75bfda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o lib/Target/Hexagon/HexagonHardwareLoops.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonHardwareLoops.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonHardwareLoops.o36"2260D388-47BF-4F42-8696-9DF98F593D73-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134297.487668
+e363134300.580579
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cppaa0a7d59fda4b541^baa2945cfda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o lib/Target/Hexagon/HexagonISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelDAGToDAG.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelDAGToDAG.o36"B87106FA-A188-4D1E-9F7C-3840ED506BEA-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134298.046267
+e363134301.440609
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp8d0a0c5afda4b541^24d0705dfda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o lib/Target/Hexagon/HexagonISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonISelLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonISelLowering.o36"B8722621-AB3B-4DC0-B4E5-D555F9DA2273-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134297.382034
+e363134299.894903
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp50ff6159fda4b541^4c18e55bfda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp0000000000000000^3084"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o lib/Target/Hexagon/HexagonInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonInstrInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonInstrInfo.o36"765B370B-2F04-45BF-9395-569339AB86AC-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134297.269743
+e363134299.068559
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp7d3f4559fda4b541^b08c115bfda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp0000000000000000^3096"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o lib/Target/Hexagon/HexagonMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonMCInstLower.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonMCInstLower.o36"B53A6927-7F6B-4D93-9B35-55136D944EB8-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134298.082023
+e363134300.142021
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp2235155afda4b541^185b245cfda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp0000000000000000^3078"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o lib/Target/Hexagon/HexagonPeephole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonPeephole.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonPeephole.o36"3D00DCAA-C411-4190-98FD-2F442473F5D9-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134299.069923
+e363134301.441217
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp0c1e125bfda4b541^aef2705dfda4b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp0000000000000000^3102"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o lib/Target/Hexagon/HexagonRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRegisterInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRegisterInfo.o36"C8B51CFB-A655-4463-858F-A3567882D9B1-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134299.194607
+e363134301.101641
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cppe108325bfda4b541^e2041a5dfda4b541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp0000000000000000^3120"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonRemoveSZExtArgs.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonRemoveSZExtArgs.o36"02B2D0E1-CB6A-4E72-8FD5-FF42A2EC189E-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134299.500172
+e363134301.335248
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cppd13c805bfda4b541^24d3555dfda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSelectionDAGInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSelectionDAGInfo.o36"22F38E20-F62A-4BB2-B4D5-59D8CF114E40-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134299.842215
+e363134302.284280
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp9ed0d75bfda4b541^0dc6485efda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSplitTFRCondSets.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSplitTFRCondSets.o36"A6F67744-5416-42A5-BD82-792B7EE759BD-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134299.896293
+e363134301.175847
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp1daae55bfda4b541^60042d5dfda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp0000000000000000^3084"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o lib/Target/Hexagon/HexagonSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonSubtarget.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonSubtarget.o36"E3840B30-9973-4000-B8C0-5CE41524E11A-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134300.143444
+e363134302.285071
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cppfdf7245cfda4b541^f4f9485efda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp0000000000000000^3108"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o lib/Target/Hexagon/HexagonTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetMachine.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetMachine.o36"6035045A-6088-486A-846C-4A210A21CD88-
+
+CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s363134300.581916
+e363134302.846192
+r1
+xCompileC
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp4d2f955cfda4b541^c79fd85efda4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp0000000000000000^3126"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o lib/Target/Hexagon/HexagonTargetObjectFile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/Hexagon/HexagonTargetObjectFile.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/HexagonTargetObjectFile.o36"55358AA7-C458-4C34-A3D2-6A8C01A02777-
+
+CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a normal x86_64
+s363134303.315213
+e363134303.440680
+r1
+xLibtool
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a normal x86_6431d1505ffda4b541^74d1705ffda4b541^---0#0#0#--882"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Objects-normal/x86_64/LLVMHexagonCodeGen.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMHexagonCodeGen.a36"AB476979-8F30-436A-BE37-365394623D1B-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh
+s363134318.721754
+e363134318.920782
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMHexagonCodeGen.Debug
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
+o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'04cbb96efda4b541^63b7eb6efda4b541^-969"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMHexagonCodeGen.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134318#0#30#-0#-----2@23"Depend check for xcode-363134318#30#23#-0#-----2@303"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMHexagonCodeGen.Debug-363134318#53#303#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134318#356#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134318#456#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134318#552#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134318#655#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134318#760#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134318#864#105#-0#-----0#0#0#--485"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-124348258DFB4818B87117C1.sh36"6CA058F5-7669-4A8E-B83E-1FAE8911FAFC-
+
+CPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh
+s363134295.434077
+e363134295.461552
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh
+omake: Nothing to be done for `all'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'b2117057fda4b541^643c7657fda4b541^-36"make: Nothing to be done for `all'.1(21%IDEActivityLogMessage2@36"make: Nothing to be done for `all'.-363134295#0#36#-0#-----0#0#0#--475"PhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/Hexagon/LLVM.build/Debug/LLVMHexagonCodeGen.build/Script-F5EB643A9F354DA09A02A18A.sh36"966B0C31-1A84-4856-ACCD-35C380DEC5B6-
+

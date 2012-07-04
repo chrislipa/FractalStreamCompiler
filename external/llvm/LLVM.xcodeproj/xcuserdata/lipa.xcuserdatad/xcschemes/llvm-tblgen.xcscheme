@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0798CB2028E41E589F77302"
+               BlueprintIdentifier = "22E89DBFB7F44EB8909BEC58"
                BuildableName = "llvm-tblgen"
                BlueprintName = "llvm-tblgen"
                ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0798CB2028E41E589F77302"
+            BlueprintIdentifier = "22E89DBFB7F44EB8909BEC58"
             BuildableName = "llvm-tblgen"
             BlueprintName = "llvm-tblgen"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0798CB2028E41E589F77302"
+            BlueprintIdentifier = "22E89DBFB7F44EB8909BEC58"
             BuildableName = "llvm-tblgen"
             BlueprintName = "llvm-tblgen"
             ReferencedContainer = "container:../LLVM.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0798CB2028E41E589F77302"
+            BlueprintIdentifier = "22E89DBFB7F44EB8909BEC58"
             BuildableName = "llvm-tblgen"
             BlueprintName = "llvm-tblgen"
             ReferencedContainer = "container:../LLVM.xcodeproj">
