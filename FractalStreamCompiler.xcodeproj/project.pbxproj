@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */; };
 		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
+		36DE7EBE15A5093F00DCA597 /* FSKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7EBA15A5093F00DCA597 /* FSKernel.mm */; };
+		36DE7EBF15A5093F00DCA597 /* FSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7EBB15A5093F00DCA597 /* FSKernel.h */; };
+		36DE7EC015A5093F00DCA597 /* FSJitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7EBC15A5093F00DCA597 /* FSJitter.h */; };
+		36DE7EC115A5093F00DCA597 /* FSJitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7EBD15A5093F00DCA597 /* FSJitter.mm */; };
+		36DE7EC415A509BB00DCA597 /* FSECompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7EC215A509BB00DCA597 /* FSECompiler.m */; };
+		36DE7EC515A509BB00DCA597 /* FSECompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7EC315A509BB00DCA597 /* FSECompiler.h */; };
+		36DE7EC815A509D700DCA597 /* FSEParseTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7EC615A509D700DCA597 /* FSEParseTree.m */; };
+		36DE7EC915A509D700DCA597 /* FSEParseTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7EC715A509D700DCA597 /* FSEParseTree.h */; };
+		36DE7ECB15A509EA00DCA597 /* FSEParseNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7ECA15A509EA00DCA597 /* FSEParseNode.h */; };
+		36DE7ECD15A50A0800DCA597 /* FSECompilerSymbols.H in Headers */ = {isa = PBXBuildFile; fileRef = 36DE7ECC15A50A0800DCA597 /* FSECompilerSymbols.H */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1031,6 +1041,16 @@
 		36DE7C3A15A5027300DCA597 /* FractalStreamCompilerPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalStreamCompilerPriv.h; sourceTree = "<group>"; };
 		36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamCompiler.cp; sourceTree = "<group>"; };
 		36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLVM.xcodeproj; path = external/llvm/LLVM.xcodeproj; sourceTree = "<group>"; };
+		36DE7EBA15A5093F00DCA597 /* FSKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKernel.mm; path = compiler/FSKernel.mm; sourceTree = "<group>"; };
+		36DE7EBB15A5093F00DCA597 /* FSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKernel.h; path = compiler/FSKernel.h; sourceTree = "<group>"; };
+		36DE7EBC15A5093F00DCA597 /* FSJitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSJitter.h; path = compiler/FSJitter.h; sourceTree = "<group>"; };
+		36DE7EBD15A5093F00DCA597 /* FSJitter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSJitter.mm; path = compiler/FSJitter.mm; sourceTree = "<group>"; };
+		36DE7EC215A509BB00DCA597 /* FSECompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSECompiler.m; path = compiler/FSECompiler.m; sourceTree = "<group>"; };
+		36DE7EC315A509BB00DCA597 /* FSECompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSECompiler.h; path = compiler/FSECompiler.h; sourceTree = "<group>"; };
+		36DE7EC615A509D700DCA597 /* FSEParseTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSEParseTree.m; path = compiler/FSEParseTree.m; sourceTree = "<group>"; };
+		36DE7EC715A509D700DCA597 /* FSEParseTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSEParseTree.h; path = compiler/FSEParseTree.h; sourceTree = "<group>"; };
+		36DE7ECA15A509EA00DCA597 /* FSEParseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSEParseNode.h; path = compiler/FSEParseNode.h; sourceTree = "<group>"; };
+		36DE7ECC15A50A0800DCA597 /* FSECompilerSymbols.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FSECompilerSymbols.H; path = compiler/FSECompilerSymbols.H; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1048,6 +1068,7 @@
 		36DE7C2715A5027300DCA597 = {
 			isa = PBXGroup;
 			children = (
+				36DE7EB815A5085A00DCA597 /* compiler */,
 				36DE7C7D15A5047000DCA597 /* external */,
 				36DE7C3415A5027300DCA597 /* FractalStreamCompiler */,
 				36DE7C3315A5027300DCA597 /* Products */,
@@ -1241,6 +1262,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		36DE7EB815A5085A00DCA597 /* compiler */ = {
+			isa = PBXGroup;
+			children = (
+				36DE7ECC15A50A0800DCA597 /* FSECompilerSymbols.H */,
+				36DE7ECA15A509EA00DCA597 /* FSEParseNode.h */,
+				36DE7EC615A509D700DCA597 /* FSEParseTree.m */,
+				36DE7EC715A509D700DCA597 /* FSEParseTree.h */,
+				36DE7EC315A509BB00DCA597 /* FSECompiler.h */,
+				36DE7EC215A509BB00DCA597 /* FSECompiler.m */,
+				36DE7EBB15A5093F00DCA597 /* FSKernel.h */,
+				36DE7EBA15A5093F00DCA597 /* FSKernel.mm */,
+				36DE7EBC15A5093F00DCA597 /* FSJitter.h */,
+				36DE7EBD15A5093F00DCA597 /* FSJitter.mm */,
+			);
+			name = compiler;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1248,6 +1286,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DE7EBF15A5093F00DCA597 /* FSKernel.h in Headers */,
+				36DE7EC015A5093F00DCA597 /* FSJitter.h in Headers */,
+				36DE7EC515A509BB00DCA597 /* FSECompiler.h in Headers */,
+				36DE7EC915A509D700DCA597 /* FSEParseTree.h in Headers */,
+				36DE7ECB15A509EA00DCA597 /* FSEParseNode.h in Headers */,
+				36DE7ECD15A50A0800DCA597 /* FSECompilerSymbols.H in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2313,6 +2357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */,
+				36DE7EBE15A5093F00DCA597 /* FSKernel.mm in Sources */,
+				36DE7EC115A5093F00DCA597 /* FSJitter.mm in Sources */,
+				36DE7EC415A509BB00DCA597 /* FSECompiler.m in Sources */,
+				36DE7EC815A509D700DCA597 /* FSEParseTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2384,7 +2432,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include";
+				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include ../../include/";
 			};
 			name = Debug;
 		};
@@ -2394,7 +2442,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include";
+				USER_HEADER_SEARCH_PATHS = "external/llvm/llvm-3.1.src/include ../../include/";
 			};
 			name = Release;
 		};
