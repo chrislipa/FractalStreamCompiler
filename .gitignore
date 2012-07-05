@@ -17,3 +17,9 @@ build/*
 *.pbxuser
 *.xcworkspace
 xcuserdata
+
+
+LLVM.build
+external/llvm/lib/Debug
+external/llvm/bin/Debug
+build/**/*
