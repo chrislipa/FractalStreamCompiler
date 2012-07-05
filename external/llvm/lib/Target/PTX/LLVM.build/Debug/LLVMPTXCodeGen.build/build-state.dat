@@ -1,676 +1,0 @@
-TLLVMPTXCodeGen
-v5
-r1
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/LLVMPTXCodeGen.LinkFileList
-c000000004FF4C5D50000000000000A48
-t1341441493
-s2632
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh
-c000000004FF4C5D50000000000000109
-t1341441493
-s265
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh
-c000000004FF4C5D50000000000000103
-t1341441493
-s259
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallString.h
-c000000004F1F423F0000000000002246
-t1327448639
-s8774
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h
-c000000004F2EFF37000000000000440F
-t1328480055
-s17423
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/DebugInfo.h
-c000000004F7A47C500000000000084C7
-t1333413829
-s33991
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Argument.h
-c000000004EEFF7D80000000000000C28
-t1324349400
-s3112
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/AsmPrinter.h
-c000000004F455A130000000000004C01
-t1329945107
-s19457
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineFrameInfo.h
-c000000004EE2CF040000000000005896
-t1323486980
-s22678
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineInstr.h
-c000000004F64C3F10000000000009E37
-t1332003825
-s40503
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CodeGen/MachineRegisterInfo.h
-c000000004F71D93600000000000057C8
-t1332861238
-s22472
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h
-c000000004F56C8E500000000000046FD
-t1331087589
-s18173
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Function.h
-c000000004F5A302900000000000040B8
-t1331310633
-s16568
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCContext.h
-c000000004F7013910000000000003E0A
-t1332745105
-s15882
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCExpr.h
-c000000004F7013910000000000003814
-t1332745105
-s14356
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCInst.h
-c000000004F21DFAB00000000000015C8
-t1327620011
-s5576
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCStreamer.h
-c000000004F7013910000000000006BF8
-t1332745105
-s27640
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSymbol.h
-c000000004DBAFCA300000000000013EB
-t1304100003
-s5099
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
-c000000004F7EC8E00000000000006195
-t1333709024
-s24981
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
-c000000004F317D21000000000000DF02
-t1328643361
-s57090
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Debug.h
-c000000004F7392010000000000000F78
-t1332974081
-s3960
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
-c000000004D7E99AE00000000000011FD
-t1300142510
-s4605
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MathExtras.h
-c000000004EE66EC00000000000003C14
-t1323724480
-s15380
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Path.h
-c000000004D0B9C5C0000000000000261
-t1292606556
-s609
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
-c000000004F7942A0000000000000AFEA
-t1333346976
-s45034
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
-c000000004F8BDED20000000000004419
-t1334566610
-s17433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/Mangler.h
-c000000004F6F5F680000000000000989
-t1332698984
-s2441
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetLoweringObjectFile.h
-c000000004F6F5F68000000000000167B
-t1332698984
-s5755
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTX.h
-c000000004F64DBF10000000000000504
-t1332009969
-s1284
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp
-c000000004F64DBF10000000000004498
-t1332009969
-s17560
-i"PTXAsmPrinter.h"
-i"PTX.h"
-i"PTXMachineFunctionInfo.h"
-i"PTXParamManager.h"
-i"PTXRegisterInfo.h"
-i"PTXTargetMachine.h"
-i"llvm/Argument.h"
-i"llvm/DerivedTypes.h"
-i"llvm/Function.h"
-i"llvm/Module.h"
-i"llvm/ADT/SmallString.h"
-i"llvm/ADT/Twine.h"
-i"llvm/Analysis/DebugInfo.h"
-i"llvm/CodeGen/AsmPrinter.h"
-i"llvm/CodeGen/MachineFrameInfo.h"
-i"llvm/CodeGen/MachineInstr.h"
-i"llvm/CodeGen/MachineRegisterInfo.h"
-i"llvm/MC/MCContext.h"
-i"llvm/MC/MCExpr.h"
-i"llvm/MC/MCInst.h"
-i"llvm/MC/MCStreamer.h"
-i"llvm/MC/MCSymbol.h"
-i"llvm/Target/Mangler.h"
-i"llvm/Target/TargetLoweringObjectFile.h"
-i"llvm/Support/CommandLine.h"
-i"llvm/Support/Debug.h"
-i"llvm/Support/ErrorHandling.h"
-i"llvm/Support/MathExtras.h"
-i"llvm/Support/Path.h"
-i"llvm/Support/TargetRegistry.h"
-i"llvm/Support/raw_ostream.h"
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.h
-c000000004F3F9383000000000000066B
-t1329566595
-s1643
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp
-c000000004ED16FE50000000000001F45
-t1322348517
-s8005
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp
-c000000004F3F9383000000000000031B
-t1329566595
-s795
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp
-c000000004E8C740900000000000029B6
-t1317827593
-s10678
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp
-c000000004F6D220800000000000049BF
-t1332552200
-s18879
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp
-c000000004F64DBF1000000000000311D
-t1332009969
-s12573
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp
-c000000004F3F938300000000000048B7
-t1329566595
-s18615
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp
-c000000004E85D3F40000000000000443
-t1317393396
-s1091
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp
-c000000004EF9AED10000000000000B04
-t1324986065
-s2820
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp
-c000000004F3F938300000000000001BC
-t1329566595
-s444
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.h
-c000000004F3F938300000000000019CC
-t1329566595
-s6604
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp
-c000000004F64DBF100000000000006AA
-t1332009969
-s1706
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.h
-c000000004F67C1B50000000000000A6D
-t1332199861
-s2669
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp
-c000000004F3498BC00000000000005A2
-t1328847036
-s1442
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp
-c000000004F64DBF10000000000000564
-t1332009969
-s1380
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.h
-c000000004F52E2820000000000000698
-t1330832002
-s1688
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp
-c000000004EB9782D00000000000014F1
-t1320777773
-s5361
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp
-c000000004F3F9383000000000000087B
-t1329566595
-s2171
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp
-c000000004F9F9EC50000000000001739
-t1335860933
-s5945
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.h
-c000000004F3498C00000000000000DD5
-t1328847040
-s3541
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6fd73355fda4b541^f7933555fda4b541^---0#1#0#--18"Check dependencies36"BF2A8DC4-93C0-489A-ABD9-B80D0BDC0E18-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134315.015959
-e363134317.974041
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cppcf48046bfda4b541^5c5af96dfda4b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp0000000000000000^3002"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o lib/Target/PTX/PTXAsmPrinter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXAsmPrinter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXAsmPrinter.o36"B5C0DD6A-B5AA-47B8-98AC-EA9AAF9EB444-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134316.672900
-e363134318.603388
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp7079ac6cfda4b541^92779a6efda4b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp0000000000000000^3050"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o lib/Target/PTX/PTXFPRoundingModePass.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFPRoundingModePass.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFPRoundingModePass.o36"217B0FF5-4171-476B-8A4C-A9A68383108E-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134316.808266
-e363134317.621758
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp1764cf6cfda4b541^452b9f6dfda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp0000000000000000^3020"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o lib/Target/PTX/PTXFrameLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXFrameLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXFrameLowering.o36"675C8061-2661-4646-8BBE-01EA9C5CA371-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134315.103974
-e363134318.523649
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp42cf1a6bfda4b541^990d866efda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp0000000000000000^3014"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o lib/Target/PTX/PTXISelDAGToDAG.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelDAGToDAG.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelDAGToDAG.o36"AAFED281-185F-42CF-B0D0-5CDBF08CCE74-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134315.186059
-e363134317.838819
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp4ad42f6bfda4b541^7ec9d66dfda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp0000000000000000^3014"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o lib/Target/PTX/PTXISelLowering.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXISelLowering.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXISelLowering.o36"664B6F94-087E-438A-8552-CAC938420496-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134315.839618
-e363134317.833089
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cppac1fd76bfda4b541^1d55d56dfda4b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp0000000000000000^2996"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o lib/Target/PTX/PTXInstrInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXInstrInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXInstrInfo.o36"51051DBE-E909-4987-80A3-9FC0EB2CED39-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134316.982753
-e363134317.972926
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp2ecbfb6cfda4b541^be11f96dfda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp0000000000000000^3020"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o lib/Target/PTX/PTXMCAsmStreamer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCAsmStreamer.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCAsmStreamer.o36"36AC6EF5-C05F-4393-BB65-0815746465F4-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.250888
-e363134319.134719
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp666c406dfda4b541^68af226ffda4b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp0000000000000000^3008"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o lib/Target/PTX/PTXMCInstLower.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMCInstLower.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMCInstLower.o36"B718E2F2-B0EB-4EE5-B4EB-A65156A12F94-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.731819
-e363134319.843755
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp6189bb6dfda4b541^7105d86ffda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp0000000000000000^3020"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o lib/Target/PTX/PTXMFInfoExtract.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMFInfoExtract.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMFInfoExtract.o36"1CDD8D39-8740-426A-A13D-51B48C04F571-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.835611
-e363134318.719190
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp8a1cd66dfda4b541^e71cb86efda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp0000000000000000^3056"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o lib/Target/PTX/PTXMachineFunctionInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXMachineFunctionInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXMachineFunctionInfo.o36"C5A54927-5596-44BC-8018-4467CB196854-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.840180
-e363134318.449610
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cppfd4ad76dfda4b541^6119736efda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp0000000000000000^3014"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o lib/Target/PTX/PTXParamManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXParamManager.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXParamManager.o36"C1D9AA02-C682-4074-AAF2-B6C0FA07CE4C-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.974292
-e363134318.619230
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp3d9bf96dfda4b541^e9999e6efda4b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp0000000000000000^2990"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o lib/Target/PTX/PTXRegAlloc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegAlloc.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegAlloc.o36"CB765758-2F99-435B-BD9F-40E6B600DFDA-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134317.974396
-e363134319.083950
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cppd3a3f96dfda4b541^ad89156ffda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp0000000000000000^3014"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o lib/Target/PTX/PTXRegisterInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXRegisterInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXRegisterInfo.o36"21BBE4E9-9E93-4717-AA1B-7E71CFA8C5B2-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134318.451579
-e363134320.707321
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp6d8d746efda4b541^8812b570fda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp0000000000000000^3038"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o lib/Target/PTX/PTXSelectionDAGInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSelectionDAGInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSelectionDAGInfo.o36"68F4B243-5AF6-43F5-9107-7F6A74CE8802-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134318.525009
-e363134318.976242
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cppc39a866efda4b541^e4f8f96efda4b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp0000000000000000^2996"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o lib/Target/PTX/PTXSubtarget.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXSubtarget.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXSubtarget.o36"BCD5E6C2-8667-4CA2-BBC1-C4A0EC959AFD-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134318.604727
-e363134321.038741
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cppd6029b6efda4b541^9aea0971fda4b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp0000000000000000^3020"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o lib/Target/PTX/PTXTargetMachine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PTX/PTXTargetMachine.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/PTXTargetMachine.o36"DBA261BE-D91C-46C8-B4FB-47883745E8DD-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a normal x86_64
-s363134321.071777
-e363134321.178297
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a normal x86_645e831271fda4b541^8ba42d71fda4b541^---0#0#0#--862"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Objects-normal/x86_64/LLVMPTXCodeGen.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPTXCodeGen.a36"B6A3D860-2714-427C-B53B-CAD636608220-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh
-s363134324.937069
-e363134325.133180
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXCodeGen.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'cdccf074fda4b541^bb282275fda4b541^-965"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXCodeGen.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134324#0#30#-0#-----2@23"Depend check for xcode-363134324#30#23#-0#-----2@299"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPTXCodeGen.Debug-363134324#53#299#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134325#352#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134325#452#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134325#548#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134325#651#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134325#756#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134325#860#105#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-F54CFA4F2E2D4DF2B75FC9B7.sh36"7ECC8591-8454-47B8-9FB9-EDE41B0BB65E-
-
-CPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh
-s363134295.566916
-e363134295.593000
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh
-omake: Nothing to be done for `all'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'b9199257fda4b541^a7ce9757fda4b541^-36"make: Nothing to be done for `all'.1(21%IDEActivityLogMessage2@36"make: Nothing to be done for `all'.-363134295#0#36#-0#-----0#0#0#--459"PhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PTX/LLVM.build/Debug/LLVMPTXCodeGen.build/Script-05232FAECF5D42A4ABD0F130.sh36"05B281F1-E9E7-4FFB-BEE0-E93362F99DE4-
-

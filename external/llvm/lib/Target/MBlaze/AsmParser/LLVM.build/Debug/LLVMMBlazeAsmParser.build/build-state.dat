@@ -1,154 +1,0 @@
-TLLVMMBlazeAsmParser
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/LLVMMBlazeAsmParser.LinkFileList
-c000000004FF4C56A000000000000016B
-t1341441386
-s363
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh
-c000000004FF4C56A0000000000000122
-t1341441386
-s290
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmInfo.h
-c000000004F7F8C610000000000005EE4
-t1333759073
-s24292
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCParser/MCAsmLexer.h
-c000000004F8B44F600000000000013DA
-t1334527222
-s5082
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCParser/MCParsedAsmOperand.h
-c000000004E1DBB2100000000000005EF
-t1310571297
-s1519
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCRegisterInfo.h
-c000000004F7C052800000000000035FA
-t1333527848
-s13818
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCTargetAsmLexer.h
-c000000004E2E092D000000000000092A
-t1311639853
-s2346
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
-c000000004F7942A0000000000000AFEA
-t1333346976
-s45034
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp
-c000000004F7172230000000000000B90
-t1332834851
-s2960
-i"MCTargetDesc/MBlazeBaseInfo.h"
-i"llvm/MC/MCAsmInfo.h"
-i"llvm/MC/MCParser/MCAsmLexer.h"
-i"llvm/MC/MCParser/MCParsedAsmOperand.h"
-i"llvm/MC/MCRegisterInfo.h"
-i"llvm/MC/MCTargetAsmLexer.h"
-i"llvm/Support/TargetRegistry.h"
-i<string>
-i<map>
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp
-c000000004F7172230000000000003AA6
-t1332834851
-s15014
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/MCTargetDesc/MBlazeBaseInfo.h
-c000000004F19E1CF0000000000001EC1
-t1327096271
-s7873
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies40bf43eafca4b541^a3af44eafca4b541^---0#1#0#--18"Check dependencies36"3E3DE297-E2D9-4D93-84EF-273CAF5BCBA3-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134186.270916
-e363134187.111559
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cppdb8a45eafca4b541^14cd27ebfca4b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp0000000000000000^3600"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmLexer.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmLexer.o36"40E27014-894C-4EEE-B7CB-C7C36DB9E469-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134186.337417
-e363134187.404105
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp369056eafca4b541^977167ebfca4b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp0000000000000000^3606"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/MBlaze/AsmParser/MBlazeAsmParser.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/MBlazeAsmParser.o36"779C3573-3502-49B0-886B-A9886FC3774E-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a normal x86_64
-s363134188.183946
-e363134188.195928
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a normal x86_64b1312fecfca4b541^a62932ecfca4b541^---0#0#0#--895"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Objects-normal/x86_64/LLVMMBlazeAsmParser.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMMBlazeAsmParser.a36"EB4C8F8D-56D0-451A-9CB8-7A109768D6A8-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh
-s363134195.656506
-e363134195.854227
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmParser.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'81eda8f3fca4b541^4baedaf3fca4b541^-970"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmParser.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134195#0#30#-0#-----2@23"Depend check for xcode-363134195#30#23#-0#-----2@304"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMMBlazeAsmParser.Debug-363134195#53#304#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134195#357#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134195#457#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134195#553#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134195#656#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134195#761#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134195#865#105#-0#-----0#0#0#--505"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/MBlaze/AsmParser/LLVM.build/Debug/LLVMMBlazeAsmParser.build/Script-47534CAD961747CBBBBA25DF.sh36"F409BABB-2BC0-4C66-A121-A0D16F5FD2B0-
-

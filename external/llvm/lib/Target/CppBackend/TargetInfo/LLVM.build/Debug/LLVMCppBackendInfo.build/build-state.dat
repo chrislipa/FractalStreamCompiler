@@ -1,102 +1,0 @@
-TLLVMCppBackendInfo
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/LLVMCppBackendInfo.LinkFileList
-c000000004FF4C55B00000000000000BF
-t1341441371
-s191
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh
-c000000004FF4C55B000000000000012B
-t1341441371
-s299
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
-c000000004F7EC8E00000000000006195
-t1333709024
-s24981
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
-c000000004F7942A0000000000000AFEA
-t1333346976
-s45034
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/CPPTargetMachine.h
-c000000004ED94E3D0000000000000563
-t1322864189
-s1379
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp
-c000000004E553E2B00000000000003B6
-t1314209323
-s950
-i"CPPTargetMachine.h"
-i"llvm/Module.h"
-i"llvm/Support/TargetRegistry.h"
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies09e1c9dbfca4b541^61a5cadbfca4b541^---0#1#0#--18"Check dependencies36"93241F72-1995-422F-8CB7-9CA361C000BA-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134180.068414
-e363134180.878962
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp02b811e4fca4b541^0003e1e4fca4b541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp0000000000000000^3698"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/.. -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/CppBackend/TargetInfo/CppBackendTargetInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/CppBackendTargetInfo.o36"6A7A940C-B80D-4673-B6FC-1880EC2FCACD-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a normal x86_64
-s363134181.019473
-e363134181.030125
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a normal x86_64431a05e5fca4b541^71c707e5fca4b541^---0#0#0#--896"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Objects-normal/x86_64/LLVMCppBackendInfo.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCppBackendInfo.a36"EABF3B6C-6AC7-4FE9-A415-222CC5AB2F99-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh
-s363134181.204382
-e363134181.401228
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCppBackendInfo.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'ee2535e5fca4b541^b5c066e5fca4b541^-969"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCppBackendInfo.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134181#0#30#-0#-----2@23"Depend check for xcode-363134181#30#23#-0#-----2@303"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMCppBackendInfo.Debug-363134181#53#303#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134181#356#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134181#456#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134181#552#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134181#655#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134181#760#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134181#864#105#-0#-----0#0#0#--513"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/CppBackend/TargetInfo/LLVM.build/Debug/LLVMCppBackendInfo.build/Script-0102ED987B38429DA793B612.sh36"47C2D5D9-4DB3-4276-937B-54777AA3D5D6-
-

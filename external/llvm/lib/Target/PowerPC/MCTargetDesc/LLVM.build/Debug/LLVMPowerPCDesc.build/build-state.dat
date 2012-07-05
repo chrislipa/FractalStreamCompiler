@@ -1,292 +1,0 @@
-TLLVMPowerPCDesc
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/LLVMPowerPCDesc.LinkFileList
-c000000004FF4C5740000000000000441
-t1341441396
-s1089
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh
-c000000004FF4C5740000000000000126
-t1341441396
-s294
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCAsmBackend.h
-c000000004F7013910000000000001597
-t1332745105
-s5527
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCELFObjectWriter.h
-c000000004F7013910000000000000D42
-t1332745105
-s3394
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCFixupKindInfo.h
-c000000004D0982110000000000000521
-t1292468753
-s1313
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCMachObjectWriter.h
-c000000004E052165000000000000238F
-t1308959077
-s9103
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCObjectWriter.h
-c000000004F70139100000000000016C4
-t1332745105
-s5828
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCSectionMachO.h
-c000000004F7013910000000000001DA8
-t1332745105
-s7592
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCValue.h
-c000000004E4A766E00000000000008DD
-t1313502830
-s2269
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Object/MachOFormat.h
-c000000004E5D2D010000000000002208
-t1314729217
-s8712
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ELF.h
-c000000004F79FD22000000000000B356
-t1333394722
-s45910
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
-c000000004D7E99AE00000000000011FD
-t1300142510
-s4605
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/TargetRegistry.h
-c000000004F7942A0000000000000AFEA
-t1333346976
-s45034
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp
-c000000004F701391000000000000181F
-t1332745105
-s6175
-i"MCTargetDesc/PPCMCTargetDesc.h"
-i"MCTargetDesc/PPCFixupKinds.h"
-i"llvm/MC/MCAsmBackend.h"
-i"llvm/MC/MCELFObjectWriter.h"
-i"llvm/MC/MCFixupKindInfo.h"
-i"llvm/MC/MCMachObjectWriter.h"
-i"llvm/MC/MCSectionMachO.h"
-i"llvm/MC/MCObjectWriter.h"
-i"llvm/MC/MCValue.h"
-i"llvm/Object/MachOFormat.h"
-i"llvm/Support/ELF.h"
-i"llvm/Support/ErrorHandling.h"
-i"llvm/Support/TargetRegistry.h"
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp
-c000000004EF3790E0000000000000C93
-t1324579086
-s3219
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCFixupKinds.h
-c000000004E2DC9B300000000000004B4
-t1311623603
-s1204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp
-c000000004F3F9383000000000000077E
-t1329566595
-s1918
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp
-c000000004F1EFA690000000000001DF3
-t1327430249
-s7667
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp
-c000000004F7942A0000000000000160D
-t1333346976
-s5645
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.h
-c000000004EF28E7500000000000006B4
-t1324519029
-s1716
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp
-c000000004E2E092D0000000000000433
-t1311639853
-s1075
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies17d7e4f4fca4b541^0ad8e6f4fca4b541^---0#1#0#--18"Check dependencies36"D94E8D13-10A3-419C-9A2A-B8FBBB1D8DDE-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134196.907488
-e363134197.721245
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp8480e8f4fca4b541^5bb0b8f5fca4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp0000000000000000^3391"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCAsmBackend.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCAsmBackend.o36"105C6F1F-145C-4EA9-A83E-338C8FD59915-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134197.472081
-e363134197.890173
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cppe09d84f5fca4b541^cae1e3f5fca4b541^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp0000000000000000^3421"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCELFObjectWriter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCELFObjectWriter.o36"751EC9D4-2D4E-4BB0-A52B-B0C21D934878-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134196.972468
-e363134197.162398
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp4d2ff9f4fca4b541^fb9229f5fca4b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp0000000000000000^3385"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCAsmInfo.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCAsmInfo.o36"919CC6B3-6A97-4E2E-8941-EA2825783044-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134197.164945
-e363134197.873035
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cppfd662af5fca4b541^6f7edff5fca4b541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp0000000000000000^3409"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCCodeEmitter.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCCodeEmitter.o36"F388C222-C879-4BA3-B579-A479653034CE-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134196.959255
-e363134198.112914
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp3fc5f5f4fca4b541^45f31cf6fca4b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp0000000000000000^3403"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCMCTargetDesc.o36"9586CF8F-F6ED-419C-854A-F50A8815B5BA-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134197.165887
-e363134197.442433
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cppc2a22af5fca4b541^755a73f5fca4b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp0000000000000000^3391"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/Target/PowerPC/MCTargetDesc/PPCPredicates.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/PPCPredicates.o36"B989D001-7F99-4D4B-9F5D-8CED94849C48-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a normal x86_64
-s363134198.372042
-e363134198.390700
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a normal x86_64965a5ff6fca4b541^600564f6fca4b541^---0#0#0#--883"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Objects-normal/x86_64/LLVMPowerPCDesc.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMPowerPCDesc.a36"C628B975-8BB8-41ED-8E16-F9378E370DBB-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh
-s363134205.699842
-e363134205.849171
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPowerPCDesc.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'4300b4fdfca4b541^8d62d9fdfca4b541^-966"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPowerPCDesc.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib9(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134205#0#30#-0#-----2@23"Depend check for xcode-363134205#30#23#-0#-----2@300"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMPowerPCDesc.Debug-363134205#53#300#-0#-----2@100"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-mc-363134205#353#100#-0#-----2@96"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llc-363134205#453#96#-0#-----2@103"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/macho-dump-363134205#549#103#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-objdump-363134205#652#105#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-rtdyld-363134205#757#104#-0#-----2@105"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLTO.dylib-363134205#861#105#-0#-----0#0#0#--505"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/PowerPC/MCTargetDesc/LLVM.build/Debug/LLVMPowerPCDesc.build/Script-33445AD48BE44FC58C5E9A4E.sh36"1FF15020-95B3-411D-B7DB-77BCB334D5B9-
-
