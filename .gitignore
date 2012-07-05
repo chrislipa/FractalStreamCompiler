@@ -24,3 +24,5 @@ external/llvm/lib/Debug
 external/llvm/bin/Debug
 build/**/*
 external/llvm/lib/Debug/**
+
+test/build/**
