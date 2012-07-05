@@ -48,7 +48,7 @@ GenericValue CodeGenContext::runCode() {
 }
 
 /* Returns an LLVM type based on the identifier */
-static const Type *typeOf(const NIdentifier& type) 
+static Type *typeOf(const NIdentifier& type) 
 {
 	if (type.name.compare("int") == 0) {
 		return Type::getInt64Ty(getGlobalContext());
@@ -152,7 +152,7 @@ Value* NExpressionStatement::codeGen(CodeGenContext& context)
 Value* NVariableDeclaration::codeGen(CodeGenContext& context)
 {
 	std::cout << "Creating variable declaration " << type.name << " " << id.name << endl;
-	const Type *t = typeOf(type);
+	Type *t = typeOf(type);
 
 	AllocaInst *alloc = new AllocaInst(t, id.name.c_str(), context.currentBlock());
 	context.locals()[id.name] = alloc;
@@ -170,7 +170,8 @@ Value* NFunctionDeclaration::codeGen(CodeGenContext& context)
 	for (it = arguments.begin(); it != arguments.end(); it++) {
 		argTypes.push_back(typeOf((**it).type));
 	}
-	FunctionType *ftype = FunctionType::get(typeOf(type), argTypes, false);
+	ArrayRef<Type*> arg;
+	FunctionType *ftype = FunctionType::get(typeOf(type), arg, false);
 	Function *function = Function::Create(ftype, GlobalValue::InternalLinkage, id.name.c_str(), context.module);
 	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", function, 0);
 
