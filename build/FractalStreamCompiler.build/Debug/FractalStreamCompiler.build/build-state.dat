@@ -1,786 +1,0 @@
-TFractalStreamCompiler
-v5
-r1
-cCheck dependencies
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/../../include/FSTool.h
-c000000004FF3BD1600000000000006D8
-t1341373718
-s1752
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/../../include/FSViewerData.h
-c000000004FF3B6FD00000000000004E2
-t1341372157
-s1250
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-c000000004FF4CC2B000000000000023C
-t1341443115
-s572
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.h
-c000000004FF4CAF300000000000001A6
-t1341442803
-s422
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompilerPriv.h
-c000000004FF4CAF3000000000000016F
-t1341442803
-s367
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib
-t1341443989
-s10116
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o
-t1341444879
-s105268
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o
-t1341444879
-s87636
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.LinkFileList
-c000000004FF4D259000000000000032A
-t1341444697
-s810
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o
-t1341444879
-s29696
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.h
-c000000004FF24402000000000000076E
-t1341277186
-s1902
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m
-c000000004FF4D29D0000000000008E21
-t1341444765
-s36385
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompilerSymbols.H
-c000000004FF2440200000000000008E7
-t1341277186
-s2279
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseNode.h
-c000000004FF39F670000000000000B7B
-t1341366119
-s2939
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.h
-c000000004FF4D278000000000000041A
-t1341444728
-s1050
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m
-c000000004FF3DD97000000000000C6E4
-t1341382039
-s50916
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.cpp
-c000000004FF4D0D200000000000000B3
-t1341444306
-s179
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.h
-c000000004FF4D1D400000000000001DD
-t1341444564
-s477
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm
-c000000004FF4D43900000000000007BC
-t1341445177
-s1980
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h
-c000000004FF4D32C0000000000000853
-t1341444908
-s2131
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm
-c000000004FF4D337000000000000E94A
-t1341444919
-s59722
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCore.a
-c000000004FF4CF9500000000016817A8
-t1341443989
-s23599016
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/APFloat.h
-c000000004F83EDD30000000000004C17
-t1334046163
-s19479
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/APInt.h
-c000000004F5FE877000000000000F6D4
-t1331685495
-s63188
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/ArrayRef.h
-c000000004F17B98C0000000000002240
-t1326954892
-s8768
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/DenseMap.h
-c000000004F7EC8E0000000000000476A
-t1333709024
-s18282
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/DenseMapInfo.h
-c000000004F38AE2000000000000015B1
-t1329114656
-s5553
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/FoldingSet.h
-c000000004F858FF7000000000000633F
-t1334153207
-s25407
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/OwningPtr.h
-c000000004F1D78710000000000000DA6
-t1327331441
-s3494
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/PointerIntPair.h
-c000000004F55B96E0000000000001900
-t1331018094
-s6400
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/SmallVector.h
-c000000004F5FA9080000000000005C3F
-t1331669256
-s23615
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringRef.h
-c000000004F5BDD9E00000000000047BA
-t1331420574
-s18362
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h
-c000000004F2EFF37000000000000440F
-t1328480055
-s17423
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/ValueMap.h
-c000000004F7EC8E000000000000030B2
-t1333709024
-s12466
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/ilist.h
-c000000004F611D5A0000000000005C4E
-t1331764570
-s23630
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/ilist_node.h
-c000000004BEC46560000000000000A06
-t1273775702
-s2566
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Analysis/Verifier.h
-c000000004BBE15300000000000000A5D
-t1270748464
-s2653
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Argument.h
-c000000004EEFF7D80000000000000C28
-t1324349400
-s3112
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Assembly/PrintModulePass.h
-c000000004BB67AFA0000000000000627
-t1270250234
-s1575
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Attributes.h
-c000000004F31CBB900000000000039C3
-t1328663481
-s14787
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h
-c000000004F2735300000000000003218
-t1327969584
-s12824
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/CallingConv.h
-c000000004D6F47F30000000000000EDD
-t1299138547
-s3805
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Config/llvm-config.h
-c000000004FF4C98C0000000000001165
-t1341442444
-s4453
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constant.h
-c000000004F2EFF370000000000001B0E
-t1328480055
-s6926
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Constants.h
-c000000004F2EEC72000000000000BA07
-t1328475250
-s47623
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h
-c000000004F56C8E500000000000046FD
-t1331087589
-s18173
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ExecutionEngine/ExecutionEngine.h
-c000000004F6CB5A80000000000005E09
-t1332524456
-s24073
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ExecutionEngine/GenericValue.h
-c000000004CF3EDEA00000000000004DD
-t1291054570
-s1245
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ExecutionEngine/JIT.h
-c000000004A4295FE000000000000048F
-t1245877758
-s1167
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Function.h
-c000000004F5A302900000000000040B8
-t1331310633
-s16568
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/GlobalAlias.h
-c000000004E52233F0000000000000C7E
-t1314005823
-s3198
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/GlobalValue.h
-c000000004F0E07F60000000000002F39
-t1326319606
-s12089
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/GlobalVariable.h
-c000000004E23BC8B0000000000001B77
-t1310964875
-s7031
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/InitializePasses.h
-c000000004F3993CB0000000000002DF9
-t1329173451
-s11769
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/InstrTypes.h
-c000000004ED734110000000000008EBD
-t1322726417
-s36541
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Instruction.def
-c000000004F3049B60000000000001B8F
-t1328564662
-s7055
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Instruction.h
-c000000004EE935F70000000000003755
-t1323906551
-s14165
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Instructions.h
-c000000004F830E6F0000000000022323
-t1333988975
-s140067
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/LLVMContext.h
-c000000004F896F360000000000000FFA
-t1334406966
-s4090
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/MC/MCCodeGenInfo.h
-c000000004F3E82D30000000000000582
-t1329496787
-s1410
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Metadata.h
-c000000004F85E79500000000000020AF
-t1334175637
-s8367
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
-c000000004F7EC8E00000000000006195
-t1333709024
-s24981
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/OperandTraits.h
-c000000004E52233F00000000000016BD
-t1314005823
-s5821
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Pass.h
-c000000004F3B24CB0000000000003893
-t1329276107
-s14483
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/PassAnalysisSupport.h
-c000000004EB42CBF000000000000240A
-t1320430783
-s9226
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/PassManager.h
-c000000004F28E6C40000000000000D56
-t1328080580
-s3414
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/PassRegistry.h
-c000000004CBF6BA60000000000000CF4
-t1287613350
-s3316
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/PassSupport.h
-c000000004EE001AD0000000000003317
-t1323303341
-s13079
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Atomic.h
-c000000004CF402B200000000000004A1
-t1291059890
-s1185
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Casting.h
-c000000004DD80EC60000000000001FD1
-t1306005190
-s8145
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CodeGen.h
-c000000004F81C8F700000000000004CD
-t1333905655
-s1229
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Compiler.h
-c000000004F5A3029000000000000140C
-t1331310633
-s5132
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ConstantFolder.h
-c000000004E2838350000000000002386
-t1311258677
-s9094
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/DataTypes.h
-c000000004FF4C98C0000000000001696
-t1341442444
-s5782
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/DebugLoc.h
-c000000004E1F648C0000000000000F38
-t1310680204
-s3896
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ErrorHandling.h
-c000000004D7E99AE00000000000011FD
-t1300142510
-s4605
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/IRBuilder.h
-c000000004F8C48CB000000000000CF41
-t1334593739
-s53057
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/MathExtras.h
-c000000004EE66EC00000000000003C14
-t1323724480
-s15380
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Mutex.h
-c000000004CF402B200000000000011D9
-t1291059890
-s4569
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PointerLikeTypeTraits.h
-c000000004CF3EDEA0000000000000A13
-t1291054570
-s2579
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/SwapByteOrder.h
-c000000004CF3EDEA0000000000000DDD
-t1291054570
-s3549
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Threading.h
-c000000004CF402B20000000000000987
-t1291059890
-s2439
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Valgrind.h
-c000000004ED2DA7D0000000000000AFD
-t1322441341
-s2813
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ValueHandle.h
-c000000004F81658B00000000000037A1
-t1333880203
-s14241
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
-c000000004F8BDED20000000000004419
-t1334566610
-s17433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/type_traits.h
-c000000004F7EC8E000000000000020F4
-t1333709024
-s8436
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/SymbolTableListTraits.h
-c000000004C10FF5D0000000000000C6D
-t1276182365
-s3181
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetData.h
-c000000004EA0757C00000000000037A6
-t1319138684
-s14246
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetMachine.h
-c000000004F81C8F700000000000032EE
-t1333905655
-s13038
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Target/TargetOptions.h
-c000000004F853D3B00000000000022BC
-t1334132027
-s8892
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Transforms/Scalar.h
-c000000004F15DF880000000000003305
-t1326833544
-s13061
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Type.h
-c000000004F209914000000000000459E
-t1327536404
-s17822
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Use.h
-c000000004E0302BB000000000000184C
-t1308820155
-s6220
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/User.h
-c000000004F2EFF370000000000001819
-t1328480055
-s6169
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Value.h
-c000000004F8494200000000000003C51
-t1334088736
-s15441
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies78d3f1ba0ba5b541^2f16f2ba0ba5b541^---0#1#0#--18"Check dependencies36"F593CD25-74C8-47B3-B716-B619D2C03320-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363137678.695346
-e363137679.400228
-r1
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.mc51ab28e0aa5b541^ff79668f0aa5b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m0000000000000000^2712"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o compiler/FSECompiler.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D__STDC_LIMIT_MACROS "-DCMAKE_INTDIR=\"Debug\"" -D__STDC_CONSTANT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler.hmap -Iexternal/llvm/llvm-3.1.src/include -I../../include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSECompiler.m -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSECompiler.o36"42696A52-B34B-4D5D-BB7B-71EFD6480CF7-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363137678.695347
-e363137679.359177
-r1
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.md921b28e0aa5b541^9df35b8f0aa5b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m0000000000000000^2718"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o compiler/FSEParseTree.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D__STDC_LIMIT_MACROS "-DCMAKE_INTDIR=\"Debug\"" -D__STDC_CONSTANT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler.hmap -Iexternal/llvm/llvm-3.1.src/include -I../../include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSEParseTree.m -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSEParseTree.o36"D099F221-2B08-4C2C-8A31-FF8FED134BFC-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363137978.950660
-e363137980.148397
-r0
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm
-xnormal
-xx86_64
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:11:10: fatal error: 'llvm/ModuleProvider.h' file not found
-o#include "llvm/ModuleProvider.h"
-o         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:43:33: error: no matching constructor for initialization of 'llvm::Module'
-o        llvm::Module* rootModule = new llvm::Module("root module");
-o                                       ^            ~~~~~~~~~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/Module.h:112:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [12]' to 'const llvm::Module' for 1st argument; 
-oclass Module {
-o      ^
-oexternal/llvm/llvm-3.1.src/include/llvm/Module.h:216:12: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
-o  explicit Module(StringRef ModuleID, LLVMContext& C);
-o           ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:2: error: use of undeclared identifier 'ExistingModuleProvider'
-o        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);
-o        ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:26: error: use of undeclared identifier 'MP'
-o        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);
-o                                ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:35: error: expected a type
-o        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:45:52: error: use of undeclared identifier 'MP'
-o        ExecutionEngine* engine = ExecutionEngine::create(MP, false);
-o                                                          ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:13: error: no member named 'addModuleProvider' in 'llvm::ExecutionEngine'
-o                engine -> addModuleProvider((ModuleProvider*) modP);
-o                ~~~~~~    ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:32: error: use of undeclared identifier 'ModuleProvider'
-o                engine -> addModuleProvider((ModuleProvider*) modP);
-o                                             ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:47: error: expected expression
-o                engine -> addModuleProvider((ModuleProvider*) modP);
-o                                                            ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:17: error: no member named 'removeModuleProvider' in 'llvm::ExecutionEngine'
-o                r = engine -> removeModuleProvider((ModuleProvider*) modP);
-o                    ~~~~~~    ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:39: error: use of undeclared identifier 'ModuleProvider'
-o                r = engine -> removeModuleProvider((ModuleProvider*) modP);
-o                                                    ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:54: error: expected expression
-o                r = engine -> removeModuleProvider((ModuleProvider*) modP);
-o                                                                   ^
-o12 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mmd177f3ba0ba5b541^ecf625bc0ba5b541^-3425"/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:11:10: fatal error: 'llvm/ModuleProvider.h' file not found#include "llvm/ModuleProvider.h"         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:43:33: error: no matching constructor for initialization of 'llvm::Module'        llvm::Module* rootModule = new llvm::Module("root module");                                       ^            ~~~~~~~~~~~~~external/llvm/llvm-3.1.src/include/llvm/Module.h:112:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [12]' to 'const llvm::Module' for 1st argument; class Module {      ^external/llvm/llvm-3.1.src/include/llvm/Module.h:216:12: note: candidate constructor not viable: requires 2 arguments, but 1 was provided  explicit Module(StringRef ModuleID, LLVMContext& C);           ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:2: error: use of undeclared identifier 'ExistingModuleProvider'        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);        ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:26: error: use of undeclared identifier 'MP'        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);                                ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:44:35: error: expected a type        ExistingModuleProvider* MP = new ExistingModuleProvider(rootModule);                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:45:52: error: use of undeclared identifier 'MP'        ExecutionEngine* engine = ExecutionEngine::create(MP, false);                                                          ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:13: error: no member named 'addModuleProvider' in 'llvm::ExecutionEngine'                engine -> addModuleProvider((ModuleProvider*) modP);                ~~~~~~    ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:32: error: use of undeclared identifier 'ModuleProvider'                engine -> addModuleProvider((ModuleProvider*) modP);                                             ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:53:47: error: expected expression                engine -> addModuleProvider((ModuleProvider*) modP);                                                            ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:17: error: no member named 'removeModuleProvider' in 'llvm::ExecutionEngine'                r = engine -> removeModuleProvider((ModuleProvider*) modP);                    ~~~~~~    ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:39: error: use of undeclared identifier 'ModuleProvider'                r = engine -> removeModuleProvider((ModuleProvider*) modP);                                                    ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm:61:54: error: expected expression                r = engine -> removeModuleProvider((ModuleProvider*) modP);                                                                   ^12 errors generated.12(36%IDEClangDiagnosticActivityLogMessage2@38"'llvm/ModuleProvider.h' file not found-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^10#9#10#9#199#0#29"Lexical or Preprocessor Issue--2@60"No matching constructor for initialization of 'llvm::Module'-363137980#18446744073709551615#0#2(2@151"Candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [12]' to 'const llvm::Module' for 1st argument; -363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h0000000000000000^111#6#111#6#4160#0#14"Semantic Issue1(3@121"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h0000000000000000^42#45#42#58#1058#0#-2@74"Candidate constructor not viable: requires 2 arguments, but 1 was provided-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h0000000000000000^215#11#215#11#8588#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^42#32#42#32#1045#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^42#45#42#58#1058#0#-2@53"Use of undeclared identifier 'ExistingModuleProvider'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^43#1#43#1#1075#0#14"Semantic Issue--2@33"Use of undeclared identifier 'MP'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^43#25#43#25#1099#0#14"Semantic Issue--2@15"Expected a type-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^43#34#43#34#1108#0#11"Parse Issue--2@33"Use of undeclared identifier 'MP'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^44#51#44#51#1195#0#14"Semantic Issue--2@62"No member named 'addModuleProvider' in 'llvm::ExecutionEngine'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^52#12#52#12#1363#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^52#2#52#8#1353#0#-2@45"Use of undeclared identifier 'ModuleProvider'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^52#31#52#31#1382#0#14"Semantic Issue--2@19"Expected expression-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^52#46#52#46#1397#0#11"Parse Issue--2@65"No member named 'removeModuleProvider' in 'llvm::ExecutionEngine'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^60#16#60#16#1559#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^60#6#60#12#1549#0#-2@45"Use of undeclared identifier 'ModuleProvider'-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^60#38#60#38#1581#0#14"Semantic Issue--2@19"Expected expression-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^60#53#60#53#1596#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm0000000000000000^2826"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o compiler/FSJitter.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -D__STDC_LIMIT_MACROS "-DCMAKE_INTDIR=\"Debug\"" -D__STDC_CONSTANT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler.hmap -Iexternal/llvm/llvm-3.1.src/include -I../../include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSJitter.mm -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSJitter.o36"577AA05A-78CA-4755-BE37-CC7BB9E77924-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363137978.950523
-e363137980.151635
-r0
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm
-xnormal
-xx86_64
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:18:10: fatal error: 'llvm/ModuleProvider.h' file not found
-o#include "llvm/ModuleProvider.h"
-o         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:1354:27: error: expected a type
-o- (void) setDataManager: (FSCustomDataManager*) dm { 
-o                          ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:89:20: warning: instance method '-getFunctionPointerForData:' not found (return type defaults to 'id')
-o                        dataSource[i] = [dataManager getFunctionPointerForData: [NSString stringWithCString: [compiler nameForDataSource: i] encoding: NSUTF8StringEncoding]];
-o                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:90:21: warning: instance method '-getFunctionPointerForMerge:' not found (return type defaults to 'id')
-o                        mergeSource[i] = [dataManager getFunctionPointerForMerge: [NSString stringWithCString: [compiler nameForDataSource: i] encoding: NSUTF8StringEncoding]];
-o                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:155:69: error: too few arguments to function call, expected 2, have 1
-o                                                        GetElementPtrInst* outd = GetElementPtrInst::Create(outputP, LLVMi32(defaults++),
-o                                                                                                                     ^~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:196:44: error: too few arguments to function call, expected 2, have 1
-o                                                        ptr = GetElementPtrInst::Create(xP, LLVMi32(v),
-o                                                                                            ^~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:203:43: error: too few arguments to function call, expected 2, have 1
-o                                                ptr = GetElementPtrInst::Create(jP, LLVMi32(tree[node].auxi[0]),
-o                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:205:30: error: too few arguments to function call, expected 2, have 1
-o                                                builder -> CreateStore(LLVMi32(0), ptr,
-o                                                                       ^~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:209:43: error: too few arguments to function call, expected 2, have 1
-o                                                ptr = GetElementPtrInst::Create(jP, LLVMi32(tree[node].auxi[0]),
-o                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:215:30: error: too few arguments to function call, expected 2, have 1
-o                                                builder -> CreateStore(LLVMi32(tree[node].auxi[0]), flagP);
-o                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:221:51: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [7]'
-o                                                        BasicBlock* loopBlock = BasicBlock::Create("FSE_Do", llvmKernel);
-o                                                                                                   ^~~~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here
-o  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:224:61: error: too few arguments to function call, expected 2, have 1
-o                                                        PHINode* j = builder -> CreatePHI(IntegerType::get(32), [[NSString stringWithFormat: @"j%i.", jDepth] cString]);
-o                                                                                          ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:225:25: error: too few arguments to function call, expected 2, have 1
-o                                                        j -> addIncoming(LLVMi32(0), incomingBlock);
-o                                                                         ^~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:228:48: error: too few arguments to function call, expected 2, have 1
-o                                                                Value* nextj = builder -> CreateAdd(j, LLVMi32(1),
-o                                                                                                       ^~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:233:55: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [15]'
-o                                                                BasicBlock* loopEndBlock = BasicBlock::Create("FSE_Do cleanup", llvmKernel);
-o                                                                                                              ^~~~~~~~~~~~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here
-o  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:238:44: error: too few arguments to function call, expected 2, have 1
-o                                                        ptr = GetElementPtrInst::Create(jP, LLVMi32(jDepth), [[NSString stringWithFormat: @"j[%i]", jDepth] cString], thisBlock);
-o                                                                                            ^~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:249:30: error: too few arguments to function call, expected 2, have 1
-o                                                builder -> CreateStore(LLVMi32(1), reportedP);
-o                                                                       ^~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:253:51: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [5]'
-o                                                        BasicBlock* trueBlock = BasicBlock::Create("true", llvmKernel);
-o                                                                                                   ^~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here
-o  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:254:52: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'
-o                                                        BasicBlock* falseBlock = BasicBlock::Create("false", llvmKernel);
-o                                                                                                    ^~~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here
-o  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:255:52: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'
-o                                                        BasicBlock* mergeBlock = BasicBlock::Create("merge", llvmKernel);
-o                                                                                                    ^~~~~~~
-oexternal/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here
-o  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",
-o                                         ^
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:294:56: error: too few arguments to function call, expected 2, have 1
-o                                                        Value* probeCond = builder -> CreateICmpEQ(prb, LLVMi32(tree[node].auxi[1]));
-o                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'
-o#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)
-o                                    ~~~~~~~~~~~~~~~~   ^
-oexternal/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here
-o  static IntegerType *get(LLVMContext &C, unsigned NumBits);
-o  ^
-ofatal error: too many errors emitted, stopping now [-ferror-limit=]
-o2 warnings and 20 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mmdd78f3ba0ba5b541^a2d026bc0ba5b541^-13940"/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:18:10: fatal error: 'llvm/ModuleProvider.h' file not found#include "llvm/ModuleProvider.h"         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:1354:27: error: expected a type- (void) setDataManager: (FSCustomDataManager*) dm {                           ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:89:20: warning: instance method '-getFunctionPointerForData:' not found (return type defaults to 'id')                        dataSource[i] = [dataManager getFunctionPointerForData: [NSString stringWithCString: [compiler nameForDataSource: i] encoding: NSUTF8StringEncoding]];                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:90:21: warning: instance method '-getFunctionPointerForMerge:' not found (return type defaults to 'id')                        mergeSource[i] = [dataManager getFunctionPointerForMerge: [NSString stringWithCString: [compiler nameForDataSource: i] encoding: NSUTF8StringEncoding]];                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:155:69: error: too few arguments to function call, expected 2, have 1                                                        GetElementPtrInst* outd = GetElementPtrInst::Create(outputP, LLVMi32(defaults++),                                                                                                                     ^~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:196:44: error: too few arguments to function call, expected 2, have 1                                                        ptr = GetElementPtrInst::Create(xP, LLVMi32(v),                                                                                            ^~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:203:43: error: too few arguments to function call, expected 2, have 1                                                ptr = GetElementPtrInst::Create(jP, LLVMi32(tree[node].auxi[0]),                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:205:30: error: too few arguments to function call, expected 2, have 1                                                builder -> CreateStore(LLVMi32(0), ptr,                                                                       ^~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:209:43: error: too few arguments to function call, expected 2, have 1                                                ptr = GetElementPtrInst::Create(jP, LLVMi32(tree[node].auxi[0]),                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:215:30: error: too few arguments to function call, expected 2, have 1                                                builder -> CreateStore(LLVMi32(tree[node].auxi[0]), flagP);                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:221:51: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [7]'                                                        BasicBlock* loopBlock = BasicBlock::Create("FSE_Do", llvmKernel);                                                                                                   ^~~~~~~~external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:224:61: error: too few arguments to function call, expected 2, have 1                                                        PHINode* j = builder -> CreatePHI(IntegerType::get(32), [[NSString stringWithFormat: @"j%i.", jDepth] cString]);                                                                                          ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:225:25: error: too few arguments to function call, expected 2, have 1                                                        j -> addIncoming(LLVMi32(0), incomingBlock);                                                                         ^~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:228:48: error: too few arguments to function call, expected 2, have 1                                                                Value* nextj = builder -> CreateAdd(j, LLVMi32(1),                                                                                                       ^~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:233:55: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [15]'                                                                BasicBlock* loopEndBlock = BasicBlock::Create("FSE_Do cleanup", llvmKernel);                                                                                                              ^~~~~~~~~~~~~~~~external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:238:44: error: too few arguments to function call, expected 2, have 1                                                        ptr = GetElementPtrInst::Create(jP, LLVMi32(jDepth), [[NSString stringWithFormat: @"j[%i]", jDepth] cString], thisBlock);                                                                                            ^~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:249:30: error: too few arguments to function call, expected 2, have 1                                                builder -> CreateStore(LLVMi32(1), reportedP);                                                                       ^~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:253:51: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [5]'                                                        BasicBlock* trueBlock = BasicBlock::Create("true", llvmKernel);                                                                                                   ^~~~~~external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:254:52: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'                                                        BasicBlock* falseBlock = BasicBlock::Create("false", llvmKernel);                                                                                                    ^~~~~~~external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:255:52: error: non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'                                                        BasicBlock* mergeBlock = BasicBlock::Create("merge", llvmKernel);                                                                                                    ^~~~~~~external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h:102:42: note: passing argument to parameter 'Context' here  static BasicBlock *Create(LLVMContext &Context, const Twine &Name = "",                                         ^/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm:294:56: error: too few arguments to function call, expected 2, have 1                                                        Value* probeCond = builder -> CreateICmpEQ(prb, LLVMi32(tree[node].auxi[1]));                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h:14:56: note: expanded from macro 'LLVMi32'#define LLVMi32(x) ConstantInt::get(IntegerType::get(32), (x), true)                                    ~~~~~~~~~~~~~~~~   ^external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h:57:3: note: 'get' declared here  static IntegerType *get(LLVMContext &C, unsigned NumBits);  ^fatal error: too many errors emitted, stopping now [-ferror-limit=]2 warnings and 20 errors generated.22(36%IDEClangDiagnosticActivityLogMessage2@38"'llvm/ModuleProvider.h' file not found-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^17#9#17#9#402#0#29"Lexical or Preprocessor Issue--2@15"Expected a type-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^1353#26#1353#26#59665#0#11"Parse Issue--2@86"Instance method '-getFunctionPointerForData:' not found (return type defaults to 'id')-363137980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^88#19#88#19#1979#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^88#19#88#152#1979#132#-2@87"Instance method '-getFunctionPointerForMerge:' not found (return type defaults to 'id')-363137980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^89#20#89#20#2134#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^89#20#89#154#2134#133#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^154#68#154#68#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^154#68#154#75#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^195#43#195#43#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^195#43#195#50#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^202#42#202#42#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^202#42#202#49#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^204#29#204#29#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^204#29#204#36#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^208#42#208#42#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^208#42#208#49#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^214#29#214#29#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^214#29#214#36#17#13#-2@112"Non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [7]'-363137980#18446744073709551615#0#1(2@44"Passing argument to parameter 'Context' here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h0000000000000000^101#41#101#41#4282#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^220#50#220#50#6888#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^220#50#220#58#6888#0#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#1(2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^223#60#223#60#7055#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^223#41#223#57#7036#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^224#24#224#24#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^224#24#224#31#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^227#47#227#47#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^227#47#227#54#17#13#-2@113"Non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [15]'-363137980#18446744073709551615#0#1(2@44"Passing argument to parameter 'Context' here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h0000000000000000^101#41#101#41#4282#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^232#54#232#54#7661#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^232#54#232#70#7661#0#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^237#43#237#43#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^237#43#237#50#17#13#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^248#29#248#29#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^248#29#248#36#17#13#-2@112"Non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [5]'-363137980#18446744073709551615#0#1(2@44"Passing argument to parameter 'Context' here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h0000000000000000^101#41#101#41#4282#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^252#50#252#50#8481#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^252#50#252#56#8481#0#-2@112"Non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'-363137980#18446744073709551615#0#1(2@44"Passing argument to parameter 'Context' here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h0000000000000000^101#41#101#41#4282#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^253#51#253#51#8553#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^253#51#253#58#8553#0#-2@112"Non-const lvalue reference to type 'llvm::LLVMContext' cannot bind to a value of unrelated type 'const char [6]'-363137980#18446744073709551615#0#1(2@44"Passing argument to parameter 'Context' here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/BasicBlock.h0000000000000000^101#41#101#41#4282#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^254#51#254#51#8626#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^254#51#254#58#8626#0#-2@54"Too few arguments to function call, expected 2, have 1-363137980#18446744073709551615#0#2(2@29"Expanded from macro 'LLVMi32'-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#55#13#55#288#0#21"Clang LLVM 1.0 Notice1(3@92"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.h0000000000000000^13#36#13#52#269#13#-2@19"'get' declared here-363137980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/DerivedTypes.h0000000000000000^56#2#56#2#2117#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^293#55#293#55#36#0#14"Semantic Issue1(3@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^293#55#293#62#17#13#-2@37"Too many errors emitted, stopping now-363137980#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm0000000000000000^2826"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o compiler/FSKernel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -D__STDC_LIMIT_MACROS "-DCMAKE_INTDIR=\"Debug\"" -D__STDC_CONSTANT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler.hmap -Iexternal/llvm/llvm-3.1.src/include -I../../include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/compiler/FSKernel.mm -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FSKernel.o36"53B91BFA-4310-4823-A3D7-CDAF8456E7AE-
-
-CCompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363137678.695115
-e363137679.186284
-r1
-xCompileC
-xbuild/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp630ab28e0aa5b541^74b32f8f0aa5b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp0000000000000000^2593"CompileC build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o FractalStreamCompiler/FractalStreamCompiler.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -D__STDC_LIMIT_MACROS "-DCMAKE_INTDIR=\"Debug\"" -D__STDC_CONSTANT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/FractalStreamCompiler.hmap -Iexternal/llvm/llvm-3.1.src/include -I../../include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/DerivedSources -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/FractalStreamCompiler/FractalStreamCompiler.cp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.o36"AC2C7689-8D48-4C4D-B261-9922F73D6070-
-
-CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib normal x86_64
-s363136789.486179
-e363136789.529629
-r1
-xLd
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib3b8d7c1507a5b541^5b96871507a5b541^---0#0#0#--1066"Ld build/Debug/FractalStreamCompiler.dylib normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/build/FractalStreamCompiler.build/Debug/FractalStreamCompiler.build/Objects-normal/x86_64/FractalStreamCompiler.LinkFileList -install_name /usr/local/lib/FractalStreamCompiler.dylib -mmacosx-version-min=10.7 /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCore.a -single_module -compatibility_version 1 -current_version 1 -o /Users/lipa/fractalstream/external/FractalStreamCompiler/build/Debug/FractalStreamCompiler.dylib36"B50BF5B8-59A5-4ACC-97DF-FA1CB1839B58-
-

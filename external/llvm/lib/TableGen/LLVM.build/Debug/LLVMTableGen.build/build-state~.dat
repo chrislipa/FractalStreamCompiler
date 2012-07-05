@@ -1,253 +1,0 @@
-TLLVMTableGen
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/LLVMTableGen.LinkFileList
-c000000004FF4CF800000000000000432
-t1341443968
-s1074
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh
-c000000004FF4CF8000000000000000FD
-t1341443968
-s253
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h
-c000000004F2EFF37000000000000440F
-t1328480055
-s17423
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
-c000000004F8BDED20000000000004419
-t1334566610
-s17433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/TableGen/Error.h
-c000000004F8EFDF7000000000000052D
-t1334771191
-s1325
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp
-c000000004F8F03710000000000000611
-t1334772593
-s1553
-i"llvm/TableGen/Error.h"
-i"llvm/ADT/Twine.h"
-i"llvm/Support/raw_ostream.h"
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp
-c000000004E90447E0000000000000F16
-t1318077566
-s3862
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp
-c000000004F578F47000000000000F9A6
-t1331138375
-s63910
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp
-c000000004F4513450000000000003479
-t1329926981
-s13433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp
-c000000004F451345000000000001347D
-t1329926981
-s78973
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp
-c000000004EEFF7D800000000000001BB
-t1324349400
-s443
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp
-c000000004F40DE780000000000000414
-t1329651320
-s1044
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdae7b50007a5b541^3ee7b60007a5b541^---0#1#0#--18"Check dependencies36"A3A9B884-D4C4-447A-9CA9-A6E799414126-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.716787
-e363136769.159546
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp9694b70007a5b541^f1d7280107a5b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp0000000000000000^2880"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o lib/TableGen/Error.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Error.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Error.o36"E74AEF96-520C-4304-883A-594528FB075A-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.716831
-e363136769.565843
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp3e95b70007a5b541^e4da900107a5b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp0000000000000000^2874"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o lib/TableGen/Main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Main.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Main.o36"38683CA2-34E5-475B-8162-AF10EC1564DD-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.717284
-e363136770.211499
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp20b3b70007a5b541^ab24360207a5b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp0000000000000000^2886"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o lib/TableGen/Record.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/Record.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/Record.o36"AD3AFD3C-B8F5-4F18-9A2B-2161EDD6EDF7-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.718758
-e363136769.228540
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp101fb80007a5b541^0a833a0107a5b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp0000000000000000^2892"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o lib/TableGen/TGLexer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGLexer.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGLexer.o36"B71C671D-9DB7-4628-8293-1F5971AC985F-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.718960
-e363136770.130959
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp952bb80007a5b541^e38c210207a5b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp0000000000000000^2898"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o lib/TableGen/TGParser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TGParser.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TGParser.o36"B6892462-7789-4B2F-A7C7-B1FB58098AC6-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.717348
-e363136768.746985
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cppbec1b70007a5b541^583abf0007a5b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp0000000000000000^2934"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o lib/TableGen/TableGenAction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenAction.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenAction.o36"8EB1234B-6A7C-438C-AE96-09EBBF6DE705-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363136768.718516
-e363136769.180831
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp8e02b80007a5b541^e04a2e0107a5b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp0000000000000000^2940"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o lib/TableGen/TableGenBackend.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/lib/TableGen/TableGenBackend.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/TableGenBackend.o36"A9FCA8CD-F790-4DAC-8E01-9D428116A5FD-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a normal x86_64
-s363136770.218302
-e363136770.245041
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a normal x86_64b7f1370207a5b541^13bb3e0207a5b541^---0#0#0#--852"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Objects-normal/x86_64/LLVMTableGen.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMTableGen.a36"4EC9E9A6-6D6E-472F-B9F0-86D42F3B9D82-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh
-s363136770.253703
-e363136770.317724
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMTableGen.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-tblgen
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'145f410207a5b541^c555510207a5b541^-454"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMTableGen.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-tblgen4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363136770#0#30#-0#-----2@23"Depend check for xcode-363136770#30#23#-0#-----2@297"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.LLVMTableGen.Debug-363136770#53#297#-0#-----2@104"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-tblgen-363136770#350#104#-0#-----0#0#0#--461"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/TableGen/LLVM.build/Debug/LLVMTableGen.build/Script-771AEB97C67E41A7914CC79E.sh36"4D8EDBA1-9F59-4ED3-8358-5DA262EDA3F5-
-
