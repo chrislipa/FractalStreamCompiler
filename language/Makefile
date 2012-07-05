@@ -1,32 +1,14 @@
-all: parser.cpp parser.hpp tokens.cpp
-
-#OBJS = parser.o  \
-#       codegen.o \
-#       main.o    \
-#       tokens.o  \
-
-#LLVM_MODULES = core jit native
-
-#CPPFLAGS = `llvm-config --cppflags $(LLVM_MODULES)`
-#LDFLAGS = `llvm-config --ldflags $(LLVM_MODULES)`
-#LIBS = `llvm-config --libs $(LLVM_MODULES)`
+all: build/parser.cpp build/parser.hpp build/tokens.cpp
 
 clean:
-	$(RM) -rf parser.cpp parser.hpp parser tokens.cpp $(OBJS)
+	$(RM) -rf build/parser.cpp build/parser.hpp build/parser build/tokens.cpp 
 
-parser.cpp: parser.y
+build/parser.cpp: parser.y
+	mkdir -p build
 	bison -d -o $@ $^
-	
-parser.hpp: parser.cpp
 
-tokens.cpp: tokens.lex parser.hpp
+build/parser.hpp: build/parser.cpp
+
+build/tokens.cpp: tokens.lex build/parser.hpp
+	mkdir -p build
 	flex -o $@ $^
-
-#%.o: %.cpp
-#	g++ -c $(CPPFLAGS) -o $@ $<
-
-
-#parser: $(OBJS)
-#	g++ -o $@ $(LDFLAGS) $(OBJS) $(LIBS)
-
-
