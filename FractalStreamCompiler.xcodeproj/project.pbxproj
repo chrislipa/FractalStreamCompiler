@@ -11,10 +11,9 @@
 		36C2CA9715A53CF20042BFED /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; };
 		36C2CA9815A53CF20042BFED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9415A53CF20042BFED /* main.cpp */; };
 		36C2CA9915A53CF20042BFED /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; };
-		36C2CA9E15A53DCE0042BFED /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9B15A53DCE0042BFED /* parser.cpp */; };
-		36C2CA9F15A53DCE0042BFED /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9C15A53DCE0042BFED /* parser.hpp */; };
-		36C2CAA015A53DCE0042BFED /* tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9D15A53DCE0042BFED /* tokens.cpp */; };
-		36C2CAA415A53DE50042BFED /* parser.y in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CAA315A53DE50042BFED /* parser.y */; };
+		36C2CAAA15A541B30042BFED /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CAA715A541B30042BFED /* parser.cpp */; };
+		36C2CAAB15A541B30042BFED /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CAA815A541B30042BFED /* parser.hpp */; };
+		36C2CAAC15A541B30042BFED /* tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CAA915A541B30042BFED /* tokens.cpp */; };
 		36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */; };
 		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
 /* End PBXBuildFile section */
@@ -1031,15 +1030,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36B13E0315A54C8A0024BC56 /* parser.bison */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = parser.bison; path = language/parser.bison; sourceTree = "<group>"; };
+		36B13E0415A54C8A0024BC56 /* tokens.lex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tokens.lex; path = language/tokens.lex; sourceTree = "<group>"; };
 		36C2CA9215A53CF20042BFED /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = language/codegen.cpp; sourceTree = "<group>"; };
 		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9415A53CF20042BFED /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = language/main.cpp; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
-		36C2CA9B15A53DCE0042BFED /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = language/parser.cpp; sourceTree = "<group>"; };
-		36C2CA9C15A53DCE0042BFED /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = parser.hpp; path = language/parser.hpp; sourceTree = "<group>"; };
-		36C2CA9D15A53DCE0042BFED /* tokens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tokens.cpp; path = language/tokens.cpp; sourceTree = "<group>"; };
-		36C2CAA215A53DE50042BFED /* tokens.lex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tokens.lex; path = language/tokens.lex; sourceTree = "<group>"; };
-		36C2CAA315A53DE50042BFED /* parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = parser.y; path = language/parser.y; sourceTree = "<group>"; };
+		36C2CAA715A541B30042BFED /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		36C2CAA815A541B30042BFED /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
+		36C2CAA915A541B30042BFED /* tokens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tokens.cpp; sourceTree = "<group>"; };
 		36DE7C3215A5027300DCA597 /* FractalStreamCompiler.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = FractalStreamCompiler.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DE7C3615A5027300DCA597 /* FractalStreamCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalStreamCompiler-Prefix.pch"; sourceTree = "<group>"; };
 		36DE7C3715A5027300DCA597 /* FractalStreamCompilerProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerProj.xcconfig; sourceTree = "<group>"; };
@@ -1062,12 +1061,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B13E0215A54C0E0024BC56 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				36B13E0315A54C8A0024BC56 /* parser.bison */,
+				36B13E0415A54C8A0024BC56 /* tokens.lex */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		36C2CA9115A53CD10042BFED /* language */ = {
 			isa = PBXGroup;
 			children = (
-				36C2CAA215A53DE50042BFED /* tokens.lex */,
-				36C2CAA315A53DE50042BFED /* parser.y */,
-				36C2CAA115A53DD60042BFED /* derived */,
+				36C2CAA515A541B30042BFED /* build */,
 				36C2CA9215A53CF20042BFED /* codegen.cpp */,
 				36C2CA9315A53CF20042BFED /* codegen.h */,
 				36C2CA9415A53CF20042BFED /* main.cpp */,
@@ -1076,19 +1082,21 @@
 			name = language;
 			sourceTree = "<group>";
 		};
-		36C2CAA115A53DD60042BFED /* derived */ = {
+		36C2CAA515A541B30042BFED /* build */ = {
 			isa = PBXGroup;
 			children = (
-				36C2CA9B15A53DCE0042BFED /* parser.cpp */,
-				36C2CA9C15A53DCE0042BFED /* parser.hpp */,
-				36C2CA9D15A53DCE0042BFED /* tokens.cpp */,
+				36C2CAA715A541B30042BFED /* parser.cpp */,
+				36C2CAA815A541B30042BFED /* parser.hpp */,
+				36C2CAA915A541B30042BFED /* tokens.cpp */,
 			);
-			name = derived;
+			name = build;
+			path = language/build;
 			sourceTree = "<group>";
 		};
 		36DE7C2715A5027300DCA597 = {
 			isa = PBXGroup;
 			children = (
+				36B13E0215A54C0E0024BC56 /* resources */,
 				36C2CA9115A53CD10042BFED /* language */,
 				36DE7EB815A5085A00DCA597 /* compiler */,
 				36DE7C7D15A5047000DCA597 /* external */,
@@ -1300,7 +1308,7 @@
 			files = (
 				36C2CA9715A53CF20042BFED /* codegen.h in Headers */,
 				36C2CA9915A53CF20042BFED /* node.h in Headers */,
-				36C2CA9F15A53DCE0042BFED /* parser.hpp in Headers */,
+				36C2CAAB15A541B30042BFED /* parser.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2385,9 +2393,8 @@
 				36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */,
 				36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */,
 				36C2CA9815A53CF20042BFED /* main.cpp in Sources */,
-				36C2CA9E15A53DCE0042BFED /* parser.cpp in Sources */,
-				36C2CAA015A53DCE0042BFED /* tokens.cpp in Sources */,
-				36C2CAA415A53DE50042BFED /* parser.y in Sources */,
+				36C2CAAA15A541B30042BFED /* parser.cpp in Sources */,
+				36C2CAAC15A541B30042BFED /* tokens.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

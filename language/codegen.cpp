@@ -1,7 +1,9 @@
+#include <iostream>
+
 #include "node.h"
 #include "codegen.h"
 #include "parser.hpp"
-
+#include "llvm/DerivedTypes.h"
 using namespace std;
 
 /* Compile the AST into a module */
@@ -10,7 +12,12 @@ void CodeGenContext::generateCode(NBlock& root)
 	std::cout << "Generating code...\n";
 	
 	/* Create the top level interpreter function to call as entry */
-	vector<const Type*> argTypes;
+	ArrayRef<Type*> argTypes;
+
+	
+	
+	
+	
 	FunctionType *ftype = FunctionType::get(Type::getVoidTy(getGlobalContext()), argTypes, false);
 	mainFunction = Function::Create(ftype, GlobalValue::InternalLinkage, "main", module);
 	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", mainFunction, 0);
@@ -83,11 +90,14 @@ Value* NMethodCall::codeGen(CodeGenContext& context)
 		std::cerr << "no such function " << id.name << endl;
 	}
 	std::vector<Value*> args;
+
 	ExpressionList::const_iterator it;
 	for (it = arguments.begin(); it != arguments.end(); it++) {
 		args.push_back((**it).codeGen(context));
 	}
-	CallInst *call = CallInst::Create(function, args.begin(), args.end(), "", context.currentBlock());
+	MutableArrayRef<Value*> ref = MutableArrayRef<Value*>::MutableArrayRef<Value*>(args);
+	
+	CallInst *call = CallInst::Create(function, ref, "", context.currentBlock());
 	std::cout << "Creating method call: " << id.name << endl;
 	return call;
 }
@@ -142,7 +152,9 @@ Value* NExpressionStatement::codeGen(CodeGenContext& context)
 Value* NVariableDeclaration::codeGen(CodeGenContext& context)
 {
 	std::cout << "Creating variable declaration " << type.name << " " << id.name << endl;
-	AllocaInst *alloc = new AllocaInst(typeOf(type), id.name.c_str(), context.currentBlock());
+	const Type *t = typeOf(type);
+
+	AllocaInst *alloc = new AllocaInst(t, id.name.c_str(), context.currentBlock());
 	context.locals()[id.name] = alloc;
 	if (assignmentExpr != NULL) {
 		NAssignment assn(id, *assignmentExpr);
