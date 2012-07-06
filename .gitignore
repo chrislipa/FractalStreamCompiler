@@ -26,3 +26,6 @@ build/**/*
 external/llvm/lib/Debug/**
 
 test/build/**
+**/build/**
+language/lang/build
+*.o

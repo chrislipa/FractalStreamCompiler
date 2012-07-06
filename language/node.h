@@ -1,15 +1,6 @@
-//#include <iostream>
-//#include <vector>
-#include "llvm/DerivedTypes.h"
-#include "llvm/Support/IRBuilder.h"
-#include "llvm/LLVMContext.h"
-#include "llvm/Module.h"
-#include "llvm/Analysis/Verifier.h"
-#include <cstdio>
-#include <string>
-#include <map>
+#include <iostream>
 #include <vector>
-using namespace llvm;
+#include <llvm/Value.h>
 
 class CodeGenContext;
 class NStatement;
@@ -23,9 +14,7 @@ typedef std::vector<NVariableDeclaration*> VariableList;
 class Node {
 public:
 	virtual ~Node() {}
-	virtual llvm::Value* codeGen(CodeGenContext& context) { 
-		return NULL;
-	}
+	virtual void /*llvm::Value* */ codeGen(/*CodeGenContext& context*/) { }
 };
 
 class NExpression : public Node {
@@ -38,7 +27,7 @@ class NInteger : public NExpression {
 public:
 	long long value;
 	NInteger(long long value) : value(value) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(/*CodeGenContext& context*/ void* x);
 };
 
 class NDouble : public NExpression {

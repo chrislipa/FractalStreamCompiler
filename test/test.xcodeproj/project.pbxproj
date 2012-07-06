@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		36CD1A1D15A5E39D002DF90A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36CD1A1C15A5E39D002DF90A /* main.c */; };
 		36CD1A1F15A5E39D002DF90A /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36CD1A1E15A5E39D002DF90A /* test.1 */; };
-		36CD1AB715A5E433002DF90A /* FractalStreamCompiler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */; };
+		36CD1AB715A5E433002DF90A /* libFractalStreamCompiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36CD1AB715A5E433002DF90A /* FractalStreamCompiler.dylib in Frameworks */,
+				36CD1AB715A5E433002DF90A /* libFractalStreamCompiler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 		36CD1A2615A5E3A5002DF90A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */,
+				36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */ = {
+		36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = FractalStreamCompiler.dylib;
+			fileType = archive.ar;
+			path = libFractalStreamCompiler.a;
 			remoteRef = 36CD1A6415A5E3AD002DF90A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -181,7 +181,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -197,10 +197,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../include;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					..,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -208,7 +211,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,15 +221,20 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../include;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					..,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
 		36CD1A2315A5E39D002DF90A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -234,6 +242,7 @@
 		36CD1A2415A5E39D002DF90A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

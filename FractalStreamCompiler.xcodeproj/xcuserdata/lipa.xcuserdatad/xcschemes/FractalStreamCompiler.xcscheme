@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36DE7C3115A5027300DCA597"
-               BuildableName = "FractalStreamCompiler.dylib"
+               BuildableName = "libFractalStreamCompiler.a"
                BlueprintName = "FractalStreamCompiler"
                ReferencedContainer = "container:FractalStreamCompiler.xcodeproj">
             </BuildableReference>

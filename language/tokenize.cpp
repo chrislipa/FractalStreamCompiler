@@ -2,14 +2,39 @@
 #include "codegen.h"
 #include "node.h"
 #include "tokens.h"
+#include <stdio.h>
+#include "tk.h"
 
 using namespace std;
 
 extern int yyparse();
 extern NBlock* programBlock;
 
-int tokenize()
+
+
+int m()
 {
+	FILE * pFile;
+	char buffer [100];
+	
+	pFile = fopen ("/Users/lipa/toParse.txt" , "r");
+	if (pFile == NULL) perror ("Error opening file");
+	else
+	{
+		while ( ! feof (pFile) )
+		{
+			if ( fgets (buffer , 100 , pFile) != NULL )
+				fputs (buffer , stdout);
+		}
+		fclose (pFile);
+	}
+	return 0;
+}
+
+int tokenizestring()
+{
+	m();
+	printf("c\n");
 	FILE * pFile;
 	long lSize;
 	char * buffer;
@@ -29,11 +54,12 @@ int tokenize()
 	fprintf(f, "1*2");
 	fseek( f, 0, SEEK_SET);
 
+	fopen ("toParse.txt" , "r");
 	
 	
-	
-	yyin = f;
-	yyout = pFile;
+
+	yyin = fopen ("/Users/lipa/toParse.txt" , "r");
+	yyout = fopen ("/Users/lipa/output.txt" , "w");
 	yyparse();
 	
 	//std::cout << programBlock << endl;

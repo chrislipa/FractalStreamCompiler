@@ -9,6 +9,6 @@
 #ifndef FractalStreamCompiler_Tokenize_h
 #define FractalStreamCompiler_Tokenize_h
 
-int tokenize();
+int tokenizestring();
 
 #endif
