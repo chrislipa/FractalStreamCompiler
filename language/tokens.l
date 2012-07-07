@@ -2,9 +2,13 @@
 %option header-file="tokens.hpp"  outfile="tokens.cpp" 
 
 %option warn nodefault
+
 %option 8bit
 %option reentrant
 %option bison-bridge
+%option bison-locations
+%option noyywrap
+
 %{
 #include <string>
 	#include "node.hpp"

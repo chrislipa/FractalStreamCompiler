@@ -16,8 +16,8 @@
 extern "C" 
 
 int abcdefg1function() {
-	printf("a\n");
+	
 	tokenizestring();
-	printf("b\n");
+	
 	return 7;
 }

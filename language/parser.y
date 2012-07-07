@@ -8,9 +8,9 @@
 	#include <cstdlib>
 	NBlock *programBlock; /* the top level root node of our final AST */
 
-	typedef void* yyscan_t;
-	extern int yylex (YYSTYPE * yylval_param ,yyscan_t yyscanner);
-	void yyerror(const char *s) { std::printf("Error: %s\n", s);std::exit(1); }
+	typedef void* yyscan_t; 
+	extern int yylex (YYSTYPE * yylval_param ,YYLTYPE * yylloc_param , yyscan_t yyscanner);
+	void yyerror(YYLTYPE*  yylval_param, yyscan_t yyscanner,  const char *s) { std::printf("Error: %s\n", s);std::exit(1); }
 %}
 
 /* Represents the many different ways we can access our data */
@@ -68,7 +68,7 @@ stmt : var_decl | func_decl
 	 | expr { $$ = new NExpressionStatement(*$1); }
      ;
 
-block : TLBRACE stmts TRBRACE { $$ = $2; }
+block : TLBRACE stmts TRBRACE { @$; $$ = $2; }
 	  | TLBRACE TRBRACE { $$ = new NBlock(); }
 	  ;
 

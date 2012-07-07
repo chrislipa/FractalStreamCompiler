@@ -12,54 +12,20 @@ extern NBlock* programBlock;
 
 
 
-int m()
-{
-	FILE * pFile;
-	char buffer [100];
-	
-	pFile = fopen ("/Users/lipa/toParse.txt" , "r");
-	if (pFile == NULL) perror ("Error opening file");
-	else
-	{
-		while ( ! feof (pFile) )
-		{
-			if ( fgets (buffer , 100 , pFile) != NULL )
-				fputs (buffer , stdout);
-		}
-		fclose (pFile);
-	}
-	return 0;
-}
 
 int tokenizestring()
 {
-	m();
-	printf("c\n");
-	FILE * pFile;
-	long lSize;
-	char * buffer;
-	size_t result;
+	const char* s = "1*2*";
+	yyscan_t scanner;
 	
-	pFile = tmpfile();
-	if (pFile==NULL) {fputs ("File error",stderr); exit (1);}
-	
-	
-	
-	
-	FILE * f = tmpfile(), *g = tmpfile();
-	if (f == NULL) {
-		//error
-		return -1;
-	}
-	fprintf(f, "1*2");
-	fseek( f, 0, SEEK_SET);
+	yylex_init ( &scanner );
 
-	fopen ("toParse.txt" , "r");
+	YY_BUFFER_STATE rv = yy_scan_string(s, scanner);
+	yylex_destroy ( scanner );
+	std::cout << rv;
 	
 	
 
-	//yyin = fopen ("/Users/lipa/toParse.txt" , "r");
-	//yyout = fopen ("/Users/lipa/output.txt" , "w");
 	//yyparse();
 	
 	//std::cout << programBlock << endl;
@@ -69,31 +35,6 @@ int tokenizestring()
 	//context.generateCode(*programBlock);
 	//context.runCode();
 	
-	fclose( f );
-	
-	
-	////
-	// obtain file size:
-	fseek (pFile , 0 , SEEK_END);
-	lSize = ftell (pFile);
-	rewind (pFile);
-	
-	// allocate memory to contain the whole file:
-	buffer = (char*) malloc (sizeof(char)*lSize);
-	if (buffer == NULL) {fputs ("Memory error",stderr); exit (2);}
-	
-	// copy the file into the buffer:
-	result = fread (buffer,1,lSize,pFile);
-	if (result != lSize) {fputs ("Reading error",stderr); exit (3);}
-	
-	/* the whole file is now loaded in the memory buffer. */
-	
-	// terminate
-	fclose (pFile);
-	free (buffer);
-	return 0;
-	////
-	fclose(g);
 	return 0;
 }
 
