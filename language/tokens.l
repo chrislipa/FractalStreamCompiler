@@ -1,11 +1,16 @@
 
+%option header-file="tokens.hpp"  outfile="tokens.cpp" 
 
+%option warn nodefault
+%option 8bit
+%option reentrant
+%option bison-bridge
 %{
 #include <string>
 	#include "node.hpp"
 	#include "parser.hpp"
-	#define SAVE_TOKEN yylval.string = new std::string(yytext, yyleng)
-	#define TOKEN(t) (yylval.token = t)
+	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
+	#define TOKEN(t) (yylval->token = t)
 
 %}
 

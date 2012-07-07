@@ -1,10 +1,15 @@
+%pure-parser
+%lex-param {void * scanner}
+%parse-param {void * scanner}
 %{
 	#include "node.hpp"
+	#include "parser.hpp"
 	#include <cstdio>
 	#include <cstdlib>
 	NBlock *programBlock; /* the top level root node of our final AST */
 
-	extern int yylex();
+	typedef void* yyscan_t;
+	extern int yylex (YYSTYPE * yylval_param ,yyscan_t yyscanner);
 	void yyerror(const char *s) { std::printf("Error: %s\n", s);std::exit(1); }
 %}
 

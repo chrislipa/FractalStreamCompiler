@@ -2,9 +2,9 @@
 #define yyHEADER_H 1
 #define yyIN_HEADER 1
 
-#line 6 "tokens.h"
+#line 6 "tokens.hpp"
 
-#line 8 "tokens.h"
+#line 8 "tokens.hpp"
 
 #define  YY_INT_ALIGNED short int
 
@@ -265,6 +265,10 @@ int yyget_lineno (yyscan_t yyscanner );
 
 void yyset_lineno (int line_number ,yyscan_t yyscanner );
 
+YYSTYPE * yyget_lval (yyscan_t yyscanner );
+
+void yyset_lval (YYSTYPE * yylval_param ,yyscan_t yyscanner );
+
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
  */
@@ -305,9 +309,11 @@ static int yy_flex_strlen (yyconst char * ,yyscan_t yyscanner);
 #ifndef YY_DECL
 #define YY_DECL_IS_OURS 1
 
-extern int yylex (yyscan_t yyscanner);
+extern int yylex \
+               (YYSTYPE * yylval_param ,yyscan_t yyscanner);
 
-#define YY_DECL int yylex (yyscan_t yyscanner)
+#define YY_DECL int yylex \
+               (YYSTYPE * yylval_param , yyscan_t yyscanner)
 #endif /* !YY_DECL */
 
 /* yy_get_previous_state - get the state just before the EOB char was reached */
@@ -324,9 +330,9 @@ extern int yylex (yyscan_t yyscanner);
 #undef YY_DECL
 #endif
 
-#line 37 "/Users/lipa/fractalstream/external/FractalStreamCompiler/language/lang/../tokens.l"
+#line 42 "tokens.l"
 
 
-#line 331 "tokens.h"
+#line 337 "tokens.hpp"
 #undef yyIN_HEADER
 #endif /* yyHEADER_H */
