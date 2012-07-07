@@ -1705,6 +1705,8 @@
 		36C2CA9415A53CF20042BFED /* tokenize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tokenize.cpp; path = language/tokenize.cpp; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
 		36CD193815A58201002DF90A /* tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokens.h; path = language/tokens.h; sourceTree = "<group>"; };
+		36DC777415A8D8820086FC18 /* parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = parser.y; path = language/parser.y; sourceTree = "<group>"; };
+		36DC777515A8D8820086FC18 /* tokens.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = tokens.l; path = language/tokens.l; sourceTree = "<group>"; };
 		36DE7C3215A5027300DCA597 /* libFractalStreamCompiler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFractalStreamCompiler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DE7C3615A5027300DCA597 /* FractalStreamCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalStreamCompiler-Prefix.pch"; sourceTree = "<group>"; };
 		36DE7C3715A5027300DCA597 /* FractalStreamCompilerProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerProj.xcconfig; sourceTree = "<group>"; };
@@ -1820,6 +1822,8 @@
 		36C2CA9115A53CD10042BFED /* language */ = {
 			isa = PBXGroup;
 			children = (
+				36DC777415A8D8820086FC18 /* parser.y */,
+				36DC777515A8D8820086FC18 /* tokens.l */,
 				36CD1A0A15A58B49002DF90A /* include */,
 				36CD193815A58201002DF90A /* tokens.h */,
 				36C2CAA515A541B30042BFED /* build */,
