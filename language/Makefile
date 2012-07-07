@@ -1,6 +1,8 @@
+all: parser.hpp parser.cpp tokens.cpp
+
 CFLAGS= `-I../external/llvm/llvm-3.1.src/include/`
 
-all: parser
+
 
 OBJS = parser.o  \
        codegen.o \
@@ -24,11 +26,11 @@ parser.hpp: parser.cpp
 tokens.cpp: tokens.l parser.hpp
 	flex -o $@ $^
 
-%.o: %.cpp
-	g++ -c $(CPPFLAGS) -o $@ $<
+#%.o: %.cpp
+#	g++ -c $(CPPFLAGS) -o $@ $<
 
 
-parser: $(OBJS)
-	g++ -o $@ $(LDFLAGS) $(OBJS) $(LIBS)
+#parser: $(OBJS)
+#	g++ -o $@ $(LDFLAGS) $(OBJS) $(LIBS)
 
 

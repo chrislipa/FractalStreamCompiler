@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		3641674A15A731F900B921DF /* lang.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3641674915A731F900B921DF /* lang.1 */; };
 		3641675715A7322C00B921DF /* codegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3641675015A7322C00B921DF /* codegen.cpp */; };
-		3641675815A7322C00B921DF /* tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3641675115A7322C00B921DF /* tokens.cpp */; };
-		3641675915A7322C00B921DF /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3641675215A7322C00B921DF /* parser.cpp */; };
 		3641675A15A7322C00B921DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3641675415A7322C00B921DF /* main.cpp */; };
+		369190EC15A817ED00B19C61 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369190EA15A817ED00B19C61 /* parser.cpp */; };
+		369190EF15A8187900B19C61 /* tokens.l in Sources */ = {isa = PBXBuildFile; fileRef = 369190ED15A8187900B19C61 /* tokens.l */; };
+		369190F015A8187900B19C61 /* parser.y in Sources */ = {isa = PBXBuildFile; fileRef = 369190EE15A8187900B19C61 /* parser.y */; };
+		369190F615A81E2D00B19C61 /* tokens.c in Sources */ = {isa = PBXBuildFile; fileRef = 369190F415A81E2C00B19C61 /* tokens.c */; };
 		36C7125F15A7397800FEB98E /* libLLVMAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C710BD15A7391300FEB98E /* libLLVMAnalysis.a */; };
 		36C7126015A7397800FEB98E /* libLLVMArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C7114115A7391300FEB98E /* libLLVMArchive.a */; };
 		36C7126115A7397800FEB98E /* libLLVMARMAsmParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C710DB15A7391300FEB98E /* libLLVMARMAsmParser.a */; };
@@ -1706,12 +1708,15 @@
 		3641674315A731F900B921DF /* lang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lang; sourceTree = BUILT_PRODUCTS_DIR; };
 		3641674915A731F900B921DF /* lang.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lang.1; sourceTree = "<group>"; };
 		3641675015A7322C00B921DF /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = ../codegen.cpp; sourceTree = "<group>"; };
-		3641675115A7322C00B921DF /* tokens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tokens.cpp; path = ../tokens.cpp; sourceTree = "<group>"; };
-		3641675215A7322C00B921DF /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = ../parser.cpp; sourceTree = "<group>"; };
-		3641675315A7322C00B921DF /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = parser.hpp; path = ../parser.hpp; sourceTree = "<group>"; };
 		3641675415A7322C00B921DF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
-		3641675515A7322C00B921DF /* tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokens.h; path = ../tokens.h; sourceTree = "<group>"; };
-		3641675615A7322C00B921DF /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = ../node.h; sourceTree = "<group>"; };
+		3641675615A7322C00B921DF /* node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = node.hpp; path = ../node.hpp; sourceTree = "<group>"; };
+		369190E915A80F8400B19C61 /* tokenize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokenize.h; path = ../tokenize.h; sourceTree = "<group>"; };
+		369190EA15A817ED00B19C61 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = ../parser.cpp; sourceTree = "<group>"; };
+		369190EB15A817ED00B19C61 /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = parser.hpp; path = ../parser.hpp; sourceTree = "<group>"; };
+		369190ED15A8187900B19C61 /* tokens.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = tokens.l; path = ../tokens.l; sourceTree = "<group>"; };
+		369190EE15A8187900B19C61 /* parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = parser.y; path = ../parser.y; sourceTree = "<group>"; };
+		369190F415A81E2C00B19C61 /* tokens.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tokens.c; path = ../tokens.c; sourceTree = "<group>"; };
+		369190F515A81E2D00B19C61 /* tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokens.h; path = ../tokens.h; sourceTree = "<group>"; };
 		36C70FBC15A7390C00FEB98E /* LLVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLVM.xcodeproj; path = ../../external/llvm/LLVM.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1812,14 +1817,17 @@
 		3641673815A731F900B921DF = {
 			isa = PBXGroup;
 			children = (
+				369190F415A81E2C00B19C61 /* tokens.c */,
+				369190F515A81E2D00B19C61 /* tokens.h */,
+				369190ED15A8187900B19C61 /* tokens.l */,
+				369190EE15A8187900B19C61 /* parser.y */,
+				3641675615A7322C00B921DF /* node.hpp */,
+				369190EB15A817ED00B19C61 /* parser.hpp */,
+				369190EA15A817ED00B19C61 /* parser.cpp */,
+				369190E915A80F8400B19C61 /* tokenize.h */,
 				36C70FBC15A7390C00FEB98E /* LLVM.xcodeproj */,
 				3641675015A7322C00B921DF /* codegen.cpp */,
-				3641675115A7322C00B921DF /* tokens.cpp */,
-				3641675215A7322C00B921DF /* parser.cpp */,
-				3641675315A7322C00B921DF /* parser.hpp */,
 				3641675415A7322C00B921DF /* main.cpp */,
-				3641675515A7322C00B921DF /* tokens.h */,
-				3641675615A7322C00B921DF /* node.h */,
 				3641674615A731F900B921DF /* lang */,
 				3641674415A731F900B921DF /* Products */,
 			);
@@ -1998,6 +2006,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3641674D15A731F900B921DF /* Build configuration list for PBXNativeTarget "lang" */;
 			buildPhases = (
+				36918FCE15A8007300B19C61 /* ShellScript */,
 				3641673F15A731F900B921DF /* Sources */,
 				3641674015A731F900B921DF /* Frameworks */,
 				3641674115A731F900B921DF /* CopyFiles */,
@@ -3130,15 +3139,33 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36918FCE15A8007300B19C61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\nmake\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3641673F15A731F900B921DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3641675715A7322C00B921DF /* codegen.cpp in Sources */,
-				3641675815A7322C00B921DF /* tokens.cpp in Sources */,
-				3641675915A7322C00B921DF /* parser.cpp in Sources */,
 				3641675A15A7322C00B921DF /* main.cpp in Sources */,
+				369190EC15A817ED00B19C61 /* parser.cpp in Sources */,
+				369190EF15A8187900B19C61 /* tokens.l in Sources */,
+				369190F015A8187900B19C61 /* parser.y in Sources */,
+				369190F615A81E2D00B19C61 /* tokens.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3577,6 +3604,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					__STDC_CONSTANT_MACROS,
@@ -3604,6 +3632,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					__STDC_CONSTANT_MACROS,
 					__STDC_LIMIT_MACROS,

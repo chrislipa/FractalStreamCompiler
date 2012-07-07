@@ -14,8 +14,6 @@
 		36C2CA9715A53CF20042BFED /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C2CA9815A53CF20042BFED /* tokenize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9415A53CF20042BFED /* tokenize.cpp */; };
 		36C2CA9915A53CF20042BFED /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36C2CAAA15A541B30042BFED /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CAA715A541B30042BFED /* parser.cpp */; };
-		36C2CAAB15A541B30042BFED /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CAA815A541B30042BFED /* parser.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		36CD175A15A55A77002DF90A /* libLLVMAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D7F15A5048500DCA597 /* libLLVMAnalysis.a */; };
 		36CD175B15A55A77002DF90A /* libLLVMArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7E0315A5048500DCA597 /* libLLVMArchive.a */; };
 		36CD175C15A55A77002DF90A /* libLLVMARMAsmParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9D15A5048500DCA597 /* libLLVMARMAsmParser.a */; };
@@ -97,7 +95,6 @@
 		36CD17A815A55A77002DF90A /* libLLVMXCoreCodeGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFB15A5048500DCA597 /* libLLVMXCoreCodeGen.a */; };
 		36CD17A915A55A77002DF90A /* libLLVMXCoreDesc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFF15A5048500DCA597 /* libLLVMXCoreDesc.a */; };
 		36CD17AA15A55A77002DF90A /* libLLVMXCoreInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFD15A5048500DCA597 /* libLLVMXCoreInfo.a */; };
-		36CD193615A57FD2002DF90A /* tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36CD193515A57FD2002DF90A /* tokens.cpp */; };
 		36CD193915A58201002DF90A /* tokens.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CD193815A58201002DF90A /* tokens.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 36DE7C3B15A5027300DCA597 /* FractalStreamCompiler.cp */; };
 		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
@@ -1707,9 +1704,6 @@
 		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9415A53CF20042BFED /* tokenize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tokenize.cpp; path = language/tokenize.cpp; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
-		36C2CAA715A541B30042BFED /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
-		36C2CAA815A541B30042BFED /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
-		36CD193515A57FD2002DF90A /* tokens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tokens.cpp; sourceTree = "<group>"; };
 		36CD193815A58201002DF90A /* tokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokens.h; path = language/tokens.h; sourceTree = "<group>"; };
 		36DE7C3215A5027300DCA597 /* libFractalStreamCompiler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFractalStreamCompiler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DE7C3615A5027300DCA597 /* FractalStreamCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractalStreamCompiler-Prefix.pch"; sourceTree = "<group>"; };
@@ -1841,9 +1835,6 @@
 		36C2CAA515A541B30042BFED /* build */ = {
 			isa = PBXGroup;
 			children = (
-				36CD193515A57FD2002DF90A /* tokens.cpp */,
-				36C2CAA715A541B30042BFED /* parser.cpp */,
-				36C2CAA815A541B30042BFED /* parser.hpp */,
 			);
 			name = build;
 			path = language/build;
@@ -2075,7 +2066,6 @@
 			files = (
 				36C2CA9715A53CF20042BFED /* codegen.h in Headers */,
 				36C2CA9915A53CF20042BFED /* node.h in Headers */,
-				36C2CAAB15A541B30042BFED /* parser.hpp in Headers */,
 				36CD193915A58201002DF90A /* tokens.h in Headers */,
 				365DC24815A5F1C700E456A3 /* tk.h in Headers */,
 				365DC2D615A5FD6A00E456A3 /* abcdefg1.h in Headers */,
@@ -3246,8 +3236,6 @@
 				36DE7C3C15A5027300DCA597 /* FractalStreamCompiler.cp in Sources */,
 				36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */,
 				36C2CA9815A53CF20042BFED /* tokenize.cpp in Sources */,
-				36C2CAAA15A541B30042BFED /* parser.cpp in Sources */,
-				36CD193615A57FD2002DF90A /* tokens.cpp in Sources */,
 				365DC2D515A5FD4200E456A3 /* abcdefg1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

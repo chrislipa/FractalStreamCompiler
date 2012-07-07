@@ -1,7 +1,7 @@
 #include <iostream>
 //#include "codegen.h"
 //#include "node.h"
-
+#include "tokens.h"
 using namespace std;
 
 extern int yyparse();
@@ -18,7 +18,12 @@ int main(int argc, char **argv)
 	dup2(fd[0], STDIN_FILENO);
 	close(fd[1]);
 	
-	yyparse();
+	yyscan_t scanner;
+	
+	yylex_init ( &scanner );
+	//yylex ( scanner );
+	yylex_destroy ( scanner );
+	
 	
 	//std::cout << programBlock << endl;
     // see http://comments.gmane.org/gmane.comp.compilers.llvm.devel/33877

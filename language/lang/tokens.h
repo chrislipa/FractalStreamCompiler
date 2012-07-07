@@ -324,7 +324,7 @@ extern int yylex (yyscan_t yyscanner);
 #undef YY_DECL
 #endif
 
-#line 37 "tokens.l"
+#line 37 "/Users/lipa/fractalstream/external/FractalStreamCompiler/language/lang/../tokens.l"
 
 
 #line 331 "tokens.h"

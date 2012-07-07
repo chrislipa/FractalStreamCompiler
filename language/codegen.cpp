@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "node.h"
+#include "node.hpp"
 #include "codegen.h"
 #include "parser.hpp"
 //#include "llvm/DerivedTypes.h"
@@ -74,7 +74,7 @@ Value* NInteger::codeGen(/*CodeGenContext& context*/ void* x)
 Value*   NDouble::codeGen(CodeGenContext& context)
 {
 	//std::cout << "Creating double: " << value << endl;
-	//return  NULL;//ConstantFP::get(Type::getDoubleTy(getGlobalContext()), value);
+	return  NULL;//ConstantFP::get(Type::getDoubleTy(getGlobalContext()), value);
 }
 
 Value* NIdentifier::codeGen(CodeGenContext& context)
