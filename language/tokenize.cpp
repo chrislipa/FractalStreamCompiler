@@ -1,6 +1,6 @@
 #include <iostream>
 #include "codegen.h"
-#include "node.h"
+//#include "node.h"
 #include "tokens.h"
 #include <stdio.h>
 #include "tk.h"
@@ -58,9 +58,9 @@ int tokenizestring()
 	
 	
 
-	yyin = fopen ("/Users/lipa/toParse.txt" , "r");
-	yyout = fopen ("/Users/lipa/output.txt" , "w");
-	yyparse();
+	//yyin = fopen ("/Users/lipa/toParse.txt" , "r");
+	//yyout = fopen ("/Users/lipa/output.txt" , "w");
+	//yyparse();
 	
 	//std::cout << programBlock << endl;
     // see http://comments.gmane.org/gmane.comp.compilers.llvm.devel/33877
