@@ -9,13 +9,15 @@
 %option bison-locations
 %option noyywrap
 
+
 %{
 #include <string>
+	#include "context.hpp"
 	#include "node.hpp"
 	#include "parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
 	#define TOKEN(t) (yylval->token = t)
-
+#define YY_EXTRA_TYPE void*
 %}
 
 %%

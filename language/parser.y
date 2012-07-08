@@ -1,13 +1,17 @@
 %pure-parser
 %lex-param {void * scanner}
 %parse-param {void * scanner}
+
+
 %{
 	#include "node.hpp"
 	#include "parser.hpp"
 	#include <cstdio>
 	#include <cstdlib>
-	NBlock *programBlock; /* the top level root node of our final AST */
-
+	#include "context.hpp"
+	#include "tokens.h"
+	NExpression *programBlock; /* the top level root node of our final AST */
+	
 	typedef void* yyscan_t; 
 	extern int yylex (YYSTYPE * yylval_param ,YYLTYPE * yylloc_param , yyscan_t yyscanner);
 	void yyerror(YYLTYPE*  yylval_param, yyscan_t yyscanner,  const char *s) { std::printf("Error: %s\n", s);std::exit(1); }
@@ -56,9 +60,15 @@
 %start program
 
 %%
+program : numeric { /*struct yyguts_t * yyg = (struct yyguts_t*)scanner;
+	                  yyextra = (void*)$1;*/ }
+;
 
-program : stmts { programBlock = $1; }
-		;
+numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }
+		| TDOUBLE { $$ = new NDouble(atof($1->c_str())); delete $1; }
+	    ;
+
+
 		
 stmts : stmt { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
 	  | stmts stmt { $1->statements.push_back($<stmt>2); }
@@ -88,9 +98,7 @@ func_decl_args : /*blank*/  { $$ = new VariableList(); }
 ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
 	  ;
 
-numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }
-		| TDOUBLE { $$ = new NDouble(atof($1->c_str())); delete $1; }
-		;
+
 	
 expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | ident TLPAREN call_args TRPAREN { $$ = new NMethodCall(*$1, *$3); delete $3; }
