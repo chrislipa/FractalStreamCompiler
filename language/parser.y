@@ -4,7 +4,7 @@
 
 
 %{
-	#include "node.hpp"
+	#include "node.h"
 	#include "parser.hpp"
 	#include <cstdio>
 	#include <cstdlib>
@@ -60,10 +60,8 @@
 %start program
 
 %%
-program : numeric { YYContext* c1 = (YYContext*)( yyget_extra(context));
-	c1->result = 11;
-	
-	((YYContext*)context)->result = 7; 
+program : numeric { YYContext* extraInformationStructure = (YYContext*)( yyget_extra(context));
+	extraInformationStructure->result = $1;
 }
 ;
 

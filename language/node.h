@@ -1,3 +1,5 @@
+#ifndef FSNode
+#define FSNode
 #include <iostream>
 #include <vector>
 #include <llvm/Value.h>
@@ -111,3 +113,4 @@ public:
 		type(type), id(id), arguments(arguments), block(block) { }
 	virtual llvm::Value* codeGen(CodeGenContext& context);
 };
+#endif

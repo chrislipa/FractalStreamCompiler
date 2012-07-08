@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "node.hpp"
+#include "node.h"
 #include "codegen.h"
 #include "parser.hpp"
 //#include "llvm/DerivedTypes.h"
@@ -65,7 +65,7 @@ static Type *typeOf(const NIdentifier& type)
 
 /* -- Code Generation -- */
 
-Value* NInteger::codeGen(/*CodeGenContext& context*/ void* x)
+Value* NInteger::codeGen(CodeGenContext& context)
 {
 	std::cout << "Creating integer: " << value << endl;
 	return  NULL;//ConstantInt::get(Type::getInt64Ty(getGlobalContext()), value, true);

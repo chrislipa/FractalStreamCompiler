@@ -14,19 +14,20 @@
 
 #include <iostream>
 using namespace std;
-
+#include "node.h"
 class YYContext
 {
 public:
 	void* scanner;   // the scanner state
-	int result;      // result of the program
+	Node* result;      // result of the program
 	//int a;           // value of the next a
 	//int b;           // value of the next b
 	//istream* is;     // input stream
 	//int esc_depth;   // escaping depth
 	
 public:
-	YYContext(void* p_scanner) {scanner = p_scanner;result = 0;}
+	YYContext(void* p_scanner) {scanner = p_scanner;result = NULL;}
+	YYContext() {scanner = NULL;result = NULL;}
 	virtual ~YYContext(){}
 	
 };

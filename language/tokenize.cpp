@@ -19,7 +19,7 @@ int tokenizestring()
 {
 	const char* s = "12";
 	yyscan_t scanner;
-	YYContext extra(scanner);
+	YYContext extra;
 	
 	
 	
@@ -28,7 +28,7 @@ int tokenizestring()
 	YY_BUFFER_STATE rv = yy_scan_string(s, scanner);
 	int rv2  = yyparse(scanner);
 	YYContext* context = (YYContext*)( yyget_extra(scanner));
-	int result = context->result;
+	Node* result = context->result;
 	yylex_destroy ( scanner );
 	std::cout << rv;
 	std::cout << rv2;
