@@ -1,6 +1,6 @@
 %pure-parser
-%lex-param {void * scanner}
-%parse-param {void * scanner}
+%lex-param {void * context}
+%parse-param { void* context }
 
 
 %{
@@ -60,8 +60,11 @@
 %start program
 
 %%
-program : numeric { /*struct yyguts_t * yyg = (struct yyguts_t*)scanner;
-	                  yyextra = (void*)$1;*/ }
+program : numeric { YYContext* c1 = (YYContext*)( yyget_extra(context));
+	c1->result = 11;
+	
+	((YYContext*)context)->result = 7; 
+}
 ;
 
 numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }

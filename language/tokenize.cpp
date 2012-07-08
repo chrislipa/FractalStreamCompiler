@@ -28,7 +28,7 @@ int tokenizestring()
 	YY_BUFFER_STATE rv = yy_scan_string(s, scanner);
 	int rv2  = yyparse(scanner);
 	YYContext* context = (YYContext*)( yyget_extra(scanner));
-	void* result = context->result;
+	int result = context->result;
 	yylex_destroy ( scanner );
 	std::cout << rv;
 	std::cout << rv2;

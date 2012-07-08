@@ -19,7 +19,7 @@ class YYContext
 {
 public:
 	void* scanner;   // the scanner state
-	void* result;      // result of the program
+	int result;      // result of the program
 	//int a;           // value of the next a
 	//int b;           // value of the next b
 	//istream* is;     // input stream
