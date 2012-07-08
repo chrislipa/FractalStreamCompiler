@@ -8,7 +8,9 @@ class CodeGenContext;
 class NStatement;
 class NExpression;
 class NVariableDeclaration;
+class NProgramPart;
 
+typedef std::vector<NProgramPart*> ProgramPartList;
 typedef std::vector<NStatement*> StatementList;
 typedef std::vector<NExpression*> ExpressionList;
 typedef std::vector<NVariableDeclaration*> VariableList;
@@ -75,12 +77,43 @@ public:
 	virtual llvm::Value* codeGen(CodeGenContext& context);
 };
 
+
+
 class NBlock : public NExpression {
 public:
 	StatementList statements;
 	NBlock() { }
 	virtual llvm::Value* codeGen(CodeGenContext& context);
 };
+
+
+class NProgramPart : public Node {
+public:
+	NBlock& expression;
+	NProgramPart(NBlock& expression) : expression(expression) { }
+
+	virtual llvm::Value* codeGen(CodeGenContext& context);
+};
+
+
+
+class NProgramParts : public NExpression {
+public:
+	ProgramPartList parts;
+	NProgramParts() { }
+	virtual llvm::Value* codeGen(CodeGenContext& context);
+};
+
+class NProgram : public NExpression {
+public:
+	NProgramParts parts;
+	NProgram() { }
+	virtual llvm::Value* codeGen(CodeGenContext& context);
+};
+
+
+
+
 
 class NExpressionStatement : public NStatement {
 public:

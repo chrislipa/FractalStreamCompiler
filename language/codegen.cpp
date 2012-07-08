@@ -32,7 +32,7 @@ void CodeGenContext::generateCode(Node& root)
 	
 	// to see if our program compiled properly
 	 
-	std::cout << "Code is generated.\n";
+	std::cout << "Code is generated" << endl;
 	PassManager pm;
 	pm.add(createPrintModulePass(&outs()));
 	pm.run(*module);
@@ -43,10 +43,10 @@ GenericValue CodeGenContext::runCode() {
 	std::cout << "Running code...\n";
 
 	
-	//ExecutionEngine *ee = EngineBuilder(module).create();
-	//vector<GenericValue> noargs;
-	GenericValue v ;//= ee->runFunction(mainFunction, noargs);
-	//std::cout << "Code was run.\n";
+	ExecutionEngine *ee = EngineBuilder(module).create();
+	vector<GenericValue> noargs;
+	GenericValue v = ee->runFunction(mainFunction, noargs);
+	std::cout << "Code was run.\n";
 	return v;
 }
 
@@ -67,7 +67,7 @@ static Type *typeOf(const NIdentifier& type)
 Value* NInteger::codeGen(CodeGenContext& context)
 {
 	std::cout << "Creating integer: " << value << endl;
-	return  NULL;//ConstantInt::get(Type::getInt64Ty(getGlobalContext()), value, true);
+	return ConstantInt::get(Type::getInt64Ty(getGlobalContext()), value, true);
 }
 
 Value*   NDouble::codeGen(CodeGenContext& context)
@@ -155,6 +155,34 @@ Value* NBlock::codeGen(CodeGenContext& context)
 	}
 	std::cout << "Creating block" << endl;
 	return last;*/
+}
+
+Value* NProgramPart::codeGen(CodeGenContext& context)
+{
+	return NULL;
+	/*
+	 StatementList::const_iterator it;
+	 Value *last = NULL;
+	 for (it = statements.begin(); it != statements.end(); it++) {
+	 std::cout << "Generating code for " << typeid(**it).name() << endl;
+	 last = (**it).codeGen(context);
+	 }
+	 std::cout << "Creating block" << endl;
+	 return last;*/
+}
+
+Value* NProgramParts::codeGen(CodeGenContext& context)
+{
+	return NULL;
+	/*
+	 StatementList::const_iterator it;
+	 Value *last = NULL;
+	 for (it = statements.begin(); it != statements.end(); it++) {
+	 std::cout << "Generating code for " << typeid(**it).name() << endl;
+	 last = (**it).codeGen(context);
+	 }
+	 std::cout << "Creating block" << endl;
+	 return last;*/
 }
 
 Value* NExpressionStatement::codeGen(CodeGenContext& context)

@@ -19,6 +19,9 @@
 
 /* Represents the many different ways we can access our data */
 %union {
+	NProgram *program;
+	NProgramPart *programPart;
+	NProgramParts* programParts;
 	Node *node;
 	NBlock *block;
 	NExpression *expr;
@@ -29,6 +32,7 @@
 	std::vector<NExpression*> *exprvec;
 	std::string *string;
 	int token;
+	NProgramPart* program_part1;
 }
 
 /* Define our terminal symbols (tokens). This should
@@ -39,7 +43,9 @@
 %token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL
 %token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT
 %token <token> TPLUS TMINUS TMUL TDIV
+%token <token> IF ITERATE UNTIL PERIOD ESCAPES
 
+ 
 /* Define the type of node our nonterminal symbols represent.
    The types refer to the %union declaration above. Ex: when
    we call an ident (defined by union type ident) we are really
@@ -49,21 +55,29 @@
 %type <expr> numeric expr 
 %type <varvec> func_decl_args
 %type <exprvec> call_args
-%type <block> program stmts block
+%type <block> stmts block
 %type <stmt> stmt var_decl func_decl
 %type <token> comparison
+
+%type <programPart> program_part1
+%type <programParts> program_parts
 
 /* Operator precedence for mathematical operators */
 %left TPLUS TMINUS
 %left TMUL TDIV
 
-%start program
+%start program_parts
 
 %%
-program : numeric { YYContext* extraInformationStructure = (YYContext*)( yyget_extra(context));
-	extraInformationStructure->result = $1;
-}
-;
+
+
+
+program_parts : program_part1 { $$ = new NProgramParts(); $$->parts.push_back($<program_part1>1); }
+			  | program_parts program_part1 {$1->parts.push_back($<program_part1>2); }
+              ;
+
+program_part1 : stmts {$$ = new NProgramPart(*$1);}
+             ;
 
 numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }
 		| TDOUBLE { $$ = new NDouble(atof($1->c_str())); delete $1; }

@@ -44,7 +44,7 @@ int tokenizestring()
 	InitializeNativeTarget();
 	CodeGenContext context;
 	context.generateCode(*programBlock);
-	//context.runCode();
+	context.runCode();
 	
 	return 0;
 }
