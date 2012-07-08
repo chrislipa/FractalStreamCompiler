@@ -7,11 +7,21 @@
 		<key>FractalStreamCompiler.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>162</integer>
+			<integer>163</integer>
+		</dict>
+		<key>clean.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>164</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3619579215AA0EC9003209EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>36DE7C3115A5027300DCA597</key>
 		<dict>
 			<key>primary</key>
