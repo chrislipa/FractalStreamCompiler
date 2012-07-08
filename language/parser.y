@@ -73,7 +73,7 @@
 
 %%
 program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( yyget_extra(context));
-	extraInformationStructure->result = NULL$1;
+	extraInformationStructure->result = $1;
 }
 
 
