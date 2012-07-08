@@ -1,7 +1,0 @@
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86AsmBackend.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86MCTargetDesc.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86MCAsmInfo.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86MCCodeEmitter.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86MachObjectWriter.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86ELFObjectWriter.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Target/X86/MCTargetDesc/LLVM.build/Debug/LLVMX86Desc.build/Objects-normal/x86_64/X86WinCOFFObjectWriter.o
