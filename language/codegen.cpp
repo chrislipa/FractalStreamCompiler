@@ -50,6 +50,8 @@ GenericValue CodeGenContext::runCode() {
 	return v;
 }
 
+
+
 /* Returns an LLVM type based on the identifier */
 static Type *typeOf(const NIdentifier& type) 
 {
@@ -204,6 +206,11 @@ Value* NVariableDeclaration::codeGen(CodeGenContext& context)
 		assn.codeGen(context);
 	}
 	return alloc;*/
+}
+
+Value* NFakeToHoldLineNumber::codeGen(CodeGenContext& context)
+{
+	return NULL;
 }
 
 Value* NFunctionDeclaration::codeGen(CodeGenContext& context)

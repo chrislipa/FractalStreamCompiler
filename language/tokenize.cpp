@@ -30,21 +30,26 @@ int tokenizestring()
 	YYContext* extra_return = (YYContext*)( yyget_extra(scanner));
 	Node* programBlock = extra_return->result;
 	yylex_destroy ( scanner );
-	std::cout << rv<< endl;
-	std::cout << rv2<< endl;
-	std::cout << programBlock<< endl;
+
+	std::cout << "buffer state  = "<<rv<< endl;
+	std::cout << "yyparse return value  = "<<rv2<< endl;
+	std::cout << "program block = "<<programBlock<< endl;
 	
 
 	
 	
-	
+	if (programBlock == NULL) {
+		std::cout << "could not parse?"<<endl;
+	} else {
+		InitializeNativeTarget();
+		CodeGenContext context;
+		context.generateCode(*programBlock);
+		context.runCode();
+	}
     
 	
 	
-	InitializeNativeTarget();
-	CodeGenContext context;
-	context.generateCode(*programBlock);
-	context.runCode();
+	
 	
 	return 0;
 }

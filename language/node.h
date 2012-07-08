@@ -146,4 +146,11 @@ public:
 		type(type), id(id), arguments(arguments), block(block) { }
 	virtual llvm::Value* codeGen(CodeGenContext& context);
 };
+
+class NFakeToHoldLineNumber : public Node {
+public:
+	int lineNo;
+	NFakeToHoldLineNumber(int l) : lineNo(l) {}
+	virtual llvm::Value* codeGen(CodeGenContext& context);
+};
 #endif

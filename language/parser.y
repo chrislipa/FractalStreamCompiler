@@ -32,7 +32,8 @@
 	std::vector<NExpression*> *exprvec;
 	std::string *string;
 	int token;
-	NProgramPart* program_part1;
+	NProgramPart* program_part;
+	NFakeToHoldLineNumber* fakeToHoldLineNumber;
 }
 
 /* Define our terminal symbols (tokens). This should
@@ -59,9 +60,11 @@
 %type <stmt> stmt var_decl func_decl
 %type <token> comparison
 
-%type <programPart> program_part1
+%type <programPart> program_part
 %type <programParts> program_parts
 
+
+%type <fakeToHoldLineNumber> fakeToHoldLineNumber
 /* Operator precedence for mathematical operators */
 %left TPLUS TMINUS
 %left TMUL TDIV
@@ -72,11 +75,11 @@
 
 
 
-program_parts : program_part1 { $$ = new NProgramParts(); $$->parts.push_back($<program_part1>1); }
-			  | program_parts program_part1 {$1->parts.push_back($<program_part1>2); }
+program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<program_part>1); }
+			  | program_parts program_part {$1->parts.push_back($<program_part>2); }
               ;
 
-program_part1 : stmts {$$ = new NProgramPart(*$1);}
+program_part : stmts {$$ = new NProgramPart(*$1);}
              ;
 
 numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }
@@ -93,7 +96,7 @@ stmt : var_decl | func_decl
 	 | expr { $$ = new NExpressionStatement(*$1); }
      ;
 
-block : TLBRACE stmts TRBRACE { @$; $$ = $2; }
+block : TLBRACE stmts TRBRACE { $$ = $2; }
 	  | TLBRACE TRBRACE { $$ = new NBlock(); }
 	  ;
 
@@ -118,7 +121,7 @@ ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
 expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | ident TLPAREN call_args TRPAREN { $$ = new NMethodCall(*$1, *$3); delete $3; }
 	 | ident { $<ident>$ = $1; }
-	 | numeric
+	 | numeric { $$ = $1; } 
  	 | expr comparison expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
      | TLPAREN expr TRPAREN { $$ = $2; }
 	 ;
@@ -131,5 +134,16 @@ call_args : /*blank*/  { $$ = new ExpressionList(); }
 comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE 
 		   | TPLUS | TMINUS | TMUL | TDIV
 		   ;
+
+
+/* This rule (fakeToHoldLineNumber) is unused.  It's present
+   because of (IMO) buggy behavior on the part of Bison that
+   the functions generated change their signature depending
+   on whether the line number symbol (@$) is present in the 
+   rule set.  In order to more easily facilitate debugging
+   and experimentation, the symbol is always represented 
+   here so that no other files need to be altered when
+   modifying other rules.*/
+fakeToHoldLineNumber : { $$ = new FakeToHoldLineNumber(@$); }
 
 %%
