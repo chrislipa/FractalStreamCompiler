@@ -7,12 +7,12 @@
 //
 
 #include <stdio.h>
-#include "abcdefg1.h"
+#include "FractalStreamCompiler.h"
 
 int main(int argc, const char * argv[])
 {
 
-	abcdefg1function();
+	compile("14");
 	
 	
     return 0;

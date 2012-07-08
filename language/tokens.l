@@ -1,5 +1,5 @@
 
-%option header-file="tokens.hpp"  outfile="tokens.cpp" 
+%option header-file="build/tokens.hpp"  outfile="build/tokens.cpp" 
 
 %option warn nodefault
 
@@ -12,7 +12,7 @@
 
 %{
 #include <string>
-	#include "context.hpp"
+	#include "ExtraInformation.hpp"
 	#include "node.h"
 	#include "parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)

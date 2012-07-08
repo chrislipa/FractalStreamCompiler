@@ -1,14 +1,15 @@
 //
-//  Tokenize.h
+//  Compiler.h
 //  FractalStreamCompiler
 //
 //  Created by Christopher Lipa on 7/5/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#ifndef FractalStreamCompiler_Tokenize_h
-#define FractalStreamCompiler_Tokenize_h
+#ifndef FractalStreamCompiler_Compiler
+#define FractalStreamCompiler_Compiler
 
-int tokenizestring();
+
+int internalCompileString(const char* sourceCode);
 
 #endif

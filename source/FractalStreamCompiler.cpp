@@ -7,17 +7,14 @@
 //
 
 #include <stdio.h>
-#include "abcdefg1.h"
-#include "tokenize.h"
+#include "FractalStreamCompiler.h"
+#include "Compiler.h"
 
 
 
 
 extern "C" 
 
-int abcdefg1function() {
-	
-	tokenizestring();
-	
-	return 7;
+void compile(const char* source) {
+	internalCompileString(source);
 }

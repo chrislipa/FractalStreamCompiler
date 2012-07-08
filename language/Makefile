@@ -1,36 +1,18 @@
-all: parser.hpp parser.cpp tokens.cpp
-
-CFLAGS= `-I../external/llvm/llvm-3.1.src/include/`
-
-
-
-OBJS = parser.o  \
-       codegen.o \
-       main.o    \
-       tokens.o  \
-
-LLVM_MODULES = core jit native
-
-CPPFLAGS =  -I../external/llvm/llvm-3.1.src/include/ -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D'CMAKE_INTDIR="$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)"'
-LDFLAGS = 
-LIBS = 
+all: build/parser.hpp build/parser.cpp build/tokens.cpp build/tokens.hpp
 
 clean:
-	$(RM) -rf parser.cpp parser.hpp parser tokens.cpp $(OBJS)
+	$(RM) -rf build/parser.cpp build/parser.hpp build/tokens.hpp build/tokens.cpp
 
-parser.cpp: parser.y
+build/parser.cpp: parser.y
+	mkdir -p build
 	bison -d -o $@ $^
 	
-parser.hpp: parser.cpp
+build/parser.hpp: build/parser.cpp
+	mkdir -p build
 
-tokens.cpp: tokens.l parser.hpp
+build/tokens.cpp build/tokens.hpp : tokens.l build/parser.hpp
+	mkdir -p build
 	flex -o $@ $^
 
-#%.o: %.cpp
-#	g++ -c $(CPPFLAGS) -o $@ $<
-
-
-#parser: $(OBJS)
-#	g++ -o $@ $(LDFLAGS) $(OBJS) $(LIBS)
 
 

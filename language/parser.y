@@ -8,7 +8,7 @@
 	#include "parser.hpp"
 	#include <cstdio>
 	#include <cstdlib>
-	#include "context.hpp"
+	#include "ExtraInformation.hpp"
 	#include "tokens.h"
 	NExpression *programBlock; /* the top level root node of our final AST */
 	
@@ -72,8 +72,8 @@
 %start program
 
 %%
-program : program_parts { YYContext* extraInformationStructure = (YYContext*)( yyget_extra(context));
-	extraInformationStructure->result = $1;
+program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( yyget_extra(context));
+	extraInformationStructure->result = NULL$1;
 }
 
 
@@ -123,7 +123,7 @@ ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
 expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | ident TLPAREN call_args TRPAREN { $$ = new NMethodCall(*$1, *$3); delete $3; }
 	 | ident { $<ident>$ = $1; }
-	 | numeric { $$ = $1; } 
+	 | numeric { $$ = $1;  } 
  	 | expr comparison expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
      | TLPAREN expr TRPAREN { $$ = $2; }
 	 ;

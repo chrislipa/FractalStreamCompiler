@@ -3,9 +3,9 @@
 #include "node.h"
 #include "tokens.h"
 #include <stdio.h>
-#include "tk.h"
+#include "ExtraInformation.hpp"
 #include "parser.hpp"
-#include "context.hpp"
+
 
 using namespace std;
 
@@ -15,19 +15,20 @@ extern int yyparse(void* scanner);
 
 
 
-int tokenizestring()
+int internalCompileString(const char* sourceCode)
 {
-	const char* s = "12";
+	
+	char* workingSource = strdup(sourceCode);
 	yyscan_t scanner;
-	YYContext extra;
+	ExtraInformation extra;
 	
 	
 	
 	yylex_init_extra(&extra, &scanner );
 
-	YY_BUFFER_STATE rv = yy_scan_string(s, scanner);
+	YY_BUFFER_STATE rv = yy_scan_string(workingSource, scanner);
 	int rv2  = yyparse(scanner);
-	YYContext* extra_return = (YYContext*)( yyget_extra(scanner));
+	ExtraInformation* extra_return = (ExtraInformation*)( yyget_extra(scanner));
 	Node* programBlock = extra_return->result;
 	yylex_destroy ( scanner );
 
@@ -50,7 +51,7 @@ int tokenizestring()
 	
 	
 	
-	
+	free(workingSource);
 	return 0;
 }
 

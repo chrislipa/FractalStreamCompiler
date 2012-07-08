@@ -1,6 +1,0 @@
-//
-// Prefix header for all source files of the 'FractalStreamCompiler' target in the 'FractalStreamCompiler' project
-//
-
-#include <iostream>
-

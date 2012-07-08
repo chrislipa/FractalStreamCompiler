@@ -1,5 +1,4 @@
 //
-//  abcdefg1.h
 //  FractalStreamCompiler
 //
 //  Created by Christopher Lipa on 7/5/12.
@@ -11,6 +10,5 @@
 #ifdef __cplusplus
 extern "C"
 #endif
-int abcdefg1function();
-
+void compile(const char* source);
 #endif

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		36CD1A1D15A5E39D002DF90A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36CD1A1C15A5E39D002DF90A /* main.c */; };
 		36CD1A1F15A5E39D002DF90A /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36CD1A1E15A5E39D002DF90A /* test.1 */; };
-		36CD1AB715A5E433002DF90A /* libFractalStreamCompiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */; };
+		36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +20,7 @@
 			remoteGlobalIDString = 36DE7C3215A5027300DCA597;
 			remoteInfo = FractalStreamCompiler;
 		};
-		36CD1AB515A5E426002DF90A /* PBXContainerItemProxy */ = {
+		36D2739B15AA011B00A9344F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 36CD1A2515A5E3A5002DF90A /* FractalStreamCompiler.xcodeproj */;
 			proxyType = 1;
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36CD1AB715A5E433002DF90A /* libFractalStreamCompiler.a in Frameworks */,
+				36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 		36CD1A2615A5E3A5002DF90A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */,
+				36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				36CD1AB615A5E426002DF90A /* PBXTargetDependency */,
+				36D2739C15AA011B00A9344F /* PBXTargetDependency */,
 			);
 			name = test;
 			productName = test;
@@ -148,10 +148,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.a */ = {
+		36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libFractalStreamCompiler.a;
+			name = libFractalStreamCompiler.dylib;
+			path = FractalStreamCompiler.dylib;
 			remoteRef = 36CD1A6415A5E3AD002DF90A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -169,10 +170,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		36CD1AB615A5E426002DF90A /* PBXTargetDependency */ = {
+		36D2739C15AA011B00A9344F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FractalStreamCompiler;
-			targetProxy = 36CD1AB515A5E426002DF90A /* PBXContainerItemProxy */;
+			targetProxy = 36D2739B15AA011B00A9344F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
