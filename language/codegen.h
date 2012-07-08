@@ -17,7 +17,7 @@
 #include <llvm/ExecutionEngine/GenericValue.h>
 #include <llvm/ExecutionEngine/JIT.h>
 #include <llvm/Support/raw_ostream.h>
-
+#include "node.h"
 using namespace llvm;
 
 class NBlock;
@@ -36,7 +36,7 @@ public:
     Module *module;
     CodeGenContext() { module = new Module("main", getGlobalContext()); }
     
-    void generateCode(NBlock& root);
+    void generateCode(Node& root);
     GenericValue runCode();
     std::map<std::string, Value*>& locals() { return blocks.top()->locals; }
     BasicBlock *currentBlock() { return blocks.top()->block; }

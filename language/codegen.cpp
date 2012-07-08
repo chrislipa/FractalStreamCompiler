@@ -8,11 +8,10 @@
 using namespace std;
 
 /* Compile the AST into a module */
-void CodeGenContext::generateCode(NBlock& root)
+void CodeGenContext::generateCode(Node& root)
 {
-	return;
-	/*
-	//std::cout << "Generating code...\n";
+
+	std::cout << "Generating code...\n"<<endl;
 	
 	// Create the top level interpreter function to call as entry 
 	ArrayRef<Type*> argTypes;
@@ -36,7 +35,7 @@ void CodeGenContext::generateCode(NBlock& root)
 	std::cout << "Code is generated.\n";
 	PassManager pm;
 	pm.add(createPrintModulePass(&outs()));
-	pm.run(*module);*/
+	pm.run(*module);
 }
 
 /* Executes the AST by running the main function */

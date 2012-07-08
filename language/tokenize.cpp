@@ -10,7 +10,7 @@
 using namespace std;
 
 extern int yyparse(void* scanner);
-extern NBlock* programBlock;
+
 
 
 
@@ -27,21 +27,23 @@ int tokenizestring()
 
 	YY_BUFFER_STATE rv = yy_scan_string(s, scanner);
 	int rv2  = yyparse(scanner);
-	YYContext* context = (YYContext*)( yyget_extra(scanner));
-	Node* result = context->result;
+	YYContext* extra_return = (YYContext*)( yyget_extra(scanner));
+	Node* programBlock = extra_return->result;
 	yylex_destroy ( scanner );
-	std::cout << rv;
-	std::cout << rv2;
-	std::cout << result;
+	std::cout << rv<< endl;
+	std::cout << rv2<< endl;
+	std::cout << programBlock<< endl;
 	
 
-	//yyparse();
 	
-	//std::cout << programBlock << endl;
-    // see http://comments.gmane.org/gmane.comp.compilers.llvm.devel/33877
-	//InitializeNativeTarget();
-	//CodeGenContext context;
-	//context.generateCode(*programBlock);
+	
+	
+    
+	
+	
+	InitializeNativeTarget();
+	CodeGenContext context;
+	context.generateCode(*programBlock);
 	//context.runCode();
 	
 	return 0;
