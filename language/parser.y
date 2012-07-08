@@ -69,10 +69,12 @@
 %left TPLUS TMINUS
 %left TMUL TDIV
 
-%start program_parts
+%start program
 
 %%
-
+program : program_parts { YYContext* extraInformationStructure = (YYContext*)( yyget_extra(context));
+	extraInformationStructure->result = $1;
+}
 
 
 program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<program_part>1); }

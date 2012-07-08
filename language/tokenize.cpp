@@ -39,7 +39,7 @@ int tokenizestring()
 	
 	
 	if (programBlock == NULL) {
-		std::cout << "could not parse?"<<endl;
+		std::cout << "programBlock == NULL.  could not parse?"<<endl;
 	} else {
 		InitializeNativeTarget();
 		CodeGenContext context;
