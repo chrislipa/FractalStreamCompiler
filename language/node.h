@@ -3,6 +3,8 @@
 #include <iostream>
 #include <vector>
 #include <llvm/Value.h>
+#include <llvm/LLVMContext.h>
+#include "FSCodeGenerationContext.h"
 
 class CodeGenContext;
 class NStatement;
@@ -15,10 +17,12 @@ typedef std::vector<NStatement*> StatementList;
 typedef std::vector<NExpression*> ExpressionList;
 typedef std::vector<NVariableDeclaration*> VariableList;
 
+
 class Node {
 public:
 	virtual ~Node() {}
-	virtual llvm::Value* codeGen(CodeGenContext& context) {return NULL; }
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; }
+	
 };
 
 class NExpression : public Node {
@@ -31,21 +35,21 @@ class NInteger : public NExpression {
 public:
 	long long value;
 	NInteger(long long value) : value(value) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NDouble : public NExpression {
 public:
 	double value;
 	NDouble(double value) : value(value) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NIdentifier : public NExpression {
 public:
 	std::string name;
 	NIdentifier(const std::string& name) : name(name) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NMethodCall : public NExpression {
@@ -55,7 +59,7 @@ public:
 	NMethodCall(const NIdentifier& id, ExpressionList& arguments) :
 		id(id), arguments(arguments) { }
 	NMethodCall(const NIdentifier& id) : id(id) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NBinaryOperator : public NExpression {
@@ -65,7 +69,7 @@ public:
 	NExpression& rhs;
 	NBinaryOperator(NExpression& lhs, int op, NExpression& rhs) :
 		lhs(lhs), rhs(rhs), op(op) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NAssignment : public NExpression {
@@ -74,7 +78,7 @@ public:
 	NExpression& rhs;
 	NAssignment(NIdentifier& lhs, NExpression& rhs) : 
 		lhs(lhs), rhs(rhs) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 
@@ -83,7 +87,7 @@ class NBlock : public NExpression {
 public:
 	StatementList statements;
 	NBlock() { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 
@@ -92,7 +96,7 @@ public:
 	NBlock& expression;
 	NProgramPart(NBlock& expression) : expression(expression) { }
 
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 
@@ -101,14 +105,14 @@ class NProgramParts : public NExpression {
 public:
 	ProgramPartList parts;
 	NProgramParts() { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NProgram : public NExpression {
 public:
 	NProgramParts parts;
 	NProgram() { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 
@@ -120,7 +124,7 @@ public:
 	NExpression& expression;
 	NExpressionStatement(NExpression& expression) : 
 		expression(expression) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NVariableDeclaration : public NStatement {
@@ -132,7 +136,7 @@ public:
 		type(type), id(id) { }
 	NVariableDeclaration(const NIdentifier& type, NIdentifier& id, NExpression *assignmentExpr) :
 		type(type), id(id), assignmentExpr(assignmentExpr) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NFunctionDeclaration : public NStatement {
@@ -144,13 +148,15 @@ public:
 	NFunctionDeclaration(const NIdentifier& type, const NIdentifier& id, 
 			const VariableList& arguments, NBlock& block) :
 		type(type), id(id), arguments(arguments), block(block) { }
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
 class NFakeToHoldLineNumber : public Node {
 public:
 	int lineNo;
 	NFakeToHoldLineNumber(int l) : lineNo(l) {}
-	virtual llvm::Value* codeGen(CodeGenContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
+
+std::ostream& operator<< (std::ostream& stream, const Node& node);
 #endif

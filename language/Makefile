@@ -5,7 +5,7 @@ clean:
 
 build/parser.cpp: parser.y
 	mkdir -p build
-	bison -d -o $@ $^
+	bison -v -d -o $@ $^
 	
 build/parser.hpp: build/parser.cpp
 	mkdir -p build

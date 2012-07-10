@@ -1,7 +1,7 @@
 %pure-parser
 %lex-param {void * context}
 %parse-param { void* context }
-
+ 
 
 %{
 	#include "node.h"

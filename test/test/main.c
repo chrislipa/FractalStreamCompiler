@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[])
 {
 
-	compile("14");
+	compile("7*19");
 	
 	
     return 0;

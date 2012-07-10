@@ -48,8 +48,10 @@ int internalCompileString(const char* sourceCode)
 		context.runCode();
 	}
     
+	std::cout<<"printing"<<endl;
 	
-	
+	std::cout<<programBlock<<endl;
+	std::cout<<"done"<<endl;
 	
 	free(workingSource);
 	return 0;

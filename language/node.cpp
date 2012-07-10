@@ -7,3 +7,19 @@
 //
 
 #include <iostream>
+#include "node.h"
+
+std::ostream& operator<< (std::ostream& stream, const Node& node) {
+	std::cout<<"jjj";
+	return stream;
+}
+std::ostream& operator<< (std::ostream& stream, const NInteger& node) {
+	stream << node.value;
+	return stream;
+}
+
+
+std::ostream& operator<< (std::ostream& stream, const NBinaryOperator& node) {
+	stream <<node.lhs << "[" << node.op << "]" << node.rhs;
+	return stream;
+}

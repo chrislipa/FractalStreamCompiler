@@ -8,16 +8,16 @@
 %option bison-bridge
 %option bison-locations
 %option noyywrap
-%option yylineno
+
 
 %{
-#include <string>
+	#include <string>
 	#include "ExtraInformation.hpp"
 	#include "node.h"
 	#include "parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
 	#define TOKEN(t) (yylval->token = t)
-#define YY_EXTRA_TYPE void*
+	#define YY_EXTRA_TYPE void*
 %}
 
 %%

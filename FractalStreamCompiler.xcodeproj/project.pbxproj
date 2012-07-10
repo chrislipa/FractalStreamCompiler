@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36195A1115AA3B14003209EA /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36195A1015AA3B14003209EA /* node.cpp */; };
 		36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9215A53CF20042BFED /* codegen.cpp */; };
 		36C2CA9715A53CF20042BFED /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C2CA9915A53CF20042BFED /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1170,6 +1171,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36195A1015AA3B14003209EA /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = node.cpp; path = language/node.cpp; sourceTree = "<group>"; };
+		36195B2815AA8607003209EA /* FSCodeGenerationContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCodeGenerationContext.h; sourceTree = "<group>"; };
 		36C2CA9215A53CF20042BFED /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = language/codegen.cpp; sourceTree = "<group>"; };
 		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
@@ -1287,14 +1290,16 @@
 		36C2CA9115A53CD10042BFED /* language */ = {
 			isa = PBXGroup;
 			children = (
-				36C2CAA515A541B30042BFED /* build */,
 				36DC777E15A8F2840086FC18 /* Makefile */,
+				36C2CAA515A541B30042BFED /* build */,
 				36DC777415A8D8820086FC18 /* parser.y */,
 				36DC777515A8D8820086FC18 /* tokens.l */,
-				36C2CA9215A53CF20042BFED /* codegen.cpp */,
 				36C2CA9315A53CF20042BFED /* codegen.h */,
+				36C2CA9215A53CF20042BFED /* codegen.cpp */,
 				36C2CA9515A53CF20042BFED /* node.h */,
+				36195A1015AA3B14003209EA /* node.cpp */,
 				36DC778015A917610086FC18 /* ExtraInformation.hpp */,
+				36195B2815AA8607003209EA /* FSCodeGenerationContext.h */,
 			);
 			name = language;
 			sourceTree = "<group>";
@@ -2631,6 +2636,7 @@
 				36D273F615AA088000A9344F /* Compiler.cpp in Sources */,
 				36D273FB15AA093200A9344F /* parser.cpp in Sources */,
 				36D273FD15AA093200A9344F /* tokens.cpp in Sources */,
+				36195A1115AA3B14003209EA /* node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

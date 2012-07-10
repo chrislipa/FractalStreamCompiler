@@ -1,3 +1,5 @@
+#ifndef CODEGEN_H
+#define CODEGEN_H
 #include <stack>
 #include <typeinfo>
 #include <llvm/Module.h>
@@ -18,7 +20,10 @@
 #include <llvm/ExecutionEngine/JIT.h>
 #include <llvm/Support/raw_ostream.h>
 #include "node.h"
+#include "FSCodeGenerationContext.h"
 using namespace llvm;
+
+
 
 class NBlock;
 
@@ -43,3 +48,6 @@ public:
     void pushBlock(BasicBlock *block) { blocks.push(new CodeGenBlock()); blocks.top()->block = block; }
     void popBlock() { CodeGenBlock *top = blocks.top(); blocks.pop(); delete top; }
 };
+
+
+#endif
