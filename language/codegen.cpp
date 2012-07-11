@@ -2,7 +2,7 @@
 
 #include "node.h"
 #include "codegen.h"
-#include "parser.hpp"
+#include "FractalStreamScript_DialectA_parser.hpp"
 #include "llvm/support/IRBuilder.h"
 #include "llvm/BasicBlock.h"
 #include "FSCodeGenerationContext.h"

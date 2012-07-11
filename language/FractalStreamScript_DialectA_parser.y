@@ -1,3 +1,5 @@
+%file-prefix = "FractalStreamScript_DialectA"
+%name-prefix = "FractalStreamScript_DialectA"
 %pure-parser
 %lex-param {void * context}
 %parse-param { void* context }
@@ -5,7 +7,8 @@
 
 %{
 	#include "node.h"
-	#include "parser.hpp"
+	#include "FractalStreamScript_DialectA_parser.hpp"
+    #include "FractalStreamScript_DialectA_tokenizer.hpp"
 	#include <cstdio>
 	#include <cstdlib>
 	#include "ExtraInformation.hpp"
@@ -72,7 +75,7 @@
 %start program
 
 %%
-program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( yyget_extra(context));
+program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( FractalStreamScript_DialectAget_extra(context));
 	extraInformationStructure->result = $1;
 }
 

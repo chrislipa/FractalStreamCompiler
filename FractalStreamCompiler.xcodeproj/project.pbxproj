@@ -92,14 +92,14 @@
 		36CD17A815A55A77002DF90A /* libLLVMXCoreCodeGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFB15A5048500DCA597 /* libLLVMXCoreCodeGen.a */; };
 		36CD17A915A55A77002DF90A /* libLLVMXCoreDesc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFF15A5048500DCA597 /* libLLVMXCoreDesc.a */; };
 		36CD17AA15A55A77002DF90A /* libLLVMXCoreInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFD15A5048500DCA597 /* libLLVMXCoreInfo.a */; };
+		36CEB39415AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB39215AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.hpp */; };
+		36CEB39515AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB39315AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.cpp */; };
+		36CEB39915AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB39715AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.hpp */; };
+		36CEB39A15AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB39815AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.cpp */; };
 		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.cpp */; };
 		36D273F415AA087200A9344F /* Compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273F315AA087200A9344F /* Compiler.h */; };
 		36D273F615AA088000A9344F /* Compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F515AA088000A9344F /* Compiler.cpp */; };
-		36D273FB15AA093200A9344F /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F715AA093200A9344F /* parser.cpp */; };
-		36D273FC15AA093200A9344F /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36D273F815AA093200A9344F /* parser.hpp */; };
-		36D273FD15AA093200A9344F /* tokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F915AA093200A9344F /* tokens.cpp */; };
-		36D273FE15AA093200A9344F /* tokens.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36D273FA15AA093200A9344F /* tokens.hpp */; };
 		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
 /* End PBXBuildFile section */
 
@@ -1176,16 +1176,17 @@
 		36C2CA9215A53CF20042BFED /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = language/codegen.cpp; sourceTree = "<group>"; };
 		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
+		36CEB39215AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_tokenizer.hpp; sourceTree = "<group>"; };
+		36CEB39315AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_tokenizer.cpp; sourceTree = "<group>"; };
+		36CEB39615AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FractalStreamScript_DialectA_parser.output; sourceTree = "<group>"; };
+		36CEB39715AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_parser.hpp; sourceTree = "<group>"; };
+		36CEB39815AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_parser.cpp; sourceTree = "<group>"; };
 		36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FractalStreamCompiler.h; path = include/FractalStreamCompiler.h; sourceTree = "<group>"; };
 		36D273F115AA04A600A9344F /* FractalStreamCompiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FractalStreamCompiler.cpp; path = source/FractalStreamCompiler.cpp; sourceTree = "<group>"; };
 		36D273F315AA087200A9344F /* Compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Compiler.h; path = source/Compiler.h; sourceTree = "<group>"; };
 		36D273F515AA088000A9344F /* Compiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Compiler.cpp; path = source/Compiler.cpp; sourceTree = "<group>"; };
-		36D273F715AA093200A9344F /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
-		36D273F815AA093200A9344F /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
-		36D273F915AA093200A9344F /* tokens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tokens.cpp; sourceTree = "<group>"; };
-		36D273FA15AA093200A9344F /* tokens.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tokens.hpp; sourceTree = "<group>"; };
-		36DC777415A8D8820086FC18 /* parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = parser.y; path = language/parser.y; sourceTree = "<group>"; };
-		36DC777515A8D8820086FC18 /* tokens.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = tokens.l; path = language/tokens.l; sourceTree = "<group>"; };
+		36DC777415A8D8820086FC18 /* FractalStreamScript_DialectA_parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = FractalStreamScript_DialectA_parser.y; path = language/FractalStreamScript_DialectA_parser.y; sourceTree = "<group>"; };
+		36DC777515A8D8820086FC18 /* FractalStreamScript_DialectA_tokens.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = FractalStreamScript_DialectA_tokens.l; path = language/FractalStreamScript_DialectA_tokens.l; sourceTree = "<group>"; };
 		36DC777E15A8F2840086FC18 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = language/Makefile; sourceTree = "<group>"; };
 		36DC778015A917610086FC18 /* ExtraInformation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ExtraInformation.hpp; path = language/ExtraInformation.hpp; sourceTree = "<group>"; };
 		36DE7C3215A5027300DCA597 /* libFractalStreamCompiler.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFractalStreamCompiler.dylib; path = FractalStreamCompiler.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1292,8 +1293,8 @@
 			children = (
 				36DC777E15A8F2840086FC18 /* Makefile */,
 				36C2CAA515A541B30042BFED /* build */,
-				36DC777415A8D8820086FC18 /* parser.y */,
-				36DC777515A8D8820086FC18 /* tokens.l */,
+				36DC777415A8D8820086FC18 /* FractalStreamScript_DialectA_parser.y */,
+				36DC777515A8D8820086FC18 /* FractalStreamScript_DialectA_tokens.l */,
 				36C2CA9315A53CF20042BFED /* codegen.h */,
 				36C2CA9215A53CF20042BFED /* codegen.cpp */,
 				36C2CA9515A53CF20042BFED /* node.h */,
@@ -1307,10 +1308,11 @@
 		36C2CAA515A541B30042BFED /* build */ = {
 			isa = PBXGroup;
 			children = (
-				36D273F715AA093200A9344F /* parser.cpp */,
-				36D273F815AA093200A9344F /* parser.hpp */,
-				36D273F915AA093200A9344F /* tokens.cpp */,
-				36D273FA15AA093200A9344F /* tokens.hpp */,
+				36CEB39615AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.output */,
+				36CEB39715AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.hpp */,
+				36CEB39815AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.cpp */,
+				36CEB39215AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.hpp */,
+				36CEB39315AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.cpp */,
 			);
 			name = build;
 			path = language/build;
@@ -1540,8 +1542,8 @@
 				36C2CA9915A53CF20042BFED /* node.h in Headers */,
 				36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */,
 				36D273F415AA087200A9344F /* Compiler.h in Headers */,
-				36D273FC15AA093200A9344F /* parser.hpp in Headers */,
-				36D273FE15AA093200A9344F /* tokens.hpp in Headers */,
+				36CEB39415AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */,
+				36CEB39915AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2634,9 +2636,9 @@
 				36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */,
 				36D273F215AA04A600A9344F /* FractalStreamCompiler.cpp in Sources */,
 				36D273F615AA088000A9344F /* Compiler.cpp in Sources */,
-				36D273FB15AA093200A9344F /* parser.cpp in Sources */,
-				36D273FD15AA093200A9344F /* tokens.cpp in Sources */,
 				36195A1115AA3B14003209EA /* node.cpp in Sources */,
+				36CEB39515AE27E300C83E29 /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */,
+				36CEB39A15AE2B7800C83E29 /* FractalStreamScript_DialectA_parser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,12 +4,12 @@
 #include "tokens.h"
 #include <stdio.h>
 #include "ExtraInformation.hpp"
-#include "parser.hpp"
-
+#include "FractalStreamScript_DialectA_parser.hpp"
+#include "FractalStreamScript_DialectA_tokenizer.hpp"
 
 using namespace std;
 
-extern int yyparse(void* scanner);
+extern int FractalStreamScript_DialectAparse(void* scanner);
 
 
 
@@ -24,13 +24,13 @@ int internalCompileString(const char* sourceCode)
 	
 	
 	
-	yylex_init_extra(&extra, &scanner );
+	FractalStreamScript_DialectAlex_init_extra(&extra, &scanner );
 
-	YY_BUFFER_STATE rv = yy_scan_string(workingSource, scanner);
-	int rv2  = yyparse(scanner);
-	ExtraInformation* extra_return = (ExtraInformation*)( yyget_extra(scanner));
+	YY_BUFFER_STATE rv = FractalStreamScript_DialectA_scan_string(workingSource, scanner);
+	int rv2  = FractalStreamScript_DialectAparse(scanner);
+	ExtraInformation* extra_return = (ExtraInformation*)( FractalStreamScript_DialectAget_extra(scanner));
 	Node* programBlock = extra_return->result;
-	yylex_destroy ( scanner );
+	FractalStreamScript_DialectAlex_destroy ( scanner );
 
 	std::cout << "buffer state  = "<<rv<< endl;
 	std::cout << "yyparse return value  = "<<rv2<< endl;

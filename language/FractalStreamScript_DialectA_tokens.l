@@ -1,5 +1,5 @@
 
-%option header-file="build/tokens.hpp"  outfile="build/tokens.cpp" 
+%option header-file="build/FractalStreamScript_DialectA_tokenizer.hpp"  outfile="build/FractalStreamScript_DialectA_tokenizer.cpp" 
 
 %option warn nodefault
 
@@ -11,11 +11,13 @@
 %option align
 %option full
 
+%option prefix="FractalStreamScript_DialectA"
+
 %{
 	#include <string>
 	#include "ExtraInformation.hpp"
 	#include "node.h"
-	#include "parser.hpp"
+	#include "FractalStreamScript_DialectA_parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
 	#define TOKEN(t) (yylval->token = t)
 	#define YY_EXTRA_TYPE void*
