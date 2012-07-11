@@ -5,7 +5,7 @@ clean:
 
 build/FractalStreamScript_DialectA_parser.cpp : FractalStreamScript_DialectA_parser.y
 	mkdir -p build
-	bison -v -d -o $@ $^
+	bison  -v -d -o $@ $^
 	
 build/FractalStreamScript_DialectA_parser.hpp:  build/FractalStreamScript_DialectA_parser.cpp 
 	mkdir -p build

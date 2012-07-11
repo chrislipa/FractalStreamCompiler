@@ -8,8 +8,7 @@
 %option bison-bridge
 %option bison-locations
 %option noyywrap
-%option align
-%option full
+
 
 %option prefix="FractalStreamScript_DialectA"
 

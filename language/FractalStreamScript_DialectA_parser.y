@@ -3,7 +3,7 @@
 %pure-parser
 %lex-param {void * context}
 %parse-param { void* context }
- 
+%locations
 
 %{
 	#include "node.h"
@@ -36,7 +36,7 @@
 	std::string *string;
 	int token;
 	NProgramPart* program_part;
-	NFakeToHoldLineNumber* fakeToHoldLineNumber;
+	
 }
 
 /* Define our terminal symbols (tokens). This should
@@ -67,7 +67,7 @@
 %type <programParts> program_parts
 
 
-%type <fakeToHoldLineNumber> fakeToHoldLineNumber
+
 /* Operator precedence for mathematical operators */
 %left TPLUS TMINUS
 %left TMUL TDIV
@@ -141,14 +141,5 @@ comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE
 		   ;
 
 
-/* This rule (fakeToHoldLineNumber) is unused.  It's present
-   because of (IMO) buggy behavior on the part of Bison that
-   the functions generated change their signature depending
-   on whether the line number symbol (@$) is present in the 
-   rule set.  In order to more easily facilitate debugging
-   and experimentation, the symbol is always represented 
-   here so that no other files need to be altered when
-   modifying other rules.*/
-fakeToHoldLineNumber : { $$ = new FakeToHoldLineNumber(@$); }
 
 %%
