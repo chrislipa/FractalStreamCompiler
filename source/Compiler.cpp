@@ -45,7 +45,7 @@ int internalCompileString(const char* sourceCode)
 		InitializeNativeTarget();
 		CodeGenContext context;
 		context.generateCode(*programBlock);
-		context.runCode();
+		//context.runCode();
 	}
     
 	std::cout<<"printing"<<endl;

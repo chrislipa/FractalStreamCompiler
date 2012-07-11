@@ -1,8 +1,6 @@
 
 %option header-file="build/tokens.hpp"  outfile="build/tokens.cpp" 
-
 %option warn nodefault
-
 %option 8bit
 %option reentrant
 %option bison-bridge
@@ -18,6 +16,14 @@
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
 	#define TOKEN(t) (yylval->token = t)
 	#define YY_EXTRA_TYPE void*
+%}
+
+%code {
+    int yycolumn = 1;
+    
+    #define YY_USER_ACTION yylloc.first_line = yyloc.last_line = yylineno;\
+    yylloc.first_column = yycolumn; yylloc.last_column = yycolumn+yyleng-1; \
+    yycolumn += yyleng;
 %}
 
 %%

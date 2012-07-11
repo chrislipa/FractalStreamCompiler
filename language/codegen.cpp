@@ -27,9 +27,17 @@ void CodeGenContext::generateCode(Node& root)
 	
 	
 	FSCodeGenerationContext con;
-	
+	con.codeGenContext = this;
+    LLVMContext llvmContext;
+    llvm::Module module("my cool jit", llvmContext);
+	llvm::IRBuilder<> builder(llvmContext);
+    
+    con.llvmContext = &llvmContext;
+    con.module = &module;
+    con.builder = &builder;
+    
 	FunctionType *ftype = FunctionType::get(Type::getVoidTy(getGlobalContext()), argTypes, false);
-	mainFunction = Function::Create(ftype, GlobalValue::InternalLinkage, "main", module);
+	mainFunction = Function::Create(ftype, GlobalValue::InternalLinkage, "main", con.module);
 	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", mainFunction, 0);
 	
 	// Push a new variable/block context 
@@ -43,7 +51,7 @@ void CodeGenContext::generateCode(Node& root)
 	std::cout << "Code is generated: "<<value << endl;
 	PassManager pm;
 	pm.add(createPrintModulePass(&outs()));
-	pm.run(*module);
+	pm.run(*con.module);
 }
 
 /* Executes the AST by running the main function */
@@ -120,7 +128,7 @@ Value* NMethodCall::codeGen(FSCodeGenerationContext& context)
 
 Value* NBinaryOperator::codeGen(FSCodeGenerationContext& context)
 {
-	return NULL;
+	
 	
 	std::cout << "Creating binary operation " << op << endl;
 	Instruction::BinaryOps instr;
@@ -135,7 +143,7 @@ Value* NBinaryOperator::codeGen(FSCodeGenerationContext& context)
 
 	return NULL;
 math:
-	BinaryOperator::Create(instr, lhs.codeGen(context), 
+	return BinaryOperator::Create(instr, lhs.codeGen(context), 
 	rhs.codeGen(context), "", context.codeGenContext->currentBlock());
 
 }
@@ -175,41 +183,34 @@ Value* NProgramPart::codeGen(FSCodeGenerationContext& context)
 
 Value* NProgramParts::codeGen(FSCodeGenerationContext& context)
 {
-	
-	 ProgramPartList::const_iterator it;
-	 Value *last = NULL;
-	 for (it = parts.begin(); it != parts.end(); it++) {
-		 std::cout << "Generating code for " << typeid(**it).name() << endl;
-		 last = (**it).codeGen(context);
-	 }
-	 std::cout << "Creating block" << endl;
-	 return last;
+	ProgramPartList::const_iterator it;
+	Value *last = NULL;
+	//BasicBlock *bblock = BasicBlock::Create(*context.llvmContext);
+	//context.builder->SetInsertPoint(bblock);
+    //context.codeGenContext->pushBlock(bblock);
+	for (it = parts.begin(); it != parts.end(); it++) {
+        std::cout << "Generating code for " << typeid(**it).name() << endl;
+        last = (**it).codeGen(context);
+    }
+    //ReturnInst::Create(*context.llvmContext, bblock);
+	//context.codeGenContext->popBlock();
+	//std::cout << "Creating block" << endl;
+    return last;
 }
 
 Value* NProgram::codeGen(FSCodeGenerationContext& context)
 {
-	/*
-	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", function, 0);
 	
-	context.pushBlock(bblock);
-	
-	for (it = arguments.begin(); it != arguments.end(); it++) {
-		(**it).codeGen(context);
-	}
-	
-	block.codeGen(context);
-	ReturnInst::Create(getGlobalContext(), bblock);
-	
-	context.popBlock();
-
-	*/
-	//
 	NProgramParts* programParts = &this->parts;
 	
 	ProgramPartList::const_iterator it;
 	Value *last = NULL;
 	BasicBlock *bblock = BasicBlock::Create(*context.llvmContext, NULL, 0, 0);
 	
+    
+    context.builder->SetInsertPoint(bblock);
+    
+    
 	context.codeGenContext->pushBlock(bblock);
 	
 	for (it = programParts->parts.begin(); it != programParts->parts.end(); it++) {
@@ -219,8 +220,8 @@ Value* NProgram::codeGen(FSCodeGenerationContext& context)
 	}
 	
 	
-	block.codeGen(context);
-	ReturnInst::Create(getGlobalContext(), bblock);
+	
+	ReturnInst::Create(*context.llvmContext, bblock);
 	
 	context.codeGenContext->popBlock();
 	std::cout << "Creating block" << endl;
@@ -230,7 +231,7 @@ Value* NProgram::codeGen(FSCodeGenerationContext& context)
 Value* NExpressionStatement::codeGen(FSCodeGenerationContext& context)
 {
 	std::cout << "Generating code for " <</* typeid(expression).name() << */endl;
-	return NULL;//expression.codeGen(context);
+	return expression.codeGen(context);
 }
 
 Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
@@ -261,8 +262,11 @@ Value* NFunctionDeclaration::codeGen(FSCodeGenerationContext& context)
 	for (it = arguments.begin(); it != arguments.end(); it++) {
 		argTypes.push_back(typeOf((**it).type));
 	}
+    
 	ArrayRef<Type*> arg;
+    
 	FunctionType *ftype = FunctionType::get(typeOf(type), arg, false);
+    
 	Function *function = Function::Create(ftype, GlobalValue::InternalLinkage, id.name.c_str(), context.module);
 	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", function, 0);
 
