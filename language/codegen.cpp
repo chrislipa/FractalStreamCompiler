@@ -238,7 +238,7 @@ Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
 {
 
 	std::cout << "Creating variable declaration " << type.name << " " << id.name << endl;
-	Type *t = typeOf(type);
+	//Type *t = typeOf(type);
 
 	AllocaInst *alloc =  NULL;//new AllocaInst(t, id.name.c_str(), context.currentBlock());
 	context.codeGenContext->locals()[id.name] = alloc;

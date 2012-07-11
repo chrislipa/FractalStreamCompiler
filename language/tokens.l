@@ -1,12 +1,15 @@
 
 %option header-file="build/tokens.hpp"  outfile="build/tokens.cpp" 
+
 %option warn nodefault
+
 %option 8bit
 %option reentrant
 %option bison-bridge
 %option bison-locations
 %option noyywrap
-
+%option align
+%option full
 
 %{
 	#include <string>
@@ -18,13 +21,9 @@
 	#define YY_EXTRA_TYPE void*
 %}
 
-%code {
-    int yycolumn = 1;
-    
-    #define YY_USER_ACTION yylloc.first_line = yyloc.last_line = yylineno;\
-    yylloc.first_column = yycolumn; yylloc.last_column = yycolumn+yyleng-1; \
-    yycolumn += yyleng;
-%}
+
+  
+
 
 %%
 "if"					return TOKEN(IF);
