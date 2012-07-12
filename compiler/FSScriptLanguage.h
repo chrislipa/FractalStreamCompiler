@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#include "FractalStreamScript_DialectA_parser.hpp"
-#include "FractalStreamScript_DialectA_tokenizer.hpp"
+
 
 @interface FSScriptLanguage : NSObject {
     
@@ -21,14 +20,16 @@
     
     
     
-    int             (*_functionPointerTo_lex_init_extra)    (YY_EXTRA_TYPE,yyscan_t*);
-    YY_BUFFER_STATE (*_functionPointerTo_scan_string)       (yyconst char*, yyscan_t);
-    YY_EXTRA_TYPE   (*_functionPointerTo_get_extra)         (yyscan_t);
-    int             (*_functionPointerTo_lex_destroy)       (yyscan_t);
+    int             (*_functionPointerTo_lex_init_extra)    (void*,void**);
+    void* (*_functionPointerTo_scan_string)       (const char*, void*);
+    void*   (*_functionPointerTo_get_extra)         (void*);
+    int             (*_functionPointerTo_lex_destroy)       (void*);
     int             (*_functionPointerTo_parse)             (void*);
+    
+    NSStringEncoding _characterSetEncoding;
 }
 
-
+@property (readwrite,assign) NSStringEncoding characterSetEncoding;
 @property (readwrite,retain) NSString* languageIdentifier;
 @property (readwrite,retain) NSString* languageVersion;
 @property (readwrite,retain) NSString* languageHumanReadableDescription;
@@ -36,10 +37,10 @@
 @property (readwrite,retain) NSString* flexConfigurationFile;
 @property (readwrite,retain) NSString* bisonConfigurationFile;
 
-@property (readwrite,assign) int             (*functionPointerTo_lex_init_extra)  (YY_EXTRA_TYPE,yyscan_t*);
-@property (readwrite,assign) YY_BUFFER_STATE (*functionPointerTo_scan_string)     (yyconst char * , yyscan_t);
-@property (readwrite,assign) YY_EXTRA_TYPE   (*functionPointerTo_get_extra)       (yyscan_t);
-@property (readwrite,assign) int             (*functionPointerTo_lex_destroy)     (yyscan_t);
+@property (readwrite,assign) int             (*functionPointerTo_lex_init_extra)  (void*,void**);
+@property (readwrite,assign) void*          (*functionPointerTo_scan_string)     (const char * , void*);
+@property (readwrite,assign) void*   (*functionPointerTo_get_extra)       (void*);
+@property (readwrite,assign) int             (*functionPointerTo_lex_destroy)     (void*);
 @property (readwrite,assign) int             (*functionPointerTo_parse)           (void*);
 
 

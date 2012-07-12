@@ -11,11 +11,15 @@
 
 int main(int argc, const char * argv[])
 {
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11"];
+    @autoreleasepool {
+        
+    
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11pí" andLanguage:@"fsa"];
 	FSCompileResult* res = fractalStreamCompileRequest(req);
 	
     printf("%ld",(long)res);
 	
+    }
     return 0;
 }
 

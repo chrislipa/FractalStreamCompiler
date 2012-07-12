@@ -10,7 +10,7 @@
 		36CD1A1D15A5E39D002DF90A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CD1A1C15A5E39D002DF90A /* main.mm */; };
 		36CD1A1F15A5E39D002DF90A /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36CD1A1E15A5E39D002DF90A /* test.1 */; };
 		36CEB3C915AE6CFD00C83E29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CEB3C815AE6CFD00C83E29 /* Foundation.framework */; };
-		36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */; };
+		36D2739D15AA012300A9344F /* FractalStreamCompiler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36CEB3C915AE6CFD00C83E29 /* Foundation.framework in Frameworks */,
-				36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */,
+				36D2739D15AA012300A9344F /* FractalStreamCompiler.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		36CD1A2615A5E3A5002DF90A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */,
+				36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,10 +152,9 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */ = {
+		36CD1A6515A5E3AD002DF90A /* FractalStreamCompiler.dylib */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			name = libFractalStreamCompiler.dylib;
+			fileType = "compiled.mach-o.dylib";
 			path = FractalStreamCompiler.dylib;
 			remoteRef = 36CD1A6415A5E3AD002DF90A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;

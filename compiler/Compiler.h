@@ -11,6 +11,6 @@
 
 extern "C"
 
-int internalCompileString(const char* sourceCode);
+FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest);
 
 #endif

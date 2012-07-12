@@ -22,4 +22,7 @@
 @property (readwrite,assign) int endLine;
 @property (readwrite,assign) int endColumn;
 
++(FSSourceRange*) sourceRange;
+
++(FSSourceRange*) sourceRangeWithBeginning:(int) startLine :(int)startColumn andEnd:(int)endLine :(int) endColumn; 
 @end

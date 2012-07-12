@@ -10,10 +10,14 @@
 
 @interface FSCompileRequest : NSObject {
     NSString* _sourceCode;
+    NSString* _languageIdentifier;
+    NSString* _languageVersion;
 }
 
 @property (readwrite,retain) NSString* sourceCode;
+@property (readwrite,retain) NSString* languageIdentifier;
+@property (readwrite,retain) NSString* languageVersion;
 
-+(FSCompileRequest*) getCompileRequestWithSourceCode:(NSString*) sourceCode;
++(FSCompileRequest*) getCompileRequestWithSourceCode:(NSString*) sourceCode andLanguage:(NSString*) language;
 
 @end

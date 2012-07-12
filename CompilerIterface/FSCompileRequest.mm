@@ -11,7 +11,8 @@
 @implementation FSCompileRequest
 
 @synthesize sourceCode = _sourceCode;
-
+@synthesize languageIdentifier = _languageIdentifier;
+@synthesize languageVersion = _languageVersion;
 
 -(id) init {
     if  (self = [super init]) {
@@ -20,16 +21,24 @@
     return self;
 }
 
--(id) initWithSourceCode:(NSString*) sourceCode {
+-(id) initWithSourceCode:(NSString*) sourceCode andLanguage:(NSString*) language {
     if  (self = [super init]) {
         self.sourceCode = sourceCode;
+        self.languageIdentifier = language;
     }
     return self;
 }
 
 
-+(FSCompileRequest*) getCompileRequestWithSourceCode:(NSString*) sourceCode {
-    return [[[self alloc] initWithSourceCode:sourceCode] autorelease];
++(FSCompileRequest*) getCompileRequestWithSourceCode:(NSString*) sourceCode andLanguage:(NSString*) language {
+    return [[[self alloc] initWithSourceCode:sourceCode andLanguage:language] autorelease];
 }
 
+
+-(void) dealloc {
+    [_sourceCode release];
+    [_languageIdentifier release];
+    [_languageVersion release];
+    [super dealloc];
+}
 @end
