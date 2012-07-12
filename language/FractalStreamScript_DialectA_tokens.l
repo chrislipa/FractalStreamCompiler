@@ -1,4 +1,4 @@
-%option prefix="FractalStreamScript_DialectA"
+%option prefix="FractalStreamScript_DialectA_"
 %option header-file="build/FractalStreamScript_DialectA_tokenizer.hpp"  outfile="build/FractalStreamScript_DialectA_tokenizer.cpp" 
 %option warn nodefault
 %option 8bit stack

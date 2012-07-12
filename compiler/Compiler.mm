@@ -1,7 +1,9 @@
 #include <iostream>
 #include "codegen.h"
 #include "node.h"
-#include "tokens.h"
+
+#import "FSCompileRequest.h"
+#import "FSCompileResult.h"
 #include <stdio.h>
 #include "ExtraInformation.hpp"
 #include "FractalStreamScript_DialectA_parser.hpp"
@@ -9,28 +11,30 @@
 
 using namespace std;
 
-extern int FractalStreamScript_DialectAparse(void* scanner);
+extern int FractalStreamScript_DialectA_parse(void* scanner);
 
 
 
 extern "C"
 
-int internalCompileString(const char* sourceCode)
+int internalCompileString(FSCompileRequest* compileRequest)
 {
 	
+    const char* sourceCode = [compileRequest.sourceCode cStringUsingEncoding:NSUTF8StringEncoding];
 	char* workingSource = strdup(sourceCode);
+    
 	yyscan_t scanner;
 	ExtraInformation extra;
 	
 	
 	
-	FractalStreamScript_DialectAlex_init_extra(&extra, &scanner );
+	FractalStreamScript_DialectA_lex_init_extra(&extra, &scanner );
 
-	YY_BUFFER_STATE rv = FractalStreamScript_DialectA_scan_string(workingSource, scanner);
-	int rv2  = FractalStreamScript_DialectAparse(scanner);
-	ExtraInformation* extra_return = (ExtraInformation*)( FractalStreamScript_DialectAget_extra(scanner));
+	YY_BUFFER_STATE rv = FractalStreamScript_DialectA__scan_string(workingSource, scanner);
+	int rv2  = FractalStreamScript_DialectA_parse(scanner);
+	ExtraInformation* extra_return = (ExtraInformation*)( FractalStreamScript_DialectA_get_extra(scanner));
 	Node* programBlock = extra_return->result;
-	FractalStreamScript_DialectAlex_destroy ( scanner );
+	FractalStreamScript_DialectA_lex_destroy ( scanner );
 
 	std::cout << "buffer state  = "<<rv<< endl;
 	std::cout << "yyparse return value  = "<<rv2<< endl;

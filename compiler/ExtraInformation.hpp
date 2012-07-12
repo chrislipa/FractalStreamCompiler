@@ -13,8 +13,9 @@
 
 
 #include <iostream>
-using namespace std;
 #include "node.h"
+using namespace std;
+
 class ExtraInformation
 {
 public:

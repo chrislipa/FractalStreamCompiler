@@ -67,7 +67,6 @@
 		36CD1A0D15A5E39D002DF90A = {
 			isa = PBXGroup;
 			children = (
-				36CEB3C815AE6CFD00C83E29 /* Foundation.framework */,
 				36CD1A2515A5E3A5002DF90A /* FractalStreamCompiler.xcodeproj */,
 				36CD1A1B15A5E39D002DF90A /* test */,
 				36CD1A1915A5E39D002DF90A /* Products */,
@@ -85,6 +84,7 @@
 		36CD1A1B15A5E39D002DF90A /* test */ = {
 			isa = PBXGroup;
 			children = (
+				36CEB3C815AE6CFD00C83E29 /* Foundation.framework */,
 				36CD1A1C15A5E39D002DF90A /* main.mm */,
 				36CD1A1E15A5E39D002DF90A /* test.1 */,
 			);

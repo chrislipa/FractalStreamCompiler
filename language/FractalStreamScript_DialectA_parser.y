@@ -1,5 +1,5 @@
-%file-prefix = "FractalStreamScript_DialectA"
-%name-prefix = "FractalStreamScript_DialectA"
+%file-prefix = "FractalStreamScript_DialectA_"
+%name-prefix = "FractalStreamScript_DialectA_"
 %pure-parser
 %lex-param {void * context}
 %parse-param { void* context }
@@ -12,8 +12,7 @@
 	#include <cstdio>
 	#include <cstdlib>
 	#include "ExtraInformation.hpp"
-	#include "tokens.h"
-	NExpression *programBlock; /* the top level root node of our final AST */
+	//NExpression *programBlock; /* the top level root node of our final AST */
 	
 	typedef void* yyscan_t; 
 	extern int yylex (YYSTYPE * yylval_param ,YYLTYPE * yylloc_param , yyscan_t yyscanner);
@@ -75,7 +74,7 @@
 %start program
 
 %%
-program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( FractalStreamScript_DialectAget_extra(context));
+program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
 	extraInformationStructure->result = $1;
 }
 

@@ -16,9 +16,11 @@
 extern "C" 
 
 FSCompileResult* fractalStreamCompileRequest(FSCompileRequest* compileRequest) {
-    const char* source = [compileRequest.sourceCode cStringUsingEncoding:NSUTF8StringEncoding];
+    @autoreleasepool {
+        const char* source = [compileRequest.sourceCode cStringUsingEncoding:NSUTF8StringEncoding];
     
-	internalCompileString(source);
+        internalCompileString(source);
     
-    return nil;
+        return nil;
+    }
 }
