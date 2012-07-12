@@ -8,6 +8,12 @@
 
 #import "FSSourceRange.h"
 
-@implementation FSSourceRange
+@implementation FSSourceRange 
+
+@synthesize hasRange = _hasRange;
+@synthesize startLine = _startLine;
+@synthesize startColumn = _startColumn;
+@synthesize endLine = _endLine;
+@synthesize endColumn = _endColumn;
 
 @end

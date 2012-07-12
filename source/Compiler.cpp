@@ -13,7 +13,7 @@ extern int FractalStreamScript_DialectAparse(void* scanner);
 
 
 
-
+extern "C"
 
 int internalCompileString(const char* sourceCode)
 {

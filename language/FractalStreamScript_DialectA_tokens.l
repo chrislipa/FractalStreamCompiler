@@ -1,16 +1,12 @@
-
-%option header-file="build/FractalStreamScript_DialectA_tokenizer.hpp"  outfile="build/FractalStreamScript_DialectA_tokenizer.cpp" 
-
-%option warn nodefault
-
-%option 8bit
-%option reentrant
-%option bison-bridge
-%option bison-locations
-%option noyywrap
-
-
 %option prefix="FractalStreamScript_DialectA"
+%option header-file="build/FractalStreamScript_DialectA_tokenizer.hpp"  outfile="build/FractalStreamScript_DialectA_tokenizer.cpp" 
+%option warn nodefault
+%option 8bit stack
+%option reentrant
+%option bison-bridge bison-locations
+%option noyywrap yylineno
+%option never-interactive
+
 
 %{
 	#include <string>
@@ -20,6 +16,14 @@
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
 	#define TOKEN(t) (yylval->token = t)
 	#define YY_EXTRA_TYPE void*
+    
+    /* handle locations */
+    //int yycolumn = 1;
+    
+    #define YY_USER_ACTION yylloc->first_line = yylloc->last_line = yylineno;\
+                            yylloc->first_column = yycolumn; \
+                            yylloc->last_column = yycolumn+yyleng-1; yycolumn += yyleng;    
+    
 %}
 
 
@@ -57,6 +61,6 @@
 "*"						return TOKEN(TMUL);
 "/"						return TOKEN(TDIV);
 
-.						printf("Unknown token!\n"); yyterminate();
+.						printf("Unknown token!\n"); printf("(%d,%d) - (%d,%d)",yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column); yyterminate();
 
 %%

@@ -1,5 +1,5 @@
 //
-//  CompileRequest.h
+//  FSCompileRequest.h
 //  FractalStreamCompiler
 //
 //  Created by Christopher Lipa on 7/11/12.
@@ -13,6 +13,7 @@
 }
 
 @property (readwrite,retain) NSString* sourceCode;
-    
+
++(FSCompileRequest*) getCompileRequestWithSourceCode:(NSString*) sourceCode;
 
 @end

@@ -7,8 +7,10 @@
 
 #ifndef FractalStreamCompiler_abcdefg1_h
 #define FractalStreamCompiler_abcdefg1_h
+#import "FSCompileRequest.h"
+#import "FSCompileResult.h"
 #ifdef __cplusplus
 extern "C"
 #endif
-void compile(const char* source);
+FSCompileResult* fractalStreamCompileRequest(FSCompileRequest* compileRequest);
 #endif

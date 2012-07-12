@@ -8,6 +8,8 @@
 
 #import "FSCompileResult.h"
 
-@implementation FSCompileResult
-
+@implementation FSCompileResult 
+@synthesize isCompileSuccessful = _isCompileSuccessful;
+@synthesize compileErrors = _compileErrors;
+@synthesize compileRequest = _compileRequest;
 @end

@@ -9,6 +9,7 @@
 #ifndef FractalStreamCompiler_Compiler
 #define FractalStreamCompiler_Compiler
 
+extern "C"
 
 int internalCompileString(const char* sourceCode);
 

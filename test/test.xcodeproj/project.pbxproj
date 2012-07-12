@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36CD1A1D15A5E39D002DF90A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36CD1A1C15A5E39D002DF90A /* main.c */; };
+		36CD1A1D15A5E39D002DF90A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CD1A1C15A5E39D002DF90A /* main.mm */; };
 		36CD1A1F15A5E39D002DF90A /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36CD1A1E15A5E39D002DF90A /* test.1 */; };
+		36CEB3C915AE6CFD00C83E29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CEB3C815AE6CFD00C83E29 /* Foundation.framework */; };
 		36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD1A6515A5E3AD002DF90A /* libFractalStreamCompiler.dylib */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +45,10 @@
 
 /* Begin PBXFileReference section */
 		36CD1A1815A5E39D002DF90A /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
-		36CD1A1C15A5E39D002DF90A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		36CD1A1C15A5E39D002DF90A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		36CD1A1E15A5E39D002DF90A /* test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test.1; sourceTree = "<group>"; };
 		36CD1A2515A5E3A5002DF90A /* FractalStreamCompiler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FractalStreamCompiler.xcodeproj; path = ../FractalStreamCompiler.xcodeproj; sourceTree = "<group>"; };
+		36CEB3C815AE6CFD00C83E29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CEB3C915AE6CFD00C83E29 /* Foundation.framework in Frameworks */,
 				36D2739D15AA012300A9344F /* libFractalStreamCompiler.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +67,7 @@
 		36CD1A0D15A5E39D002DF90A = {
 			isa = PBXGroup;
 			children = (
+				36CEB3C815AE6CFD00C83E29 /* Foundation.framework */,
 				36CD1A2515A5E3A5002DF90A /* FractalStreamCompiler.xcodeproj */,
 				36CD1A1B15A5E39D002DF90A /* test */,
 				36CD1A1915A5E39D002DF90A /* Products */,
@@ -81,7 +85,7 @@
 		36CD1A1B15A5E39D002DF90A /* test */ = {
 			isa = PBXGroup;
 			children = (
-				36CD1A1C15A5E39D002DF90A /* main.c */,
+				36CD1A1C15A5E39D002DF90A /* main.mm */,
 				36CD1A1E15A5E39D002DF90A /* test.1 */,
 			);
 			path = test;
@@ -163,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36CD1A1D15A5E39D002DF90A /* main.c in Sources */,
+				36CD1A1D15A5E39D002DF90A /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

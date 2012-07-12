@@ -11,9 +11,10 @@
 
 int main(int argc, const char * argv[])
 {
-
-	compile("7*19!");
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11"];
+	FSCompileResult* res = fractalStreamCompileRequest(req);
 	
+    printf("%ld",(long)res);
 	
     return 0;
 }

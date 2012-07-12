@@ -1,5 +1,5 @@
 //
-//  CompileResult.h
+//  FSCompileResult.h
 //  FractalStreamCompiler
 //
 //  Created by Christopher Lipa on 7/11/12.
@@ -7,9 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface CompileResult : NSObject {
-    
+#import "FSCompileRequest.h"
+@interface FSCompileResult : NSObject  {
+    bool _isCompileSuccessful;
+    NSMutableArray* _compileErrors;
+    FSCompileRequest* _compileRequest;
 }
+
+@property (readwrite,assign) bool isCompileSuccessful;
+@property (readwrite,retain) NSMutableArray* compileErrors;
+@property (readwrite,retain) FSCompileRequest* compileRequest;
 
 @end
