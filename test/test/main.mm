@@ -14,7 +14,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
     
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11pí" andLanguage:@"fsa"];
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"%%9*17*11" andLanguage:@"fsa"];
 	FSCompileResult* res = fractalStreamCompileRequest(req);
 	
     printf("%ld",(long)res);

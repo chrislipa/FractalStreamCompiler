@@ -249,10 +249,7 @@ Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
 	return alloc;
 }
 
-Value* NFakeToHoldLineNumber::codeGen(FSCodeGenerationContext& context)
-{
-	return NULL;
-}
+
 
 Value* NFunctionDeclaration::codeGen(FSCodeGenerationContext& context)
 {

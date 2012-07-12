@@ -10,7 +10,7 @@
 
 %{
 	#include <string>
-	#include "ExtraInformation.hpp"
+	#include "FSExtraInformation.hpp"
 	#include "node.h"
 	#include "FractalStreamScript_DialectA_parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
@@ -24,13 +24,16 @@
                             yylloc->first_column = yycolumn; \
                             yylloc->last_column = yycolumn+yyleng-1; yycolumn += yyleng;    
     
+    
+    
 %}
-
+/*[^ \t\n*]+   printf("Unknown token!  Attemptin to recover (%d,%d) - (%d,%d)\n",yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column); SAVE_TOKEN; return TUNRECOGNIZED;*/
 
   
 
 
 %%
+.+ 	SAVE_TOKEN; return TIDENTIFIER;
 "if"					return TOKEN(IF);
 "iterate"				return TOKEN(ITERATE);
 "until"					return TOKEN(UNTIL);
@@ -61,6 +64,7 @@
 "*"						return TOKEN(TMUL);
 "/"						return TOKEN(TDIV);
 
-.						printf("Unknown token!\n"); printf("(%d,%d) - (%d,%d)",yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column); yyterminate();
+
+
 
 %%

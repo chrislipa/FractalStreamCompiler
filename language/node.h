@@ -151,12 +151,5 @@ public:
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
-class NFakeToHoldLineNumber : public Node {
-public:
-	int lineNo;
-	NFakeToHoldLineNumber(int l) : lineNo(l) {}
-	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
-};
 
-std::ostream& operator<< (std::ostream& stream, const Node& node);
 #endif

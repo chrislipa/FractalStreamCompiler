@@ -11,8 +11,8 @@
     #include "FractalStreamScript_DialectA_tokenizer.hpp"
 	#include <cstdio>
 	#include <cstdlib>
-	#include "ExtraInformation.hpp"
-	//NExpression *programBlock; /* the top level root node of our final AST */
+	#include "FSExtraInformation.hpp"
+	
 	
 	typedef void* yyscan_t; 
 	extern int yylex (YYSTYPE * yylval_param ,YYLTYPE * yylloc_param , yyscan_t yyscanner);
@@ -42,7 +42,8 @@
    match our tokens.l lex file. We also define the node type
    they represent.
  */
-%token <string> TIDENTIFIER TINTEGER TDOUBLE
+%token <unrecognized> TUNRECOGNIZED
+%token <string> TIDENTIFIER TINTEGER TDOUBLE 
 %token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL
 %token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT
 %token <token> TPLUS TMINUS TMUL TDIV
@@ -64,7 +65,7 @@
 
 %type <programPart> program_part
 %type <programParts> program_parts
-
+%type <unrecognized> unrecognized
 
 
 /* Operator precedence for mathematical operators */
@@ -74,7 +75,7 @@
 %start program
 
 %%
-program : program_parts { ExtraInformation* extraInformationStructure = (ExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
+program : program_parts { FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
 	extraInformationStructure->result = $1;
 }
 
@@ -138,6 +139,8 @@ call_args : /*blank*/  { $$ = new ExpressionList(); }
 comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE 
 		   | TPLUS | TMINUS | TMUL | TDIV
 		   ;
+
+unrecognized : /*blank*/ {} ;
 
 
 

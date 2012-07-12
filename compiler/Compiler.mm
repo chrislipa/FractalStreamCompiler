@@ -6,7 +6,7 @@
 #import "FSCompileError.h"
 #import "FSCompileResult.h"
 #include <stdio.h>
-#include "ExtraInformation.hpp"
+#include "FSExtraInformation.hpp"
 #include "FractalStreamScript_DialectA_parser.hpp"
 #include "FractalStreamScript_DialectA_tokenizer.hpp"
 #include "FSScriptLanguage.h"
@@ -17,9 +17,14 @@ extern int FractalStreamScript_DialectA_parse(void* scanner);
 
 
 
-extern "C"
 
-FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
+/* fs_internalCompile is the core function of the Fractal Stream Compiler project.
+ * It take a compile request, attempts to compile it and returns a compile
+ * result.  Because it's potentially taking a user-generated request, every 
+ * error condition that could come from malformed data in the request is checked
+ * against.
+ */
+extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
 {
 	NSString* languageIdentifier = [compileRequest languageIdentifier];
     if (languageIdentifier == nil) {return [FSCompileResult compileResultWithRequest:compileRequest andError:[FSCompileError noLanguageSpecified]];};
@@ -39,23 +44,31 @@ FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
         return [FSCompileResult compileResultWithRequest:compileRequest andError:[FSCompileError invalidCharacterEncoding:sourceCodeNSString encoding:encoding]];
     }
     
+    
+    // At this point we know we have a valid input source code string and a 
+    // valid language to interpret it with.  We attempt to tokenize and parse it.
+    
 	char* workingSource = strdup(sourceCode);
     
 	yyscan_t scanner;
-	ExtraInformation extra;
+	FSExtraInformation extra;
 	
 	
 	
 	(*(language.functionPointerTo_lex_init_extra))(&extra, &scanner );
-
-	YY_BUFFER_STATE rv = FractalStreamScript_DialectA__scan_string(workingSource, scanner);
-	int rv2  = FractalStreamScript_DialectA_parse(scanner);
-	ExtraInformation* extra_return = (ExtraInformation*)( FractalStreamScript_DialectA_get_extra(scanner));
+    
+	YY_BUFFER_STATE rv =(YY_BUFFER_STATE) (*(language.functionPointerTo_scan_string))(workingSource, scanner);
+    std::cout << "return value from scan  = "<<rv<< endl;
+    int rv2 = FractalStreamScript_DialectA_parse(scanner);
+	//int rv2  =  (*(language.functionPointerTo_parse))(scanner);
+    
+	FSExtraInformation* extra_return = (FSExtraInformation*)( (*(language.functionPointerTo_get_extra))(scanner));
 	Node* programBlock = extra_return->result;
-	FractalStreamScript_DialectA_lex_destroy ( scanner );
+    
+	(*(language.functionPointerTo_lex_destroy))( scanner );
 
-	std::cout << "buffer state  = "<<rv<< endl;
-	std::cout << "yyparse return value  = "<<rv2<< endl;
+
+	std::cout << "parse return value  = "<<rv2<< endl;
 	std::cout << "program block = "<<programBlock<< endl;
 	
 
