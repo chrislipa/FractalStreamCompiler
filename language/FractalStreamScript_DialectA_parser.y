@@ -33,6 +33,7 @@
 	std::vector<NVariableDeclaration*> *varvec;
 	std::vector<NExpression*> *exprvec;
 	std::string *string;
+    std::string *unrecoginzed_token;
 	int token;
 	NProgramPart* program_part;
 	
@@ -42,12 +43,13 @@
    match our tokens.l lex file. We also define the node type
    they represent.
  */
-%token <unrecognized> TUNRECOGNIZED
+
 %token <string> TIDENTIFIER TINTEGER TDOUBLE 
+%token <unrecognized> TUNRECOGNIZED
 %token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL
 %token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT
 %token <token> TPLUS TMINUS TMUL TDIV
-%token <token> IF ITERATE UNTIL PERIOD ESCAPES
+%token <token> IF ITERATE UNTIL PERIOD ESCAPES UNDEF
 
  
 /* Define the type of node our nonterminal symbols represent.
@@ -57,15 +59,16 @@
  */
 %type <ident> ident
 %type <expr> numeric expr 
+%type <unrecoginzed_token> unrecognized
 %type <varvec> func_decl_args
 %type <exprvec> call_args
 %type <block> stmts block
 %type <stmt> stmt var_decl func_decl
 %type <token> comparison
-
 %type <programPart> program_part
 %type <programParts> program_parts
-%type <unrecognized> unrecognized
+
+
 
 
 /* Operator precedence for mathematical operators */
@@ -75,13 +78,20 @@
 %start program
 
 %%
+
+
+
+
 program : program_parts { FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
-	extraInformationStructure->result = $1;
-}
+	extraInformationStructure->result = $1;}
+| unrecognized{}
+        
+        ;
 
 
 program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<program_part>1); }
 			  | program_parts program_part {$1->parts.push_back($<program_part>2); }
+              | unrecognized { }
               ;
 
 program_part : stmts {$$ = new NProgramPart(*$1);}
@@ -121,6 +131,9 @@ func_decl_args : /*blank*/  { $$ = new VariableList(); }
 ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
 	  ;
 
+unrecognized : TUNRECOGNIZED { }
+;
+
 
 	
 expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
@@ -140,7 +153,7 @@ comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE
 		   | TPLUS | TMINUS | TMUL | TDIV
 		   ;
 
-unrecognized : /*blank*/ {} ;
+
 
 
 

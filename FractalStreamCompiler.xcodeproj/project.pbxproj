@@ -1186,6 +1186,7 @@
 /* Begin PBXFileReference section */
 		362AD89D15AEBD8200892EBB /* FSCompilerUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCompilerUtility.h; sourceTree = "<group>"; };
 		362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FSCompilerUtility.c; sourceTree = "<group>"; };
+		363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCompilerErrorTypeDefinitions.h; path = include/FSCompilerErrorTypeDefinitions.h; sourceTree = SOURCE_ROOT; };
 		36C2CA9215A53CF20042BFED /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = language/codegen.cpp; sourceTree = "<group>"; };
 		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
@@ -1353,6 +1354,7 @@
 		36CEB39B15AE45B300C83E29 /* CompilerIterface */ = {
 			isa = PBXGroup;
 			children = (
+				363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */,
 				36CEB3C015AE69F600C83E29 /* FSSourceRange.h */,
 				36CEB3C115AE69F600C83E29 /* FSCompileResult.h */,
 				36CEB3C215AE69F600C83E29 /* FSCompileRequest.h */,

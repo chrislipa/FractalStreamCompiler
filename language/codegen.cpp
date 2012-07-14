@@ -181,6 +181,12 @@ Value* NProgramPart::codeGen(FSCodeGenerationContext& context)
 	return expression.codeGen(context);
 }
 
+
+Value* NUnrecognized::codeGen(FSCodeGenerationContext& context)
+{
+	return NULL;
+}
+
 Value* NProgramParts::codeGen(FSCodeGenerationContext& context)
 {
 	ProgramPartList::const_iterator it;

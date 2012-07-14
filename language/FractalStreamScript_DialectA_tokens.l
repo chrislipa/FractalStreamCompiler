@@ -27,13 +27,13 @@
     
     
 %}
-/*[^ \t\n*]+   printf("Unknown token!  Attemptin to recover (%d,%d) - (%d,%d)\n",yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column); SAVE_TOKEN; return TUNRECOGNIZED;*/
+
 
   
 
 
 %%
-.+ 	SAVE_TOKEN; return TIDENTIFIER;
+
 "if"					return TOKEN(IF);
 "iterate"				return TOKEN(ITERATE);
 "until"					return TOKEN(UNTIL);
@@ -64,7 +64,9 @@
 "*"						return TOKEN(TMUL);
 "/"						return TOKEN(TDIV);
 
-
+[^ \t\n]+              {SAVE_TOKEN;printf("Unknown token: '%s' [%d,%d]->[%d,%d]\n",yylval->string->c_str(),yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column);  FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( yyg->yyextra_r);
+    
+	/*extraInformationStructure->result = $1;*/ YY_FATAL_ERROR("");}
 
 
 %%

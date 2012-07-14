@@ -52,6 +52,13 @@ public:
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
+class NUnrecognized : public Node {
+public:
+	std::string name;
+	NUnrecognized(const std::string& name) : name(name) { }
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+};
+
 class NMethodCall : public NExpression {
 public:
 	const NIdentifier& id;
