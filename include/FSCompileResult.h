@@ -23,5 +23,6 @@
 @property (readwrite,retain) FSCompileRequest* compileRequest;
 
 +(FSCompileResult*) compileResultWithRequest:(FSCompileRequest*) request andError:(FSCompileError*) error;
++(FSCompileResult*) compileResultWithRequest:(FSCompileRequest*) request andErrors:(NSMutableArray*) errors;
 
 @end

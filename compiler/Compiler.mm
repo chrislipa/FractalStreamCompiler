@@ -9,7 +9,7 @@
 #include "FSExtraInformation.hpp"
 #include "FractalStreamScript_DialectA_parser.hpp"
 #include "FractalStreamScript_DialectA_tokenizer.hpp"
-#include "FSScriptLanguage.h"
+#include "FSScriptLanguageDescription.h"
 #include "FSCompileResult.h"
 using namespace std;
 
@@ -29,7 +29,7 @@ extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
 	NSString* languageIdentifier = [compileRequest languageIdentifier];
     if (languageIdentifier == nil) {return [FSCompileResult compileResultWithRequest:compileRequest andError:[FSCompileError noLanguageSpecified]];};
     
-    FSScriptLanguage* language = [FSScriptLanguage scriptLanguageWithIdentifier:languageIdentifier];
+    FSScriptLanguageDescription* language = [FSScriptLanguageDescription scriptLanguageWithIdentifier:languageIdentifier];
     if (language == nil) {return [FSCompileResult compileResultWithRequest:compileRequest andError:[FSCompileError unrecognizedLanguage:languageIdentifier]];}
     
     NSString* sourceCodeNSString = compileRequest.sourceCode;
@@ -53,42 +53,71 @@ extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
 	yyscan_t scanner;
 	FSExtraInformation extra;
 	
-	
-	
 	(*(language.functionPointerTo_lex_init_extra))(&extra, &scanner );
+    (*(language.functionPointerTo_scan_string))(workingSource, scanner);
     
-	YY_BUFFER_STATE rv =(YY_BUFFER_STATE) (*(language.functionPointerTo_scan_string))(workingSource, scanner);
-    std::cout << "return value from scan  = "<<rv<< endl;
-    int rv2 = FractalStreamScript_DialectA_parse(scanner);
-	//int rv2  =  (*(language.functionPointerTo_parse))(scanner);
     
-	FSExtraInformation* extra_return = (FSExtraInformation*)( (*(language.functionPointerTo_get_extra))(scanner));
+	
+    
+    int parseReturnValue =  (*(language.functionPointerTo_parse))(scanner);
+	
+    // After the source code is lexed and parsed, unpack everything to see if it was successful.
+    
+    FSExtraInformation* extra_return = (FSExtraInformation*)( (*(language.functionPointerTo_get_extra))(scanner));
 	Node* programBlock = extra_return->result;
     
+    bool isAnyParsingErrorFatal = NO;
+    FSCompileErrorSeverity maximumErrorSeverity = FSCompileErrorSeverity_None;
+    NSMutableArray* parsingErrors = [NSMutableArray array];
+    
+    for (std::vector<FSParsingError>::iterator it = extra_return->errors.begin(); it != extra_return->errors.end(); ++it) {
+        FSCompileError* ce = [[FSCompileError alloc] initWithParsingError:&(*it) fromLanguage:language];
+        [parsingErrors addObject:ce];
+        isAnyParsingErrorFatal |= ce.isFatalError;
+        maximumErrorSeverity = MAX(maximumErrorSeverity, [ce errorSeverity]);
+        [ce release];
+    }
+    
+    if (parseReturnValue != 0 && !isAnyParsingErrorFatal) {
+        FSCompileError* ce = [FSCompileError unknownParseError];
+        [parsingErrors addObject:ce];
+        isAnyParsingErrorFatal |= ce.isFatalError;
+        maximumErrorSeverity = MAX(maximumErrorSeverity, [ce errorSeverity]);
+        [ce release];
+    }
+    
+    if (programBlock == NULL && !isAnyParsingErrorFatal) {
+        FSCompileError* ce = [FSCompileError couldNotGenerateAST];
+        [parsingErrors addObject:ce];
+        isAnyParsingErrorFatal |= ce.isFatalError;
+        maximumErrorSeverity = MAX(maximumErrorSeverity, [ce errorSeverity]);
+        [ce release];
+    }
+    
 	(*(language.functionPointerTo_lex_destroy))( scanner );
+    free(workingSource);
+    
+    if (isAnyParsingErrorFatal) {
+        FSCompileResult* result = [FSCompileResult compileResultWithRequest:compileRequest andErrors:parsingErrors];
+        return result;
+    }
 
-
-	std::cout << "parse return value  = "<<rv2<< endl;
+	std::cout << "parse return value  = "<<parseReturnValue<< endl;
 	std::cout << "program block = "<<programBlock<< endl;
 	
 
 	
-	
-	if (programBlock == NULL) {
-		std::cout << "programBlock == NULL.  could not parse?"<<endl;
-	} else {
 		InitializeNativeTarget();
 		CodeGenContext context;
 		context.generateCode(*programBlock);
 		//context.runCode();
-	}
-    
+	    
 	std::cout<<"printing"<<endl;
 	
 	std::cout<<programBlock<<endl;
 	std::cout<<"done"<<endl;
 	
-	free(workingSource);
+	
 	return 0;
 }
 

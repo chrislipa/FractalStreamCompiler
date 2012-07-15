@@ -11,6 +11,7 @@
 %{
 	#include <string>
 	#include "FSExtraInformation.hpp"
+    #include "FSParsingError.h"
 	#include "node.h"
 	#include "FractalStreamScript_DialectA_parser.hpp"
 	#define SAVE_TOKEN yylval->string = new std::string(yytext, yyleng)
@@ -64,9 +65,7 @@
 "*"						return TOKEN(TMUL);
 "/"						return TOKEN(TDIV);
 
-[^ \t\n]+              {SAVE_TOKEN;printf("Unknown token: '%s' [%d,%d]->[%d,%d]\n",yylval->string->c_str(),yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column);  FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( yyg->yyextra_r);
-    
-	/*extraInformationStructure->result = $1;*/ YY_FATAL_ERROR("");}
+[^ \t\n\*]+              {SAVE_TOKEN;printf("Unknown token: '%s' [%d,%d]->[%d,%d]\n",yylval->string->c_str(),yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column);FSParsingError error;  error.isFatal = 1;  error.firstLine = yylloc->first_line; error.firstColumn = yylloc->first_column; error.lastLine = yylloc->last_line;  error.lastColumn = yylloc->last_column; char fmt[] = "Unrecognized token: '%s'"; char* buffer = (char*)malloc(strlen(fmt)+strlen(yylval->string->c_str())+1); sprintf(buffer,fmt,  yylval->string->c_str()); error.errorMessage = buffer; error.errorType =  FSCompileErrorType_UnrecognizedToken;  error.errorSeverity = FSCompileErrorSeverity_Error; FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( yyg->yyextra_r); extraInformationStructure->errors.push_back(error);YY_FATAL_ERROR("");}
 
 
 %%

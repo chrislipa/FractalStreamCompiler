@@ -1,5 +1,5 @@
 //
-//  FSScriptLanguage.h
+//  FSScriptLanguageDescription.h
 //  FractalStreamCompiler
 //
 //  Created by Christopher Lipa on 7/11/12.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface FSScriptLanguage : NSObject {
+@interface FSScriptLanguageDescription : NSObject {
     
     NSString* _languageIdentifier;
     NSString* _languageVersion;
@@ -44,7 +44,7 @@
 @property (readwrite,assign) int             (*functionPointerTo_parse)           (void*);
 
 
-+(FSScriptLanguage*) scriptLanguageWithIdentifier:(NSString*) identifier;
++(FSScriptLanguageDescription*) scriptLanguageWithIdentifier:(NSString*) identifier;
 
 
 @end

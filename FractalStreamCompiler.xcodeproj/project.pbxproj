@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3615699D15B242A6006A279D /* FSParsingError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699C15B242A6006A279D /* FSParsingError.h */; };
+		3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699E15B24395006A279D /* FSScriptLanguageDescription.h */; };
 		362AD89F15AEBD9400892EBB /* FSCompilerUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = 362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */; };
 		36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9215A53CF20042BFED /* codegen.cpp */; };
 		36C2CA9715A53CF20042BFED /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,8 +111,7 @@
 		36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CC15AE754500C83E29 /* FSExtraInformation.hpp */; };
 		36CEB3D115AE754500C83E29 /* Compiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3CD15AE754500C83E29 /* Compiler.mm */; };
 		36CEB3D215AE754500C83E29 /* Compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CE15AE754500C83E29 /* Compiler.h */; };
-		36CEB3DB15AE7CC100C83E29 /* FSScriptLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3D915AE7CC100C83E29 /* FSScriptLanguage.h */; };
-		36CEB3DC15AE7CC100C83E29 /* FSScriptLanguage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3DA15AE7CC100C83E29 /* FSScriptLanguage.mm */; };
+		36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */; };
 		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */; };
 		36DE7E7A15A504C900DCA597 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
@@ -1184,6 +1185,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3615699C15B242A6006A279D /* FSParsingError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSParsingError.h; path = include/FSParsingError.h; sourceTree = SOURCE_ROOT; };
+		3615699E15B24395006A279D /* FSScriptLanguageDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSScriptLanguageDescription.h; path = include/FSScriptLanguageDescription.h; sourceTree = SOURCE_ROOT; };
 		362AD89D15AEBD8200892EBB /* FSCompilerUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCompilerUtility.h; sourceTree = "<group>"; };
 		362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FSCompilerUtility.c; sourceTree = "<group>"; };
 		363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCompilerErrorTypeDefinitions.h; path = include/FSCompilerErrorTypeDefinitions.h; sourceTree = SOURCE_ROOT; };
@@ -1208,8 +1211,7 @@
 		36CEB3CC15AE754500C83E29 /* FSExtraInformation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FSExtraInformation.hpp; sourceTree = "<group>"; };
 		36CEB3CD15AE754500C83E29 /* Compiler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Compiler.mm; sourceTree = "<group>"; };
 		36CEB3CE15AE754500C83E29 /* Compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compiler.h; sourceTree = "<group>"; };
-		36CEB3D915AE7CC100C83E29 /* FSScriptLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSScriptLanguage.h; sourceTree = "<group>"; };
-		36CEB3DA15AE7CC100C83E29 /* FSScriptLanguage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSScriptLanguage.mm; sourceTree = "<group>"; };
+		36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSScriptLanguageDescription.mm; sourceTree = "<group>"; };
 		36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FractalStreamCompiler.h; path = include/FractalStreamCompiler.h; sourceTree = "<group>"; };
 		36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FractalStreamCompiler.mm; path = source/FractalStreamCompiler.mm; sourceTree = "<group>"; };
 		36DC777415A8D8820086FC18 /* FractalStreamScript_DialectA_parser.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = FractalStreamScript_DialectA_parser.y; path = language/FractalStreamScript_DialectA_parser.y; sourceTree = "<group>"; };
@@ -1370,12 +1372,14 @@
 		36CEB3CA15AE746900C83E29 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
+				3615699E15B24395006A279D /* FSScriptLanguageDescription.h */,
+				3615699C15B242A6006A279D /* FSParsingError.h */,
+				36D273F015AA049A00A9344F /* source */,
 				36CEB3CB15AE754500C83E29 /* FSCodeGenerationContext.h */,
 				36CEB3CC15AE754500C83E29 /* FSExtraInformation.hpp */,
 				36CEB3CE15AE754500C83E29 /* Compiler.h */,
 				36CEB3CD15AE754500C83E29 /* Compiler.mm */,
-				36CEB3D915AE7CC100C83E29 /* FSScriptLanguage.h */,
-				36CEB3DA15AE7CC100C83E29 /* FSScriptLanguage.mm */,
+				36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */,
 			);
 			path = compiler;
 			sourceTree = "<group>";
@@ -1394,6 +1398,7 @@
 				36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */,
 			);
 			name = source;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		36DE7C2715A5027300DCA597 = {
@@ -1402,7 +1407,6 @@
 				362AD89C15AEBD6600892EBB /* utility */,
 				36C2CA9115A53CD10042BFED /* language */,
 				36CEB3CA15AE746900C83E29 /* compiler */,
-				36D273F015AA049A00A9344F /* source */,
 				36CEB39B15AE45B300C83E29 /* CompilerIterface */,
 				36D273ED15AA048100A9344F /* include */,
 				36DE7C7D15A5047000DCA597 /* external */,
@@ -1606,7 +1610,8 @@
 				36CEB3CF15AE754500C83E29 /* FSCodeGenerationContext.h in Headers */,
 				36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */,
 				36CEB3D215AE754500C83E29 /* Compiler.h in Headers */,
-				36CEB3DB15AE7CC100C83E29 /* FSScriptLanguage.h in Headers */,
+				3615699D15B242A6006A279D /* FSParsingError.h in Headers */,
+				3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2705,7 +2710,7 @@
 				36CEB3BB15AE61C600C83E29 /* FSCompileError.mm in Sources */,
 				36CEB3BF15AE628600C83E29 /* FSSourceRange.mm in Sources */,
 				36CEB3D115AE754500C83E29 /* Compiler.mm in Sources */,
-				36CEB3DC15AE7CC100C83E29 /* FSScriptLanguage.mm in Sources */,
+				36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */,
 				362AD89F15AEBD9400892EBB /* FSCompilerUtility.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

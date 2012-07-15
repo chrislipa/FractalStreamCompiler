@@ -18,8 +18,24 @@ typedef enum {
     FSCompileErrorType_EmptySourceCode =       202,
     FSCompileErrorType_InvalidSourceCharacterEncoding =       203,
     FSCompileErrorType_UnrecognizedToken =      301,
-    FSCompileErrorType_UnableToParse =          401,
+    FSCompileErrorType_UnknownParsingError =          401,
+    FSCompileErrorType_CouldNotGenerateAST =          402,
     FSCompileErrorType_Unknown =                9999
 } FSCompileErrorType;
+
+
+
+
+typedef enum {
+    FSCompileErrorSeverity_None = 0,
+    FSCompileErrorSeverity_Ignorable = 1,
+    FSCompileErrorSeverity_Warning = 2,
+    FSCompileErrorSeverity_Error = 3,
+    FSCompileErrorSeverity_Catastrophic = 4
+} FSCompileErrorSeverity;
+
+
+
+
 
 #endif

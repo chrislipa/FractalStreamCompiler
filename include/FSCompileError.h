@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "FSSourceRange.h"
 #import "FSCompilerErrorTypeDefinitions.h"
-
+#import "FSParsingError.h"
+#import "FSScriptLanguageDescription.h"
 
 
 @interface FSCompileError : NSObject  {
     bool _isFatalError;
-    int _errorSeverity;
+    FSCompileErrorSeverity _errorSeverity;
     FSCompileErrorType _compileErrorType;
     FSSourceRange* _sourceRange;
     NSString* _sourceSubstring;
@@ -23,19 +24,23 @@
 
 @property (readwrite,assign) FSCompileErrorType compileErrorType;
 @property (readwrite,assign) bool isFatalError;
-@property (readwrite,assign) int errorSeverity;
+@property (readwrite,assign) FSCompileErrorSeverity errorSeverity;
 @property (readwrite,retain) FSSourceRange* sourceRange;
 @property (readwrite,retain) NSString* sourceSubstring;
 @property (readwrite,retain) NSString* errorMessage;
+
+
+-(id) initWithParsingError: (FSParsingError*) parseError fromLanguage:(FSScriptLanguageDescription*) lang;
 
 +(FSCompileError*) compileError;
 
 +(FSCompileError*) noLanguageSpecified;
 +(FSCompileError*) unrecognizedLanguage:(NSString*)languageIdentifier;
-
++(FSCompileError*) couldNotGenerateAST ;
 +(FSCompileError*) missingSourceCode;
 +(FSCompileError*) emptySourceCode;
-
++(FSCompileError*) unknownParseError ;
 +(FSCompileError*) invalidCharacterEncoding:(NSString*)source encoding:(NSStringEncoding) encoding;
+
 
 @end

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "FSScriptLanguage.h"
+#import "FSScriptLanguageDescription.h"
 //#include "FractalStreamScript_DialectA_parser.hpp"
 //#include "FractalStreamScript_DialectA_tokenizer.hpp"
 
@@ -18,7 +18,7 @@ int FractalStreamScript_DialectA_parse(void* scanner);
 void* FractalStreamScript_DialectA_get_extra  (void* yyscanner);
 int FractalStreamScript_DialectA_lex_destroy  (void* yyscanner);
 
-@implementation FSScriptLanguage
+@implementation FSScriptLanguageDescription
 
 +(NSArray*) allScriptLanguages {
     return [NSArray arrayWithObjects:
@@ -72,13 +72,13 @@ static NSMutableDictionary* dictionaryByIdentifierOfDictionaryByVersionOfScripts
         self.functionPointerTo_get_extra =      (void* (*) (void*)) [[properties objectForKey:@"get_extra"] pointerValue];
         self.functionPointerTo_lex_destroy =    (int   (*) (void*))[[properties objectForKey:@"lex_destroy"] pointerValue];
         self.functionPointerTo_parse =          (int (*) (void*)) [[properties objectForKey:@"parse"] pointerValue];
-        self.characterSetEncoding =       [[properties objectForKey:@"characterSetEncoding"] intValue];
+        self.characterSetEncoding =             [[properties objectForKey:@"characterSetEncoding"] intValue];
     }
     return self;
 }
 
 +(void) addLanguageWithProperties:(NSDictionary*) properties {
-    FSScriptLanguage* fssl = [[FSScriptLanguage alloc] initWithProperties:properties];
+    FSScriptLanguageDescription* fssl = [[FSScriptLanguageDescription alloc] initWithProperties:properties];
     NSString* identier  = fssl.languageIdentifier;
     NSString* version = fssl.languageVersion;
     NSMutableDictionary* dictionaryByVersionOfScripts = [dictionaryByIdentifierOfDictionaryByVersionOfScripts objectForKey:identier];
@@ -86,7 +86,7 @@ static NSMutableDictionary* dictionaryByIdentifierOfDictionaryByVersionOfScripts
         dictionaryByVersionOfScripts = [[NSMutableDictionary alloc] init];
         [dictionaryByIdentifierOfDictionaryByVersionOfScripts setObject:dictionaryByVersionOfScripts forKey:identier];
     }
-    FSScriptLanguage* previouslySetLanguage = [dictionaryByVersionOfScripts objectForKey:version];
+    FSScriptLanguageDescription* previouslySetLanguage = [dictionaryByVersionOfScripts objectForKey:version];
     if  (previouslySetLanguage != nil) {
         //! two languages with identifier and version collision
         return;
@@ -107,7 +107,7 @@ static NSMutableDictionary* dictionaryByIdentifierOfDictionaryByVersionOfScripts
 
 
 
-+(FSScriptLanguage*) scriptLanguageWithIdentifier:(NSString*) identifier {
++(FSScriptLanguageDescription*) scriptLanguageWithIdentifier:(NSString*) identifier {
     NSMutableDictionary* dictionaryByVersionOfScripts = [dictionaryByIdentifierOfDictionaryByVersionOfScripts objectForKey:identifier];
     if  (dictionaryByVersionOfScripts == nil) { return nil;}
     if  ([dictionaryByVersionOfScripts count] == 0) { return nil;}

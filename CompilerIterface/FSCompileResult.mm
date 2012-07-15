@@ -28,7 +28,13 @@
     return [r autorelease];
 }
 
-
++(FSCompileResult*) compileResultWithRequest:(FSCompileRequest*) request andErrors:(NSMutableArray*) errors {
+    FSCompileResult* r = [[FSCompileResult alloc] init];
+    r.isCompileSuccessful = NO;
+    r.compileRequest = request;
+    r.compileErrors = errors;
+    return [r autorelease];
+}
 
 -(void) dealloc {
     [_compileErrors release];
