@@ -9,17 +9,41 @@
 #include <stdio.h>
 #include "FractalStreamCompiler.h"
 
+
+void test(FSCompileRequest* req) {
+    printf("Input:  (language = %s)\n",[[req languageIdentifier] cStringUsingEncoding:NSUTF8StringEncoding]);
+    printf("----\n");
+    printf("%s\n",[req.sourceCode cStringUsingEncoding:NSUTF8StringEncoding]);
+    
+    printf("\n\n");
+    FSCompileResult* res = fractalStreamCompileRequest(req);
+    printf("\n\n");
+    
+    printf("success = %d\n\n", res.isCompileSuccessful);
+    
+    
+    if  ([[res compileErrors] count] > 0) {
+        printf("errors:");
+        printf("----");
+        for (FSCompileError* e in [res compileErrors]) {
+            printf("%s\n",[[e description] cStringUsingEncoding:NSUTF8StringEncoding]);
+            printf("\n");   
+        }
+    }
+}
+
+
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
         
     
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"%%9*17*11" andLanguage:@"fsa"];
-	FSCompileResult* res = fractalStreamCompileRequest(req);
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11" andLanguage:@"fsa"];
+        
+    test(req);
 	
-    printf("%ld",(long)res);
 	
-    }
     return 0;
+    }
 }
 

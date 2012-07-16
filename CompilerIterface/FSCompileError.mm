@@ -157,5 +157,10 @@
     return e;
 }
 
+-(NSString*) description {
+    return self.errorMessage;
+}
+
+
 
 @end

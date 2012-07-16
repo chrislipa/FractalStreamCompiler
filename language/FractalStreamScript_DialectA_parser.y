@@ -84,7 +84,7 @@
 
 program : program_parts { FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
 	extraInformationStructure->result = $1;}
-| unrecognized{}
+
         
         ;
 
@@ -109,6 +109,7 @@ stmts : stmt { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
 
 stmt : var_decl | func_decl
 	 | expr { $$ = new NExpressionStatement(*$1); }
+     | unrecognized {}
      ;
 
 block : TLBRACE stmts TRBRACE { $$ = $2; }
@@ -129,10 +130,9 @@ func_decl_args : /*blank*/  { $$ = new VariableList(); }
 		  ;
 
 ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
+      | unrecognized {}
 	  ;
 
-unrecognized : TUNRECOGNIZED { }
-;
 
 
 	
@@ -142,6 +142,7 @@ expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | numeric { $$ = $1;  } 
  	 | expr comparison expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
      | TLPAREN expr TRPAREN { $$ = $2; }
+    
 	 ;
 	
 call_args : /*blank*/  { $$ = new ExpressionList(); }
@@ -155,6 +156,7 @@ comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE
 
 
 
-
+unrecognized : TUNRECOGNIZED { }
+;
 
 %%

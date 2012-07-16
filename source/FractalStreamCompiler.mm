@@ -16,13 +16,11 @@
 extern "C" 
 
 FSCompileResult* fractalStreamCompileRequest(FSCompileRequest* compileRequest) {
-    @autoreleasepool {
-        
-    
-        FSCompileResult* res = fs_internalCompile(compileRequest);
     
         
-        return nil;
+    
+        return fs_internalCompile(compileRequest);
+    
        
-    }
+    
 }
