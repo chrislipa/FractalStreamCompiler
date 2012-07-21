@@ -24,8 +24,9 @@ extern int FractalStreamScript_DialectA_parse(void* scanner);
  * error condition that could come from malformed data in the request is checked
  * against.
  */
-extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
+extern "C" FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest, Node*& abstractSyntaxTree)
 {
+    abstractSyntaxTree = NULL;
 	NSString* languageIdentifier = [compileRequest languageIdentifier];
     if (languageIdentifier == nil) {return [FSCompileResult compileResultWithRequest:compileRequest andError:[FSCompileError noLanguageSpecified]];};
     
@@ -102,11 +103,15 @@ extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
         return result;
     }
 
+    
+
 	std::cout << "parse return value  = "<<parseReturnValue<< endl;
 	std::cout << "program block = "<<programBlock<< endl;
-	
+        
+    abstractSyntaxTree = programBlock;
+    return [FSCompileResult compileResultWithRequest:compileRequest andErrors:parsingErrors];
 
-	
+	/*
 		InitializeNativeTarget();
 		CodeGenContext context;
 		context.generateCode(*programBlock);
@@ -119,5 +124,6 @@ extern "C" FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest)
 	
 	
 	return 0;
+     */
 }
 

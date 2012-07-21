@@ -8,7 +8,7 @@
 
 
 #include "FractalStreamCompiler.h"
-#include "Compiler.h"
+#import "FSInternalCompiler.h"
 
 
 
@@ -19,7 +19,7 @@ FSCompileResult* fractalStreamCompileRequest(FSCompileRequest* compileRequest) {
     
         
     
-        return fs_internalCompile(compileRequest);
+        return fsInternalCompile(compileRequest);
     
        
     

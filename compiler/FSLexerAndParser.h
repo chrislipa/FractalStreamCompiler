@@ -9,8 +9,12 @@
 #ifndef FractalStreamCompiler_Compiler
 #define FractalStreamCompiler_Compiler
 
+#include "node.h"
+#import "FSCompileRequest.h"
+#import "FSCompileResult.h"
+
 extern "C"
 
-FSCompileResult* fs_internalCompile(FSCompileRequest* compileRequest);
+FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest, Node*& abstractSyntaxTree);
 
 #endif
