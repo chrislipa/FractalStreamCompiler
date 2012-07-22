@@ -1,170 +1,0 @@
-Tllvm-config
-v5
-r1
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include/llvm/Config/config.h
-c000000004FF4C4A80000000000004D6C
-t1341441192
-s19820
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include/llvm/Config/llvm-config.h
-c000000004FF4C4A80000000000001070
-t1341441192
-s4208
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/STLExtras.h
-c000000004E27C56B0000000000002659
-t1311229291
-s9817
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringMap.h
-c000000004F893DB90000000000003A63
-t1334394297
-s14947
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/StringRef.h
-c000000004F5BDD9E00000000000047BA
-t1331420574
-s18362
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/ADT/Twine.h
-c000000004F2EFF37000000000000440F
-t1328480055
-s17423
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FileSystem.h
-c000000004EEA628A000000000000646E
-t1323983498
-s25710
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Path.h
-c000000004D0B9C5C0000000000000261
-t1292606556
-s609
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
-c000000004F8BDED20000000000004419
-t1334566610
-s17433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp
-c000000004FB2D35000000000000035DC
-t1337119568
-s13788
-i"llvm/ADT/STLExtras.h"
-i"llvm/ADT/StringMap.h"
-i"llvm/ADT/StringRef.h"
-i"llvm/ADT/Twine.h"
-i"llvm/Config/config.h"
-i"llvm/Config/llvm-config.h"
-i"llvm/Support/FileSystem.h"
-i"llvm/Support/Path.h"
-i"llvm/Support/raw_ostream.h"
-i<cstdlib>
-i<set>
-i<vector>
-i"BuildVariables.inc"
-i"LibraryDependencies.inc"
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.LinkFileList
-c000000004FF4C58C00000000000000A0
-t1341441420
-s160
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh
-c000000004FF4C58C000000000000010C
-t1341441420
-s268
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh
-c000000004FF4C58C0000000000000106
-t1341441420
-s262
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LibraryDependencies.inc
-c000000004FF4C4A80000000000002899
-t1341441192
-s10393
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies47913d0cfda4b541^6877400cfda4b541^---0#1#0#--18"Check dependencies36"E1052B71-75D8-4874-8AA9-A84A1861C057-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134220.381896
-e363134221.461175
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cppe8f7610cfda4b541^8238770dfda4b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp0000000000000000^2986"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o tools/llvm-config/llvm-config.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/llvm-config.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.o36"DC9CC2ED-D9F9-4439-9620-339AE274720C-
-
-CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config normal x86_64
-s363134221.474516
-e363134221.646697
-r1
-xLd
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-configc1ab790dfda4b541^3599a50dfda4b541^---0#0#0#--1097"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Objects-normal/x86_64/llvm-config.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-config36"BC01EBC9-927E-41A8-9093-551E382293F5-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh
-s363134251.110503
-e363134251.256475
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-config.Debug
-omake[1]: Nothing to be done for `PostBuild.llvm-config.Debug'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'8e3f1d2bfda4b541^15a8412bfda4b541^-412"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-config.Debugmake[1]: Nothing to be done for `PostBuild.llvm-config.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134251#0#30#-0#-----2@23"Depend check for xcode-363134251#30#23#-0#-----2@296"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-config.Debug-363134251#53#296#-0#-----2@63"make[1]: Nothing to be done for `PostBuild.llvm-config.Debug'.-363134251#349#63#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-D93019AA4EA94F42AF64CF43.sh36"F2086504-2D19-4E86-BD84-9CE87D384F26-
-
-CPhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh
-s363134220.252983
-e363134220.372977
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh
-oecho "Building BuildVariables.inc include."
-oBuilding BuildVariables.inc include.
-oecho s!@LLVM_SRC_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src! > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho s!@LLVM_OBJ_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho "s!@LLVM_CPPFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho "s!@LLVM_CFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho "s!@LLVM_CXXFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho "s!@LLVM_LDFLAGS@! !" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho s!@LLVM_BUILDMODE@!! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho s!@LLVM_SYSTEM_LIBS@!-lpthread! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-oecho s!@LLVM_TARGETS_BUILT@!ARM CellSPU CppBackend Hexagon Mips MBlaze MSP430 PowerPC PTX Sparc X86 XCore! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed
-osed -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed < /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/BuildVariables.inc.in > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.inc
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'40a6410cfda4b541^88845f0cfda4b541^-2441"echo "Building BuildVariables.inc include."Building BuildVariables.inc include.echo s!@LLVM_SRC_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src! > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho s!@LLVM_OBJ_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho "s!@LLVM_CPPFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho "s!@LLVM_CFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho "s!@LLVM_CXXFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho "s!@LLVM_LDFLAGS@! !" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho s!@LLVM_BUILDMODE@!! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho s!@LLVM_SYSTEM_LIBS@!-lpthread! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedecho s!@LLVM_TARGETS_BUILT@!ARM CellSPU CppBackend Hexagon Mips MBlaze MSP430 PowerPC PTX Sparc X86 XCore! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sedsed -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed < /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/BuildVariables.inc.in > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.inc12(21%IDEActivityLogMessage2@44"echo "Building BuildVariables.inc include."-363134220#0#44#-0#-----2@37"Building BuildVariables.inc include.-363134220#44#37#-0#-----2@228"echo s!@LLVM_SRC_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src! > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#81#228#-0#-----2@216"echo s!@LLVM_OBJ_ROOT@!/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#309#216#-0#-----2@292"echo "s!@LLVM_CPPFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#525#292#-0#-----2@290"echo "s!@LLVM_CFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#817#290#-0#-----2@292"echo "s!@LLVM_CXXFLAGS@!   -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS!" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#1107#292#-0#-----2@148"echo "s!@LLVM_LDFLAGS@! !" >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#1399#148#-0#-----2@147"echo s!@LLVM_BUILDMODE@!! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#1547#147#-0#-----2@158"echo s!@LLVM_SYSTEM_LIBS@!-lpthread! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#1694#158#-0#-----2@228"echo s!@LLVM_TARGETS_BUILT@!ARM CellSPU CppBackend Hexagon Mips MBlaze MSP430 PowerPC PTX Sparc X86 XCore! >> /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed-363134220#1852#228#-0#-----2@361"sed -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.configure.sed < /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-config/BuildVariables.inc.in > /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/BuildVariables.inc-363134220#2080#361#-0#-----0#0#0#--459"PhaseScriptExecution "CMake Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-config/LLVM.build/Debug/llvm-config.build/Script-5CEE53E7A40F48D0A1AC32E7.sh36"4B28630F-B785-4055-8CAB-D33116158236-
-

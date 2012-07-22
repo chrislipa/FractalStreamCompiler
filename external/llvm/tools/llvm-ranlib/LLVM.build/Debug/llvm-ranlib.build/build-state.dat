@@ -1,140 +1,0 @@
-Tllvm-ranlib
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Bitcode/Archive.h
-c000000004F1CD70100000000000067DE
-t1327290113
-s26590
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/LLVMContext.h
-c000000004F896F360000000000000FFA
-t1334406966
-s4090
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Module.h
-c000000004F7EC8E00000000000006195
-t1333709024
-s24981
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/CommandLine.h
-c000000004F317D21000000000000DF02
-t1328643361
-s57090
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/FileSystem.h
-c000000004EEA628A000000000000646E
-t1323983498
-s25710
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Format.h
-c000000004E9361DE00000000000020B9
-t1318281694
-s8377
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/ManagedStatic.h
-c000000004EC17F080000000000000D83
-t1321303816
-s3459
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/PrettyStackTrace.h
-c000000004DA7D5370000000000000AE1
-t1302844727
-s2785
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/Signals.h
-c000000004DA7D53700000000000009D6
-t1302844727
-s2518
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include/llvm/Support/raw_ostream.h
-c000000004F8BDED20000000000004419
-t1334566610
-s17433
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp
-c000000004D2A702F0000000000000CFD
-t1294626863
-s3325
-i"llvm/LLVMContext.h"
-i"llvm/Module.h"
-i"llvm/Bitcode/Archive.h"
-i"llvm/Support/CommandLine.h"
-i"llvm/Support/FileSystem.h"
-i"llvm/Support/ManagedStatic.h"
-i"llvm/Support/PrettyStackTrace.h"
-i"llvm/Support/Format.h"
-i"llvm/Support/raw_ostream.h"
-i"llvm/Support/Signals.h"
-i<memory>
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.LinkFileList
-c000000004FF4C5AB00000000000000A0
-t1341441451
-s160
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh
-c000000004FF4C5AB0000000000000106
-t1341441451
-s262
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese4bf6c2bfda4b541^bbee6d2bfda4b541^---0#1#0#--18"Check dependencies36"2E9AEB9B-E968-42EB-8025-085B6188EDAE-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134251.567858
-e363134252.758211
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp1990912bfda4b541^ca19c22cfda4b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp0000000000000000^2970"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o tools/llvm-ranlib/llvm-ranlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -fno-rtti -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/tools/llvm-ranlib/llvm-ranlib.cpp -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.o36"BB2D265C-81B8-4545-8B5B-D61AB5FC2174-
-
-CLd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib normal x86_64
-s363134252.773079
-e363134253.655798
-r1
-xLd
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlibc004c62cfda4b541^e3e3a72dfda4b541^---0#0#0#--1390"Ld /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Objects-normal/x86_64/llvm-ranlib.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMArchive.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMBitReader.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMCore.a /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libLLVMSupport.a -lpthread -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/bin/Debug/llvm-ranlib36"DFF87B68-C49B-416C-96F2-DC3EBAD20E55-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh
-s363134259.682967
-e363134259.830433
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-ranlib.Debug
-omake[1]: Nothing to be done for `PostBuild.llvm-ranlib.Debug'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'e6cbaf33fda4b541^ee96d433fda4b541^-412"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-ranlib.Debugmake[1]: Nothing to be done for `PostBuild.llvm-ranlib.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134259#0#30#-0#-----2@23"Depend check for xcode-363134259#30#23#-0#-----2@296"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.llvm-ranlib.Debug-363134259#53#296#-0#-----2@63"make[1]: Nothing to be done for `PostBuild.llvm-ranlib.Debug'.-363134259#349#63#-0#-----0#0#0#--469"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/tools/llvm-ranlib/LLVM.build/Debug/llvm-ranlib.build/Script-69A5117CAA924B42A28E330B.sh36"2E6F25EB-7544-4606-A21B-6863C9D51179-
-

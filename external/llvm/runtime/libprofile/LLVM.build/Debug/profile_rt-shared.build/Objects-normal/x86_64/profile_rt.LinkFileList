@@ -1,6 +1,0 @@
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/BasicBlockTracing.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/CommonProfiling.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/GCDAProfiling.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/PathProfiling.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/EdgeProfiling.o
-/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-shared.build/Objects-normal/x86_64/OptimalEdgeProfiling.o

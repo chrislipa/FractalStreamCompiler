@@ -1,389 +1,0 @@
-Tgtest
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/arpa/inet.h
-c000000004F46A0530000000000001533
-t1330028627
-s5427
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/ctype.h
-c000000004F46A0540000000000002C18
-t1330028628
-s11288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/fcntl.h
-c000000004F46A05400000000000003EA
-t1330028628
-s1002
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/math.h
-c000000004F46A05400000000000004F1
-t1330028628
-s1265
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/netdb.h
-c000000004F46A054000000000000307F
-t1330028628
-s12415
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sched.h
-c000000004F46A0540000000000000560
-t1330028628
-s1376
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
-c000000004F46A0540000000000004763
-t1330028628
-s18275
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
-c000000004F46A05400000000000030A7
-t1330028628
-s12455
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/strings.h
-c000000004F46A0540000000000000F73
-t1330028628
-s3955
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/mman.h
-c000000004F46A05400000000000020EC
-t1330028628
-s8428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/stat.h
-c000000004F46A0540000000000004B2F
-t1330028628
-s19247
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/time.h
-c000000004F46A0540000000000001E64
-t1330028628
-s7780
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/timeb.h
-c000000004F46A05400000000000010C2
-t1330028628
-s4290
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/types.h
-c000000004F46A0540000000000002905
-t1330028628
-s10501
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/unistd.h
-c000000004F46A0540000000000006662
-t1330028628
-s26210
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/wchar.h
-c000000004F46A0540000000000002A2B
-t1330028628
-s10795
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/wctype.h
-c000000004F46A0540000000000000F66
-t1330028628
-s3942
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/3.1/include/limits.h
-c000000004F46A0550000000000000E51
-t1330028629
-s3665
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/3.1/include/stdarg.h
-c000000004F46A0550000000000000810
-t1330028629
-s2064
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc
-c000000004F1AFD99000000000000B54B
-t1327168921
-s46411
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc
-c000000004E2FD97A00000000000037B0
-t1311758714
-s14256
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc
-c000000004E2FD97A00000000000062F3
-t1311758714
-s25331
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc
-c000000004E2FD97A0000000000002F0A
-t1311758714
-s12042
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc
-c000000004E2FD97A0000000000001070
-t1311758714
-s4208
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc
-c000000004E2FD97A0000000000000EA3
-t1311758714
-s3747
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc
-c000000004F1B6390000000000002BAA9
-t1327195024
-s178857
-i"gtest/gtest.h"
-i"gtest/gtest-spi.h"
-i<ctype.h>
-i<math.h>
-i<stdarg.h>
-i<stdio.h>
-i<stdlib.h>
-i<wchar.h>
-i<wctype.h>
-i<algorithm>
-i<ostream>
-i<sstream>
-i<vector>
-i<fcntl.h>
-i<limits.h>
-i<sched.h>
-i<strings.h>
-i<sys/mman.h>
-i<sys/time.h>
-i<unistd.h>
-i<string>
-i<sys/time.h>
-i<sys/time.h>
-i<strings.h>
-i<windows.h>
-i<io.h>
-i<sys/timeb.h>
-i<sys/types.h>
-i<sys/stat.h>
-i<sys/time.h>
-i<windows.h>
-i<sys/time.h>
-i<unistd.h>
-i<stdexcept>
-i<arpa/inet.h>
-i<netdb.h>
-i"gtest/internal/gtest-internal-inl.h"
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include/gtest/gtest-spi.h
-c000000004E2FD97A00000000000026DF
-t1311758714
-s9951
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include/gtest/gtest.h
-c000000004E2FD97A000000000001428A
-t1311758714
-s82570
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include/gtest/internal/gtest-internal-inl.h
-c000000004E2FD97A0000000000009D60
-t1311758714
-s40288
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.LinkFileList
-c000000004FF4C5F8000000000000042E
-t1341441528
-s1070
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh
-c000000004FF4C5F800000000000000FA
-t1341441528
-s250
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies54027a78fda4b541^17ba8678fda4b541^---0#1#0#--18"Check dependencies36"BB5FC019-5F16-4853-9979-1E734E6C39E6-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.396267
-e363134330.833782
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc3ca36579fda4b541^5872d57afda4b541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc0000000000000000^3136"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o utils/unittest/googletest/gtest-death-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-death-test.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-death-test.o36"8FC8B47B-3013-4585-B9B7-C4530C6678E2-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.821898
-e363134330.382829
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc029cd279fda4b541^e200627afda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc0000000000000000^3124"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o utils/unittest/googletest/gtest-filepath.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-filepath.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-filepath.o36"DD4E6D65-B9E7-4571-A24D-B16265336ABD-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134330.006278
-e363134331.224458
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.ccc9cc017afda4b541^d175397bfda4b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc0000000000000000^3100"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o utils/unittest/googletest/gtest-port.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-port.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-port.o36"AE1F6CE7-A9FC-4C90-9EFE-FBEF976B31F3-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134330.384175
-e363134331.201013
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.ccb18b627afda4b541^0c76337bfda4b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc0000000000000000^3124"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o utils/unittest/googletest/gtest-printers.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-printers.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-printers.o36"A355AB14-C15E-4DEF-B720-995298987767-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134330.488243
-e363134331.677517
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.ccbe307d7afda4b541^e371ad7bfda4b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc0000000000000000^3130"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o utils/unittest/googletest/gtest-test-part.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-test-part.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-test-part.o36"ACA4B71F-41F0-4FA6-9523-0387C6DE5416-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134330.587107
-e363134331.777038
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc9277967afda4b541^2cefc67bfda4b541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc0000000000000000^3136"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o utils/unittest/googletest/gtest-typed-test.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest-typed-test.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest-typed-test.o36"1CB71F62-60AC-45CC-840D-C2748A1719B8-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.392213
-e363134331.967056
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.ccaa9a6479fda4b541^72a4f77bfda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc0000000000000000^3070"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o utils/unittest/googletest/gtest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DGTEST_HAS_RTTI=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -Wno-variadic-macros -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/utils/unittest/googletest/gtest.cc -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.o36"F698443B-FA57-49AA-8148-FD7D15A9F5DB-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a normal x86_64
-s363134332.349088
-e363134332.379010
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a normal x86_64357a597cfda4b541^7906617cfda4b541^---0#0#0#--826"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Objects-normal/x86_64/gtest.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libgtest.a36"83F61DE8-DC60-4F57-AF08-988EB92F0590-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh
-s363134339.278984
-e363134339.460678
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gtest.Debug
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Support/Debug/SupportTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests
-o/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'713b4883fda4b541^78ee7583fda4b541^-1318"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gtest.Debug/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Support/Debug/SupportTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests11(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134339#0#30#-0#-----2@23"Depend check for xcode-363134339#30#23#-0#-----2@290"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gtest.Debug-363134339#53#290#-0#-----2@111"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ADT/Debug/ADTTests-363134339#343#111#-0#-----2@121"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Analysis/Debug/AnalysisTests-363134339#454#121#-0#-----2@119"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Bitcode/Debug/BitcodeTests-363134339#575#119#-0#-----2@135"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/Debug/ExecutionEngineTests-363134339#694#135#-0#-----2@127"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/ExecutionEngine/JIT/Debug/JITTests-363134339#829#127#-0#-----2@119"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Support/Debug/SupportTests-363134339#956#119#-0#-----2@126"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/Transforms/Utils/Debug/UtilsTests-363134339#1075#126#-0#-----2@117"/bin/rm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/unittests/VMCore/Debug/VMCoreTests-363134339#1201#117#-0#-----0#0#0#--451"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/utils/unittest/LLVM.build/Debug/gtest.build/Script-0A3ADC1F6A9747C9856DC0EF.sh36"981C2DA6-7207-4986-96E3-AD60039416EA-
-

@@ -1,227 +1,0 @@
-Tprofile_rt-static
-v5
-r1
-cCheck dependencies
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004FDC1AA700000000000000CC
-t1339824807
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
-c000000004F46A0540000000000004763
-t1330028628
-s18275
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
-c000000004F46A05400000000000030A7
-t1330028628
-s12455
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c
-c000000004DDD2F21000000000000088D
-t1306341153
-s2189
-i"Profiling.h"
-i<stdlib.h>
-i<stdio.h>
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c
-c000000004F2EDBEB00000000000010DE
-t1328471019
-s4318
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c
-c000000004DDD2F210000000000000673
-t1306341153
-s1651
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c
-c000000004F7279CA00000000000014EF
-t1332902346
-s5359
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c
-c000000004DDD2F210000000000000697
-t1306341153
-s1687
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c
-c000000004EB91A820000000000002080
-t1320753794
-s8320
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/Profiling.h
-c000000004D4368E10000000000000444
-t1296263393
-s1092
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o
-t2
-s0
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/profile_rt.LinkFileList
-c000000004FF4C5F80000000000000403
-t1341441528
-s1027
-
-N/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh
-c000000004FF4C5F8000000000000010E
-t1341441528
-s270
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c
-r0
-
-CBuild AST from /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies83a55a78fda4b541^0b435c78fda4b541^---0#1#0#--18"Check dependencies36"EE26095C-8410-4E01-9485-2F14B7D4A91C-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.205633
-e363134329.252210
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.cd7d93479fda4b541^7d914079fda4b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c0000000000000000^2970"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o runtime/libprofile/BasicBlockTracing.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/BasicBlockTracing.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/BasicBlockTracing.o36"16847B02-3155-437E-8A60-02C9B818F534-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.250334
-e363134329.314526
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c384c4079fda4b541^94845079fda4b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c0000000000000000^2958"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o runtime/libprofile/CommonProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/CommonProfiling.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/CommonProfiling.o36"CE60FC72-0909-4366-A8F9-095899A2E944-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.321293
-e363134329.358317
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.cff755279fda4b541^67ba5b79fda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c0000000000000000^2946"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o runtime/libprofile/EdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/EdgeProfiling.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/EdgeProfiling.o36"2D73D2E8-C5AC-4A57-9562-221F007A54BC-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.253562
-e363134329.319959
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c7e1c4179fda4b541^62f35179fda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c0000000000000000^2946"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o runtime/libprofile/GCDAProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/GCDAProfiling.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/GCDAProfiling.o36"23E3F55E-CBE7-4023-B24A-B6F5CC9449EB-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.359674
-e363134329.394967
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c3c4b5c79fda4b541^c11c6579fda4b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c0000000000000000^2988"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o runtime/libprofile/OptimalEdgeProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/OptimalEdgeProfiling.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/OptimalEdgeProfiling.o36"90FBF3CC-7FE4-44C1-AB7C-48049CEE0339-
-
-CCompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s363134329.315885
-e363134329.390825
-r1
-xCompileC
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c8c115179fda4b541^a60c6479fda4b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c0000000000000000^2946"CompileC /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o runtime/libprofile/PathProfiling.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/include -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources/x86_64 -I/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -Wall -W -Wno-unused-parameter -Wwrite-strings -pedantic -Wno-long-long -fno-exceptions -fno-exceptions -MMD -MT dependencies -MF /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.d --serialize-diagnostics /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.dia -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src/runtime/libprofile/PathProfiling.c -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/PathProfiling.o36"562455B0-9219-4E58-98B4-9566180063A7-
-
-CLibtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a normal x86_64
-s363134329.697800
-e363134329.749393
-r1
-xLibtool
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a normal x86_645873bc79fda4b541^02d9bf79fda4b541^---0#0#0#--857"Libtool /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a normal x86_64    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug -filelist /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Objects-normal/x86_64/profile_rt.LinkFileList -o /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/lib/Debug/libprofile_rt.a36"9D4DB8BA-8EEB-40BB-B646-0E571CBF994F-
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh
-s363134331.226001
-e363134331.377268
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.profile_rt-static.Debug
-omake[1]: Nothing to be done for `PostBuild.profile_rt-static.Debug'.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'20cf3a7bfda4b541^efa9607bfda4b541^-424"echo "Depend check for xcode"Depend check for xcodecd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.profile_rt-static.Debugmake[1]: Nothing to be done for `PostBuild.profile_rt-static.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-363134331#0#30#-0#-----2@23"Depend check for xcode-363134331#30#23#-0#-----2@302"cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm && make -C /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm -f /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.profile_rt-static.Debug-363134331#53#302#-0#-----2@69"make[1]: Nothing to be done for `PostBuild.profile_rt-static.Debug'.-363134331#355#69#-0#-----0#0#0#--483"PhaseScriptExecution "CMake PostBuild Rules" /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh    cd /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/llvm-3.1.src    /bin/sh -c /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/runtime/libprofile/LLVM.build/Debug/profile_rt-static.build/Script-D4CE7D7CBD974EB189C06E56.sh36"E5385898-ED12-40B6-B3C1-5857C5869C29-
-
