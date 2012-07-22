@@ -27,24 +27,25 @@
 #include "llvm/support/IRBuilder.h"
 #include "llvm/BasicBlock.h"
 #include "FractalStreamCompilerDefinitions.h"
+#include "llvm/Type.h"
 
 #import "FSCompileResult.h"
 #import "node.h"
+using namespace llvm;
+
 void fsBuildFractalStreamKernel(FSCompileResult* result) {
     Node* root = result.abstractSyntaxTree;
     
     llvm::LLVMContext llvmContext;
     llvm::Module* mod = new llvm::Module("LLVM Kernel", llvmContext);
-    //module = (void*) mod;
-    //val = (void**) malloc(sizeof(Value*) * [[compiler tree] size]);
     
-    tree = [[compiler tree] nodeAt: 0];
-    int node = tree[0].firstChild;
-    //int savedNode = 0;
+    
+    
+    
     
     // Build the kernel function's interface
     Constant* c = mod -> getOrInsertFunction("kernel",
-                                             Type::VoidTy,							/* (void)			*/
+                                             Type::getVoidTy(llvmContext),							/* (void)			*/
                                              IntegerType::get(32),					/* int program		*/
                                              PointerType::get(Type::DoubleTy, 0),	/* double* input	*/
                                              IntegerType::get(32),					/* int length		*/
