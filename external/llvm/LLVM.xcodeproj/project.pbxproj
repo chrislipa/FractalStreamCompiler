@@ -13280,6 +13280,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 2FEDC5F4FCAB4A1BA9CB19EB /* Build configuration list for PBXProject "LLVM" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -23412,7 +23413,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
 			};
 			name = Release;
@@ -33522,7 +33523,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
 			};
 			name = RelWithDebInfo;
@@ -49816,7 +49817,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
 			};
 			name = Debug;
@@ -55637,7 +55638,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
 			};
 			name = MinSizeRel;
