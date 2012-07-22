@@ -1,0 +1,12 @@
+/XCoreGenAsmWriter.inc
+/XCoreGenAsmWriter.inc.tmp
+/XCoreGenCallingConv.inc
+/XCoreGenCallingConv.inc.tmp
+/XCoreGenDAGISel.inc
+/XCoreGenDAGISel.inc.tmp
+/XCoreGenInstrInfo.inc
+/XCoreGenInstrInfo.inc.tmp
+/XCoreGenRegisterInfo.inc
+/XCoreGenRegisterInfo.inc.tmp
+/XCoreGenSubtargetInfo.inc
+/XCoreGenSubtargetInfo.inc.tmp
