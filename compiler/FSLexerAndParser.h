@@ -15,6 +15,6 @@
 
 extern "C"
 
-FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest, Node*& abstractSyntaxTree);
+FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest);
 
 #endif

@@ -12,6 +12,8 @@
 @synthesize isCompileSuccessful = _isCompileSuccessful;
 @synthesize compileErrors = _compileErrors;
 @synthesize compileRequest = _compileRequest;
+@synthesize abstractSyntaxTree = _abstractSyntaxTree;
+@synthesize kernel = _kernel;
 
 -(id) init {
     if  (self = [super init]) {

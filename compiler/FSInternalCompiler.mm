@@ -8,13 +8,14 @@
 
 #import "FSInternalCompiler.h"
 #import "FSLexerAndParser.h"
-
+#import "FractalStreamCompiler.h"
+#import "FSKernelBuilder.h"
 FSCompileResult* fsInternalCompile(FSCompileRequest* compileRequest) {
-    Node* abstractSyntaxTree;
-    FSCompileResult* lexedAndParsed = fsLexAndParse(compileRequest,abstractSyntaxTree);
-    if (!lexedAndParsed.isCompileSuccessful) {
-        return lexedAndParsed;
+    FSCompileResult* result = fsLexAndParse(compileRequest);
+    if (!result.isCompileSuccessful || result.abstractSyntaxTree == NULL) {
+        return result;
     }
-    return nil;
+    fsBuildFractalStreamKernel(result);
+    return result;
     
 }

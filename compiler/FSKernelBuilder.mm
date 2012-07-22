@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "KernelBuilder.h"
+#import "FSKernelBuilder.h"
 #include "llvm/Constants.h"
 #include "llvm/DerivedTypes.h"
 #include "llvm/Instructions.h"
@@ -26,8 +26,13 @@
 #include "llvm/Transforms/Scalar.h"
 #include "llvm/support/IRBuilder.h"
 #include "llvm/BasicBlock.h"
+#include "FractalStreamCompilerDefinitions.h"
 
-void buildLLVMKernel() {
+#import "FSCompileResult.h"
+#import "node.h"
+void fsBuildFractalStreamKernel(FSCompileResult* result) {
+    Node* root = result.abstractSyntaxTree;
+    
     llvm::LLVMContext llvmContext;
     llvm::Module* mod = new llvm::Module("LLVM Kernel", llvmContext);
     //module = (void*) mod;

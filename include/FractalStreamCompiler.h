@@ -9,6 +9,7 @@
 #define FractalStreamCompiler_abcdefg1_h
 #import "FSCompileRequest.h"
 #import "FSCompileResult.h"
+#import "FractalStreamCompilerDefinitions.h"
 #ifdef __cplusplus
 extern "C"
 #endif
