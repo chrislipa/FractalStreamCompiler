@@ -34,10 +34,10 @@
 using namespace llvm;
 
 void fsBuildFractalStreamKernel(FSCompileResult* result) {
-    Node* root = result.abstractSyntaxTree;
-    
-    llvm::LLVMContext llvmContext;
-    llvm::Module* mod = new llvm::Module("LLVM Kernel", llvmContext);
+//    Node* root = result.abstractSyntaxTree;
+//    
+//    llvm::LLVMContext llvmContext;
+//    llvm::Module* mod = new llvm::Module("LLVM Kernel", llvmContext);
     
     
 //    
