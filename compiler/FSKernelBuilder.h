@@ -10,8 +10,9 @@
 #define FSKernelBuilder_H
 #import <Foundation/Foundation.h>
 #include "FractalStreamCompilerDefinitions.h"
+#include "node.h"
+#include "FSCompileResult.h"
 
-
-kernel_func_ptr buildFractalStreamKernel(Node* abstractSyntaxTree);
+void fsBuildFractalStreamKernel(FSCompileResult* result);
 
 #endif

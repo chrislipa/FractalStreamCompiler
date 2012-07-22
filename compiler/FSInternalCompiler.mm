@@ -10,6 +10,7 @@
 #import "FSLexerAndParser.h"
 #import "FractalStreamCompiler.h"
 #import "FSKernelBuilder.h"
+
 FSCompileResult* fsInternalCompile(FSCompileRequest* compileRequest) {
     FSCompileResult* result = fsLexAndParse(compileRequest);
     if (!result.isCompileSuccessful || result.abstractSyntaxTree == NULL) {

@@ -11,6 +11,7 @@
 
 
 //typedef (void (*)(int, double*, int, double*, int, double, double)) kernel_func_ptr;
+typedef void(*kernel_func_ptr)(int, double*, int, double*, int, double, double);
 
-#define kernel_func_ptr (void (*)(int, double*, int, double*, int, double, double))
+//#define kernel_func_ptr (void (*)(int, double*, int, double*, int, double, double))
 #endif
