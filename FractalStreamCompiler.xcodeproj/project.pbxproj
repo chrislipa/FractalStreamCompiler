@@ -26,6 +26,12 @@
 		36CC636D15BCA4C6006E6BA1 /* libLLVMJIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9115A5048500DCA597 /* libLLVMJIT.a */; };
 		36CC636E15BCA4C6006E6BA1 /* libLLVMX86AsmPrinter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DF315A5048500DCA597 /* libLLVMX86AsmPrinter.a */; };
 		36CC636F15BCA4C6006E6BA1 /* libLLVMX86CodeGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DED15A5048500DCA597 /* libLLVMX86CodeGen.a */; };
+		36CC64BF15BCAAA3006E6BA1 /* libLLVMSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D5B15A5048500DCA597 /* libLLVMSupport.a */; };
+		36CC64C215BCAADB006E6BA1 /* libLLVMTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9715A5048500DCA597 /* libLLVMTarget.a */; };
+		36CC64C515BCAB18006E6BA1 /* libLLVMTableGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D5D15A5048500DCA597 /* libLLVMTableGen.a */; };
+		36CC64CA15BCAB79006E6BA1 /* libLLVMCodeGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6515A5048500DCA597 /* libLLVMCodeGen.a */; };
+		36CC64CD15BCABA9006E6BA1 /* libLLVMMC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8315A5048500DCA597 /* libLLVMMC.a */; };
+		36CC64D015BCABE5006E6BA1 /* libLLVMAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D7F15A5048500DCA597 /* libLLVMAnalysis.a */; };
 		36CEB3B115AE60B300C83E29 /* FSCompileRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3AF15AE60B300C83E29 /* FSCompileRequest.mm */; };
 		36CEB3B315AE610500C83E29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CEB3B215AE610500C83E29 /* Foundation.framework */; };
 		36CEB3B715AE614F00C83E29 /* FSCompileResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3B515AE614F00C83E29 /* FSCompileResult.mm */; };
@@ -46,6 +52,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36CC64BD15BCAA9C006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 135FF9FD8F4046909C25039F;
+			remoteInfo = LLVMSupport;
+		};
+		36CC64C015BCAAD5006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B86E1E9C07495596C8477B;
+			remoteInfo = LLVMTarget;
+		};
+		36CC64C615BCAB2D006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 66993B64BFD84ABA86648B0D;
+			remoteInfo = LLVMTableGen;
+		};
+		36CC64C815BCAB6F006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7F0A48815B409CA64DB37B;
+			remoteInfo = LLVMCodeGen;
+		};
+		36CC64CB15BCABA1006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D117B2D961436D853D1C1C;
+			remoteInfo = LLVMMC;
+		};
+		36CC64CE15BCABDF006E6BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D79090ED3B88405EB824DA4E;
+			remoteInfo = LLVMAnalysis;
+		};
 		36CD16E215A55A61002DF90A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
@@ -1133,6 +1181,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CC64D015BCABE5006E6BA1 /* libLLVMAnalysis.a in Frameworks */,
+				36CC64CD15BCABA9006E6BA1 /* libLLVMMC.a in Frameworks */,
+				36CC64CA15BCAB79006E6BA1 /* libLLVMCodeGen.a in Frameworks */,
+				36CC64C515BCAB18006E6BA1 /* libLLVMTableGen.a in Frameworks */,
+				36CC64C215BCAADB006E6BA1 /* libLLVMTarget.a in Frameworks */,
+				36CC64BF15BCAAA3006E6BA1 /* libLLVMSupport.a in Frameworks */,
 				36CC636B15BCA4C6006E6BA1 /* libLLVMCore.a in Frameworks */,
 				36CC636C15BCA4C6006E6BA1 /* libLLVMExecutionEngine.a in Frameworks */,
 				36CC636D15BCA4C6006E6BA1 /* libLLVMJIT.a in Frameworks */,
@@ -1466,6 +1520,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				36CC64CF15BCABDF006E6BA1 /* PBXTargetDependency */,
+				36CC64CC15BCABA1006E6BA1 /* PBXTargetDependency */,
+				36CC64C915BCAB6F006E6BA1 /* PBXTargetDependency */,
+				36CC64C715BCAB2D006E6BA1 /* PBXTargetDependency */,
+				36CC64C115BCAAD5006E6BA1 /* PBXTargetDependency */,
+				36CC64BE15BCAA9C006E6BA1 /* PBXTargetDependency */,
 				36CD16E315A55A61002DF90A /* PBXTargetDependency */,
 				36CD16E515A55A61002DF90A /* PBXTargetDependency */,
 				36CD16E715A55A61002DF90A /* PBXTargetDependency */,
@@ -2552,6 +2612,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36CC64BE15BCAA9C006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMSupport;
+			targetProxy = 36CC64BD15BCAA9C006E6BA1 /* PBXContainerItemProxy */;
+		};
+		36CC64C115BCAAD5006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMTarget;
+			targetProxy = 36CC64C015BCAAD5006E6BA1 /* PBXContainerItemProxy */;
+		};
+		36CC64C715BCAB2D006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMTableGen;
+			targetProxy = 36CC64C615BCAB2D006E6BA1 /* PBXContainerItemProxy */;
+		};
+		36CC64C915BCAB6F006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMCodeGen;
+			targetProxy = 36CC64C815BCAB6F006E6BA1 /* PBXContainerItemProxy */;
+		};
+		36CC64CC15BCABA1006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMMC;
+			targetProxy = 36CC64CB15BCABA1006E6BA1 /* PBXContainerItemProxy */;
+		};
+		36CC64CF15BCABDF006E6BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMAnalysis;
+			targetProxy = 36CC64CE15BCABDF006E6BA1 /* PBXContainerItemProxy */;
+		};
 		36CD16E315A55A61002DF90A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLVMExecutionEngine;
