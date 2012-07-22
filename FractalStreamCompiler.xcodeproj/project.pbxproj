@@ -14,6 +14,7 @@
 		3615699D15B242A6006A279D /* FSParsingError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699C15B242A6006A279D /* FSParsingError.h */; };
 		3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699E15B24395006A279D /* FSScriptLanguageDescription.h */; };
 		362AD89F15AEBD9400892EBB /* FSCompilerUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = 362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */; };
+		368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C28EB315B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */; };
 		36C28EB815B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */; };
 		36C28EB915B24DF200D1287B /* FractalStreamScript_DialectA_parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB615B24DF200D1287B /* FractalStreamScript_DialectA_parser.hpp */; };
@@ -37,18 +38,18 @@
 		36CEB3B715AE614F00C83E29 /* FSCompileResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3B515AE614F00C83E29 /* FSCompileResult.mm */; };
 		36CEB3BB15AE61C600C83E29 /* FSCompileError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3B915AE61C600C83E29 /* FSCompileError.mm */; };
 		36CEB3BF15AE628600C83E29 /* FSSourceRange.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3BD15AE628600C83E29 /* FSSourceRange.mm */; };
-		36CEB3C415AE69F600C83E29 /* FSSourceRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C015AE69F600C83E29 /* FSSourceRange.h */; };
-		36CEB3C515AE69F600C83E29 /* FSCompileResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C115AE69F600C83E29 /* FSCompileResult.h */; };
-		36CEB3C615AE69F600C83E29 /* FSCompileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C215AE69F600C83E29 /* FSCompileRequest.h */; };
-		36CEB3C715AE69F600C83E29 /* FSCompileError.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C315AE69F600C83E29 /* FSCompileError.h */; };
+		36CEB3C415AE69F600C83E29 /* FSSourceRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C015AE69F600C83E29 /* FSSourceRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CEB3C515AE69F600C83E29 /* FSCompileResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C115AE69F600C83E29 /* FSCompileResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CEB3C615AE69F600C83E29 /* FSCompileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C215AE69F600C83E29 /* FSCompileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CEB3C715AE69F600C83E29 /* FSCompileError.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3C315AE69F600C83E29 /* FSCompileError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36CEB3CF15AE754500C83E29 /* FSCodeGenerationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CB15AE754500C83E29 /* FSCodeGenerationContext.h */; };
 		36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CC15AE754500C83E29 /* FSExtraInformation.hpp */; };
 		36CEB3D115AE754500C83E29 /* FSLexerAndParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3CD15AE754500C83E29 /* FSLexerAndParser.mm */; };
 		36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CE15AE754500C83E29 /* FSLexerAndParser.h */; };
 		36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */; };
-		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; };
+		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */; };
-		36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA81FA15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h */; };
+		36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA81FA15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1502,6 +1503,7 @@
 				3604891015B3BDD6006DD310 /* FSKernelBuilder.h in Headers */,
 				360489AE15B3C2CF006DD310 /* FSInternalCompiler.h in Headers */,
 				36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */,
+				368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2728,6 +2730,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2739,6 +2742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
