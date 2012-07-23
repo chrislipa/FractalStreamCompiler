@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "FSCompileRequest.h"
 #import "FSCompileError.h"
-#import "node.h"
+
 #import "FractalStreamCompilerDefinitions.h"
 @class FSCompileError;
 
@@ -18,11 +18,9 @@
     bool _isCompileSuccessful;
     NSMutableArray* _compileErrors;
     FSCompileRequest* _compileRequest;
-    Node* _abstractSyntaxTree;
     void(*_kernel)(int, double*, int, double*, int, double, double);
 }
 @property (readwrite,assign) void(*kernel)(int, double*, int, double*, int, double, double);
-@property (readwrite,assign) Node* abstractSyntaxTree;
 @property (readwrite,assign) bool isCompileSuccessful;
 @property (readwrite,retain) NSMutableArray* compileErrors;
 @property (readwrite,retain) FSCompileRequest* compileRequest;

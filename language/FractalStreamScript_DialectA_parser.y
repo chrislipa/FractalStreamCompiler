@@ -47,7 +47,7 @@
 %token <string> TIDENTIFIER TINTEGER TDOUBLE 
 %token <unrecognized> TUNRECOGNIZED
 %token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL
-%token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT
+%token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT TEXP
 %token <token> TPLUS TMINUS TMUL TDIV
 %token <token> IF ITERATE UNTIL PERIOD ESCAPES UNDEF
 
@@ -73,7 +73,7 @@
 
 /* Operator precedence for mathematical operators */
 %left TPLUS TMINUS
-%left TMUL TDIV
+%left TMUL TDIV TEXP
 
 %start program
 

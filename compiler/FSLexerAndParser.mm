@@ -24,7 +24,7 @@ extern int FractalStreamScript_DialectA_parse(void* scanner);
  * error condition that could come from malformed data in the request is checked
  * against.
  */
-extern "C" FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest)
+extern "C" FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest, Node** abstractSyntaxTree)
 {
     
 	NSString* languageIdentifier = [compileRequest languageIdentifier];
@@ -110,7 +110,7 @@ extern "C" FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest)
         
     
     FSCompileResult* result = [FSCompileResult compileResultWithRequest:compileRequest andErrors:parsingErrors];
-    result.abstractSyntaxTree = programBlock;
+    (*abstractSyntaxTree) = programBlock;
     return result;
 
 	/*

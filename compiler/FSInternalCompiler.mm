@@ -12,8 +12,9 @@
 #import "FSKernelBuilder.h"
 
 FSCompileResult* fsInternalCompile(FSCompileRequest* compileRequest) {
-    FSCompileResult* result = fsLexAndParse(compileRequest);
-    if (!result.isCompileSuccessful || result.abstractSyntaxTree == NULL) {
+    Node* abstractSyntaxTree=NULL;
+    FSCompileResult* result = fsLexAndParse(compileRequest, &abstractSyntaxTree);
+    if (!result.isCompileSuccessful || abstractSyntaxTree == NULL) {
         return result;
     }
     fsBuildFractalStreamKernel(result);
