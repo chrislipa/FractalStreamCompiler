@@ -79,6 +79,22 @@ public:
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
+
+class NUnaryOperator : public NExpression {
+public:
+	int op;
+	
+	NExpression& e;
+	NUnaryOperator(int op, NExpression& e) :
+    e(e), op(op) { }
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; };
+
+
+};
+
+
+
+
 class NAssignment : public NExpression {
 public:
 	NIdentifier& lhs;
@@ -97,13 +113,35 @@ public:
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
 };
 
-
 class NProgramPart : public Node {
 public:
-	NBlock& expression;
-	NProgramPart(NBlock& expression) : expression(expression) { }
-
+	
+	NProgramPart()  { }
+    
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+};
+
+
+class NParameterBlock : public NProgramPart {
+    
+public:
+    NBlock block;
+    NParameterBlock(NBlock& a): NProgramPart() {block = a; };
+	
+};
+
+class NDynamicBlock : public NProgramPart {
+public:
+    NBlock block;
+	NDynamicBlock(NBlock& a) : NProgramPart() { block = a; };
+};
+
+
+class NUntilLoop : public NStatement {
+public:
+    NBlock block;
+    NExpression expression;
+    NUntilLoop(NBlock& a, NExpression& b) {block = a; expression = b;};
 };
 
 

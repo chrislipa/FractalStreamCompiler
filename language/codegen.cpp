@@ -178,7 +178,7 @@ Value* NBlock::codeGen(FSCodeGenerationContext& context)
 
 Value* NProgramPart::codeGen(FSCodeGenerationContext& context)
 {
-	return expression.codeGen(context);
+	return NULL;
 }
 
 

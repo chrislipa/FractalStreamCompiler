@@ -36,12 +36,17 @@
 
 %%
 
-"if"					return TOKEN(IF);
-"iterate"				return TOKEN(ITERATE);
-"until"					return TOKEN(UNTIL);
-"."						return TOKEN(PERIOD);
-"escapes"				return TOKEN(ESCAPES);
-
+"if"					return TOKEN(TIF);
+"do"                    return TOKEN(TDO);
+"iterate"				return TOKEN(TITERATE);
+"until"					return TOKEN(TUNTIL);
+"while"					return TOKEN(TWHILE);
+"."						return TOKEN(TPERIOD);
+"escapes"				return TOKEN(TESCAPES);
+"vanishes"				return TOKEN(TVANISHES);
+"par"                   return TOKEN(TPAR);
+"dyn"                   return TOKEN(TDYN);
+"not"                   return TOKEN(TNOT);
 
 [ \t\n]					;
 [a-zA-Z_][a-zA-Z0-9_]* 	SAVE_TOKEN; return TIDENTIFIER;
@@ -66,8 +71,9 @@
 "*"						return TOKEN(TMUL);
 "/"						return TOKEN(TDIV);
 "^"						return TOKEN(TEXP);
+"!"						return TOKEN(TNOT);
 
-[^ \t\n\*]+              {SAVE_TOKEN;printf("Unknown token: '%s' [%d,%d]->[%d,%d]\n",yylval->string->c_str(),yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column);FSParsingError error;  error.isFatal = 1;  error.firstLine = yylloc->first_line; error.firstColumn = yylloc->first_column; error.lastLine = yylloc->last_line;  error.lastColumn = yylloc->last_column; char fmt[] = "Unrecognized token: '%s'"; char* buffer = (char*)malloc(strlen(fmt)+strlen(yylval->string->c_str())+1); sprintf(buffer,fmt,  yylval->string->c_str()); error.errorMessage = buffer; error.errorType =  FSCompileErrorType_UnrecognizedToken;  error.errorSeverity = FSCompileErrorSeverity_Error; error.sourceCodeSubstring = strdup(yylval->string->c_str()); FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( yyg->yyextra_r); extraInformationStructure->errors.push_back(error);return TOKEN(TUNRECOGNIZED); }
+[^ \t\n\*\+\^\=\!\-\<\>\(\)\{\}\,]+              {SAVE_TOKEN;printf("Unknown token: '%s' [%d,%d]->[%d,%d]\n",yylval->string->c_str(),yylloc->first_line, yylloc->first_column, yylloc->last_line, yylloc->last_column);FSParsingError error;  error.isFatal = 1;  error.firstLine = yylloc->first_line; error.firstColumn = yylloc->first_column; error.lastLine = yylloc->last_line;  error.lastColumn = yylloc->last_column; char fmt[] = "Unrecognized token: '%s'"; char* buffer = (char*)malloc(strlen(fmt)+strlen(yylval->string->c_str())+1); sprintf(buffer,fmt,  yylval->string->c_str()); error.errorMessage = buffer; error.errorType =  FSCompileErrorType_UnrecognizedToken;  error.errorSeverity = FSCompileErrorSeverity_Error; error.sourceCodeSubstring = strdup(yylval->string->c_str()); FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( yyg->yyextra_r); extraInformationStructure->errors.push_back(error);return TOKEN(TUNRECOGNIZED); }
 
 
 %%

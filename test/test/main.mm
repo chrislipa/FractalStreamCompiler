@@ -38,7 +38,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
     
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"9*17*11" andLanguage:@"fsa"];
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"z escapes" andLanguage:@"fsa"];
         
     test(req);
 	

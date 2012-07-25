@@ -26,6 +26,8 @@
 	NProgramParts* programParts;
 	Node *node;
 	NBlock *block;
+    NParameterBlock *par_block;
+    NDynamicBlock* dyn_block;
 	NExpression *expr;
 	NStatement *stmt;
 	NIdentifier *ident;
@@ -46,10 +48,11 @@
 
 %token <string> TIDENTIFIER TINTEGER TDOUBLE 
 %token <unrecognized> TUNRECOGNIZED
-%token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL
+%token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL 
 %token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT TEXP
-%token <token> TPLUS TMINUS TMUL TDIV
-%token <token> IF ITERATE UNTIL PERIOD ESCAPES UNDEF
+%token <token> TPLUS TMINUS TMUL TDIV TNOT 
+%token <token> TIF TITERATE TUNTIL TPERIOD TESCAPES TUNDEF TPAR TDYN TDO TWHILE
+%token <token> TVANISHES 
 
  
 /* Define the type of node our nonterminal symbols represent.
@@ -58,13 +61,17 @@
    calling an (NIdentifier*). It makes the compiler happy.
  */
 %type <ident> ident
-%type <expr> numeric expr 
+%type <expr> numeric expr
 %type <unrecoginzed_token> unrecognized
 %type <varvec> func_decl_args
 %type <exprvec> call_args
-%type <block> stmts block
-%type <stmt> stmt var_decl func_decl
-%type <token> comparison
+%type <block> stmts block  stmts_star stmts_star_noperiodq
+
+%type <dyn_block> dynamic_block dynamic_block_without_dyn
+%type <par_block> parameter_block
+
+%type <stmt> stmt var_decl func_decl loop
+%type <token> comparison  right_operator left_operator
 %type <programPart> program_part
 %type <programParts> program_parts
 
@@ -83,10 +90,7 @@
 
 
 program : program_parts { FSExtraInformation* extraInformationStructure = (FSExtraInformation*)( FractalStreamScript_DialectA_get_extra(context));
-	extraInformationStructure->result = $1;}
-
-        
-        ;
+	extraInformationStructure->result = $1;};
 
 
 program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<program_part>1); }
@@ -94,15 +98,32 @@ program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<p
               | unrecognized { }
               ;
 
-program_part : stmts {$$ = new NProgramPart(*$1);}
+program_part : dynamic_block {$$ = $1;}
+             | parameter_block {$$ = $1;}
              ;
+             
+dynamic_block : dynamic_block_without_dyn      {$$ = $1;}
+              | TDYN dynamic_block_without_dyn  {$$ = $2;}
+              ;
+
+dynamic_block_without_dyn : stmts  { $$ = new NDynamicBlock(*$1); } 
+                        ;
+
+parameter_block : TPAR stmts { $$ = new NParameterBlock(*$2); }
+                ; 
 
 numeric : TINTEGER { $$ = new NInteger(atol($1->c_str())); delete $1; }
 		| TDOUBLE { $$ = new NDouble(atof($1->c_str())); delete $1; }
 	    ;
 
 
-		
+stmts_star_noperiodq : stmts_star  { $$ = $1; }
+                     
+
+stmts_star : stmts  { $$ = $1 } 
+            |        {$$ = new NBlock(); }
+		;
+        
 stmts : stmt { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
 	  | stmts stmt { $1->statements.push_back($<stmt>2); }
 	  ;
@@ -110,7 +131,12 @@ stmts : stmt { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
 stmt : var_decl | func_decl
 	 | expr { $$ = new NExpressionStatement(*$1); }
      | unrecognized {}
+     | loop {$$ = $1;}
      ;
+
+loop : TITERATE stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NUntilLoop(*$2, *$4);}
+       
+;
 
 block : TLBRACE stmts TRBRACE { $$ = $2; }
 	  | TLBRACE TRBRACE { $$ = new NBlock(); }
@@ -142,6 +168,8 @@ expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | numeric { $$ = $1;  } 
  	 | expr comparison expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
      | TLPAREN expr TRPAREN { $$ = $2; }
+     | left_operator expr { $$ = new NUnaryOperator($1, *$2); }
+     | expr right_operator { $$ = new NUnaryOperator($2, *$1); }
     
 	 ;
 	
@@ -151,12 +179,15 @@ call_args : /*blank*/  { $$ = new ExpressionList(); }
 		  ;
 
 comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE 
-		   | TPLUS | TMINUS | TMUL | TDIV
+		   | TPLUS | TMINUS | TMUL | TDIV | TEXP
 		   ;
 
+right_operator : TESCAPES | TVANISHES;
 
+
+left_operator : TNOT;
 
 unrecognized : TUNRECOGNIZED { }
-;
+            ;
 
 %%
