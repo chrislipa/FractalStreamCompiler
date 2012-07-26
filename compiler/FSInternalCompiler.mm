@@ -15,8 +15,15 @@ FSCompileResult* fsInternalCompile(FSCompileRequest* compileRequest) {
     Node* abstractSyntaxTree=NULL;
     FSCompileResult* result = fsLexAndParse(compileRequest, &abstractSyntaxTree);
     if (!result.isCompileSuccessful || abstractSyntaxTree == NULL) {
+        if (!result.isCompileSuccessful) {
+            printf("Compile not successful.");
+        } else if (abstractSyntaxTree == NULL) {
+            printf("Could not generate AST.");
+        }
         return result;
     }
+    std::string aststr = abstractSyntaxTree->description();
+    printf("\n\nAbstract Syntax Tree:\n\n%s\n\n",aststr.c_str());
     fsBuildFractalStreamKernel(result);
     return result;
     

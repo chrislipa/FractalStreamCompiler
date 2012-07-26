@@ -13,7 +13,7 @@
 		360489AF15B3C2CF006DD310 /* FSInternalCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 360489AD15B3C2CF006DD310 /* FSInternalCompiler.mm */; };
 		3615699D15B242A6006A279D /* FSParsingError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699C15B242A6006A279D /* FSParsingError.h */; };
 		3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699E15B24395006A279D /* FSScriptLanguageDescription.h */; };
-		362AD89F15AEBD9400892EBB /* FSCompilerUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = 362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */; };
+		362AD89F15AEBD9400892EBB /* FSCompilerUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 362AD89E15AEBD9400892EBB /* FSCompilerUtility.cpp */; };
 		368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C28EB315B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */; };
 		36C28EB815B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */; };
@@ -1141,7 +1141,7 @@
 		3615699C15B242A6006A279D /* FSParsingError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSParsingError.h; path = include/FSParsingError.h; sourceTree = SOURCE_ROOT; };
 		3615699E15B24395006A279D /* FSScriptLanguageDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSScriptLanguageDescription.h; path = include/FSScriptLanguageDescription.h; sourceTree = SOURCE_ROOT; };
 		362AD89D15AEBD8200892EBB /* FSCompilerUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCompilerUtility.h; sourceTree = "<group>"; };
-		362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FSCompilerUtility.c; sourceTree = "<group>"; };
+		362AD89E15AEBD9400892EBB /* FSCompilerUtility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FSCompilerUtility.cpp; sourceTree = "<group>"; };
 		363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCompilerErrorTypeDefinitions.h; path = include/FSCompilerErrorTypeDefinitions.h; sourceTree = SOURCE_ROOT; };
 		36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_tokenizer.hpp; sourceTree = "<group>"; };
 		36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_tokenizer.cpp; sourceTree = "<group>"; };
@@ -1204,7 +1204,7 @@
 			isa = PBXGroup;
 			children = (
 				362AD89D15AEBD8200892EBB /* FSCompilerUtility.h */,
-				362AD89E15AEBD9400892EBB /* FSCompilerUtility.c */,
+				362AD89E15AEBD9400892EBB /* FSCompilerUtility.cpp */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -2603,7 +2603,7 @@
 				36CEB3BF15AE628600C83E29 /* FSSourceRange.mm in Sources */,
 				36CEB3D115AE754500C83E29 /* FSLexerAndParser.mm in Sources */,
 				36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */,
-				362AD89F15AEBD9400892EBB /* FSCompilerUtility.c in Sources */,
+				362AD89F15AEBD9400892EBB /* FSCompilerUtility.cpp in Sources */,
 				36C28EB815B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */,
 				36C28EBA15B24DF200D1287B /* FractalStreamScript_DialectA_parser.cpp in Sources */,
 				3604891115B3BDD6006DD310 /* FSKernelBuilder.mm in Sources */,

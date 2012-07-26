@@ -110,6 +110,7 @@ extern "C" FSCompileResult* fsLexAndParse(FSCompileRequest* compileRequest, Node
         
     
     FSCompileResult* result = [FSCompileResult compileResultWithRequest:compileRequest andErrors:parsingErrors];
+    result.isCompileSuccessful = YES;
     (*abstractSyntaxTree) = programBlock;
     return result;
 
