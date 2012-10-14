@@ -70,7 +70,7 @@
 %type <dyn_block> dynamic_block dynamic_block_without_dyn
 %type <par_block> parameter_block
 
-%type <stmt> stmt var_decl func_decl loop last_statement_in_block
+%type <stmt> stmt var_decl func_decl loop last_statement_in_block iterateuntilloop
 %type <token> comparison  right_operator left_operator
 %type <programPart> program_part program_part_sans_dyn
 %type <programParts> program_parts program_parts_sans_dyn
@@ -106,8 +106,7 @@ program_parts_sans_dyn : program_part { $$ = new NProgramParts(); $$->parts.push
 program_part_sans_dyn : parameter_block {$$ = $1;} ;
 
 program_part : dynamic_block {$$ = $1;}
-             
-             ;
+;
              
 dynamic_block : dynamic_block_without_dyn      {$$ = $1;}
               | TDYN dynamic_block_without_dyn  {$$ = $2;}
@@ -139,15 +138,18 @@ stmts : last_statement_in_block { $$ = new NBlock(); $$->statements.push_back($<
 	  | stmt stmts  { $2->statements.push_front($<stmt>1); }
 	  ;
 
-stmt : var_decl | func_decl
+stmt : var_decl 
+     | func_decl
 	 | expr { $$ = new NExpressionStatement(*$1); }
      | unrecognized {}
      | loop {$$ = $1;}
+     | iterateuntilloop {$$ = $1;}
+     
      ;
 
-loop : TITERATE stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NUntilLoop(*$2, *$4);}
-       
-;
+loop : TDO stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NUntilLoop(*$2, *$4);};
+
+iterateuntilloop : TITERATE stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NIterateUntilLoop(*$2, *$4);};
 
 block : TLBRACE stmts TRBRACE { $$ = $2; }
 	  | TLBRACE TRBRACE { $$ = new NBlock(); }
@@ -181,7 +183,6 @@ expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
      | TLPAREN expr TRPAREN { $$ = $2; }
      | left_operator expr { $$ = new NUnaryOperator($1, *$2); }
      | expr right_operator { $$ = new NUnaryOperator($2, *$1); }
-    
 	 ;
 	
 call_args : /*blank*/  { $$ = new ExpressionList(); }

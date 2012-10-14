@@ -240,6 +240,12 @@ Value* NExpressionStatement::codeGen(FSCodeGenerationContext& context)
 	return expression.codeGen(context);
 }
 
+Value* NEscapesStatement::codeGen(FSCodeGenerationContext& context)
+{
+	std::cout << "Generating code for " <</* typeid(expression).name() << */endl;
+	return expression.codeGen(context);
+}
+
 Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
 {
 

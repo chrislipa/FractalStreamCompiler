@@ -23463,7 +23463,7 @@
 		1F54E9C768D6474FB155DA28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
@@ -33672,7 +33672,7 @@
 		5C7CADB2D0924AAA98ED6B70 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
@@ -50132,7 +50132,7 @@
 		BA78FF2630924CC59C603165 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;
@@ -56012,7 +56012,7 @@
 		D826669F74DE42B6848F84A1 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SYMROOT = /Users/lipa/fractalstream/external/FractalStreamCompiler/external/llvm/build;

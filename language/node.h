@@ -223,9 +223,29 @@ public:
         return "until";
     };
     virtual std::vector<Node*> children() {
-        std::vector<Node*> x;  
+        std::vector<Node*> x;
         x.push_back(&block); 
         x.push_back(&expression); 
+        return x;
+    };
+    
+};
+
+class NIterateUntilLoop : public NStatement {
+public:
+    NBlock block;
+    NExpression expression;
+    NIterateUntilLoop(NBlock& a, NExpression& b) {
+        block = a;
+        expression = b;
+    };
+    virtual std::string stringOfThisNode() {
+        return "iterate_until";
+    };
+    virtual std::vector<Node*> children() {
+        std::vector<Node*> x;
+        x.push_back(&block);
+        x.push_back(&expression);
         return x;
     };
     
@@ -263,7 +283,16 @@ public:
 };
 
 
-
+class NEscapesStatement : public NStatement {
+public:
+	NExpression& expression;
+	NEscapesStatement(NExpression& expression) :
+        expression(expression) { }
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+    virtual std::string stringOfThisNode() {return "escapes";};
+    virtual std::vector<Node*> children() {std::vector<Node*> x; x.push_back(&expression);  return x;};
+    
+};
 
 
 class NExpressionStatement : public NStatement {

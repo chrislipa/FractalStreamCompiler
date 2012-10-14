@@ -38,7 +38,8 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
     //@"iterate z^2+c until z escapes."
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"z.z.z.z.z" andLanguage:@"fsa"];
+    NSString* source = @"iterate z^2+c until z escapes.";
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:source andLanguage:@"fsa"];
         
     test(req);
 	
