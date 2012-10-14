@@ -11,6 +11,7 @@
 #include <string>
 
 std::string intToString(int i);
+std::string longToString(long long i);
 std::string doubleToString(double i);
 std::string spaces(int n);
 #endif

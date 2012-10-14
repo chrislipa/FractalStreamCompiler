@@ -2,6 +2,7 @@
 #define FSNode
 #include <iostream>
 #include <vector>
+#include <list>
 #include <llvm/Value.h>
 #include <llvm/LLVMContext.h>
 #include "FSCodeGenerationContext.h"
@@ -13,7 +14,7 @@ class NVariableDeclaration;
 class NProgramPart;
 
 typedef std::vector<NProgramPart*> ProgramPartList;
-typedef std::vector<NStatement*> StatementList;
+typedef std::list<NStatement*> StatementList;
 typedef std::vector<NExpression*> ExpressionList;
 typedef std::vector<NVariableDeclaration*> VariableList;
 
@@ -22,7 +23,9 @@ class Node {
 public:
 	virtual ~Node() {}
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; }
-    virtual std::string stringOfThisNode() {return "undef";};
+    virtual std::string stringOfThisNode() {
+        return "undef";
+    };
     virtual std::vector<Node*> children() {std::vector<Node*> x;  return x;};
     const virtual const std::string description() {
         return description(0);
@@ -30,7 +33,7 @@ public:
     const virtual const std::string description(int i) {
         std::vector<Node*> children = this->children();
         std::string thisNodeString = this->stringOfThisNode();
-        int indexOfSubNodes = i + thisNodeString.length()+3;
+        int indexOfSubNodes =(int)( i + thisNodeString.length()+3);
         
         std::string childrenStr = "";
         bool first =true;
@@ -61,9 +64,7 @@ public:
 	long long value;
 	NInteger(long long value) : value(value) { }
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
-    virtual std::string stringOfThisNode() {return intToString(value);};
-    
-    
+    virtual std::string stringOfThisNode() {return longToString(value);};
 };
 
 class NDouble : public NExpression {
@@ -214,9 +215,19 @@ class NUntilLoop : public NStatement {
 public:
     NBlock block;
     NExpression expression;
-    NUntilLoop(NBlock& a, NExpression& b) {block = a; expression = b;};
-    virtual std::string stringOfThisNode() {return "until";};
-    virtual std::vector<Node*> children() {std::vector<Node*> x;  x.push_back(&block); x.push_back(&expression); return x;};
+    NUntilLoop(NBlock& a, NExpression& b) {
+        block = a; 
+        expression = b;
+    };
+    virtual std::string stringOfThisNode() {
+        return "until";
+    };
+    virtual std::vector<Node*> children() {
+        std::vector<Node*> x;  
+        x.push_back(&block); 
+        x.push_back(&expression); 
+        return x;
+    };
     
 };
 

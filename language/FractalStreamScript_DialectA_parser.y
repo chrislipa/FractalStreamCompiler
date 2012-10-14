@@ -70,10 +70,10 @@
 %type <dyn_block> dynamic_block dynamic_block_without_dyn
 %type <par_block> parameter_block
 
-%type <stmt> stmt var_decl func_decl loop
+%type <stmt> stmt var_decl func_decl loop last_statement_in_block
 %type <token> comparison  right_operator left_operator
-%type <programPart> program_part
-%type <programParts> program_parts
+%type <programPart> program_part program_part_sans_dyn
+%type <programParts> program_parts program_parts_sans_dyn
 
 
 
@@ -97,9 +97,16 @@ program_parts : program_part { $$ = new NProgramParts(); $$->parts.push_back($<p
 			  | program_parts program_part {$1->parts.push_back($<program_part>2); }
               | unrecognized { }
               ;
+              
+program_parts_sans_dyn : program_part { $$ = new NProgramParts(); $$->parts.push_back($<program_part>1); }
+			  | program_parts_sans_dyn program_part {$1->parts.push_back($<program_part>2); }
+              | unrecognized { }
+              ;
+
+program_part_sans_dyn : parameter_block {$$ = $1;} ;
 
 program_part : dynamic_block {$$ = $1;}
-             | parameter_block {$$ = $1;}
+             
              ;
              
 dynamic_block : dynamic_block_without_dyn      {$$ = $1;}
@@ -124,8 +131,12 @@ stmts_star : stmts  { $$ = $1 }
             |        {$$ = new NBlock(); }
 		;
         
-stmts : stmt { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
-	  | stmts stmt { $1->statements.push_back($<stmt>2); }
+last_statement_in_block : stmt    {$$ = $1;}
+                        | stmt TPERIOD {$$ = $1;}
+                        ;
+
+stmts : last_statement_in_block { $$ = new NBlock(); $$->statements.push_back($<stmt>1); }
+	  | stmt stmts  { $2->statements.push_front($<stmt>1); }
 	  ;
 
 stmt : var_decl | func_decl

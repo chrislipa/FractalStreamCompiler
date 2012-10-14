@@ -37,8 +37,8 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool {
         
-    
-    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"iterate z^2+c until z escapes." andLanguage:@"fsa"];
+    //@"iterate z^2+c until z escapes."
+    FSCompileRequest* req = [FSCompileRequest getCompileRequestWithSourceCode:@"z.z.z.z.z" andLanguage:@"fsa"];
         
     test(req);
 	

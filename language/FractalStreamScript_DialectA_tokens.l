@@ -22,9 +22,11 @@
     /* handle locations */
     //int yycolumn = 1;
     
-    #define YY_USER_ACTION yylloc->first_line = yylloc->last_line = yylineno;\
-                            yylloc->first_column = yycolumn; \
-                            yylloc->last_column = yycolumn+yyleng-1; yycolumn += yyleng;    
+    #define YY_USER_ACTION  yylloc->last_line = (int)yylineno;\
+                            yylloc->first_line = (int)yylineno;\
+                            yylloc->first_column = (int)yycolumn; \
+                            yylloc->last_column = (int)(yycolumn+yyleng-1); \
+                            yycolumn += (int)yyleng;
     
     
     
