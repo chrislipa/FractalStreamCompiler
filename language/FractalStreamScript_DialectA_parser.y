@@ -49,8 +49,8 @@
 %token <string> TIDENTIFIER TINTEGER TDOUBLE 
 %token <unrecognized> TUNRECOGNIZED
 %token <token> TCEQ TCNE TCLT TCLE TCGT TCGE TEQUAL 
-%token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT TEXP
-%token <token> TPLUS TMINUS TMUL TDIV TNOT 
+%token <token> TLPAREN TRPAREN TLBRACE TRBRACE TCOMMA TDOT 
+%token <token> TPLUS TMINUS TMUL TDIV TNOT TEXP
 %token <token> TIF TITERATE TUNTIL TPERIOD TESCAPES TUNDEF TPAR TDYN TDO TWHILE
 %token <token> TVANISHES 
 
@@ -71,7 +71,7 @@
 %type <par_block> parameter_block
 
 %type <stmt> stmt var_decl func_decl loop last_statement_in_block iterateuntilloop
-%type <token> comparison  right_operator left_operator
+%type <token> comparison right_operator left_operator
 %type <programPart> program_part program_part_sans_dyn
 %type <programParts> program_parts program_parts_sans_dyn
 
@@ -79,8 +79,14 @@
 
 
 /* Operator precedence for mathematical operators */
+
+
 %left TPLUS TMINUS
 %left TMUL TDIV TEXP
+
+
+
+
 
 %start program
 
@@ -149,7 +155,7 @@ stmt : var_decl
 
 loop : TDO stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NUntilLoop(*$2, *$4);};
 
-iterateuntilloop : TITERATE stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NIterateUntilLoop(*$2, *$4);};
+iterateuntilloop : TITERATE stmts_star_noperiodq TUNTIL expr TPERIOD {$$ = new NIterateUntilLoop($2, $4);};
 
 block : TLBRACE stmts TRBRACE { $$ = $2; }
 	  | TLBRACE TRBRACE { $$ = new NBlock(); }
@@ -175,15 +181,22 @@ ident : TIDENTIFIER { $$ = new NIdentifier(*$1); delete $1; }
 
 
 	
-expr : ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
+expr :  expr TEXP expr { $$ = new NBinaryOperator(*$1, $2, *$3); } 
+        | expr TPLUS expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
+        | expr TMINUS expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
+        | expr TMUL expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
+        | expr TDIV expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
+      |ident TEQUAL expr { $$ = new NAssignment(*$<ident>1, *$3); }
 	 | ident TLPAREN call_args TRPAREN { $$ = new NMethodCall(*$1, *$3); delete $3; }
 	 | ident { $<ident>$ = $1; }
 	 | numeric { $$ = $1;  } 
  	 | expr comparison expr { $$ = new NBinaryOperator(*$1, $2, *$3); }
+     
+     
      | TLPAREN expr TRPAREN { $$ = $2; }
      | left_operator expr { $$ = new NUnaryOperator($1, *$2); }
      | expr right_operator { $$ = new NUnaryOperator($2, *$1); }
-	 ;
+     ;
 	
 call_args : /*blank*/  { $$ = new ExpressionList(); }
 		  | expr { $$ = new ExpressionList(); $$->push_back($1); }
@@ -191,8 +204,9 @@ call_args : /*blank*/  { $$ = new ExpressionList(); }
 		  ;
 
 comparison : TCEQ | TCNE | TCLT | TCLE | TCGT | TCGE 
-		   | TPLUS | TMINUS | TMUL | TDIV | TEXP
 		   ;
+
+
 
 right_operator : TESCAPES | TVANISHES;
 

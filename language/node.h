@@ -4,6 +4,7 @@
 #include <vector>
 #include <list>
 #include <llvm/Value.h>
+#include <iostream>
 #include <llvm/LLVMContext.h>
 #include "FSCodeGenerationContext.h"
 #include "FSCompilerUtility.h"
@@ -23,9 +24,7 @@ class Node {
 public:
 	virtual ~Node() {}
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; }
-    virtual std::string stringOfThisNode() {
-        return "undef";
-    };
+    virtual std::string stringOfThisNode() {return "undef-node";};
     virtual std::vector<Node*> children() {std::vector<Node*> x;  return x;};
     const virtual const std::string description() {
         return description(0);
@@ -54,16 +53,24 @@ public:
 };
 
 class NExpression : public Node {
+public:
+    NExpression()  {
+        
+    };
+    virtual std::string stringOfThisNode() {
+        return "generic_expression";
+    };
 };
 
 class NStatement : public Node {
+    virtual std::string stringOfThisNode() {return "generic_statement";};
 };
 
 class NInteger : public NExpression {
 public:
 	long long value;
 	NInteger(long long value) : value(value) { }
-	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+    virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
     virtual std::string stringOfThisNode() {return longToString(value);};
 };
 
@@ -134,8 +141,11 @@ public:
 	
 	NExpression& e;
 	NUnaryOperator(int op, NExpression& e) :
-    e(e), op(op) { }
+    e(e), op(op) {
+        
+    }
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; };
+
     virtual std::string stringOfThisNode() {return "operator-"+intToString(op);};
     virtual std::vector<Node*> children() {std::vector<Node*> x;  x.push_back(&e); return x;};
     
@@ -233,9 +243,10 @@ public:
 
 class NIterateUntilLoop : public NStatement {
 public:
-    NBlock block;
-    NExpression expression;
-    NIterateUntilLoop(NBlock& a, NExpression& b) {
+    NBlock* block;
+    NExpression* expression;
+    NIterateUntilLoop(NBlock* a, NExpression* b) {
+
         block = a;
         expression = b;
     };
@@ -244,8 +255,8 @@ public:
     };
     virtual std::vector<Node*> children() {
         std::vector<Node*> x;
-        x.push_back(&block);
-        x.push_back(&expression);
+        x.push_back(block);
+        x.push_back(expression);
         return x;
     };
     
