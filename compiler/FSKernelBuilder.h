@@ -12,7 +12,8 @@
 #include "FractalStreamCompilerDefinitions.h"
 #include "node.h"
 #include "FSCompileResult.h"
+#include "FSCompileRequest.h"
 
-void fsBuildFractalStreamKernel(FSCompileResult* result);
+void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* result);
 
 #endif

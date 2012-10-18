@@ -13,6 +13,7 @@
 @synthesize compileErrors = _compileErrors;
 @synthesize compileRequest = _compileRequest;
 @synthesize kernel = _kernel;
+@synthesize abstractSyntaxTree = _abstractSyntaxTree;
 
 -(id) init {
     if  (self = [super init]) {

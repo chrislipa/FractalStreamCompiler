@@ -24,7 +24,8 @@ FSCompileResult* fsInternalCompile(FSCompileRequest* compileRequest) {
     }
     std::string aststr = abstractSyntaxTree->description();
     printf("\n\nAbstract Syntax Tree:\n\n%s\n\n",aststr.c_str());
-    fsBuildFractalStreamKernel(result);
+    fsBuildFractalStreamKernel(compileRequest, result);
+    printf("\n\nkernel = 0x%LX\n\n",(long long)(result.kernel));
     return result;
     
 }

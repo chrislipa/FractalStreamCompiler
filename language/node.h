@@ -8,6 +8,9 @@
 #include <llvm/LLVMContext.h>
 #include "FSCodeGenerationContext.h"
 #include "FSCompilerUtility.h"
+#include "llvm/Constants.h"
+
+
 class CodeGenContext;
 class NStatement;
 class NExpression;
@@ -78,7 +81,7 @@ class NDouble : public NExpression {
 public:
 	double value;
 	NDouble(double value) : value(value) { }
-	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) ;
     virtual std::string stringOfThisNode() {return doubleToString(value);};
     
     

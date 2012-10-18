@@ -14,6 +14,14 @@
 		3615699D15B242A6006A279D /* FSParsingError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699C15B242A6006A279D /* FSParsingError.h */; };
 		3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615699E15B24395006A279D /* FSScriptLanguageDescription.h */; };
 		362AD89F15AEBD9400892EBB /* FSCompilerUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 362AD89E15AEBD9400892EBB /* FSCompilerUtility.cpp */; };
+		36674FE8162EB63D00B49D21 /* FSJitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36674FE6162EB63D00B49D21 /* FSJitter.mm */; };
+		36674FE9162EB63D00B49D21 /* FSJitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 36674FE7162EB63D00B49D21 /* FSJitter.h */; };
+		3667502D1630179600B49D21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3667502C1630179600B49D21 /* Cocoa.framework */; };
+		36675036163052CC00B49D21 /* libLLVMScalarOpts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D7515A5048500DCA597 /* libLLVMScalarOpts.a */; };
+		366750391630537E00B49D21 /* libLLVMTransformUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6F15A5048500DCA597 /* libLLVMTransformUtils.a */; };
+		3667503C1630540700B49D21 /* libLLVMInstCombine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D7315A5048500DCA597 /* libLLVMInstCombine.a */; };
+		3667503F1630561D00B49D21 /* FSKernel.M in Sources */ = {isa = PBXBuildFile; fileRef = 3667503D1630561D00B49D21 /* FSKernel.M */; };
+		366750401630561D00B49D21 /* FSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3667503E1630561D00B49D21 /* FSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C28EB315B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */; };
 		36C28EB815B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */; };
@@ -45,7 +53,7 @@
 		36CEB3D115AE754500C83E29 /* FSLexerAndParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3CD15AE754500C83E29 /* FSLexerAndParser.mm */; };
 		36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CE15AE754500C83E29 /* FSLexerAndParser.h */; };
 		36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */; };
-		36D01DFD15BCC496007CBC90 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; };
+		36D01DFD15BCC496007CBC90 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36D01DFE15BCC49C007CBC90 /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; };
 		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */; };
@@ -53,6 +61,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36675034163052C600B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 334207F89F1A46B4B52F43D9;
+			remoteInfo = LLVMScalarOpts;
+		};
+		366750371630537900B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 12F2ADEE80BF48F4AA9176F0;
+			remoteInfo = LLVMTransformUtils;
+		};
+		3667503A1630540100B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D202DE8ED2EB4AA481D73AE8;
+			remoteInfo = LLVMInstCombine;
+		};
 		36CC64BD15BCAA9C006E6BA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
@@ -1143,6 +1172,12 @@
 		362AD89D15AEBD8200892EBB /* FSCompilerUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCompilerUtility.h; sourceTree = "<group>"; };
 		362AD89E15AEBD9400892EBB /* FSCompilerUtility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FSCompilerUtility.cpp; sourceTree = "<group>"; };
 		363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCompilerErrorTypeDefinitions.h; path = include/FSCompilerErrorTypeDefinitions.h; sourceTree = SOURCE_ROOT; };
+		36674FE6162EB63D00B49D21 /* FSJitter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSJitter.mm; sourceTree = "<group>"; };
+		36674FE7162EB63D00B49D21 /* FSJitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSJitter.h; sourceTree = "<group>"; };
+		3667502A1630178B00B49D21 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		3667502C1630179600B49D21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3667503D1630561D00B49D21 /* FSKernel.M */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKernel.M; path = include/FSKernel.M; sourceTree = SOURCE_ROOT; };
+		3667503E1630561D00B49D21 /* FSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKernel.h; path = include/FSKernel.h; sourceTree = SOURCE_ROOT; };
 		36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_tokenizer.hpp; sourceTree = "<group>"; };
 		36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_tokenizer.cpp; sourceTree = "<group>"; };
 		36C28EB515B24DF200D1287B /* FractalStreamScript_DialectA_parser.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FractalStreamScript_DialectA_parser.output; sourceTree = "<group>"; };
@@ -1182,6 +1217,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3667503C1630540700B49D21 /* libLLVMInstCombine.a in Frameworks */,
+				366750391630537E00B49D21 /* libLLVMTransformUtils.a in Frameworks */,
+				36675036163052CC00B49D21 /* libLLVMScalarOpts.a in Frameworks */,
+				3667502D1630179600B49D21 /* Cocoa.framework in Frameworks */,
 				36CC64D015BCABE5006E6BA1 /* libLLVMAnalysis.a in Frameworks */,
 				36CC64CD15BCABA9006E6BA1 /* libLLVMMC.a in Frameworks */,
 				36CC64CA15BCAB79006E6BA1 /* libLLVMCodeGen.a in Frameworks */,
@@ -1239,6 +1278,8 @@
 		36CEB39B15AE45B300C83E29 /* CompilerIterface */ = {
 			isa = PBXGroup;
 			children = (
+				3667503D1630561D00B49D21 /* FSKernel.M */,
+				3667503E1630561D00B49D21 /* FSKernel.h */,
 				363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */,
 				36CEB3C015AE69F600C83E29 /* FSSourceRange.h */,
 				36CEB3C115AE69F600C83E29 /* FSCompileResult.h */,
@@ -1255,6 +1296,8 @@
 		36CEB3CA15AE746900C83E29 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
+				36674FE6162EB63D00B49D21 /* FSJitter.mm */,
+				36674FE7162EB63D00B49D21 /* FSJitter.h */,
 				3615699E15B24395006A279D /* FSScriptLanguageDescription.h */,
 				3615699C15B242A6006A279D /* FSParsingError.h */,
 				36D273F015AA049A00A9344F /* source */,
@@ -1292,6 +1335,8 @@
 		36DE7C2715A5027300DCA597 = {
 			isa = PBXGroup;
 			children = (
+				3667502C1630179600B49D21 /* Cocoa.framework */,
+				3667502A1630178B00B49D21 /* ApplicationServices.framework */,
 				362AD89C15AEBD6600892EBB /* utility */,
 				36C2CA9115A53CD10042BFED /* language */,
 				36CEB3CA15AE746900C83E29 /* compiler */,
@@ -1494,6 +1539,7 @@
 				36CEB3CF15AE754500C83E29 /* FSCodeGenerationContext.h in Headers */,
 				36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */,
 				36D01DFE15BCC49C007CBC90 /* codegen.h in Headers */,
+				366750401630561D00B49D21 /* FSKernel.h in Headers */,
 				36D01DFD15BCC496007CBC90 /* node.h in Headers */,
 				36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */,
 				3615699D15B242A6006A279D /* FSParsingError.h in Headers */,
@@ -1504,6 +1550,7 @@
 				360489AE15B3C2CF006DD310 /* FSInternalCompiler.h in Headers */,
 				36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */,
 				368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */,
+				36674FE9162EB63D00B49D21 /* FSJitter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1522,6 +1569,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				3667503B1630540100B49D21 /* PBXTargetDependency */,
+				366750381630537900B49D21 /* PBXTargetDependency */,
+				36675035163052C600B49D21 /* PBXTargetDependency */,
 				36CC64CF15BCABDF006E6BA1 /* PBXTargetDependency */,
 				36CC64CC15BCABA1006E6BA1 /* PBXTargetDependency */,
 				36CC64C915BCAB6F006E6BA1 /* PBXTargetDependency */,
@@ -2608,12 +2658,29 @@
 				36C28EBA15B24DF200D1287B /* FractalStreamScript_DialectA_parser.cpp in Sources */,
 				3604891115B3BDD6006DD310 /* FSKernelBuilder.mm in Sources */,
 				360489AF15B3C2CF006DD310 /* FSInternalCompiler.mm in Sources */,
+				36674FE8162EB63D00B49D21 /* FSJitter.mm in Sources */,
+				3667503F1630561D00B49D21 /* FSKernel.M in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36675035163052C600B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMScalarOpts;
+			targetProxy = 36675034163052C600B49D21 /* PBXContainerItemProxy */;
+		};
+		366750381630537900B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMTransformUtils;
+			targetProxy = 366750371630537900B49D21 /* PBXContainerItemProxy */;
+		};
+		3667503B1630540100B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMInstCombine;
+			targetProxy = 3667503A1630540100B49D21 /* PBXContainerItemProxy */;
+		};
 		36CC64BE15BCAA9C006E6BA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLVMSupport;

@@ -13,6 +13,8 @@
 @synthesize sourceCode = _sourceCode;
 @synthesize languageIdentifier = _languageIdentifier;
 @synthesize languageVersion = _languageVersion;
+@synthesize maximumLoopDepth = _maximumLoopDepth;
+@synthesize numberOfVariables = _numberOfVariables;
 
 -(id) init {
     if  (self = [super init]) {
