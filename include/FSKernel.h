@@ -119,11 +119,11 @@
 
 //- (void) setDataManager: (FSCustomDataManager*) dm;
 //- (BOOL) buildKernelFromCompiler: (FSECompiler*) newComp;
-- (void) buildLLVMKernel;
+
 - (void*) loadKernelFromFile: (NSString*) filename;
 
 - (void) runKernelWithMode: (int) mde input: (double*) input ofLength: (int) length output: (double*) output maxIter: (int) maxIter maxNorm: (double) maxNorm minNorm: (double) minNorm;
-- (void*) emit: (int) node;
+
 
 @end
 

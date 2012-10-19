@@ -13,18 +13,28 @@
 #include <llvm/Value.h>
 #include <llvm/LLVMContext.h>
 #include <llvm/Module.h>
-
+#include <map.h>
 
 
 
 class CodeGenContext;
+
+
+struct FSVariable {
+    std::string identifier;
+    llvm::Value* value;
+};
 
 struct FSCodeGenerationContext {
 	llvm::LLVMContext* llvmContext;
 	CodeGenContext* codeGenContext;
 	llvm::Module* module;
 	llvm::IRBuilder<>* builder;
-	//std::map<std::string, llvm::Value*> namedValues;
+	
+    std::map<std::string, FSVariable*> variables;
+    
+    llvm::Value* defaults;
+    
 };
 
 

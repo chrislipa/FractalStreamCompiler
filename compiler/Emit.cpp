@@ -1,3 +1,13 @@
+//
+//  EMit.cpp
+//  FractalStreamCompiler
+//
+//  Created by Christopher Lipa on 10/18/12.
+//
+//
+
+#include "EMit.h"
+
 #include <iostream>
 
 #include "node.h"
@@ -6,81 +16,77 @@
 #include "llvm/support/IRBuilder.h"
 #include "llvm/BasicBlock.h"
 #include "FSCodeGenerationContext.h"
-
-//#include "llvm/DerivedTypes.h"
-//#include "llvm/Instructions.h"
+#include "ConvenienceMacros.h"
 using namespace std;
-
-
-
-
-/* Compile the AST into a module */
-void CodeGenContext::generateCode(Node& root)
-{
-
-	std::cout << "Generating code...\n"<<endl;
-	
-	// Create the top level interpreter function to call as entry 
-	ArrayRef<Type*> argTypes;
-
-	
-	
-	
-	FSCodeGenerationContext con;
-	con.codeGenContext = this;
-    LLVMContext llvmContext;
-    llvm::Module module("my cool jit", llvmContext);
-	llvm::IRBuilder<> builder(llvmContext);
-    
-    con.llvmContext = &llvmContext;
-    con.module = &module;
-    con.builder = &builder;
-    
-	FunctionType *ftype = FunctionType::get(Type::getVoidTy(getGlobalContext()), argTypes, false);
-	mainFunction = Function::Create(ftype, GlobalValue::InternalLinkage, "main", con.module);
-	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", mainFunction, 0);
-	
-	// Push a new variable/block context 
-	pushBlock(bblock);
-	Value* value = root.codeGen(con); // emit bytecode for the toplevel block 
-	ReturnInst::Create(getGlobalContext(), bblock);
-	popBlock();
-	
-	// to see if our program compiled properly
-	 
-	std::cout << "Code is generated: "<<value << endl;
-	PassManager pm;
-	pm.add(createPrintModulePass(&outs()));
-	pm.run(*con.module);
-}
-
-/* Executes the AST by running the main function */
-GenericValue CodeGenContext::runCode() {
-	std::cout << "Running code...\n";
-
-	
-	ExecutionEngine *ee = EngineBuilder(module).create();
-	vector<GenericValue> noargs;
-	GenericValue v = ee->runFunction(mainFunction, noargs);
-	std::cout << "Code was run.\n";
-	return v;
-}
-
+using namespace llvm;
 
 
 /* Returns an LLVM type based on the identifier */
-static Type *typeOf(const NIdentifier& type) 
+static Type *typeOf(const NIdentifier& type, FSCodeGenerationContext& context)
 {
 	if (type.name.compare("int") == 0) {
-		return  Type::getInt64Ty(getGlobalContext());
+		return  Type::getInt64Ty(*(context.llvmContext));
 	}
 	else if (type.name.compare("double") == 0) {
-		return  Type::getDoubleTy(getGlobalContext());
+		return  Type::getDoubleTy(*(context.llvmContext));
 	}
-	return  Type::getVoidTy(getGlobalContext());
+	return  Type::getVoidTy(*(context.llvmContext));
 }
 
-/* -- Code Generation -- */
+
+int Node::numberOfDefaults(FSCodeGenerationContext& context) {
+    int total = 0;
+    std::vector<Node*> children = this->children();
+    for (std::vector<Node*>::iterator it = children.begin(); it != children.end() ; ++it) {
+        total += (*it)->numberOfDefaults(context);
+    }
+    return total;
+}
+
+int NDefaultBlock::numberOfDefaults(FSCodeGenerationContext& context) {
+    return 1;
+}
+
+
+
+
+void Node::defaultDeclaration(FSCodeGenerationContext& context) {
+    std::vector<Node*> children = this->children();
+    for (std::vector<Node*>::iterator it = children.begin(); it != children.end() ; ++it) {
+        (*it)->defaultDeclaration(context);
+    }
+}
+
+void NDefaultBlock::defaultDeclaration(FSCodeGenerationContext& context) {
+
+    llvm::Value* rhs = (Value*)  expression.codeGen(context);
+    GetElementPtrInst* outd = GetElementPtrInst::Create(context.defaults, LLVMi32(1), "&out[defaults++]", thisBlock);
+    context.builder -> CreateStore(rhs, outd);
+}
+
+
+void Node::readVariables(FSCodeGenerationContext& context) {
+    std::vector<Node*> children = this->children();
+    for (std::vector<Node*>::iterator it = children.begin(); it != children.end() ; ++it) {
+        (*it)->readVariables(context);
+    }
+}
+
+void NIdentifier::readVariables(FSCodeGenerationContext& context) {
+    if (context.variables.find(name) == context.variables.end()) {
+        FSVariable v;
+        v.identifier = name;
+        context.variables[name] = &v;
+    }
+}
+
+
+
+
+
+
+
+
 
 Value* NInteger::codeGen(FSCodeGenerationContext& context)
 {
@@ -91,7 +97,7 @@ Value* NInteger::codeGen(FSCodeGenerationContext& context)
 Value*   NDouble::codeGen(FSCodeGenerationContext& context)
 {
 	std::cout << "Creating double: " << value << endl;
-
+    
 	return ConstantFP::get(Type::getDoubleTy(*context.llvmContext), value);
 }
 
@@ -114,12 +120,12 @@ Value* NMethodCall::codeGen(FSCodeGenerationContext& context)
 		std::cerr << "no such function " << id.name << endl;
 	}
 	std::vector<Value*> args;
-
+    
 	ExpressionList::const_iterator it;
 	for (it = arguments.begin(); it != arguments.end(); it++) {
 		args.push_back((**it).codeGen(context));
 	}
-	MutableArrayRef<Value*> ref = MutableArrayRef<Value*>::MutableArrayRef<Value*>(args);
+	//MutableArrayRef<Value*> ref = MutableArrayRef<Value*>::MutableArrayRef<Value*>(args);
 	
 	CallInst *call =  NULL;//CallInst::Create(function, ref, "", context.currentBlock());
 	std::cout << "Creating method call: " << id.name << endl;
@@ -137,15 +143,15 @@ Value* NBinaryOperator::codeGen(FSCodeGenerationContext& context)
 		case TMINUS: 	instr = Instruction::Sub; goto math;
 		case TMUL: 		instr = Instruction::Mul; goto math;
 		case TDIV: 		instr = Instruction::SDiv; goto math;
-				
-		// TODO comparison 
+            
+            // TODO comparison
 	}
-
+    
 	return NULL;
 math:
-	return BinaryOperator::Create(instr, lhs.codeGen(context), 
-	rhs.codeGen(context), "", context.codeGenContext->currentBlock());
-
+	return BinaryOperator::Create(instr, lhs.codeGen(context),
+                                  rhs.codeGen(context), "", context.codeGenContext->currentBlock());
+    
 }
 
 Value* NAssignment::codeGen(FSCodeGenerationContext& context)
@@ -159,7 +165,7 @@ Value* NAssignment::codeGen(FSCodeGenerationContext& context)
 	}
 	
 	return new StoreInst((Value*)rhs.codeGen(context), (Value*)context.codeGenContext->locals()[lhs.name], false,(BasicBlock *) context.codeGenContext->currentBlock());
-	 
+    
 }
 
 Value* NBlock::codeGen(FSCodeGenerationContext& context)
@@ -248,10 +254,10 @@ Value* NEscapesStatement::codeGen(FSCodeGenerationContext& context)
 
 Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
 {
-
+    
 	std::cout << "Creating variable declaration " << type.name << " " << id.name << endl;
 	//Type *t = typeOf(type);
-
+    
 	AllocaInst *alloc =  NULL;//new AllocaInst(t, id.name.c_str(), context.currentBlock());
 	context.codeGenContext->locals()[id.name] = alloc;
 	if (assignmentExpr != NULL) {
@@ -265,29 +271,29 @@ Value* NVariableDeclaration::codeGen(FSCodeGenerationContext& context)
 
 Value* NFunctionDeclaration::codeGen(FSCodeGenerationContext& context)
 {
-
+    
 	vector<const Type*> argTypes;
 	VariableList::const_iterator it;
 	for (it = arguments.begin(); it != arguments.end(); it++) {
-		argTypes.push_back(typeOf((**it).type));
+		argTypes.push_back(typeOf((**it).type, context));
 	}
     
 	ArrayRef<Type*> arg;
     
-	FunctionType *ftype = FunctionType::get(typeOf(type), arg, false);
+	FunctionType *ftype = FunctionType::get(typeOf(type, context), arg, false);
     
 	Function *function = Function::Create(ftype, GlobalValue::InternalLinkage, id.name.c_str(), context.module);
 	BasicBlock *bblock = BasicBlock::Create(getGlobalContext(), "entry", function, 0);
-
+    
 	context.codeGenContext->pushBlock(bblock);
-
+    
 	for (it = arguments.begin(); it != arguments.end(); it++) {
 		(**it).codeGen(context);
 	}
 	
 	block.codeGen(context);
 	ReturnInst::Create(getGlobalContext(), bblock);
-
+    
 	context.codeGenContext->popBlock();
 	std::cout << "Creating function: " << id.name << endl;
 	return function;

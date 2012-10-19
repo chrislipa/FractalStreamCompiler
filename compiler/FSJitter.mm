@@ -12,6 +12,7 @@
 #include "llvm/LLVMContext.h"
 #include "llvm/ExecutionEngine/JIT.h"
 #include "llvm/ExecutionEngine/GenericValue.h"
+#include "llvm/Support/TargetSelect.h"
 
 using namespace llvm;
 
@@ -48,9 +49,12 @@ static FSJitter* sharedJitter = nil;
 }
 
 - (void) startup {
+    InitializeNativeTarget();
+    InitializeNativeTargetAsmPrinter();
+    
 	/* Build the module provider and execution engine that every document will use */
-    llvm::LLVMContext llvmContext;
-	llvm::Module* rootModule = new llvm::Module("root module",llvmContext);
+    llvm::LLVMContext* llvmContext = new llvm::LLVMContext();
+	llvm::Module* rootModule = new llvm::Module("root module",*llvmContext);
 	ExecutionEngine* engine = ExecutionEngine::create(rootModule);
 	eng = (void*) engine;
 }

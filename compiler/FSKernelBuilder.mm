@@ -5,6 +5,7 @@
 //  Created by Christopher Lipa on 7/15/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
+
 #import "llvm/DerivedTypes.h"
 #import "FSKernelBuilder.h"
 #include "llvm/Constants.h"
@@ -39,23 +40,20 @@
 #import "FSCompileResult.h"
 #import "node.h"
 #include "FSKernel.h"
-
+#include "ConvenienceMacros.h"
 using namespace llvm;
 
-#define i32Type IntegerType::get(llvmContext, 32)
-#define dType Type::getDoubleTy(llvmContext)
-#define LLVMi32(x) ConstantInt::get(i32Type, (x), true)
-#define LLVMu32(x) ConstantInt::get(i32Type, (x), false)
-#define LLVMd(x) ConstantFP::get(dType, (x))
-#define thisBlock builder.GetInsertBlock()
+
 
 void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* result) {
+    FSCodeGenerationContext context;
     
     Node* root = (Node*) result.abstractSyntaxTree;
     FSKernel* kernel = [[FSKernel alloc] init];
     result.kernel = kernel;
     
     llvm::LLVMContext llvmContext;
+    context.llvmContext = &llvmContext;
     Type* doubleType = Type::getDoubleTy(llvmContext);
     Type* int32Type = Type::getInt32Ty(llvmContext);
     llvm::Module* mod = new llvm::Module("LLVM Kernel", llvmContext);
@@ -149,29 +147,39 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     
     mathf = cast<Function> (mod -> getOrInsertFunction("frandom", doubleType, (Type *)0));
     mathf -> setCallingConv(CallingConv::C);				kernel.f_frandom = (void*) mathf;
-    EE -> addGlobalMapping(mathf, (void*) kernel.f_frandom );
+    //EE -> addGlobalMapping(mathf, (void*) kernel.f_frandom );
  
     mathf = cast<Function> (mod -> getOrInsertFunction("gaussian", doubleType, (Type *)0));
     mathf -> setCallingConv(CallingConv::C);				kernel.f_gaussian = (void*) mathf;
-    EE -> addGlobalMapping(mathf, (void*) kernel.f_gaussian);
+    //EE -> addGlobalMapping(mathf, (void*) kernel.f_gaussian);
     
     /*** end of externs ***/
     const std::string blockName = "entry";
     BasicBlock* block = BasicBlock::Create(llvmContext, blockName, llvmKernel);
     IRBuilder<> builder(block);
     kernel.bldr = (void*) &builder;
-
+    context.builder = &builder;
+    
     BasicBlock* initModeBlock = BasicBlock::Create(llvmContext,"initialization modes", llvmKernel);
     BasicBlock* runModeBlock = BasicBlock::Create(llvmContext,"execution modes");
 
     GetElementPtrInst *x, /**j,*/ *tmpP/*, *tmp2P, *tmp3P*/;
     Value *tmp/*, *tmp2, *tmp3*/;
-    int maximumLoopDepth = request.maximumLoopDepth;
-    int numberOfVariables = request.numberOfVariables;
+    int maximumLoopDepth = 16; //!!
+    
+    /*****
+     * Read variables
+     *****/
+    
+    root->readVariables(context);
+    unsigned long numberOfVariables = 6;// context.variables.size();
+    
+    //----
+    
     
      Type::getDoubleTy(llvmContext);
     
-    AllocaInst* jP = builder.CreateAlloca(int32Type, LLVMi32(maximumLoopDepth), "j[]");
+    AllocaInst* jP = builder.CreateAlloca(i32Type, LLVMi32(maximumLoopDepth), "j[]");
     AllocaInst* xP = builder.CreateAlloca(dType, LLVMi32(numberOfVariables), "x[]");
     AllocaInst* flagP = builder.CreateAlloca(int32Type, 0, "&flag");
     AllocaInst* probeP = builder.CreateAlloca(int32Type, 0, "&probe");
@@ -186,8 +194,8 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     AllocaInst* dsResPl = builder.CreateAlloca(dType, LLVMi32(512), "dataSourceResLoc[]");
     AllocaInst* dsResPf = builder.CreateAlloca(int32Type, LLVMi32(512), "dataSourceResFlag[]");
     
-    Value* big2 = builder.CreateMul(maxRadius, maxRadius, "huge");
-    Value* tiny2 = builder.CreateMul(minRadius, minRadius, "tiny");
+    Value* big2 = builder.CreateFMul(maxRadius, maxRadius, "huge");
+    Value* tiny2 = builder.CreateFMul(minRadius, minRadius, "tiny");
     builder.CreateStore(length, lengthP);
     builder.CreateStore(LLVMi32(0), flagP);
     builder.CreateStore(LLVMi32(0), reportedP);
@@ -246,14 +254,18 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     builder.CreateCondBr(cond, defcntBlock, elseBlock);
     builder.SetInsertPoint(defcntBlock);
     
+    
+    
     /* * * * * */
     /* emit defaults count */
     /* * * * * */
     kernel.mode = 0;
     kernel.loop_i = NULL; kernel.commenceBlock = NULL;
-    //![self emit: node];
+
+    int numberOfDefaults = root->numberOfDefaults(context);
+    
     GetElementPtrInst* defCountPtr = GetElementPtrInst::Create(output, LLVMi32(0), "tmp", defcntBlock);
-    builder.CreateStore(LLVMd((double) kernel.defaults), defCountPtr);
+    builder.CreateStore(LLVMd((double) numberOfDefaults), defCountPtr);
     
     builder.CreateRetVoid();
     llvmKernel -> getBasicBlockList().push_back(elseBlock);
@@ -300,11 +312,11 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
             Value* c1 = builder.CreateLoad(in1, "in[1]");
             Value* step = builder.CreateLoad(in2, "in[2]");
             Value* doublei = builder.CreateUIToFP(loop_i, dType, "(double) i");
-            Value* istep = builder.CreateMul(step, doublei, "i * step");
-            Value* c00 = builder.CreateAdd(c0, istep, "in[0] + i * in[2]");
+            Value* istep = builder.CreateFMul(step, doublei, "i * step");
+            Value* c00 = builder.CreateFAdd(c0, istep, "in[0] + i * in[2]");
             builder.CreateStore(LLVMi32(0), flagP);
             builder.CreateStore(LLVMi32(0), reportedP);
-            x = GetElementPtrInst::Create(xP, LLVMi32(0), "&x[0]", thisBlock);
+            x = GetElementPtrInst::Create(xP,LLVMi32(0) , "&x[0]", thisBlock);
             builder.CreateStore(LLVMd(0.0), x);
             x = GetElementPtrInst::Create(xP, LLVMi32(1), "&x[1]", thisBlock);
             builder.CreateStore(LLVMd(0.0), x);
@@ -395,10 +407,10 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
             GetElementPtrInst* in2 = GetElementPtrInst::Create(input, LLVMi32(2), "&in[2]", InputLoop);
             Value* step = builder.CreateLoad(in2, "in[2]");
             Value* doublei = builder.CreateUIToFP(loop_i, dType, "(double) i");
-            Value* istep = builder.CreateMul(step, doublei, "i * step");
+            Value* istep = builder.CreateFMul(step, doublei, "i * step");
             GetElementPtrInst* x0p = GetElementPtrInst::Create(input, LLVMi32(0), "&in[0]", InputLoop);
             Value* x0 = builder.CreateLoad(x0p, "in[0]");
-            Value* x00 = builder.CreateAdd(x0, istep, "in[0] + i * in[2]");
+            Value* x00 = builder.CreateFAdd(x0, istep, "in[0] + i * in[2]");
             builder.CreateStore(LLVMi32(0), flagP);
             builder.CreateStore(LLVMi32(0), reportedP);
             x = GetElementPtrInst::Create(xP, LLVMi32(0), "&x[0]", thisBlock);

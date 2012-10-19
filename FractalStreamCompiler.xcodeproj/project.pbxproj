@@ -22,12 +22,31 @@
 		3667503C1630540700B49D21 /* libLLVMInstCombine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D7315A5048500DCA597 /* libLLVMInstCombine.a */; };
 		3667503F1630561D00B49D21 /* FSKernel.M in Sources */ = {isa = PBXBuildFile; fileRef = 3667503D1630561D00B49D21 /* FSKernel.M */; };
 		366750401630561D00B49D21 /* FSKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3667503E1630561D00B49D21 /* FSKernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3667504116305C4400B49D21 /* libLLVMMCJIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9315A5048500DCA597 /* libLLVMMCJIT.a */; };
+		3667504616305CE900B49D21 /* libLLVMXCoreCodeGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DFB15A5048500DCA597 /* libLLVMXCoreCodeGen.a */; };
+		3667504716305D4F00B49D21 /* libLLVMX86AsmParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DEF15A5048500DCA597 /* libLLVMX86AsmParser.a */; };
+		3667504816305D4F00B49D21 /* libLLVMX86Desc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DF515A5048500DCA597 /* libLLVMX86Desc.a */; };
+		3667504916305D4F00B49D21 /* libLLVMX86Disassembler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DF115A5048500DCA597 /* libLLVMX86Disassembler.a */; };
+		3667504A16305D4F00B49D21 /* libLLVMX86Info.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DF715A5048500DCA597 /* libLLVMX86Info.a */; };
+		3667504B16305D4F00B49D21 /* libLLVMX86Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7DF915A5048500DCA597 /* libLLVMX86Utils.a */; };
+		3667506C16305F1B00B49D21 /* libLLVMSelectionDAG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6715A5048500DCA597 /* libLLVMSelectionDAG.a */; };
+		3667506D16305F2300B49D21 /* libLLVMAsmPrinter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6915A5048500DCA597 /* libLLVMAsmPrinter.a */; };
+		3667506E16305F2A00B49D21 /* libLLVMBitReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6B15A5048500DCA597 /* libLLVMBitReader.a */; };
+		3667506F16305F2A00B49D21 /* libLLVMBitWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6D15A5048500DCA597 /* libLLVMBitWriter.a */; };
+		3667507016305F4200B49D21 /* libLLVMipa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8115A5048500DCA597 /* libLLVMipa.a */; };
+		3667507116305F4C00B49D21 /* libLLVMMCParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8515A5048500DCA597 /* libLLVMMCParser.a */; };
+		3667507216305F5400B49D21 /* libLLVMObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8915A5048500DCA597 /* libLLVMObject.a */; };
+		3667507316305F5F00B49D21 /* libLLVMInterpreter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8F15A5048500DCA597 /* libLLVMInterpreter.a */; };
+		3667507416305F6800B49D21 /* libLLVMRuntimeDyld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9515A5048500DCA597 /* libLLVMRuntimeDyld.a */; };
+		3667507516305F7D00B49D21 /* libLLVMAsmParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7E0115A5048500DCA597 /* libLLVMAsmParser.a */; };
+		366750781630BEB800B49D21 /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 366750761630BEB700B49D21 /* codegen.h */; };
+		366750791630BEB800B49D21 /* codegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 366750771630BEB700B49D21 /* codegen.cpp */; };
+		3667507C1630BF1900B49D21 /* Emit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3667507B1630BF1800B49D21 /* Emit.cpp */; };
 		368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 363A94F615B14D17004EE0A4 /* FSCompilerErrorTypeDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C28EB315B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */; };
 		36C28EB815B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */; };
 		36C28EB915B24DF200D1287B /* FractalStreamScript_DialectA_parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 36C28EB615B24DF200D1287B /* FractalStreamScript_DialectA_parser.hpp */; };
 		36C28EBA15B24DF200D1287B /* FractalStreamScript_DialectA_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C28EB715B24DF200D1287B /* FractalStreamScript_DialectA_parser.cpp */; };
-		36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2CA9215A53CF20042BFED /* codegen.cpp */; };
 		36CC636B15BCA4C6006E6BA1 /* libLLVMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D6315A5048500DCA597 /* libLLVMCore.a */; };
 		36CC636C15BCA4C6006E6BA1 /* libLLVMExecutionEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D8D15A5048500DCA597 /* libLLVMExecutionEngine.a */; };
 		36CC636D15BCA4C6006E6BA1 /* libLLVMJIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE7D9115A5048500DCA597 /* libLLVMJIT.a */; };
@@ -54,7 +73,6 @@
 		36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CEB3CE15AE754500C83E29 /* FSLexerAndParser.h */; };
 		36CEB3DC15AE7CC100C83E29 /* FSScriptLanguageDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36CEB3DA15AE7CC100C83E29 /* FSScriptLanguageDescription.mm */; };
 		36D01DFD15BCC496007CBC90 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9515A53CF20042BFED /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36D01DFE15BCC49C007CBC90 /* codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2CA9315A53CF20042BFED /* codegen.h */; };
 		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */; };
 		36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA81FA15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,6 +99,132 @@
 			proxyType = 1;
 			remoteGlobalIDString = D202DE8ED2EB4AA481D73AE8;
 			remoteInfo = LLVMInstCombine;
+		};
+		3667504216305C5B00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5442DA5B85F64AE790FBAE30;
+			remoteInfo = LLVMMCJIT;
+		};
+		3667504416305CE200B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F021CE1E42824551A25F8DB6;
+			remoteInfo = LLVMXCoreCodeGen;
+		};
+		3667504C16305D5C00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF0E8FE8029463FB0332649;
+			remoteInfo = LLVMX86AsmParser;
+		};
+		3667504E16305D5C00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEEC280CC5A445BCAE99597D;
+			remoteInfo = LLVMX86Disassembler;
+		};
+		3667505016305D5C00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5FDFE8DF094A0FB70FE0AA;
+			remoteInfo = LLVMX86Desc;
+		};
+		3667505216305D5C00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD1CCE51483479F88370E51;
+			remoteInfo = LLVMX86Info;
+		};
+		3667505416305D5C00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A32B4F95384A4C8DAE8F738D;
+			remoteInfo = LLVMX86Utils;
+		};
+		3667505616305E5B00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F2C80B50C24A1FB8CA319F;
+			remoteInfo = ZERO_CHECK;
+		};
+		3667505816305E6900B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD2DF7F21FB46CCA2EDFFF1;
+			remoteInfo = intrinsics_gen;
+		};
+		3667505A16305E7500B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 762A5F3B249243809E09F584;
+			remoteInfo = LLVMCore;
+		};
+		3667505C16305E8700B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 285424E7CBD64FD9B40E8AB7;
+			remoteInfo = LLVMSelectionDAG;
+		};
+		3667505E16305E8D00B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3F38E7DE16471D8CB72532;
+			remoteInfo = LLVMAsmPrinter;
+		};
+		3667506016305E9300B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BA66399D6144BFB0B612A5;
+			remoteInfo = LLVMBitReader;
+		};
+		3667506216305E9800B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E83909D321FB4F6BB427ADBF;
+			remoteInfo = LLVMBitWriter;
+		};
+		3667506416305EB300B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA22CA998FCA41A6989606F2;
+			remoteInfo = LLVMipa;
+		};
+		3667506616305EC100B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 777464BE87B14A7D9136FDD3;
+			remoteInfo = LLVMMCParser;
+		};
+		3667506816305EC800B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA162EDB48B4A3C8A3DDF64;
+			remoteInfo = LLVMObject;
+		};
+		3667506A16305EE000B49D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E139C914824EB49CFFB7C4;
+			remoteInfo = LLVMRuntimeDyld;
 		};
 		36CC64BD15BCAA9C006E6BA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1178,13 +1322,16 @@
 		3667502C1630179600B49D21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3667503D1630561D00B49D21 /* FSKernel.M */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKernel.M; path = include/FSKernel.M; sourceTree = SOURCE_ROOT; };
 		3667503E1630561D00B49D21 /* FSKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKernel.h; path = include/FSKernel.h; sourceTree = SOURCE_ROOT; };
+		366750761630BEB700B49D21 /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codegen.h; sourceTree = "<group>"; };
+		366750771630BEB700B49D21 /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = codegen.cpp; sourceTree = "<group>"; };
+		3667507A1630BF0B00B49D21 /* Emit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Emit.h; sourceTree = "<group>"; };
+		3667507B1630BF1800B49D21 /* Emit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Emit.cpp; sourceTree = "<group>"; };
+		3667507D1630CFAB00B49D21 /* ConvenienceMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvenienceMacros.h; sourceTree = "<group>"; };
 		36C28EB215B24DEC00D1287B /* FractalStreamScript_DialectA_tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_tokenizer.hpp; sourceTree = "<group>"; };
 		36C28EB415B24DF200D1287B /* FractalStreamScript_DialectA_tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_tokenizer.cpp; sourceTree = "<group>"; };
 		36C28EB515B24DF200D1287B /* FractalStreamScript_DialectA_parser.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FractalStreamScript_DialectA_parser.output; sourceTree = "<group>"; };
 		36C28EB615B24DF200D1287B /* FractalStreamScript_DialectA_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FractalStreamScript_DialectA_parser.hpp; sourceTree = "<group>"; };
 		36C28EB715B24DF200D1287B /* FractalStreamScript_DialectA_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FractalStreamScript_DialectA_parser.cpp; sourceTree = "<group>"; };
-		36C2CA9215A53CF20042BFED /* codegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codegen.cpp; path = language/codegen.cpp; sourceTree = "<group>"; };
-		36C2CA9315A53CF20042BFED /* codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codegen.h; path = language/codegen.h; sourceTree = "<group>"; };
 		36C2CA9515A53CF20042BFED /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = language/node.h; sourceTree = "<group>"; };
 		36CEB3AF15AE60B300C83E29 /* FSCompileRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSCompileRequest.mm; sourceTree = "<group>"; };
 		36CEB3B215AE610500C83E29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1217,6 +1364,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3667507516305F7D00B49D21 /* libLLVMAsmParser.a in Frameworks */,
+				3667507416305F6800B49D21 /* libLLVMRuntimeDyld.a in Frameworks */,
+				3667507316305F5F00B49D21 /* libLLVMInterpreter.a in Frameworks */,
+				3667507216305F5400B49D21 /* libLLVMObject.a in Frameworks */,
+				3667507116305F4C00B49D21 /* libLLVMMCParser.a in Frameworks */,
+				3667507016305F4200B49D21 /* libLLVMipa.a in Frameworks */,
+				3667506E16305F2A00B49D21 /* libLLVMBitReader.a in Frameworks */,
+				3667506F16305F2A00B49D21 /* libLLVMBitWriter.a in Frameworks */,
+				3667506D16305F2300B49D21 /* libLLVMAsmPrinter.a in Frameworks */,
+				3667506C16305F1B00B49D21 /* libLLVMSelectionDAG.a in Frameworks */,
+				3667504716305D4F00B49D21 /* libLLVMX86AsmParser.a in Frameworks */,
+				3667504816305D4F00B49D21 /* libLLVMX86Desc.a in Frameworks */,
+				3667504916305D4F00B49D21 /* libLLVMX86Disassembler.a in Frameworks */,
+				3667504A16305D4F00B49D21 /* libLLVMX86Info.a in Frameworks */,
+				3667504B16305D4F00B49D21 /* libLLVMX86Utils.a in Frameworks */,
+				3667504616305CE900B49D21 /* libLLVMXCoreCodeGen.a in Frameworks */,
+				3667504116305C4400B49D21 /* libLLVMMCJIT.a in Frameworks */,
 				3667503C1630540700B49D21 /* libLLVMInstCombine.a in Frameworks */,
 				366750391630537E00B49D21 /* libLLVMTransformUtils.a in Frameworks */,
 				36675036163052CC00B49D21 /* libLLVMScalarOpts.a in Frameworks */,
@@ -1255,8 +1419,6 @@
 				36C2CAA515A541B30042BFED /* build */,
 				36DC777515A8D8820086FC18 /* FractalStreamScript_DialectA_tokens.l */,
 				36DC777415A8D8820086FC18 /* FractalStreamScript_DialectA_parser.y */,
-				36C2CA9315A53CF20042BFED /* codegen.h */,
-				36C2CA9215A53CF20042BFED /* codegen.cpp */,
 				36C2CA9515A53CF20042BFED /* node.h */,
 			);
 			name = language;
@@ -1296,6 +1458,8 @@
 		36CEB3CA15AE746900C83E29 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
+				366750761630BEB700B49D21 /* codegen.h */,
+				366750771630BEB700B49D21 /* codegen.cpp */,
 				36674FE6162EB63D00B49D21 /* FSJitter.mm */,
 				36674FE7162EB63D00B49D21 /* FSJitter.h */,
 				3615699E15B24395006A279D /* FSScriptLanguageDescription.h */,
@@ -1310,6 +1474,9 @@
 				3604890F15B3BDD6006DD310 /* FSKernelBuilder.mm */,
 				360489AC15B3C2CF006DD310 /* FSInternalCompiler.h */,
 				360489AD15B3C2CF006DD310 /* FSInternalCompiler.mm */,
+				3667507A1630BF0B00B49D21 /* Emit.h */,
+				3667507B1630BF1800B49D21 /* Emit.cpp */,
+				3667507D1630CFAB00B49D21 /* ConvenienceMacros.h */,
 			);
 			path = compiler;
 			sourceTree = "<group>";
@@ -1538,7 +1705,6 @@
 				36CEB3C715AE69F600C83E29 /* FSCompileError.h in Headers */,
 				36CEB3CF15AE754500C83E29 /* FSCodeGenerationContext.h in Headers */,
 				36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */,
-				36D01DFE15BCC49C007CBC90 /* codegen.h in Headers */,
 				366750401630561D00B49D21 /* FSKernel.h in Headers */,
 				36D01DFD15BCC496007CBC90 /* node.h in Headers */,
 				36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */,
@@ -1551,6 +1717,7 @@
 				36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */,
 				368BF1B015BCB1BB005F2E25 /* FSCompilerErrorTypeDefinitions.h in Headers */,
 				36674FE9162EB63D00B49D21 /* FSJitter.h in Headers */,
+				366750781630BEB800B49D21 /* codegen.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1569,6 +1736,24 @@
 			buildRules = (
 			);
 			dependencies = (
+				3667506B16305EE000B49D21 /* PBXTargetDependency */,
+				3667506916305EC800B49D21 /* PBXTargetDependency */,
+				3667506716305EC100B49D21 /* PBXTargetDependency */,
+				3667506516305EB300B49D21 /* PBXTargetDependency */,
+				3667506316305E9800B49D21 /* PBXTargetDependency */,
+				3667506116305E9300B49D21 /* PBXTargetDependency */,
+				3667505F16305E8D00B49D21 /* PBXTargetDependency */,
+				3667505D16305E8700B49D21 /* PBXTargetDependency */,
+				3667505B16305E7500B49D21 /* PBXTargetDependency */,
+				3667505916305E6900B49D21 /* PBXTargetDependency */,
+				3667505716305E5B00B49D21 /* PBXTargetDependency */,
+				3667504D16305D5C00B49D21 /* PBXTargetDependency */,
+				3667504F16305D5C00B49D21 /* PBXTargetDependency */,
+				3667505116305D5C00B49D21 /* PBXTargetDependency */,
+				3667505316305D5C00B49D21 /* PBXTargetDependency */,
+				3667505516305D5C00B49D21 /* PBXTargetDependency */,
+				3667504516305CE200B49D21 /* PBXTargetDependency */,
+				3667504316305C5B00B49D21 /* PBXTargetDependency */,
 				3667503B1630540100B49D21 /* PBXTargetDependency */,
 				366750381630537900B49D21 /* PBXTargetDependency */,
 				36675035163052C600B49D21 /* PBXTargetDependency */,
@@ -2645,7 +2830,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C2CA9615A53CF20042BFED /* codegen.cpp in Sources */,
 				36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */,
 				36CEB3B115AE60B300C83E29 /* FSCompileRequest.mm in Sources */,
 				36CEB3B715AE614F00C83E29 /* FSCompileResult.mm in Sources */,
@@ -2660,6 +2844,8 @@
 				360489AF15B3C2CF006DD310 /* FSInternalCompiler.mm in Sources */,
 				36674FE8162EB63D00B49D21 /* FSJitter.mm in Sources */,
 				3667503F1630561D00B49D21 /* FSKernel.M in Sources */,
+				366750791630BEB800B49D21 /* codegen.cpp in Sources */,
+				3667507C1630BF1900B49D21 /* Emit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2680,6 +2866,96 @@
 			isa = PBXTargetDependency;
 			name = LLVMInstCombine;
 			targetProxy = 3667503A1630540100B49D21 /* PBXContainerItemProxy */;
+		};
+		3667504316305C5B00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMMCJIT;
+			targetProxy = 3667504216305C5B00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667504516305CE200B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMXCoreCodeGen;
+			targetProxy = 3667504416305CE200B49D21 /* PBXContainerItemProxy */;
+		};
+		3667504D16305D5C00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMX86AsmParser;
+			targetProxy = 3667504C16305D5C00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667504F16305D5C00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMX86Disassembler;
+			targetProxy = 3667504E16305D5C00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505116305D5C00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMX86Desc;
+			targetProxy = 3667505016305D5C00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505316305D5C00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMX86Info;
+			targetProxy = 3667505216305D5C00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505516305D5C00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMX86Utils;
+			targetProxy = 3667505416305D5C00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505716305E5B00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZERO_CHECK;
+			targetProxy = 3667505616305E5B00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505916305E6900B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = intrinsics_gen;
+			targetProxy = 3667505816305E6900B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505B16305E7500B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMCore;
+			targetProxy = 3667505A16305E7500B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505D16305E8700B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMSelectionDAG;
+			targetProxy = 3667505C16305E8700B49D21 /* PBXContainerItemProxy */;
+		};
+		3667505F16305E8D00B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMAsmPrinter;
+			targetProxy = 3667505E16305E8D00B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506116305E9300B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMBitReader;
+			targetProxy = 3667506016305E9300B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506316305E9800B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMBitWriter;
+			targetProxy = 3667506216305E9800B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506516305EB300B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMipa;
+			targetProxy = 3667506416305EB300B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506716305EC100B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMMCParser;
+			targetProxy = 3667506616305EC100B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506916305EC800B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMObject;
+			targetProxy = 3667506816305EC800B49D21 /* PBXContainerItemProxy */;
+		};
+		3667506B16305EE000B49D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLVMRuntimeDyld;
+			targetProxy = 3667506A16305EE000B49D21 /* PBXContainerItemProxy */;
 		};
 		36CC64BE15BCAA9C006E6BA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

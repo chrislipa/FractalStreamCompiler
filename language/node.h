@@ -26,7 +26,10 @@ typedef std::vector<NVariableDeclaration*> VariableList;
 class Node {
 public:
 	virtual ~Node() {}
+    virtual void readVariables(FSCodeGenerationContext& context);
+    virtual int numberOfDefaults(FSCodeGenerationContext& context);
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context) {return NULL; }
+    virtual void defaultDeclaration(FSCodeGenerationContext& context);
     virtual std::string stringOfThisNode() {return "undef-node";};
     virtual std::vector<Node*> children() {std::vector<Node*> x;  return x;};
     const virtual const std::string description() {
@@ -91,6 +94,7 @@ class NIdentifier : public NExpression {
 public:
 	std::string name;
 	NIdentifier(const std::string& name) : name(name) { }
+    virtual void readVariables(FSCodeGenerationContext& context);
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
     virtual std::string stringOfThisNode() {return name;};
 };
@@ -223,6 +227,24 @@ public:
     
 };
 
+class NDefaultBlock : public NProgramPart {
+public:
+    NIdentifier ident;
+    NExpression expression;
+    
+	NDefaultBlock(NIdentifier& p_ident, NExpression& p_expression) : ident(p_ident),expression(p_expression) { }
+    int numberOfDefaults(FSCodeGenerationContext& context);
+    virtual void defaultDeclaration(FSCodeGenerationContext& context);
+    virtual std::string stringOfThisNode() {return "default";};
+    virtual std::vector<Node*> children() {
+        std::vector<Node*> x;
+        x.push_back(&ident);
+        x.push_back(&expression);
+        return x;
+    };
+    
+};
+
 
 class NUntilLoop : public NStatement {
 public:
@@ -271,7 +293,9 @@ class NProgramParts : public NExpression {
 public:
 	ProgramPartList parts;
 	NProgramParts() { }
+    
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+    
     virtual std::string stringOfThisNode() {return "progparts";};
     virtual std::vector<Node*> children() {
         std::vector<Node*> x;
@@ -288,6 +312,7 @@ public:
 	NProgramParts parts;
 	NProgram() { }
 	virtual llvm::Value* codeGen(FSCodeGenerationContext& context);
+    
     virtual std::string stringOfThisNode() {return "program";};
     virtual std::vector<Node*> children() {
         std::vector<Node*> x;
@@ -355,7 +380,6 @@ public:
         }
         return x;
     };
-    
 };
 
 
