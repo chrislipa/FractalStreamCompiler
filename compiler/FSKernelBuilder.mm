@@ -85,7 +85,7 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     Value* minRadius = args++;	minRadius->	setName("minRadius");
     
     
-    ArrayRef<Type*> nothing = ArrayRef<Type*>::ArrayRef<Type*>();
+    //ArrayRef<Type*> nothing = ArrayRef<Type*>::ArrayRef<Type*>();
     ArrayRef<Type*> oneDouble = ArrayRef<Type*>::ArrayRef(doubleType);
                                                                                                         
     
@@ -97,7 +97,7 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     FunctionType* ft = FunctionType::get(Type::getDoubleTy(llvmContext), oneDouble, false);
 
     FunctionType* ft2 = FunctionType::get(Type::getDoubleTy(llvmContext), twoDoubles, false);
-    FunctionType* ft0 = FunctionType::get(doubleType, nothing, false);
+    //FunctionType* ft0 = FunctionType::get(doubleType, nothing, false);
     Function* mathf;
     
     /*** Build extern declarations for math functions ***/
@@ -143,7 +143,7 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     mathf = Function::Create(ft2, Function::ExternalLinkage,  "fmod", mod);
     mathf -> setCallingConv(CallingConv::C);				kernel.f_fmod = (void*) mathf;
     
-    ExecutionEngine* EE = (ExecutionEngine*) [[FSJitter jitter] engine];
+    //ExecutionEngine* EE = (ExecutionEngine*) [[FSJitter jitter] engine];
     
     mathf = cast<Function> (mod -> getOrInsertFunction("frandom", doubleType, (Type *)0));
     mathf -> setCallingConv(CallingConv::C);				kernel.f_frandom = (void*) mathf;

@@ -12,8 +12,12 @@
 
 #import <Cocoa/Cocoa.h>
 #include "FractalStreamCompilerDefinitions.h"
+#include "FSECompiler.h"
+#include "FSCustomDataManagerProtocol.h"
 
+//#import "FSCustomDataManager.h"
 
+@class FSCustomDataManager;
 
 
 @interface FSKernel : NSObject {
@@ -46,7 +50,7 @@
 	int _emitStep;
 	
 	//FSJitter* jitter;
-	//FSCustomDataManager* dataManager;
+//	FSCustomDataManager* dataManager;
 	void* _customDataPtr;
 	void* _customQueryPtr;
 	void** _dataSource;
@@ -106,7 +110,7 @@
 @property (readwrite,assign) int emitStep;
 
 //FSJitter* jitter;
-//FSCustomDataManager* dataManager;
+//@property (readwrite,retain) FSCustomDataManager* dataManager;
 @property (readwrite,assign) void* customDataPtr;
 @property (readwrite,assign) void* customQueryPtr;
 @property (readwrite,assign) void** dataSource;
@@ -117,8 +121,8 @@
 
 
 
-//- (void) setDataManager: (FSCustomDataManager*) dm;
-//- (BOOL) buildKernelFromCompiler: (FSECompiler*) newComp;
+- (void) setDataManager: (NSObject<FSCustomDataManagerProtocol>*) dm;
+- (BOOL) buildKernelFromCompiler: (FSECompiler*) newComp;
 
 - (void*) loadKernelFromFile: (NSString*) filename;
 

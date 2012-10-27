@@ -85,7 +85,7 @@ using namespace llvm;
 @synthesize emitStep = _emitStep;
 
 //FSJitter* jitter;
-//FSCustomDataManager* dataManager;
+
 @synthesize customDataPtr = _customDataPtr;
 @synthesize customQueryPtr = _customQueryPtr;
 @synthesize dataSource = _dataSource;

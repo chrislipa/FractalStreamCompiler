@@ -76,6 +76,11 @@
 		36D273EF15AA048B00A9344F /* FractalStreamCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36D273F215AA04A600A9344F /* FractalStreamCompiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D273F115AA04A600A9344F /* FractalStreamCompiler.mm */; };
 		36DA81FB15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA81FA15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EA4F4A16399A3B00AC8767 /* FSECompilerSymbols.H in Headers */ = {isa = PBXBuildFile; fileRef = 36EA4F4716399A3B00AC8767 /* FSECompilerSymbols.H */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EA4F4B16399A3B00AC8767 /* FSECompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EA4F4816399A3B00AC8767 /* FSECompiler.m */; };
+		36EA4F4C16399A3B00AC8767 /* FSECompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EA4F4916399A3B00AC8767 /* FSECompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EA4FD6163BEFE700AC8767 /* FSCustomDataManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EA4FD5163AB36600AC8767 /* FSCustomDataManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EA4FD8163BF4EF00AC8767 /* FSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EA4FD7163BF4AF00AC8767 /* FSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1357,6 +1362,11 @@
 		36DE7C3715A5027300DCA597 /* FractalStreamCompilerProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerProj.xcconfig; sourceTree = "<group>"; };
 		36DE7C3815A5027300DCA597 /* FractalStreamCompilerTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FractalStreamCompilerTarget.xcconfig; sourceTree = "<group>"; };
 		36DE7C7E15A5047B00DCA597 /* LLVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLVM.xcodeproj; path = external/llvm/LLVM.xcodeproj; sourceTree = "<group>"; };
+		36EA4F4716399A3B00AC8767 /* FSECompilerSymbols.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FSECompilerSymbols.H; path = include/FSECompilerSymbols.H; sourceTree = "<group>"; };
+		36EA4F4816399A3B00AC8767 /* FSECompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSECompiler.m; path = include/FSECompiler.m; sourceTree = "<group>"; };
+		36EA4F4916399A3B00AC8767 /* FSECompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSECompiler.h; path = include/FSECompiler.h; sourceTree = "<group>"; };
+		36EA4FD5163AB36600AC8767 /* FSCustomDataManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCustomDataManagerProtocol.h; path = include/FSCustomDataManagerProtocol.h; sourceTree = "<group>"; };
+		36EA4FD7163BF4AF00AC8767 /* FSTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSTool.h; path = include/FSTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1484,8 +1494,13 @@
 		36D273ED15AA048100A9344F /* include */ = {
 			isa = PBXGroup;
 			children = (
+				36EA4F4716399A3B00AC8767 /* FSECompilerSymbols.H */,
+				36EA4F4816399A3B00AC8767 /* FSECompiler.m */,
+				36EA4F4916399A3B00AC8767 /* FSECompiler.h */,
 				36DA81FA15BBDFCD00B4D676 /* FractalStreamCompilerDefinitions.h */,
 				36D273EE15AA048B00A9344F /* FractalStreamCompiler.h */,
+				36EA4FD5163AB36600AC8767 /* FSCustomDataManagerProtocol.h */,
+				36EA4FD7163BF4AF00AC8767 /* FSTool.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -1704,9 +1719,13 @@
 				36CEB3C615AE69F600C83E29 /* FSCompileRequest.h in Headers */,
 				36CEB3C715AE69F600C83E29 /* FSCompileError.h in Headers */,
 				36CEB3CF15AE754500C83E29 /* FSCodeGenerationContext.h in Headers */,
+				36EA4FD6163BEFE700AC8767 /* FSCustomDataManagerProtocol.h in Headers */,
 				36CEB3D015AE754500C83E29 /* FSExtraInformation.hpp in Headers */,
 				366750401630561D00B49D21 /* FSKernel.h in Headers */,
+				36EA4FD8163BF4EF00AC8767 /* FSTool.h in Headers */,
 				36D01DFD15BCC496007CBC90 /* node.h in Headers */,
+				36EA4F4C16399A3B00AC8767 /* FSECompiler.h in Headers */,
+				36EA4F4A16399A3B00AC8767 /* FSECompilerSymbols.H in Headers */,
 				36CEB3D215AE754500C83E29 /* FSLexerAndParser.h in Headers */,
 				3615699D15B242A6006A279D /* FSParsingError.h in Headers */,
 				3615699F15B24395006A279D /* FSScriptLanguageDescription.h in Headers */,
@@ -2846,6 +2865,7 @@
 				3667503F1630561D00B49D21 /* FSKernel.M in Sources */,
 				366750791630BEB800B49D21 /* codegen.cpp in Sources */,
 				3667507C1630BF1900B49D21 /* Emit.cpp in Sources */,
+				36EA4F4B16399A3B00AC8767 /* FSECompiler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
