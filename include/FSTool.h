@@ -10,8 +10,10 @@
 #define FractalStreamCompiler_FSTool_h
 
 #import "FSCustomDataManagerProtocol.h"
+@protocol FSCustomDataManagerProtocol;
 
 @protocol FSTool
+
 + (BOOL) preload: (NSBundle*) theBundle;
 + (void) destroy;
 - (void) unfreeze;

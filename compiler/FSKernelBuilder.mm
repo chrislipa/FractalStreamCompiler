@@ -489,7 +489,11 @@ void fsBuildFractalStreamKernel(FSCompileRequest* request, FSCompileResult* resu
     }
 
     
-    if(verifyModule(*mod, PrintMessageAction)) { NSLog(@"module did not verify\n"); llvmKernel -> dump(); return; }
+    if(verifyModule(*mod, PrintMessageAction)) {
+        NSLog(@"module did not verify\n");
+        llvmKernel -> dump();
+        return;
+    }
     else NSLog(@"module verified\n");
     
 
